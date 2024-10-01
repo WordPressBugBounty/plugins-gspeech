@@ -112,13 +112,13 @@ The commercial version of text-to-speech generator plugin gives you access to aw
 * ✅ __Play statystics__.
 * ✅ __Dedicated Support__.
 
-**👉 Web Content Accessibility(WCAG) Guideline**
+**🎯 Web Content Accessibility(WCAG) Guideline**
 Text to Speech by GSpeech plugin gives apportunity to add accessibility feature in any WordPress site in just one click. Text to Speech by GSpeech plugin implements Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/TR/WCAG21/)) in the site.
 
-**👉 Multilingual Plugin Support**
+**🎯 Multilingual Plugin Support**
 Text-to-speech by GSpeech will automatically detect the current language of your website, translated via [GTranslate](https://wordpress.org/plugins/gtranslate/) popular translation plugin, and will load appropriate language and voice configuration.
 
-**👉 Use Text To Speech by GSpeech to Create More Engaging WordPress Content**
+**🎯 Use Text To Speech by GSpeech to Create More Engaging WordPress Content**
 Text-to-speech technology can create more engaging content for customers. Convert your articles, blog or any content into high-quality  text-to-speech audio for users who prefer listening over reading. It also shows that you're willing to go the extra mile to accommodate your customers. Transforming text into speech can provide an engaging experience for audiences, encouraging return visits!
 
 ### 🎬 WordPress Text to Speech Plugin - Full Player (AI voices)
