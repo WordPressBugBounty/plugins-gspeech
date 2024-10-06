@@ -48,7 +48,7 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 * ✅ __Easy Shortcodes:__ Use *[gspeech]*, *[gspeech-button]* or *[gspeech-circle]* shortcode.
 * ✅ __2 Minutes Installation__. Make all the configuration with __just one click__ from __WP Admin__.
 * ✅ __Manage where to show__: Automatically add player to __all pages__, where needed!
-* ✅ __Auto update audio__: Automatically updates the audio, once you change article!
+* ✅ __Auto update audio__: Automatically updates the audio, once you modify the article!
 * ✅ __RHT Player__: Read Highlighted Text Player. It will appear after any text selecttion - [Demo](https://gspeech.io/blog/gspeech-read-highlighted-text-player).
 * ✅ __Welcome Messages__: Play audio when user visit your website.
 * ✅ __Audios database__: Access to all audio files from your wp-admin, __unlimited downloads__.
