@@ -356,8 +356,8 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 35. Dashboard in WP-Admin - Widget config / Design tab(live preview)!
 36. Context Player: It follows the user during scrolling when the player is out of view!
 37. Circle Player - smooth effects!
-38. Button Player, Text Panel expanded!
-39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website!
+38. Button Player, Text Panel expanded.
+39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website.
 
 == Changelog ==
 = V 3.8.6 - 10/10/2024 =
