@@ -7925,9 +7925,9 @@ window.gspeechDash = function(options) {
     this.setValsWebsiteSettings = function(website_data) {
 
         var website_title = decodeURIComponent(website_data.name);
-        var website_css = decodeURIComponent(website_data.css);
-        var website_js = decodeURIComponent(website_data.js);
-        var website_aliases = decodeURIComponent(website_data.aliases);
+        var website_css = website_data.css;
+        var website_js = website_data.js;
+        var website_aliases = website_data.aliases;
         var website_url = decodeURIComponent(website_data.url);
         var website_options_str = decodeURIComponent(website_data.options);
         var plan_commercial_option = decodeURIComponent(website_data.plan_commercial_option);
