@@ -7017,19 +7017,7 @@ window.gspeechDash = function(options) {
 
                navigation: {
                   buttonOptions: {
-                    align: 'right',
-                     symbolStroke: '#888',
-                     hoverSymbolStroke: '#555',
-                     theme: {
-                        fill: {
-                           linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
-                           stops: [
-                              [0.4, '#606060'],
-                              [0.6, '#333333']
-                           ]
-                        },
-                        stroke: '#000000'
-                     }
+                    enabled: false
                   },
                   handles: {
                      backgroundColor: '#666',
@@ -7206,7 +7194,12 @@ window.gspeechDash = function(options) {
                 type: 'pie',
                 name: '',
                 data: data_array
-            }]
+            }],
+            navigation: {
+              buttonOptions: {
+                enabled: false
+              }
+           }
         });
     };
 
@@ -7289,7 +7282,12 @@ window.gspeechDash = function(options) {
                 type: 'pie',
                 name: '',
                 data: data_array
-            }]
+            }],
+            navigation: {
+              buttonOptions: {
+                enabled: false
+              }
+           }
         });
     };
 
@@ -7373,7 +7371,12 @@ window.gspeechDash = function(options) {
                 type: 'pie',
                 name: '',
                 data: data_array
-            }]
+            }],
+            navigation: {
+              buttonOptions: {
+                enabled: false
+              }
+           }
         });
     };
 
