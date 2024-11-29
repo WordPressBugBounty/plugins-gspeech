@@ -1,7 +1,7 @@
 === GSpeech TTS – WordPress Text To Speech Plugin ===
 Contributors: creative-solutions
 Author: creative-solutions
-Tags: accessibility, text to speech, text to audio, speech, audio
+Tags: accessibility, text to speech, text to audio, speech, ai
 Requires at least: 3.5
 Tested up to: 6.7
 Stable tag: 3.8.12
@@ -362,7 +362,7 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 == Changelog ==
 = V 3.8.10, 3.8.11, 3,8,12 - 14/11/2024 =
 * WP 6.7 tested.
-* Style fixес.
+* Style fixеs.
 
 = V 3.8.9 - 01/11/2024 =
 * Corrections on dashboard.
