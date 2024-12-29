@@ -8,7 +8,6 @@ class GSpeech_Admin {
 	public static function admin_init() {
 
 		// admin init
-
 	}
 
     public static function admin_menu() {
@@ -172,12 +171,33 @@ class GSpeech_Admin {
 
 		global $wpdb;
 
+		// 3.9.0
+		$categories = get_categories();
+
+		$list_cat = array();
+		foreach($categories as $k => $cat) {
+			$list_cat[] = [$cat->name,$cat->slug];
+		} 
+
+		$query = "SELECT DISTINCT(`post_type`) FROM `wp_posts`";
+		$rows = $wpdb->get_results($query);
+
+		$post_types = array('page','post','attachment');
+		$blocked_types = array('page','post','attachment','revision','wp_global_styles','wp_navigation');
+		foreach($rows as $k => $row) {
+
+			$type = $row->post_type;
+			if(!in_array($type, $blocked_types))
+				$post_types[] = $type;
+		}
+
 		// get gspeech data
         $sql_g = "SELECT * FROM ".$wpdb->prefix."gspeech_data";
         $row_g = $wpdb->get_row($sql_g);
 
         $wpgs_load_sh = intval($row_g->sh_w_loaded);
         $sh_ = intval($row_g->sh_);
+        $plan = intval($row_g->plan);
 
 		$gsp_page = isset($_GET['page']) ? $_GET['page'] : '';
 
@@ -243,6 +263,8 @@ class GSpeech_Admin {
 					<div id="gsp_widget_id_val"><?php echo $widget_id; ?></div>
 					<div id="gsp_load_shortcode_widgets"><?php echo $wpgs_load_sh; ?></div>
 					<div id="gsp_sh_"><?php echo $sh_; ?></div>
+					<div id="gsp_plan"><?php echo $plan; ?></div>
+					<div id="gsp_version"><?php echo GSPEECH_PLG_VERSION; ?></div>
 				</div>
 
 				<?php

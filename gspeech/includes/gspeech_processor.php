@@ -9,7 +9,7 @@ $gspeech_s_enc = "";
 $gspeech_h_enc = "";
 $gspeech_hh_enc = "";
 
-class GSpeech_Processor {
+class GSpeeech_Processor {
 
 	private static function process_install() {
 
@@ -95,7 +95,8 @@ class GSpeech_Processor {
 					  `version_index` mediumint(8) UNSIGNED NOT NULL,
 					  `email` text NOT NULL,
 					  `sh_` tinyint(3) UNSIGNED NOT NULL DEFAULT '0',
-					  `sh_w_loaded` tinyint(3) UNSIGNED NOT NULL DEFAULT '0'
+					  `sh_w_loaded` tinyint(3) UNSIGNED NOT NULL DEFAULT '0',
+					  `plan` tinyint(3) UNSIGNED NOT NULL DEFAULT '0'
 			        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 			        ";
 			dbDelta($sql);
@@ -114,9 +115,24 @@ class GSpeech_Processor {
 			    $sql = "ALTER TABLE `".$wpdb->prefix."gspeech_data` ";
 			    $sql .= "ADD `email` TEXT NOT NULL AFTER `version_index`, ";
 			    $sql .= "ADD `sh_` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `email`, ";
-			    $sql .= "ADD `sh_w_loaded` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `sh_`;";
+			    $sql .= "ADD `sh_w_loaded` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `sh_`,;";
+			    $sql .= "ADD `plan` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `sh_w_loaded`;";
 
 			    $wpdb->query($sql);
+			}
+			else {
+
+				// add plan field
+				$query = "SHOW COLUMNS FROM `".$wpdb->prefix."gspeech_data` LIKE 'plan'";
+				$rows = $wpdb->get_results($query);
+
+				if(sizeof($rows) == 0) {
+
+				    $sql = "ALTER TABLE `".$wpdb->prefix."gspeech_data` ";
+				    $sql .= "ADD `plan` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `sh_w_loaded`;";
+
+				    $wpdb->query($sql);
+				}
 			}
 
 			$sql = "UPDATE `".$wpdb->prefix."gspeech_data` SET `plugin_version` = '".$plg_v."', `version_index` = `version_index` + 1";
@@ -203,5 +219,5 @@ class GSpeech_Processor {
 	}
 }
 
-GSpeech_Processor::init();
+GSpeeech_Processor::init();
 

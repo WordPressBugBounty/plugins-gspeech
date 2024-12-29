@@ -485,6 +485,9 @@
 .ss_hidden {
     display: none !important;
 }
+.ss_vis_hidden {
+    visibility: hidden !important;
+}
 .ss_flex {
     display: flex !important;
 }
@@ -561,6 +564,9 @@
 } 
 .ss_video_gb_3 {
     background-image: url("../images/gsp_video_bg_3.png");
+}
+.ss_video_gb_4 {
+    background-image: url("../images/gsp_video_bg_4.png");
 } 
 
 
@@ -1824,7 +1830,7 @@ input.search_input {
     margin-top: 3px;
 }
 .opts_block_wrapper_row .opts_block {
-    flex-basis: 155px;
+    flex-basis: 140px;
 }
 
 .dashboard_content {
@@ -1991,7 +1997,8 @@ textarea.opts_input.ss_textarea_dynamic_height.ss_textarea_active {
     border: 1px solid #b4b4b4 !important;
     border-radius: 3px;
     padding: 0 10px;
-    width: 50%;
+    width: 30%;
+    min-width: 350px;
     color: #7e7e7e !important;
     transition: 400ms ease-out;
 }

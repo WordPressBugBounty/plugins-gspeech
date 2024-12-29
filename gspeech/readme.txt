@@ -1,10 +1,10 @@
 === GSpeech TTS – WordPress Text To Speech Plugin ===
 Contributors: creative-solutions
 Author: creative-solutions
-Tags: accessibility, text to speech, text to audio, speech, ai
+Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 3.8.13
+Stable tag: 3.9.0
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -37,18 +37,17 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 [youtube https://www.youtube.com/watch?v=aIartT1SiFs]
 
 ### 👆 Why Use Text to Speech by GSpeech?
-* 🎯 __Accessibility__: Enhance accessibility and inclusivity of your WordPress website and promote equal access to digital content to a wider audience, including people with visual impairments or other disabilities. By making your content more accessible, you can create a more inclusive workplace and better serve your customers.
-* 🎯 __User Experience Enhancement__: One of the main benefits of using Text to Speech by GSpeech is the improvement of the user experience. GSpeech makes content more engaging, impersive and interactive, providing an audio option for consuming content via a nice looking and creative text to audio players.
-* 🎯 __Multitasking and Convenience__: GSpeech enables users to comfortably listen to content while engaged in other tasks or situations where reading may not be feasible.
+* ✅ __Accessibility__: Enhance accessibility and inclusivity of your WordPress website and promote equal access to digital content to a wider audience, including people with visual impairments or other disabilities. By making your content more accessible, you can create a more inclusive workplace and better serve your customers.
+* ✅ __User Experience Enhancement__: One of the main benefits of using Text to Speech by GSpeech is the improvement of the user experience. GSpeech makes content more engaging, impersive and interactive, providing an audio option for consuming content via a nice looking and creative text to audio players.
+* ✅ __Multitasking and Convenience__: GSpeech enables users to comfortably listen to content while engaged in other tasks or situations where reading may not be feasible.
 
 ### 👉 Text to Speech by GSpeech Free Plugin Features:
 * ✅ __Easy Usage__: Automatically convert your WordPress content into engaging audio!
-* ✅ __Multiple Languages__: 65+ languages supported. Please check the list in [FAQ](https://wordpress.org/plugins/gspeech/#%F0%9F%91%89%20which%20languages%20are%20supported%3F).
+* ✅ __Multiple Languages__: 50+ languages supported. Please check the list in [FAQ](https://wordpress.org/plugins/gspeech/#%F0%9F%91%89%20which%20languages%20are%20supported%3F).
 * ✅ __Different Players__: 3 Player Types: __Full Page Player__, __Button Player__ and __Circle Player__ - [Demo](https://gspeech.io/demos).
 * ✅ __Easy Shortcodes:__ Use *[gspeech]*, *[gspeech-button]* or *[gspeech-circle]* shortcode.
 * ✅ __2 Minutes Installation__. Make all the configuration with __just one click__ from __WP Admin__.
 * ✅ __Manage where to show__: Automatically add player to __all pages__, where needed!
-* ✅ __Auto update audio__: Automatically updates the audio, once you modify the article!
 * ✅ __RHT Player__: Read Highlighted Text Player. It will appear after any text selecttion - [Demo](https://gspeech.io/blog/gspeech-read-highlighted-text-player).
 * ✅ __Welcome Messages__: Play audio when user visit your website.
 * ✅ __Audios database__: Access to all audio files from your wp-admin, __unlimited downloads__.
@@ -81,7 +80,7 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 * ✅ To exclude some part of content from the audio, add the class __nospeech__.
 * ✅ For other examples please check the [FAQ](https://wordpress.org/plugins/gspeech/#faq).
 
-== 💬 WordPress Text to Speech Plugin ❤ - CUSTOMER TESTIMONIAL ==
+== 💬 WordPress Text to Speech Plugin - CUSTOMER TESTIMONIAL ==
 
 __Expanding my content reach with professional-grade voice and translation__:
 ⭐⭐⭐⭐⭐
@@ -113,13 +112,13 @@ The commercial version of text-to-speech generator plugin gives you access to aw
 * ✅ __Play statystics__.
 * ✅ __Dedicated Support__.
 
-**🎯 Web Content Accessibility(WCAG) Guideline**
+**👉 Web Content Accessibility(WCAG) Guideline**
 Text to Speech by GSpeech plugin gives apportunity to add accessibility feature in any WordPress site in just one click. Text to Speech by GSpeech plugin implements Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/TR/WCAG21/)) in the site.
 
-**🎯 Multilingual Plugin Support**
+**👉 Multilingual Plugin Support**
 Text-to-speech by GSpeech will automatically detect the current language of your website, translated via [GTranslate](https://wordpress.org/plugins/gtranslate/) popular translation plugin, and will load appropriate language and voice configuration.
 
-**🎯 Use Text To Speech by GSpeech to Create More Engaging WordPress Content**
+**👉 Use Text To Speech by GSpeech to Create More Engaging WordPress Content**
 Text-to-speech technology can create more engaging content for customers. Convert your articles, blog or any content into high-quality  text-to-speech audio for users who prefer listening over reading. It also shows that you're willing to go the extra mile to accommodate your customers. Transforming text into speech can provide an engaging experience for audiences, encouraging return visits!
 
 ### 🎬 WordPress Text to Speech Plugin - Full Player (AI voices)
@@ -188,7 +187,7 @@ Text-to-speech by GSpeech is an unite audio platform company, which covers a wid
 Text-to-speech by GSpeech was created in 2012. In 2023 we introduced a __powerfull platform__: [GSpeech Dashboard](https://gspeech.io/dashboard), with support of the best AI voices(commercial plans), multiple player types, real-time translation of audio content, audios database with ability to download, detailed analytics and statystics, and with full integration into __WordPress Admin Panel__.
 
 = 👉 Which languages are supported? =
-Here is the list: __Afrikaans, Albanian, Arabic, Armenian (commercial), Belarusian (commercial), Basque (commercial), Bengali, Bosnian, Bulgarian, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English (Australia), English (UK), English (India), English (United States), Estonian, Filipino, Finnish, French (Canada), French (France), Galician (commercial), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Javanese, Kannada, Kazakh (commercial), Khmer, Korean, Latin, Latvian, Lithuanian (commercial), Macedonian (commercial), Malay, Malayalam, Marathi, Maori (commercial), Myanmar, Nepali, Norwegian, Persian (commercial), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi (Gurmukhi) (commercial), Punjabi (Shahmukhi) (commercial), Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian (commercial), Spanish (Spain), Spanish (United States), Sundanese (Indonesia), Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, Yue Chinese (commercial), Welsh__.
+Here is the list: __Afrikaans, Albanian, Arabic, Armenian (commercial), Belarusian (commercial), Basque (commercial), Bengali, Bosnian, Bulgarian, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English (Australia), English (UK), English (India), English (United States), Estonian, Filipino, Finnish, French (Canada), French (France), Galician (commercial), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Javanese, Kannada, Kazakh (commercial), Khmer, Korean, Latin, Latvian, Lithuanian (commercial), Macedonian (commercial), Malay, Malayalam, Marathi, Maori (commercial), Myanmar, Nepali, Norwegian, Persian (commercial), Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian (commercial), Spanish (Spain), Spanish (United States), Sundanese (Indonesia), Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, Yue Chinese (commercial), Welsh__.
 
 = 👉 How do I install the plugin? =
 The full instructions can be found here: [Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin).
@@ -238,11 +237,6 @@ In commercial plans you can use __View-2__ and __View-3__, where you can __trans
 
 Please check the [__screenshots section__](https://wordpress.org/plugins/gspeech/#screenshots) to see RHT player in action.
 
-= 👉 How hide the banner of RHT player at bottom right of the page? =
-By default GSpeech shows the banner, which informs users about TTS service active on the website.
-If you wish to hide it, do the following:
-Please go to Cloud Console->Widgets->RHT Player, Design Tab, and set the "Show Banner" option to "No".
-
 = 👉 How to use Welcome Messages? =
 Once you activate the __Cloud Console__, the widget __Welcome Message__ is being created automatically, but it is __unpublished__ by default. To __activate__ it, please go to:
 __Wp-Admin->GSpeech->Cloud Console->Widgets->Welcome Message__:
@@ -258,7 +252,7 @@ __To play only once__:
 Go to __Advanced__ tab, and set __Play Type__ to __Once per session__.
 
 = 👉 Do you support third party themes (like Divi)? =
-We support most third party theme, Divi included. If you find any incompatibility, please [contact-us](https://gspeech.io/contact-us), we will try to fix that.
+We support most third party theme, Divi included. If you find ome incompatibility, please [contact-us](https://gspeech.io/contact-us), we will try to fix that.
 
 = 👉 The player is reading text that it shouldn’t – how to fix it? =
 You can add a class "nospeech" to the element, which should not be included in the audio. You can also use the “Exclude List” option under "Content" tab, Place the relevant HTML elements seperated with coma.
@@ -360,30 +354,12 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website.
 
 == Changelog ==
-= V 3.8.13 - 03/12/2024 =
-* Corrections on dashboard.
-
-= V 3.8.10, 3.8.11, 3,8,12 - 14/11/2024 =
-* WP 6.7 tested.
-* Style fixеs.
-
-= V 3.8.9 - 01/11/2024 =
-* Corrections on dashboard.
-
-= V 3.8.8 - 29/10/2024 =
-* Minor fixes.
-
-= V 3.8.7 - 16/10/2024 =
-* Fixes on admin, parsing json objects.
-
-= V 3.8.6 - 10/10/2024 =
-* Minor fixes.
-
-= V 3.8.5 - 26/09/2024 =
-* Corrections in class names.
-
-= V 3.8.4 - 16/09/2024 =
-* UI fixes.
+= V 3.9.0 - 29/12/2024 =
+* Added Post Type Filter.
+* Added Post Categories Filter.
+* Auto-enable option added.
+* Multi-Lang website control improved.
+* Affiliate functionality implemented.
 
 = V 3.8.3 - 02/09/2024 =
 * Updated video, text content.

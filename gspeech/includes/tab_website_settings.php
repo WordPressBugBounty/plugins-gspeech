@@ -96,6 +96,8 @@ defined('ABSPATH') or die("No direct access");
 					</div>
 				</div>
 
+
+
 				<div class="opts_block">
 					<div class="opts_block_label title_holder_vertical">
 						<span>Plan</span>
@@ -156,6 +158,27 @@ defined('ABSPATH') or die("No direct access");
 
 					<div class="opts_block">
 						<div class="opts_block_label title_holder_vertical">
+							<span>Affiliate</span>
+							<span class="questions_icon">
+								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+							</span>
+							<span class="gs_title_vertical"><span class="title_v_subtitle">Affiliate:</span>. Become an affiliate and get 15% comission. <br /><br />It shows a small link in the player with your special key in it. You can see sales with your key on your dashboard. This way you also help as to make product more popular.</span>
+						</div>
+
+						<div class="gs_mono_checkbox_wrapper" id="wbs_affiliate">
+							<div class="gs_mono_switcher">
+								<div class="gs_mono_switcher_button"></div>
+							</div>
+							<div class="gs_mono_label">
+								<span class="gs_mono_label gs_mono_label_0">Disabled</span>
+								<span class="gs_mono_label gs_mono_label_1">Enabled</span>
+								<input type="checkbox" class="gs_mono_checkbox" value="1"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="opts_block" style="flex-basis: 130px;">
+						<div class="opts_block_label title_holder_vertical">
 							<span>Lazy Loading</span>
 							<span class="questions_icon">
 								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
@@ -175,13 +198,13 @@ defined('ABSPATH') or die("No direct access");
 						</div>
 					</div>
 
-					<div class="opts_block">
+					<div class="opts_block" >
 						<div class="opts_block_label title_holder_vertical">
-							<span>Reload Session</span>
+							<span>Reload Keys</span>
 							<span class="questions_icon">
 								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
 							</span>
-							<span class="gs_title_vertical"><span class="title_v_subtitle">Reload Session:</span>. GSpeech uses crypto hashing for secure authentication. Enable this, if you need to reload the generated crypto hash. Usually do not needed.</span>
+							<span class="gs_title_vertical"><span class="title_v_subtitle">Reload Keys:</span>. GSpeech uses crypto hashing for secure authentication. Enable this, if you need to reload the generated crypto hash. Usually do not needed.</span>
 						</div>
 
 						<div class="gs_mono_checkbox_wrapper" id="wbs_reload_session">
@@ -195,8 +218,180 @@ defined('ABSPATH') or die("No direct access");
 							</div>
 						</div>
 					</div>
+
+					
 				</div>
 
+				<div class="opts_block_wrapper_row">
+					<div class="opts_block">
+						<div class="opts_block_label title_holder_vertical">
+							<span>Auto-Enable</span>
+							<span class="questions_icon">
+								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+							</span>
+							<span class="gs_title_vertical"><span class="title_v_subtitle">Auto-Enable:</span> Automativally enable player!</span>
+						</div>
+
+						<div class="gs_mono_checkbox_wrapper" id="wbs_auto_enable">
+							<div class="gs_mono_switcher">
+								<div class="gs_mono_switcher_button"></div>
+							</div>
+							<div class="gs_mono_label">
+								<span class="gs_mono_label gs_mono_label_0">Disabled</span>
+								<span class="gs_mono_label gs_mono_label_1">Enabled</span>
+								<input type="checkbox" class="gs_mono_checkbox" value="1"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="opts_block">
+						<div class="opts_block_label title_holder_vertical">
+							<span>Оn Homepage</span>
+							<span class="questions_icon">
+								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+							</span>
+							<span class="gs_title_vertical"><span class="title_v_subtitle">Show on homepage:</span>. Show player on homepage.</span>
+						</div>
+
+						<div class="gs_mono_checkbox_wrapper" id="wbs_show_on_homepage">
+							<div class="gs_mono_switcher">
+								<div class="gs_mono_switcher_button"></div>
+							</div>
+							<div class="gs_mono_label">
+								<span class="gs_mono_label gs_mono_label_0">Disabled</span>
+								<span class="gs_mono_label gs_mono_label_1">Enabled</span>
+								<input type="checkbox" class="gs_mono_checkbox" value="1"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="opts_block" style="flex-basis: 130px;">
+						<div class="opts_block_label title_holder_vertical">
+							<span>Read Titles</span>
+							<span class="questions_icon">
+								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+							</span>
+							<span class="gs_title_vertical"><span class="title_v_subtitle">Read Titles:</span>. Include the title text at the begining of audio.</span>
+						</div>
+
+						<div class="gs_mono_checkbox_wrapper" id="wbs_read_titles">
+							<div class="gs_mono_switcher">
+								<div class="gs_mono_switcher_button"></div>
+							</div>
+							<div class="gs_mono_label">
+								<span class="gs_mono_label gs_mono_label_0">Disabled</span>
+								<span class="gs_mono_label gs_mono_label_1">Enabled</span>
+								<input type="checkbox" class="gs_mono_checkbox" value="1"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="opts_block">
+						<div class="opts_block_label title_holder_vertical">
+							<span>Multi-Lang</span>
+							<span class="questions_icon">
+								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+							</span>
+							<span class="gs_title_vertical"><span class="title_v_subtitle">Multi-lang website:</span>. Automatically catch site's current language and load appropriate data.</span>
+							<div class="ss_locked_icon ss_locked_icon_inner"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/lock.svg" /></div>
+						</div>
+
+						<div class="gs_mono_checkbox_wrapper ss_commercial_switcher" id="wbs_multilang_website">
+							<div class="gs_mono_switcher">
+								<div class="gs_mono_switcher_button"></div>
+							</div>
+							<div class="gs_mono_label">
+								<span class="gs_mono_label gs_mono_label_0">Disabled</span>
+								<span class="gs_mono_label gs_mono_label_1">Enabled</span>
+								<input type="checkbox" class="gs_mono_checkbox" value="1"/>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="opts_block">
+					<div class="opts_block_label title_holder_vertical">
+						<span>Post Types</span>
+						<span class="questions_icon">
+							<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+						</span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Post Types:</span> On which post types show players.</span>
+					</div>
+					<div id="gsp_post_types" data-val="" class="items_select_filter_wrapper ss_select_multiple" data-def_txt="Post Types">
+						<div class="items_select_filter">
+							<div class="items_select_filter_content">
+								<span>All</span>
+							</div>
+							<div class="items_select_filter_icon_wrapper">
+								<div class="items_select_filter_icon_holder">
+									<div class="items_select_filter_icon_inner">
+										<span class="items_select_filter_icon">
+											<svg class="" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="items_select_ul_wrapper">
+								<div class="items_select_ul_holder">
+									<div class="items_select_ul_inner">
+										<ul class="items_select_ul">
+											<li class="search_li li_selected ss_ul_li_act" data-val="all"><span>All</span></li>
+											<?php
+												foreach($post_types as $k => $post_type) {
+													echo '<li class="search_li" data-val="'.$post_type.'"><span>'.$post_type.'</span></li>';
+												}
+											?>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="opts_block">
+					<div class="opts_block_label title_holder_vertical">
+						<span>Categories</span>
+						<span class="questions_icon">
+							<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+						</span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Categories:</span> On which categories show players.</span>
+					</div>
+					<div id="gsp_categories" data-val="" class="items_select_filter_wrapper ss_select_multiple" data-def_txt="Categories">
+						<div class="items_select_filter">
+							<div class="items_select_filter_content">
+								<span>All</span>
+							</div>
+							<div class="items_select_filter_icon_wrapper">
+								<div class="items_select_filter_icon_holder">
+									<div class="items_select_filter_icon_inner">
+										<span class="items_select_filter_icon">
+											<svg class="" aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="items_select_ul_wrapper">
+								<div class="items_select_ul_holder">
+									<div class="items_select_ul_inner">
+										<ul class="items_select_ul">
+											<li class="search_li li_selected ss_ul_li_act" data-val="all"><span>All</span></li>
+											<?php
+												foreach($list_cat as $k => $cat) {
+													echo '<li class="search_li" data-val="'.$cat[1].'"><span>'.$cat[0].'</span></li>';
+												}
+											?>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				
 			</div>
 
 			<div class="ss_options_group_1 ss_tab_wrapper ss_tab_general ss_tab_active"">
@@ -246,7 +441,7 @@ defined('ABSPATH') or die("No direct access");
 							<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
 						</span>
 						<div class="ss_locked_icon ss_locked_icon_inner"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/lock.svg" /></div>
-						<span class="gs_title_vertical"><span class="title_v_subtitle">Voice speed:</span> Will be used as default voice speed for all audio widgets.<br /><br />Available for Premium voices only!</span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Voice speed:</span> Will be used as default voice speed for all audio widgets.<br /><br />Available for some Premium voices!</span>
 					</div>
 					<div class="ss_slider_element_wrapper gsp_option_disable_switcher gsp_option_disabled" style="">
 						<div class="gsp_slider_element" id="gsp_slider_speed">
@@ -276,7 +471,7 @@ defined('ABSPATH') or die("No direct access");
 							<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
 						</span>
 						<div class="ss_locked_icon ss_locked_icon_inner"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/lock.svg" /></div>
-						<span class="gs_title_vertical"><span class="title_v_subtitle">Voice pitch:</span> Will be used as default voice pitch for all audio blocks.<br /><br />Available for Premium voices only!</span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Voice pitch:</span> Will be used as default voice pitch for all audio blocks.<br /><br />Available for some Premium voices!</span>
 					</div>
 					<div class="ss_slider_element_wrapper gsp_option_disable_switcher gsp_option_disabled" style="">
 						<div class="gsp_slider_element" id="gsp_slider_pitch">
@@ -350,6 +545,44 @@ defined('ABSPATH') or die("No direct access");
 						</div>
 					</div>
 
+				</div>
+			</div>
+
+			<div class="ss_options_group_1 ss_tab_wrapper ss_tab_general ss_tab_active"">
+
+				<div class="opts_title">Content Settings</div>
+
+				<div class="opts_block">
+					<div class="opts_block_label title_holder_vertical">
+						<span>Exclude Content</span>
+						<span class="questions_icon">
+							<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+						</span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Exclude Content:</span> Use CSS values, to exclude some elements content from the audio. When access to element via id, use #, and dot(.) when using with class. Separate multiple values with coma(,).<br /><br />Example: #some_id,.some_class</span>
+					</div>
+					<input type="text" class="opts_input" id="ss_website_exclude_list" value="" />
+				</div>
+
+				<div class="opts_block">
+					<div class="opts_block_label title_holder_vertical">
+						<span>Allowed Urls</span>
+						<span class="questions_icon">
+							<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+						</span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Allowed Urls:</span> The list of urls, where the player should be rendered. Place one url per row. Use asterisk (*) to match any character.<br /><br />Example: https://yourdomain.io/blog/*</span>
+					</div>
+					<textarea class="opts_input ss_textarea_dynamic_height" id="ss_wbs_allowed_urls" style=""></textarea>
+				</div>
+
+				<div class="opts_block">
+					<div class="opts_block_label title_holder_vertical">
+						<span>Blocked Urls</span>
+						<span class="questions_icon">
+							<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+						</span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Blocked Urls:</span> The list of urls, where the player should NOT be rendered. Place one url per row. Use asterisk (*) to match any character.<br /><br />Example: https://yourdomain.io/blog/*</span>
+					</div>
+					<textarea class="opts_input ss_textarea_dynamic_height" id="ss_wbs_blocked_urls" style=""></textarea>
 				</div>
 			</div>
 

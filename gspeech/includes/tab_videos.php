@@ -107,12 +107,22 @@ defined('ABSPATH') or die("No direct access");
 				<div class="gsp_data_title">Usage</div>
 
 				<div class="gsp_usage_info_title title_holder_vertical">
-					<span>Use shortcodes or Multi-Page audio widget to place players. See the instructions below.<br />To see player types, please check demo page(link is under info section).</span>
+					<span>Use Multi-Page audio widget or shortcodes to place players. See the instructions below.<br />To see player types, please check demo page(link is under info section).</span>
 					<span class="questions_icon" style="transform: translate(0px, 10px);"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
 					<span class="gs_title_vertical"><span class="title_v_subtitle">Usage:</span> Once you <span class="gsp_title_sub_path_inline">Activate Cloud Console</span>(the first link under <span class="gsp_title_sub_path_inline">Info</span> section of this page), it automatically creates all required audio widgets, and the menu <span class="gsp_title_sub_path_inline">Cloud Console</span> is being activated. In all examples below, you manage the widgets in the <span class="gsp_title_sub_path_inline">Widgets</span> menu under the <span class="gsp_title_sub_path_inline">Cloud Console</span>.<span class="gsp_title_sub_code">Just one click is required to activate the cloud console.</span></span>
 				</div>
 
 				<ul class="gsp_info_ul">
+					<li class="gsp_link_list_20 title_holder_vertical">
+						<span class="gsp_list_link_style">
+							<span class="gsp_link_icon"></span>
+							<span class="gsp_link_content">Multi-Page Player</span>
+						</span>
+						<span class="gsp_info_sep"></span>
+						<span class="gsp_link_info">Automatically add player on (<b>any post or page</b>).</span>
+						<span class="questions_icon"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Multi-Page:</span> To manage Multi-Page widget settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Multi-Page.</span><span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
+					</li>
 					<li class="gsp_link_list_20 title_holder_vertical">
 						<span class="gsp_list_link_style">
 							<span class="gsp_link_icon"></span>
@@ -153,7 +163,7 @@ defined('ABSPATH') or die("No direct access");
 						<span class="questions_icon"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
 						<span class="gs_title_vertical"><span class="title_v_subtitle">Circle Player Shortcode:</span> To manage this player settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Circle Player Shortcode.</span><span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
 					</li>
-					<li class="gsp_link_list_20 title_holder_vertical">
+					<li class="gsp_link_list_20 title_holder_vertical ss_hidden">
 						<span class="gsp_list_link_style">
 							<span class="gsp_link_icon"></span>
 							<span class="gsp_link_content">Inline Shortcode</span>
@@ -172,16 +182,6 @@ defined('ABSPATH') or die("No direct access");
 						<span class="gsp_link_info">Publish the widget: <b>Welcome Message</b></span>
 						<span class="questions_icon"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
 						<span class="gs_title_vertical"><span class="title_v_subtitle">Welcome Message:</span> To manage welcome message settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Welcome Message.</span>It is unpublished by default.<span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
-					</li>
-					<li class="gsp_link_list_20 title_holder_vertical">
-						<span class="gsp_list_link_style">
-							<span class="gsp_link_icon"></span>
-							<span class="gsp_link_content">Multi-Page Player</span>
-						</span>
-						<span class="gsp_info_sep"></span>
-						<span class="gsp_link_info">Can be used on <b>Multiple Pages</b></span>
-						<span class="questions_icon"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
-						<span class="gs_title_vertical"><span class="title_v_subtitle">Multi-Page Player:</span> This player can be used on multiple pages. To manage multi-page player settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Multi-Page Player.</span>It is unpublished by default. Once you publish it, it will catch your content automatically. It works with most WordPress site structures. If it does not work on your website, just contact us, we will configure it quickly!<span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
 					</li>
 				</ul>
 			</div>
@@ -431,8 +431,13 @@ defined('ABSPATH') or die("No direct access");
 				<div class="gsp_data_title">Video tutorials</div>
 
 				<div class="ss_video_item_3">
-					<div class="ss_video_title ss_title_green">GSpeech Installation Guide</div>
+					<div class="ss_video_title ss_title_green">GSpeech - Installation Guide</div>
 					<div class="ss_video_item_holder ss_video_gb_1" data-video_id="zUqtO4UQOwY"></div>
+				</div>
+
+				<div class="ss_video_item_3">
+					<div class="ss_video_title ss_title_green">GSpeech - Video Tour</div>
+					<div class="ss_video_item_holder ss_video_gb_4" data-video_id="aIartT1SiFs"></div>
 				</div>
 
 				<div class="ss_video_item_3">

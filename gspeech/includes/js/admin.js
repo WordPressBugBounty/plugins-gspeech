@@ -171,7 +171,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "English (United States)",
                 "value": "en-US",
-                "voice_data": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,D:6,F:6,O:6"
+                "voice_data": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,1:7,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Estonian (Estonia)",
@@ -1165,6 +1165,11 @@ window.gspeechDash = function(options) {
                                     var token = responseData.token;
                                     var email = responseData.email;
                                     var sh_put = responseData.sh_put;
+                                    var plan_id = responseData.user_plan;
+
+                                    $("#gsp_plan").html(plan_id);
+
+                                    thisPage.processPlanCorrection();
 
                                     $('.gsp_login_email').html(email);
 
@@ -1179,8 +1184,8 @@ window.gspeechDash = function(options) {
                                         action: 'wpgsp_apply_ajax_save',
                                         _ajax_nonce: wp_ajax_nonce,
                                         type: 'save_data',
-                                        field: "email,sh_w_loaded,widget_id",
-                                        val: email + ':' + sh_put + ':' + widget_id
+                                        field: "email,sh_w_loaded,widget_id,plan",
+                                        val: email + ':' + sh_put + ':' + widget_id + ':' + plan_id
                                     };
 
                                     thisPage.options.shortcodes_loaded = sh_put;
@@ -2033,7 +2038,7 @@ window.gspeechDash = function(options) {
 
                 thisPage.resetPlayerWebsiteSettings();
 
-                if($target.hasClass("ss_voice_type_0"))
+                if(!$target.hasClass("ss_voice_type_2") && !$target.hasClass("ss_voice_type_5") && !$target.hasClass("ss_voice_type_7"))
                     $(".gsp_option_disable_switcher").addClass("gsp_option_disabled");
                 else
                     if(!$target.hasClass("ss_disabled"))
@@ -2490,6 +2495,49 @@ window.gspeechDash = function(options) {
             // reload session
             var wbs_reload_session = $("#wbs_reload_session").hasClass("gs_mono_switcher_button_on") ? 1 : 0;
 
+            // 3.9.0
+
+            // wbs_auto_enable
+            var wbs_auto_enable = $("#wbs_auto_enable").hasClass("gs_mono_switcher_button_on") ? 1 : 0;
+
+            // wbs_show_on_homepage
+            var wbs_show_on_homepage = $("#wbs_show_on_homepage").hasClass("gs_mono_switcher_button_on") ? 1 : 0;
+
+            // wbs_multilang_website
+            var wbs_multilang_website = $("#wbs_multilang_website").hasClass("gs_mono_switcher_button_on") ? 1 : 0;
+
+            // wbs_read_titles
+            var wbs_read_titles = $("#wbs_read_titles").hasClass("gs_mono_switcher_button_on") ? 1 : 0;
+
+            // wbs_read_titles
+            var wbs_affiliate = $("#wbs_affiliate").hasClass("gs_mono_switcher_button_on") ? 1 : 0;
+
+            var wbs_post_types = "";
+            $("#gsp_post_types").find(".li_selected").each(function() {
+
+                if(wbs_post_types != "") {
+                    wbs_post_types += ",";
+                }
+                var piece_v = $(this).data("val");
+                wbs_post_types += piece_v;
+            });
+            wbs_post_types = wbs_post_types == '' ? 'all' : wbs_post_types;
+
+            var wbs_categories = "";
+            $("#gsp_categories").find(".li_selected").each(function() {
+
+                if(wbs_categories != "") {
+                    wbs_categories += ",";
+                }
+                var piece_v = $(this).data("val");
+                wbs_categories += piece_v;
+            });
+            wbs_categories = wbs_categories == '' ? 'all' : wbs_categories;
+
+            var wbs_exclude_list = $.trim($('#ss_website_exclude_list').val());
+            var wbs_allowed_urls = $.trim($('#ss_wbs_allowed_urls').val());
+            var wbs_blocked_urls = $.trim($('#ss_wbs_blocked_urls').val());
+
             var ss_website_langs = "";
             if(lang_enabled == 1) {
 
@@ -2550,6 +2598,19 @@ window.gspeechDash = function(options) {
                 form_data += "&state=" + website_status;
                 form_data += "&lazy_load=" + wbs_lazy_load;
                 form_data += "&reload_session=" + wbs_reload_session;
+
+                form_data += "&auto_enable=" + wbs_auto_enable;
+                form_data += "&show_on_homepage=" + wbs_show_on_homepage;
+                form_data += "&multilang_website=" + wbs_multilang_website;
+                form_data += "&read_titles=" + wbs_read_titles;
+                form_data += "&post_types=" + wbs_post_types;
+                form_data += "&categories=" + wbs_categories;
+                form_data += "&affiliate=" + wbs_affiliate;
+
+                form_data += "&exclude_list=" + wbs_exclude_list;
+                form_data += "&allowed_urls=" + encodeURIComponent(wbs_allowed_urls);
+                form_data += "&blocked_urls=" + encodeURIComponent(wbs_blocked_urls);
+
                 form_data += "&aliases=" + encodeURIComponent(website_aliases);
                 form_data += "&js=" + encodeURIComponent(website_custom_js);
                 form_data += "&css=" + encodeURIComponent(website_custom_css);
@@ -2587,8 +2648,8 @@ window.gspeechDash = function(options) {
 
                             thisPage.showMessage('success','Settings have been updated successfully.');
 
-                            if(window.gspeech != undefined)
-                                window.gspeech.doSmartSpeech('Settings have been updated successfully.', 'en-US');
+                            // if(window.gspeech != undefined)
+                                // window.gspeech.doSmartSpeech('Settings have been updated successfully.', 'en-US');
                         }
                         else if(result == "auth_failed") {
 
@@ -2597,8 +2658,8 @@ window.gspeechDash = function(options) {
                         else {
                             thisPage.showMessage('error','Error!');
 
-                            if(window.gspeech != undefined)
-                                window.gspeech.doSmartSpeech('Error!', 'en-US');
+                            // if(window.gspeech != undefined)
+                                // window.gspeech.doSmartSpeech('Error!', 'en-US');
 
                             thisPage.shake($("#dashboard_content"), {'shakes': 2,'distance': 10,'duration': 300});
                         }
@@ -2610,8 +2671,8 @@ window.gspeechDash = function(options) {
 
                         thisPage.showMessage('error','Error saving settings!');
 
-                        if(window.gspeech != undefined)
-                            window.gspeech.doSmartSpeech('Error saving settings!', 'en-US');
+                        // if(window.gspeech != undefined)
+                            // window.gspeech.doSmartSpeech('Error saving settings!', 'en-US');
                     }
                 });
 
@@ -2698,7 +2759,7 @@ window.gspeechDash = function(options) {
 
                 thisPage.resetPlayerWidgetSettings();
 
-                if($target.hasClass("ss_voice_type_0"))
+                if(!$target.hasClass("ss_voice_type_2") && !$target.hasClass("ss_voice_type_5") && !$target.hasClass("ss_voice_type_7"))
                     $(".gsp_left_m_c_active .gsp_option_disable_switcher").addClass("gsp_option_disabled");
                 else
                     $(".gsp_left_m_c_active .gsp_option_disable_switcher").removeClass("gsp_option_disabled");
@@ -3625,14 +3686,14 @@ window.gspeechDash = function(options) {
 
                             thisPage.showMessage('success','Settings have been updated successfully.');
 
-                            if(window.gspeech != undefined)
-                                window.gspeech.doSmartSpeech('Settings have been updated successfully.', 'en-US');
+                            // if(window.gspeech != undefined)
+                                // window.gspeech.doSmartSpeech('Settings have been updated successfully.', 'en-US');
                         }
                         else {
                             thisPage.showMessage('error','Error!');
 
-                            if(window.gspeech != undefined)
-                                window.gspeech.doSmartSpeech('Error!', 'en-US');
+                            // if(window.gspeech != undefined)
+                                // window.gspeech.doSmartSpeech('Error!', 'en-US');
 
                             thisPage.shake($("#dashboard_content"), {'shakes': 2,'distance': 10,'duration': 300});
                         }
@@ -3644,8 +3705,8 @@ window.gspeechDash = function(options) {
 
                         thisPage.showMessage('error','Error saving settings!');
 
-                        if(window.gspeech != undefined)
-                            window.gspeech.doSmartSpeech('Error saving settings!', 'en-US');
+                        // if(window.gspeech != undefined)
+                            // window.gspeech.doSmartSpeech('Error saving settings!', 'en-US');
                     }
                 });
 
@@ -3721,8 +3782,8 @@ window.gspeechDash = function(options) {
 
                             thisPage.showMessage('success','Widget has been deleted successfully!', false, true);
 
-                            if(window.gspeech != undefined)
-                                window.gspeech.doSmartSpeech('Widget has been deleted successfully.', 'en-US');
+                            // if(window.gspeech != undefined)
+                                // window.gspeech.doSmartSpeech('Widget has been deleted successfully.', 'en-US');
 
                             setTimeout(function() {
 
@@ -4888,9 +4949,53 @@ window.gspeechDash = function(options) {
 
     };
 
+    this.processPlanCorrection = function() {
+
+        var plan_id = parseInt($("#gsp_plan").html());
+
+        var plans_obj = {
+            "plan_0": "Free",
+            "plan_1": "Personal",
+            "plan_2": "PRO",
+            "plan_3": "Business",
+            "plan_4": "Enterprise",
+            "plan_5": "Personal-2"
+        };
+
+        var plan_name = plans_obj["plan_" + plan_id];
+
+        if(plan_id != 0) {
+
+            $('.plan_title').html(plan_name);
+
+            $(".ss_upgrade_info_top").addClass("ss_hidden");
+            $(".ss_upgrade_info").addClass("ss_hidden");
+            // $(".gsp_upgrade_wrapper").addClass("ss_hidden");
+
+            $(".gsp_upg_link").addClass("ss_hidden");
+
+            $(".gsp_package_free .product_button").html("-");
+
+            var plan_id_ident = plan_id == 5 ? 1 : plan_id;
+
+            var plan_ident_name = plans_obj["plan_" + plan_id_ident].toLowerCase();
+
+            $(".gsp_package_" + plan_ident_name + " .product_button").html("Active");
+        }
+
+        var plg_v = $('#gsp_version').html();
+
+        var v_ht = '(Version ' + plg_v + ') - ' + plan_name;     
+        $('.gsp_v_i').html(v_ht);
+
+        v_ht = plg_v + ' - ' + plan_name;       
+        $('.gsp_link_info_plg_v').html(v_ht);
+
+    };
+
     this.detectState = function() {
 
-        console.log("detect state");
+        // console.log("detect state");
 
         // this.eraseCookie('gspeech_token');
 
@@ -4899,7 +5004,9 @@ window.gspeechDash = function(options) {
 
         var active_tab_ident = $("#gsp_tabs_wrapper").data('active_tab');
 
-        console.log("active_tab_ident: " + active_tab_ident);
+        // console.log("active_tab_ident: " + active_tab_ident);
+
+        this.processPlanCorrection();
 
         var sh_ = this.options.sh_;
         var shortcodes_loaded = this.options.shortcodes_loaded;
@@ -5058,6 +5165,8 @@ window.gspeechDash = function(options) {
 
             $(".gsp_tab_c.gsp_tab_active").removeClass("gsp_tab_active");
             $(".gsp_tab_c_upgrade").addClass("gsp_tab_active");
+
+            
         }
         else if(active_tab_ident == 'cloud') {
 
@@ -5235,6 +5344,8 @@ window.gspeechDash = function(options) {
 
                         var success = responseData.success;
                         var em_ret = responseData.em_ret;
+                        var website_data = responseData.website_data;
+                        var plan_id = website_data.user_plan;
 
                         if(request_email == 1 && em_ret != "") {
 
@@ -5244,8 +5355,31 @@ window.gspeechDash = function(options) {
                                 action: 'wpgsp_apply_ajax_save',
                                 _ajax_nonce: wp_ajax_nonce,
                                 type: 'save_data',
-                                field: "email",
-                                val: em_ret
+                                field: "email,plan",
+                                val: em_ret + ':' + plan_id
+                            };
+                            $.ajax
+                            ({
+                                url: wp_ajax_url,
+                                type: "post",
+                                data: post_data_inner,
+                                dataType: "json",
+                                success: function(data) {
+                                    
+                                },
+                                error: function(xhr, status, error) {
+                                    
+                                }
+                            });
+                        }
+                        else {
+                            // update plan
+                            var post_data_inner = {
+                                action: 'wpgsp_apply_ajax_save',
+                                _ajax_nonce: wp_ajax_nonce,
+                                type: 'save_data',
+                                field: "plan",
+                                val: plan_id
                             };
                             $.ajax
                             ({
@@ -5266,11 +5400,13 @@ window.gspeechDash = function(options) {
 
                             thisPage.hideOverlay();
 
-                            website_data = responseData.website_data;
-
                             thisPage.generateWrapperHeight();
 
                             thisPage.setValsWebsiteSettings(website_data);
+
+                            $("#gsp_plan").html(plan_id);
+
+                            thisPage.processPlanCorrection();
                         }
                         else if(success == "auth_failed") {
 
@@ -5998,7 +6134,7 @@ window.gspeechDash = function(options) {
 
         // set sliders disabled
         var voice_type = parseInt(widget_voice.split('-')[1]);
-        if(voice_type == 0) {
+        if(voice_type != 2 && voice_type != 5 && voice_type != 7) {
             $('.gsp_left_m_c_active .ss_slider_element_wrapper').addClass('gsp_option_disabled');
         }
 
@@ -7017,7 +7153,19 @@ window.gspeechDash = function(options) {
 
                navigation: {
                   buttonOptions: {
-                    enabled: false
+                    align: 'right',
+                     symbolStroke: '#888',
+                     hoverSymbolStroke: '#555',
+                     theme: {
+                        fill: {
+                           linearGradient: { x1: 0, y1: 0, x2: 0, y2: 1 },
+                           stops: [
+                              [0.4, '#606060'],
+                              [0.6, '#333333']
+                           ]
+                        },
+                        stroke: '#000000'
+                     }
                   },
                   handles: {
                      backgroundColor: '#666',
@@ -7194,12 +7342,7 @@ window.gspeechDash = function(options) {
                 type: 'pie',
                 name: '',
                 data: data_array
-            }],
-            navigation: {
-              buttonOptions: {
-                enabled: false
-              }
-           }
+            }]
         });
     };
 
@@ -7282,12 +7425,7 @@ window.gspeechDash = function(options) {
                 type: 'pie',
                 name: '',
                 data: data_array
-            }],
-            navigation: {
-              buttonOptions: {
-                enabled: false
-              }
-           }
+            }]
         });
     };
 
@@ -7371,12 +7509,7 @@ window.gspeechDash = function(options) {
                 type: 'pie',
                 name: '',
                 data: data_array
-            }],
-            navigation: {
-              buttonOptions: {
-                enabled: false
-              }
-           }
+            }]
         });
     };
 
@@ -7602,7 +7735,10 @@ window.gspeechDash = function(options) {
         if(voice_code_sel != '') {
             $gsVoiceSelector.find('.option-' + voice_code_sel).addClass("li_selected").addClass("ss_ul_li_act");
             var voice_cont_val = $gsVoiceSelector.find(".li_selected span").html();
-            var sel_voice_type = $gsVoiceSelector.find(".li_selected").hasClass("ss_voice_type_0") ? 0 : 1;
+
+            var sel_voice_data = $gsVoiceSelector.find(".li_selected").data("val");
+            var sel_voice_data_p = sel_voice_data.split('-');
+            var sel_voice_type = sel_voice_data_p[1] != undefined ? sel_voice_data_p[1] : 0;
         }
         else {
             var voice_cont_val = def_txt_voice;
@@ -7610,7 +7746,7 @@ window.gspeechDash = function(options) {
         }
         $gsVoiceSelector.find('.items_select_filter_content span').html(voice_cont_val);
 
-        if(sel_voice_type == 0)
+        if(sel_voice_type != 2 && sel_voice_type != 5 && sel_voice_type != 7)
             $(".gsp_left_m_c_active .gsp_option_disable_switcher").addClass("gsp_option_disabled");
         else
             $(".gsp_left_m_c_active .gsp_option_disable_switcher").removeClass("gsp_option_disabled");
@@ -7979,6 +8115,29 @@ window.gspeechDash = function(options) {
                 var opt_data = option_item.split("=");
                 website_options[opt_data[0]] = opt_data[1];
             });
+
+            if(website_options["auto_enable"] == undefined)
+                website_options["auto_enable"] = 1;
+            if(website_options["show_on_homepage"] == undefined)
+                website_options["show_on_homepage"] = 0;
+            if(website_options["multilang_website"] == undefined)
+                website_options["multilang_website"] = 0;
+            if(website_options["read_titles"] == undefined)
+                website_options["read_titles"] = 1;
+            if(website_options["affiliate"] == undefined)
+                website_options["affiliate"] = 1;
+
+            if(website_options["post_types"] == undefined)
+                website_options["post_types"] = "all";
+            if(website_options["categories"] == undefined)
+                website_options["categories"] = "all";
+
+            if(website_options["exclude_list"] == undefined)
+                website_options["exclude_list"] = "";
+            if(website_options["allowed_urls"] == undefined)
+                website_options["allowed_urls"] = "";
+            if(website_options["blocked_urls"] == undefined)
+                website_options["blocked_urls"] = "";
         }
         else {
             website_options["speed_enabled"] = 1;
@@ -7993,6 +8152,19 @@ window.gspeechDash = function(options) {
             website_options["sel_langs"] = "";
             website_options["sel_voices"] = "";
             website_options["lazy_load"] = 1;
+
+            website_options["auto_enable"] = 1;
+            website_options["show_on_homepage"] = 0;
+            website_options["multilang_website"] = 0;
+            website_options["read_titles"] = 1;
+            website_options["affiliate"] = 1;
+
+            website_options["post_types"] = "all";
+            website_options["categories"] = "all";
+
+            website_options["exclude_list"] = "";
+            website_options["allowed_urls"] = "";
+            website_options["blocked_urls"] = "";
         }
 
         $("#wbs_appear_class").find(".ss_li_" + website_options["appear_class"]).addClass("li_selected").addClass("ss_ul_li_act");
@@ -8054,6 +8226,130 @@ window.gspeechDash = function(options) {
         if(website_options["reload_session"] == 1) {
             $("#wbs_reload_session").addClass("gs_mono_switcher_button_on");
             $("#wbs_reload_session").find(".gs_mono_checkbox").prop("checked",true);
+        }
+
+        // 3.9.0
+        if(website_options["auto_enable"] == 1) {
+            $("#wbs_auto_enable").addClass("gs_mono_switcher_button_on");
+            $("#wbs_auto_enable").find(".gs_mono_checkbox").prop("checked",true);
+        }
+        else {
+            $("#wbs_auto_enable").removeClass("gs_mono_switcher_button_on");
+            $("#wbs_auto_enable").find(".gs_mono_checkbox").prop("checked",false);
+        }
+
+        if(website_options["show_on_homepage"] == 1) {
+            $("#wbs_show_on_homepage").addClass("gs_mono_switcher_button_on");
+            $("#wbs_show_on_homepage").find(".gs_mono_checkbox").prop("checked",true);
+        }
+        else {
+            $("#wbs_show_on_homepage").removeClass("gs_mono_switcher_button_on");
+            $("#wbs_show_on_homepage").find(".gs_mono_checkbox").prop("checked",false);
+        }
+
+        if(website_options["multilang_website"] == 1) {
+            $("#wbs_multilang_website").addClass("gs_mono_switcher_button_on");
+            $("#wbs_multilang_website").find(".gs_mono_checkbox").prop("checked",true);
+        }
+        else {
+            $("#wbs_multilang_website").removeClass("gs_mono_switcher_button_on");
+            $("#wbs_multilang_website").find(".gs_mono_checkbox").prop("checked",false);
+        }
+
+        if(website_options["read_titles"] == 1) {
+            $("#wbs_read_titles").addClass("gs_mono_switcher_button_on");
+            $("#wbs_read_titles").find(".gs_mono_checkbox").prop("checked",true);
+        }
+        else {
+            $("#wbs_read_titles").removeClass("gs_mono_switcher_button_on");
+            $("#wbs_read_titles").find(".gs_mono_checkbox").prop("checked",false);
+        }
+
+        console.log("affiliate: " + website_options["affiliate"]);
+
+        if(website_options["affiliate"] == 1) {
+            $("#wbs_affiliate").addClass("gs_mono_switcher_button_on");
+            $("#wbs_affiliate").find(".gs_mono_checkbox").prop("checked",true);
+        }
+        else {
+            $("#wbs_affiliate").removeClass("gs_mono_switcher_button_on");
+            $("#wbs_affiliate").find(".gs_mono_checkbox").prop("checked",false);
+        }
+
+        if(website_options["post_types"] != "") {
+
+            // remove selection
+            $("#gsp_post_types").find(".li_selected").removeClass("li_selected");
+
+            // set selection
+            var post_types_arr = website_options["post_types"].split(',');
+
+            var sel_htm = '';
+
+            for(var q=0;q<post_types_arr.length;q++) {
+
+                var val = post_types_arr[q];
+
+                $("#gsp_post_types").find(".search_li").each(function() {
+
+                    if($(this).data("val") == val) {
+
+                        if(sel_htm != "") {
+                            sel_htm += ", ";
+                        }
+                        var piece_v = $(this).find("span").html();
+                        sel_htm += piece_v;
+
+                        $(this).addClass("li_selected");
+                    }
+
+                });
+            }
+            $("#gsp_post_types").find(".items_select_filter_content span").html(sel_htm);
+        }
+
+        if(website_options["categories"] != "") {
+
+            // remove selection
+            $("#gsp_categories").find(".li_selected").removeClass("li_selected");
+
+            // set selection
+            var post_types_arr = website_options["categories"].split(',');
+
+            var sel_htm = '';
+
+            for(var q=0;q<post_types_arr.length;q++) {
+
+                var val = post_types_arr[q];
+
+                $("#gsp_categories").find(".search_li").each(function() {
+
+                    if($(this).data("val") == val) {
+
+                        if(sel_htm != "") {
+                            sel_htm += ", ";
+                        }
+                        var piece_v = $(this).find("span").html();
+                        sel_htm += piece_v;
+
+                        $(this).addClass("li_selected");
+                    }
+
+                });
+            }
+            $("#gsp_categories").find(".items_select_filter_content span").html(sel_htm);
+        }
+
+        if(website_options["exclude_list"] != "") {
+            $("#ss_website_exclude_list").val(website_options["exclude_list"]);
+        }
+
+        if(website_options["allowed_urls"] != "") {
+            $("#ss_wbs_allowed_urls").val(decodeURIComponent(website_options["allowed_urls"]));
+        }
+
+        if(website_options["blocked_urls"] != "") {
+            $("#ss_wbs_blocked_urls").val(decodeURIComponent(website_options["blocked_urls"]));
         }
 
         if(website_js != "")
@@ -8214,7 +8510,10 @@ window.gspeechDash = function(options) {
         if(voice_code_sel != '') {
             $gsVoiceSelector.find('.option-' + voice_code_sel).addClass("li_selected").addClass("ss_ul_li_act");
             var voice_cont_val = $gsVoiceSelector.find(".li_selected span").html();
-            var sel_voice_type = $gsVoiceSelector.find(".li_selected").hasClass("ss_voice_type_0") ? 0 : 1;
+
+            var sel_voice_data = $gsVoiceSelector.find(".li_selected").data("val");
+            var sel_voice_data_p = sel_voice_data.split('-');
+            var sel_voice_type = sel_voice_data_p[1] != undefined ? sel_voice_data_p[1] : 0;
         }
         else {
             var voice_cont_val = def_txt_voice;
@@ -8222,7 +8521,7 @@ window.gspeechDash = function(options) {
         }
         $gsVoiceSelector.find('.items_select_filter_content span').html(voice_cont_val);
 
-        if(sel_voice_type == 0)
+        if(sel_voice_type != 2 && sel_voice_type != 5 && sel_voice_type != 7)
             $(".gsp_option_disable_switcher").addClass("gsp_option_disabled");
         else
             $(".gsp_option_disable_switcher").removeClass("gsp_option_disabled");
@@ -8405,7 +8704,7 @@ window.gspeechDash = function(options) {
                     voice_name = 'Eleanor[F';
                     break;
                 case 'K:5':
-                    voice_name = 'Maya[F';
+                    voice_name = 'Madison[F';
                     break;
                 case 'L:5':
                     voice_name = 'Hazel[F';
@@ -8417,13 +8716,34 @@ window.gspeechDash = function(options) {
                     voice_name = 'Harrison[M';
                     break;
                 case 'D:6':
-                    voice_name = 'Simon[M';
+                    voice_name = 'Lucas[M';
+                    break;
+                case '1:7':
+                    voice_name = 'John[M';
                     break;
                 case 'F:6':
-                    voice_name = 'Bertha[F';
+                    voice_name = 'Amelia[F';
                     break;
                 case 'O:6':
+                    voice_name = 'Evelyn[F';
+                    break;
+                case 'A:20':
+                    voice_name = 'Sophia[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Simon[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'James[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Bertha[F';
+                    break;
+                case 'E:20':
                     voice_name = 'Aleana[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Maya[F';
                     break;
             }
         else if(lang_code == 'en-IN')
@@ -8706,6 +9026,51 @@ window.gspeechDash = function(options) {
                     break;
                 case 'F:20':
                     voice_name = 'Maryam[F';
+                    break;
+            }
+        else if(lang_code == 'pa')
+            switch(voice_data) {
+                case 'A:0':
+                    voice_name = 'Preeti[F';
+                    break;
+                case 'A:20':
+                    voice_name = 'Harleen[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Sarabjeet[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Rajinder[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Navjot[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Jasleen[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Amritpal[F';
+                    break;
+            }
+        else if(lang_code == 'pa-Arab')
+            switch(voice_data) {
+                case 'A:20':
+                    voice_name = 'Harleen[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Sarabjeet[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Rajinder[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Navjot[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Jasleen[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Amritpal[F';
                     break;
             }
         else if(lang_code == 'iw')
@@ -9985,8 +10350,8 @@ window.gspeechDash = function(options) {
 
                 $this.showMessage('error','Error sending request.');
 
-                if(window.gspeech != undefined)
-                    window.gspeech.doSmartSpeech('Error sending request.', 'en-US');
+                // if(window.gspeech != undefined)
+                    // window.gspeech.doSmartSpeech('Error sending request.', 'en-US');
             }
         });
     };
