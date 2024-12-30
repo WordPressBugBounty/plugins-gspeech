@@ -4,7 +4,7 @@ Author: creative-solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 3.9.0
+Stable tag: 3.9.1
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -354,6 +354,9 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website.
 
 == Changelog ==
+= V 3.9.1 - 30/12/2024 =
+* Chat support added!
+
 = V 3.9.0 - 29/12/2024 =
 * Added Post Type Filter.
 * Added Post Categories Filter.
