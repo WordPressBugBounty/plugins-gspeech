@@ -4,7 +4,7 @@ Author: creative-solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 3.9.1
+Stable tag: 3.9.2
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -354,6 +354,10 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website.
 
 == Changelog ==
+= V 3.9.2 - 31/12/2024 =
+* Happy New Year 2025 :)
+* Corrections on dashboard.
+
 = V 3.9.1 - 30/12/2024 =
 * Chat support added!
 
@@ -363,6 +367,31 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 * Auto-enable option added.
 * Multi-Lang website control improved.
 * Affiliate functionality implemented.
+
+= V 3.8.13 - 03/12/2024 =
+* Corrections on dashboard.
+
+= V 3.8.10, 3.8.11, 3,8,12 - 14/11/2024 =
+* WP 6.7 tested.
+* Style fixеs.
+
+= V 3.8.9 - 01/11/2024 =
+* Corrections on dashboard.
+
+= V 3.8.8 - 29/10/2024 =
+* Minor fixes.
+
+= V 3.8.7 - 16/10/2024 =
+* Fixes on admin, parsing json objects.
+
+= V 3.8.6 - 10/10/2024 =
+* Minor fixes.
+
+= V 3.8.5 - 26/09/2024 =
+* Corrections in class names.
+
+= V 3.8.4 - 16/09/2024 =
+* UI fixes.
 
 = V 3.8.3 - 02/09/2024 =
 * Updated video, text content.

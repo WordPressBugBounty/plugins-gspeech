@@ -24,7 +24,7 @@ defined('ABSPATH') or die("No direct access");
 						<span class="gsp_info_sep"></span>
 						<span class="gsp_link_info"> <b>Just one click</b> is required.</span>
 						<span class="questions_icon"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
-						<span class="gs_title_vertical"><span class="title_v_subtitle">Activate Cloud Console:</span> <b>Just one click</b> is required. It will install all required audio widgets, to use shortcodes.<span class="gsp_title_sub_code">There is a audio widget, to automatically enable player on all pages.</span></span></span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Activate Cloud Console:</span> <b>Just one click</b> is required. It will install all required audio widgets.<span class="gsp_title_sub_code">You can manage the post types and categories, where to show the player.</span></span></span>
 					</li>
 					<li class="gsp_link_list_20 gsp_link_cloud_login title_holder_vertical">
 						<a href="#" target="_blank" class="activate_login_tab">
@@ -136,32 +136,32 @@ defined('ABSPATH') or die("No direct access");
 					<li class="gsp_link_list_20 title_holder_vertical">
 						<span class="gsp_list_link_style">
 							<span class="gsp_link_icon"></span>
-							<span class="gsp_link_content">Full Page Player</span>
+							<span class="gsp_link_content">Full Page Player - shortcode</span>
 						</span>
 						<span class="gsp_info_sep"></span>
 						<span class="gsp_link_info">Use <textarea class="gsp_shortcode_html_1" style="width: 78px;">&#91;gspeech]</textarea></span>
 						<span class="questions_icon"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
-						<span class="gs_title_vertical"><span class="title_v_subtitle">Full Page Player Shortcode:</span> To manage this player settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Full Page Player Shortcode.</span><span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Full Page Player Shortcode:</span> Add this shortcode anywhere in content, where you need to have a player. To manage this player settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Full Page Player Shortcode.</span><span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
 					</li>
 					<li class="gsp_link_list_20 title_holder_vertical">
 						<span class="gsp_list_link_style">
 							<span class="gsp_link_icon"></span>
-							<span class="gsp_link_content">Button Player</span>
+							<span class="gsp_link_content">Button Player - shortcode</span>
 						</span>
 						<span class="gsp_info_sep"></span>
 						<span class="gsp_link_info">Use <textarea class="gsp_shortcode_html_1" style="width: 120px;">&#91;gspeech-button]</textarea></span>
 						<span class="questions_icon"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
-						<span class="gs_title_vertical"><span class="title_v_subtitle">Button Player Shortcode:</span> To manage this player settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Button Player Shortcode.</span><span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Button Player Shortcode:</span> Add this shortcode anywhere in content, where you need to have a player. To manage this player settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Button Player Shortcode.</span><span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
 					</li>
 					<li class="gsp_link_list_20 title_holder_vertical">
 						<span class="gsp_list_link_style">
 							<span class="gsp_link_icon"></span>
-							<span class="gsp_link_content">Circle Player</span>
+							<span class="gsp_link_content">Circle Player - shortcode</span>
 						</span>
 						<span class="gsp_info_sep"></span>
 						<span class="gsp_link_info">Use <textarea class="gsp_shortcode_html_1" style="width: 115px;">&#91;gspeech-circle]</textarea></span>
 						<span class="questions_icon"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" /></span>
-						<span class="gs_title_vertical"><span class="title_v_subtitle">Circle Player Shortcode:</span> To manage this player settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Circle Player Shortcode.</span><span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">Circle Player Shortcode:</span> Add this shortcode anywhere in content, where you need to have a player. To manage this player settings, go to:<span class="gsp_title_sub_path">Cloud Console->Widgets->Circle Player Shortcode.</span><span class="gsp_title_sub_code">You should enable Cloud Console, to use this.</span></span></span>
 					</li>
 					<li class="gsp_link_list_20 title_holder_vertical ss_hidden">
 						<span class="gsp_list_link_style">

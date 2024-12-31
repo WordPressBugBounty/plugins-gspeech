@@ -1558,6 +1558,9 @@ input.search_input {
     color: #c96d0e;
     text-shadow: 1px 1px #f7ef4575;
 }
+.ss_locked_icon.ss_vis_par {
+    display: flex !important;
+}
 .ss_locked_icon_inner {
     width: 18px;
     position: absolute;

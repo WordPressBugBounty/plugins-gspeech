@@ -1927,9 +1927,6 @@ window.gspeechDash = function(options) {
         $('body').on('click', '.gsp_left_menu', function(e) {
         });
 
-        // filter
-        
-
         // Website settings section /////////////////////////////////////////////////////
 
         $('body').on('click', '#wbs_plan li', function() {
@@ -1950,6 +1947,8 @@ window.gspeechDash = function(options) {
 
                     $(".ss_commercial_switcher").removeClass("gs_mono_switcher_button_on").addClass("ss_disabled");
                     $(".ss_commercial_switcher").find(".gs_mono_checkbox").prop("checked",false);
+
+                    $('.ss_commercial_switcher').parent('div').find('.ss_locked_icon').removeClass("ss_display_none").addClass('ss_vis_par');
 
                     $(".gsp_option_disable_switcher").addClass("gsp_option_disabled");
 
@@ -1983,6 +1982,8 @@ window.gspeechDash = function(options) {
 
                     $(".ss_commercial_switcher").addClass("gs_mono_switcher_button_on").removeClass("ss_disabled");
                     $(".ss_commercial_switcher").find(".gs_mono_checkbox").prop("checked",true);
+
+                    $('.ss_commercial_switcher').parent('div').find('.ss_locked_icon').addClass("ss_display_none").removeClass('ss_vis_par');
 
                     $("#ss_translation_options").removeClass("ss_display_none");
 
@@ -2273,7 +2274,6 @@ window.gspeechDash = function(options) {
             }
 
             var v =  $target.data('prev_txt');
-            console.log('tr: ' + v);
 
             if($target.hasClass("preview_txt_processed")) {
                 return;
@@ -4241,8 +4241,6 @@ window.gspeechDash = function(options) {
 
             if(page_ == 'gspeech_contact_us')
                 return;
-
-            console.log("page_: " + page_);
         });
     };
 
@@ -4892,8 +4890,6 @@ window.gspeechDash = function(options) {
 
     this.loadCloudData = function() {
 
-        console.log('loadCloudData');
-
         var widget_id = this.options.widget_id;
         var gspeech_token = this.getCookie('gspeech_token');
 
@@ -5126,8 +5122,6 @@ window.gspeechDash = function(options) {
             }
         }
         else {
-
-            console.log("lo");
 
             $(".gsp_link_cloud_login").removeClass('ss_hidden');
 
@@ -6737,8 +6731,6 @@ window.gspeechDash = function(options) {
 
                     thisPage.makeStylesTabClick(false);
 
-                    console.log("run gsp after");
-
                     thisPage.process_lang_change();
 
                     if(lang_to != "en")
@@ -8265,8 +8257,6 @@ window.gspeechDash = function(options) {
             $("#wbs_read_titles").find(".gs_mono_checkbox").prop("checked",false);
         }
 
-        console.log("affiliate: " + website_options["affiliate"]);
-
         if(website_options["affiliate"] == 1) {
             $("#wbs_affiliate").addClass("gs_mono_switcher_button_on");
             $("#wbs_affiliate").find(".gs_mono_checkbox").prop("checked",true);
@@ -8392,6 +8382,7 @@ window.gspeechDash = function(options) {
             $("#wbs_multiple_voices").find(".items_select_ul").html($("#wbs_voice").find(".items_select_ul").html());
 
             $(".ss_commercial_switcher").removeClass("ss_disabled");
+            $(".ss_locked_icon").addClass("ss_display_none");
 
             $("#ss_translation_options").removeClass("ss_display_none");
 
@@ -9940,8 +9931,6 @@ window.gspeechDash = function(options) {
     };
 
     this.createLangsListReg = function(sel_lang_code) {
-
-        console.log("createLangsListReg");
 
         var $lng_sel = $("#reg_website_lang");
 
