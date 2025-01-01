@@ -4,7 +4,7 @@ Author: creative-solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 3.9.2
+Stable tag: 3.9.3
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -68,6 +68,8 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 
 ### 📚 Usage - Text to Speech by GSpeech:
 * ✅ Activate __GSpeech Cloud Console__(from WP Admin, just one click). __Cloud Console__ menu will be activated!
+* ✅ Player will appear in posts and pages. You can use choose on which posts or pages show the player.
+* ✅ To edit the player settings, go to __multi-page__ audio widget under the __Cloud Console__.
 * ✅ __RHT Player__(Read Highlighted Text) will be activated automatically.
 * ✅ To insert player in any page, use __shortcodes__!
 * ✅ To insert a __Full Page Player__, use __[gspeech]__.
@@ -75,7 +77,6 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 * ✅ To insert a __Circle Player__, use __[gspeech-circle]__.
 * ✅ To see player types examples, check [Demo Page](https://gspeech.io/demos).
 * ✅ To manage player settings, go to __Cloud Console->Widgets__, each of player type has its widget there!
-* ✅ To Automatically Enable on all pages, publish the __multi-page__ audio widget from the __Cloud Console__.
 * ✅ To use __Welcome Messages__, publish the __welcome message__ audio widget from the __Cloud Console__.
 * ✅ To exclude some part of content from the audio, add the class __nospeech__.
 * ✅ For other examples please check the [FAQ](https://wordpress.org/plugins/gspeech/#faq).
@@ -354,6 +355,10 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website.
 
 == Changelog ==
+= V 3.9.3 - 01/01/2025 =
+* Happy New Year 2025 :) God Bless You ♱🙏
+* Styling corrections.
+
 = V 3.9.2 - 31/12/2024 =
 * Happy New Year 2025 :)
 * Corrections on dashboard.
