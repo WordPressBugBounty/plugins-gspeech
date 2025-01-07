@@ -5339,19 +5339,32 @@ window.gspeechDash = function(options) {
                         var success = responseData.success;
                         var em_ret = responseData.em_ret;
                         var website_data = responseData.website_data;
-                        var plan_id = website_data.user_plan;
+                        var plan_id = -1;
+
+                        if(success == "true")
+                            plan_id = website_data.user_plan;
 
                         if(request_email == 1 && em_ret != "") {
 
                             $('.gsp_login_email').html(em_ret);
 
-                            var post_data_inner = {
-                                action: 'wpgsp_apply_ajax_save',
-                                _ajax_nonce: wp_ajax_nonce,
-                                type: 'save_data',
-                                field: "email,plan",
-                                val: em_ret + ':' + plan_id
-                            };
+                            if(plan_id != -1)
+                                var post_data_inner = {
+                                    action: 'wpgsp_apply_ajax_save',
+                                    _ajax_nonce: wp_ajax_nonce,
+                                    type: 'save_data',
+                                    field: "email,plan",
+                                    val: em_ret + ':' + plan_id
+                                };
+                            else
+                                var post_data_inner = {
+                                    action: 'wpgsp_apply_ajax_save',
+                                    _ajax_nonce: wp_ajax_nonce,
+                                    type: 'save_data',
+                                    field: "email",
+                                    val: em_ret
+                                };
+
                             $.ajax
                             ({
                                 url: wp_ajax_url,
@@ -5366,7 +5379,8 @@ window.gspeechDash = function(options) {
                                 }
                             });
                         }
-                        else {
+                        else if(plan_id != -1) {
+                            
                             // update plan
                             var post_data_inner = {
                                 action: 'wpgsp_apply_ajax_save',
