@@ -4,7 +4,7 @@ Author: creative-solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 3.10.1
+Stable tag: 3.10.2
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -36,14 +36,17 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 ### 🎬 Video Tour
 [youtube https://www.youtube.com/watch?v=aIartT1SiFs]
 
-### 👆 Why Use Text to Speech by GSpeech?
-* ✅ __Accessibility__: Enhance accessibility and inclusivity of your WordPress website and promote equal access to digital content to a wider audience, including people with visual impairments or other disabilities. By making your content more accessible, you can create a more inclusive workplace and better serve your customers.
-* ✅ __User Experience Enhancement__: One of the main benefits of using Text to Speech by GSpeech is the improvement of the user experience. GSpeech makes content more engaging, impersive and interactive, providing an audio option for consuming content via a nice looking and creative text to audio players.
-* ✅ __Multitasking and Convenience__: GSpeech enables users to comfortably listen to content while engaged in other tasks or situations where reading may not be feasible.
+### 👆 Why Use the GSpeech Text to Speech Plugin for WordPress?
+* ✅ __Enhance Accessibility__: Boost the accessibility of your WordPress website with the GSpeech text to speech plugin. Make your content available to a wider audience, including people with visual impairments or other disabilities. By offering an alternative way to consume content, you create a more inclusive experience for all users, helping your website serve a diverse range of visitors. Increase accessibility and improve your website’s overall SEO by catering to users who rely on text-to-speech features.
+* ✅ __Improve User Experience with Text to Speech__: The GSpeech text to speech plugin significantly enhances the user experience by providing an engaging, immersive, and interactive way to consume content. With text to audio players that are both functional and visually appealing, users can listen to your content effortlessly. By offering an audio version of your text, GSpeech makes it easier for visitors to engage with your website and enjoy the content, leading to higher user retention and increased satisfaction.
+* ✅ __Boost Multitasking and Convenience__: Allow users to comfortably listen to your content on the go with the GSpeech text to speech plugin. Whether users are driving, exercising, or multitasking, they can continue consuming your content even when reading isn’t feasible. This flexibility increases engagement and convenience, allowing users to interact with your WordPress site in a way that suits their needs, improving overall user retention and satisfaction!
+
+### 💭 Get Started with GSpeech – The Best WordPress Text to Speech Plugin
+Start using the GSpeech WordPress Text to Speech Plugin today and improve your website's accessibility, user experience, and SEO rankings. Install now and watch your traffic grow!
 
 ### 👉 Text to Speech by GSpeech Free Plugin Features:
 * ✅ __Easy Usage__: Automatically convert your WordPress content into engaging audio!
-* ✅ __Multiple Languages__: 50+ languages supported. Please check the list in [FAQ](https://wordpress.org/plugins/gspeech/#%F0%9F%91%89%20which%20languages%20are%20supported%3F).
+* ✅ __Multiple Languages__: 65+ languages supported. Please check the list in [FAQ](https://wordpress.org/plugins/gspeech/#%F0%9F%91%89%20which%20languages%20are%20supported%3F).
 * ✅ __Different Players__: 3 Player Types: __Full Page Player__, __Button Player__ and __Circle Player__ - [Demo](https://gspeech.io/demos).
 * ✅ __Easy Shortcodes:__ Use *[gspeech]*, *[gspeech-button]* or *[gspeech-circle]* shortcode.
 * ✅ __2 Minutes Installation__. Make all the configuration with __just one click__ from __WP Admin__.
@@ -68,10 +71,10 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 
 ### 📚 Usage - Text to Speech by GSpeech:
 * ✅ Activate __GSpeech Cloud Console__(from WP Admin, just one click). __Cloud Console__ menu will be activated!
-* ✅ Player will appear in posts and pages. You can use choose on which posts or pages show the player.
-* ✅ To edit the player settings, go to __multi-page__ audio widget under the __Cloud Console__.
+* ✅ Player will appear in posts and pages. You can manage on which pages show the player.
+* ✅ To edit the player settings, go to __Cloud Console->Widgets->Multi-Page__ audio widget.
 * ✅ __RHT Player__(Read Highlighted Text) will be activated automatically.
-* ✅ To insert player in any page, use __shortcodes__!
+* 💡 To insert player in any page, use __shortcodes__!
 * ✅ To insert a __Full Page Player__, use __[gspeech]__.
 * ✅ To insert a __Button Player__, use __[gspeech-button]__.
 * ✅ To insert a __Circle Player__, use __[gspeech-circle]__.
@@ -83,11 +86,15 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 
 == 💬 WordPress Text to Speech Plugin - CUSTOMER TESTIMONIAL ==
 
-__Expanding my content reach with professional-grade voice and translation__:
-⭐⭐⭐⭐⭐
-*"I am expanding my activity writing articles which now need to reach several geographies of non native english speakers, and satisfy audio accessibility requirements. I have tested several text to speech plugins, and selected Text To Speech by GSpeech as it covered all of my requirements. Seamless integration with my self-hosted WordPress website, customizable widgets giving the reader a lot of flexibility, stats. It even proposes instant real-time translation to a huge number of languages of any article using a neural engine which works great and is very accurate. Support is very responsive and has always covered all my questions like a Pro."*
+__A Premium Text-to-Speech Service__ ⭐⭐⭐⭐⭐
 
-&mdash; __Hans SANDKUHL__ - Strategy and Sustainable Innovation
+*"We’ve been using the GSpeech Text-to-Speech (TTS) service on our AI-focused website, and it has been an absolute game-changer for our platform. The quality of the voice output is outstanding, delivering natural-sounding speech that enhances the user experience for our audience. Our readers have praised the feature for its clarity and accessibility, particularly for consuming long-form content.*
+
+*One of the standout aspects of GSpeech is its seamless integration. Setting it up on Unite.AI was incredibly straightforward, and the flexibility it offers allowed us to customize the functionality to suit our specific needs, such as skipping CTAs and non-essential elements. This level of control ensured the audio aligns perfectly with the structure and tone of our articles.*
+
+*We’ve noticed a significant uptick in user engagement since implementing GSpeech, especially among users who prefer audio content or are multitasking. It’s a perfect fit for our website’s commitment to innovation and accessibility in the AI space."*
+
+&mdash; __Antoine Tardif__ - *CEO Unite.AI*
 
 ### 🚀 Upgrade to Text-to-speech by GSpeech Commercial Plans to get Advanced Features:
 
@@ -355,6 +362,9 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website.
 
 == Changelog ==
+= V 3.10.2 - 20/01/2025 =
+* Added new AI voices.
+
 = V 3.10.1 - 07/01/2025 =
 * Javascript issue fixed, when login dialog is hidden.
 

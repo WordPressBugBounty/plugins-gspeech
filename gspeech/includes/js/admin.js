@@ -161,7 +161,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "English (UK)",
                 "value": "en-GB",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2,F:2"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,F:2,G:5,H:5,I:5,J:5,K:5,L:5,M:5"
             },
             {
                 "name": "English (India)",
@@ -196,7 +196,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "French (France)",
                 "value": "fr-FR",
-                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2"
+                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2,1:7"
             },
             {
                 "name": "Galician (Spain)",
@@ -206,7 +206,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "German (Germany)",
                 "value": "de-DE",
-                "voice_data": "A:0,F:2,A:2,B:2,C:2,D:2,E:2"
+                "voice_data": "A:0,F:2,A:2,B:2,C:2,D:2,E:2,1:7"
             },
             {
                 "name": "Greek (Greece)",
@@ -354,6 +354,16 @@ window.gspeechDash = function(options) {
                 "voice_data": "A:0,A:2,B:2,C:2,D:2"
             },
             {
+                "name": "Punjabi (Gurmukhi)",
+                "value": "pa",
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
+            },
+            {
+                "name": "Punjabi (Shahmukhi)",
+                "value": "pa-Arab",
+                "voice_data": "A:20,B:20,C:20,D:20,E:20,F:20"
+            },
+            {
                 "name": "Romanian (Romania)",
                 "value": "ro-RO",
                 "voice_data": "A:0,A:2"
@@ -386,7 +396,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Spanish (Spain)",
                 "value": "es-ES",
-                "voice_data": "A:0,C:2,D:2,B:2,A:3,E:3,F:3"
+                "voice_data": "A:0,C:2,D:2,B:2,A:3,E:3,F:3,1:7"
             },
             {
                 "name": "Spanish (United States)",
@@ -8789,6 +8799,27 @@ window.gspeechDash = function(options) {
                 case 'F:2':
                     voice_name = 'Jane[F';
                     break;
+                case 'G:5':
+                    voice_name = 'Olivia[F';
+                    break;
+                case 'H:5':
+                    voice_name = 'Amelia[F';
+                    break;
+                case 'I:5':
+                    voice_name = 'Ava[F';
+                    break;
+                case 'J:5':
+                    voice_name = 'Oliver[M';
+                    break;
+                case 'K:5':
+                    voice_name = 'George[M';
+                    break;
+                case 'L:5':
+                    voice_name = 'William[M';
+                    break;
+                case 'M:5':
+                    voice_name = 'Jack[M';
+                    break;
             }
         else if(lang_code == 'en-AU')
             switch(voice_data) {
@@ -9281,6 +9312,9 @@ window.gspeechDash = function(options) {
                 case 'D:2':
                     voice_name = 'Lucas[M';
                     break;
+                case '1:7':
+                    voice_name = 'Gabriel[M';
+                    break;
             }
         else if(lang_code == 'gl-ES')
             switch(voice_data) {
@@ -9310,6 +9344,9 @@ window.gspeechDash = function(options) {
                     break;
                 case 'E:2':
                     voice_name = 'Ben[M';
+                    break;
+                case '1:7':
+                    voice_name = 'Elias[M';
                     break;
             }
         else if(lang_code == 'el-GR')
@@ -9701,6 +9738,9 @@ window.gspeechDash = function(options) {
                 case 'F:3':
                     voice_name = 'Francisco[M';
                     break;
+                case '1:7':
+                    voice_name = 'Mateo[M';
+                    break;
             }
         else if(lang_code == 'es-US')
             switch(voice_data) {
@@ -9894,6 +9934,7 @@ window.gspeechDash = function(options) {
         
         return voice_name;
     };
+
 
     this.refreshLogin = function(page) {
 
