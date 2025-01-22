@@ -76,22 +76,22 @@ window.gspeechDash = function(options) {
             {
                 "name": "Afrikaans (South Africa)",
                 "value": "af-ZA",
-                "voice_data": "A:0,A:1"
+                "voice_data": "A:0,A:1,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Albanian (Albania)",
                 "value": "sq",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Arabic",
                 "value": "ar-XA",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Armenian",
                 "value": "hy",
-                "voice_data": "A:20,B:20,C:20,D:20,E:20,F:20"
+                "voice_data": "A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Belarusian",
@@ -106,52 +106,52 @@ window.gspeechDash = function(options) {
             {
                 "name": "Bengali (India)",
                 "value": "bn-IN",
-                "voice_data": "A:0,A:2,B:2"
+                "voice_data": "A:0,A:2,B:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Bosnian (Bosnia and Herzegovina)",
                 "value": "bs",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Bulgarian (Bulgaria)",
                 "value": "bg-BG",
-                "voice_data": "A:0,A:1"
+                "voice_data": "A:0,A:1,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Catalan (Spain)",
                 "value": "ca-ES",
-                "voice_data": "A:0,A:1"
+                "voice_data": "A:0,A:1,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Chinese (Simplified)",
                 "value": "cmn-CN",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Chinese (Traditional)",
                 "value": "cmn-TW",
-                "voice_data": "A:0,A:2,B:2,C:2"
+                "voice_data": "A:0,A:2,B:2,C:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Croatian (Croatia)",
                 "value": "hr",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Czech (Czech Republic)",
                 "value": "cs-CZ",
-                "voice_data": "A:0,A:2"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Danish (Denmark)",
                 "value": "da-DK",
-                "voice_data": "A:0,C:2,D:2,E:2,A:2"
+                "voice_data": "A:0,C:2,D:2,E:2,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Dutch (Netherlands)",
                 "value": "nl-NL",
-                "voice_data": "A:0,B:2,C:2,D:2,A:2,E:2"
+                "voice_data": "A:0,B:2,C:2,D:2,A:2,E:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "English (Australia)",
@@ -171,22 +171,22 @@ window.gspeechDash = function(options) {
             {
                 "name": "English (United States)",
                 "value": "en-US",
-                "voice_data": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,1:7,A:20,B:20,C:20,D:20,E:20,F:20"
+                "voice_data": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Estonian (Estonia)",
                 "value": "et",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Filipino (Philippines)",
                 "value": "fil-PH",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Finnish (Finland)",
                 "value": "fi-FI",
-                "voice_data": "A:0,A:2"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "French (Canada)",
@@ -196,7 +196,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "French (France)",
                 "value": "fr-FR",
-                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2,1:7"
+                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Galician (Spain)",
@@ -206,62 +206,62 @@ window.gspeechDash = function(options) {
             {
                 "name": "German (Germany)",
                 "value": "de-DE",
-                "voice_data": "A:0,F:2,A:2,B:2,C:2,D:2,E:2,1:7"
+                "voice_data": "A:0,F:2,A:2,B:2,C:2,D:2,E:2,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Greek (Greece)",
                 "value": "el-GR",
-                "voice_data": "A:0,A:2"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Gujarati (India)",
                 "value": "gu-IN",
-                "voice_data": "A:0,A:2,B:2"
+                "voice_data": "A:0,A:2,B:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Hebrew",
                 "value": "iw",
-                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Hindi (India)",
                 "value": "hi-IN",
-                "voice_data": "A:0,D:2,A:2,B:2,C:2"
+                "voice_data": "A:0,D:2,A:2,B:2,C:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Hungarian (Hungary)",
                 "value": "hu-HU",
-                "voice_data": "A:0,A:2"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Icelandic (Iceland)",
                 "value": "is-IS",
-                "voice_data": "A:0,A:1"
+                "voice_data": "A:0,A:1,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Indonesian (Indonesia)",
                 "value": "id-ID",
-                "voice_data": "A:0,D:2,A:2,B:2,C:2"
+                "voice_data": "A:0,D:2,A:2,B:2,C:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Italian (Italy)",
                 "value": "it-IT",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Japanese (Japan)",
                 "value": "ja-JP",
-                "voice_data": "A:0,B:2,C:2,D:2,A:2"
+                "voice_data": "A:0,B:2,C:2,D:2,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Javanese (Indonesia)",
                 "value": "jw",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Kannada (India)",
                 "value": "kn-IN",
-                "voice_data": "A:0,A:2,B:2"
+                "voice_data": "A:0,A:2,B:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Kazakh",
@@ -271,22 +271,22 @@ window.gspeechDash = function(options) {
             {
                 "name": "Khmer (Cambodia)",
                 "value": "km",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Korean (South Korea)",
                 "value": "ko-KR",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Latin",
                 "value": "la",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Latvian (Latvia)",
                 "value": "lv-LV",
-                "voice_data": "A:0,A:1"
+                "voice_data": "A:0,A:1,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Lithuanian (Lithuania)",
@@ -321,27 +321,27 @@ window.gspeechDash = function(options) {
             {
                 "name": "Myanmar (Burmese)",
                 "value": "my",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Nepali (Nepali)",
                 "value": "ne",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Norwegian (Norway)",
                 "value": "nb-NO",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2,E:2"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,E:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Persian",
                 "value": "fa",
-                "voice_data": "A:20,B:20,C:20,D:20,E:20,F:20"
+                "voice_data": "A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Polish (Poland)",
                 "value": "pl-PL",
-                "voice_data": "A:0,A:2,B:2,C:2,E:2,D:2"
+                "voice_data": "A:0,A:2,B:2,C:2,E:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Portuguese (Brazil)",
@@ -351,7 +351,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Portuguese (Portugal)",
                 "value": "pt-PT",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Punjabi (Gurmukhi)",
@@ -366,27 +366,27 @@ window.gspeechDash = function(options) {
             {
                 "name": "Romanian (Romania)",
                 "value": "ro-RO",
-                "voice_data": "A:0,A:2"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Russian (Russia)",
                 "value": "ru-RU",
-                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2"
+                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Serbian (Serbia)",
                 "value": "sr-RS",
-                "voice_data": "A:0,A:1"
+                "voice_data": "A:0,A:1,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Sinhala (Sri Lanka)",
                 "value": "si",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Slovak (Slovakia)",
                 "value": "sk-SK",
-                "voice_data": "A:0,A:2"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Slovenian",
@@ -396,22 +396,22 @@ window.gspeechDash = function(options) {
             {
                 "name": "Spanish (Spain)",
                 "value": "es-ES",
-                "voice_data": "A:0,C:2,D:2,B:2,A:3,E:3,F:3,1:7"
+                "voice_data": "A:0,C:2,D:2,B:2,A:3,E:3,F:3,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Spanish (United States)",
                 "value": "es-US",
-                "voice_data": "A:0,A:2,B:2,C:2,G:5,F:5,E:5,D:5"
+                "voice_data": "A:0,A:2,B:2,C:2,G:5,F:5,E:5,D:5,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Sundanese (Indonesia)",
                 "value": "su",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Swahili",
                 "value": "sw",
-                "voice_data": "A:0"
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Swedish (Sweden)",
@@ -431,7 +431,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Thai (Thailand)",
                 "value": "th-TH",
-                "voice_data": "A:0,A:1"
+                "voice_data": "A:0,A:1,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Turkish (Turkey)",
@@ -441,7 +441,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Ukrainian (Ukraine)",
                 "value": "uk-UA",
-                "voice_data": "A:0,A:2"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
                 "name": "Urdu",
@@ -456,7 +456,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Yue Chinese (Hong Kong)",
                 "value": "yue-HK",
-                "voice_data": "A:1,B:1,C:1,D:1"
+                "voice_data": "A:1,B:1,C:1,D:1,A:20,B:20,C:20,D:20,E:20,F:20"
             },
             {
                 "name": "Welsh",
@@ -8746,7 +8746,7 @@ window.gspeechDash = function(options) {
                     voice_name = 'Sophia[F';
                     break;
                 case 'B:20':
-                    voice_name = 'Simon[M';
+                    voice_name = 'Andrew[M';
                     break;
                 case 'C:20':
                     voice_name = 'James[M';
@@ -8759,6 +8759,15 @@ window.gspeechDash = function(options) {
                     break;
                 case 'F:20':
                     voice_name = 'Maya[F';
+                    break;
+                case 'G:20':
+                    voice_name = 'Simon[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Chloe[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Jennifer[F';
                     break;
             }
         else if(lang_code == 'en-IN')
@@ -8859,6 +8868,35 @@ window.gspeechDash = function(options) {
                 case 'E:2':
                     voice_name = 'Evi[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Sophie[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Sem[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Milan[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Julia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Tess[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Mila[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Milan[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Saar[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Lotte[F';
+                    break;
             }
         else if(lang_code == 'da-DK')
             switch(voice_data) {
@@ -8877,6 +8915,35 @@ window.gspeechDash = function(options) {
                 case 'A:2':
                     voice_name = 'Josefine[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Sofia[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Oscar[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Oliver[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Clara[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Freja[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Emma[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Christian[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Olivia[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Alma[F';
+                    break;
             }
         else if(lang_code == 'cs-CZ')
             switch(voice_data) {
@@ -8886,11 +8953,59 @@ window.gspeechDash = function(options) {
                 case 'A:2':
                     voice_name = 'Lucie[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Tereza[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Martin[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Jakub[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Anna[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Eliska[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Karolina[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Michal[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Jana[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Adrla[F';
+                    break;
             }
         else if(lang_code == 'hr')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Vito[M';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Ana[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Marko[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Luka[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Katarina[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Marija[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Petra[F';
                     break;
             }
         else if(lang_code == 'hy')
@@ -8912,6 +9027,16 @@ window.gspeechDash = function(options) {
                     break;
                 case 'F:20':
                     voice_name = 'Naira[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Samvel[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Hasmik[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Tatevik[F';
                     break;
             }
         else if(lang_code == 'cy')
@@ -9063,6 +9188,16 @@ window.gspeechDash = function(options) {
                 case 'F:20':
                     voice_name = 'Maryam[F';
                     break;
+                    
+                case 'G:20':
+                    voice_name = 'Omid[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Setareh[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Mitra[F';
+                    break;
             }
         else if(lang_code == 'pa')
             switch(voice_data) {
@@ -9132,6 +9267,16 @@ window.gspeechDash = function(options) {
                 case 'F:20':
                     voice_name = 'Noga[F';
                     break;
+                    
+                case 'G:20':
+                    voice_name = 'Oren[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Avigail[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Esther[F';
+                    break;
             }
         else if(lang_code == 'cmn-TW')
             switch(voice_data) {
@@ -9147,6 +9292,36 @@ window.gspeechDash = function(options) {
                 case 'C:2':
                     voice_name = 'Liang[M';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Jingyi[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Zhihao[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Haoyu[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Peiru[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Shihan[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Fenglin[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Cheng[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Xiao[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Hua[F';
+                    break;
+
             }
         else if(lang_code == 'cmn-CN')
             switch(voice_data) {
@@ -9165,6 +9340,35 @@ window.gspeechDash = function(options) {
                 case 'D:2':
                     voice_name = 'Xin[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Lili[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Wei[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Jianguo[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Meili[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Xia[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Yun[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Lei[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Lan[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Xue[F';
+                    break;
             }
         else if(lang_code == 'ca-ES')
             switch(voice_data) {
@@ -9173,6 +9377,35 @@ window.gspeechDash = function(options) {
                     break;
                 case 'A:1':
                     voice_name = 'Ariadna[F';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Marta[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Roger[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Pol[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Laia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Clara[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Paula[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Ferran[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Irene[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Aina[F';
                     break;
             }
         else if(lang_code == 'bg-BG')
@@ -9183,11 +9416,49 @@ window.gspeechDash = function(options) {
                 case 'A:1':
                     voice_name = 'Maya[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Maria[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Ivan[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Nikolay[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Elena[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Ivanka[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Desislava[F';
+                    break;
             }
         else if(lang_code == 'bs')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Emir[M';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Amina[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Emir[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Nermin[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Lejla[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Selma[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Esma[F';
                     break;
             }
         else if(lang_code == 'bn-IN')
@@ -9200,6 +9471,25 @@ window.gspeechDash = function(options) {
                     break;
                 case 'B:2':
                     voice_name = 'Arnab[M';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Riya[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Arif[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Imran[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Shila[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Tania[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Farzana[F';
                     break;
             }
         else if(lang_code == 'eu-ES')
@@ -9225,11 +9515,59 @@ window.gspeechDash = function(options) {
                 case 'D:2':
                     voice_name = 'Lina[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Layla[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Khalid[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Omar[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Noor[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Yasmin[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Zainab[F';
+                    break;
+
+                case 'G:20':
+                    voice_name = 'Youssef[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Rania[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Lubna[F';
+                    break;
             }
         else if(lang_code == 'sq')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Mentor[M';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Albana[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Arben[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Besnik[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Blerina[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Drita[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Elira[F';
                     break;
             }
         else if(lang_code == 'af-ZA')
@@ -9240,11 +9578,48 @@ window.gspeechDash = function(options) {
                 case 'A:1':
                     voice_name = 'Magdalena[F';
                     break;
+                case 'A:20':
+                    voice_name = 'Annelize[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Hendrik[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Jacques[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Marietjie[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Sonja[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Nadine[F';
+                    break;
             }
         else if(lang_code == 'et')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Marko[M';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Sofia[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Martin[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Rasmus[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Laura[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Mia[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Anna[F';
                     break;
             }
         else if(lang_code == 'fil-PH')
@@ -9264,6 +9639,25 @@ window.gspeechDash = function(options) {
                 case 'D:2':
                     voice_name = 'Francisco[M';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Maria[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Jose[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Carlo[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Christine[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Jasmine[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Angela[F';
+                    break;
             }
         else if(lang_code == 'fi-FI')
             switch(voice_data) {
@@ -9272,6 +9666,25 @@ window.gspeechDash = function(options) {
                     break;
                 case 'A:2':
                     voice_name = 'Johanna[F';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Aino[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Eino[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Leo[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Sofia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Lilja[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Ella[F';
                     break;
             }
         else if(lang_code == 'fr-CA')
@@ -9315,6 +9728,35 @@ window.gspeechDash = function(options) {
                 case '1:7':
                     voice_name = 'Gabriel[M';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Jeanne[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Maxime[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Theo[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Camille[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Chloe[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Elodie[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Mathis[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Sophie[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Julia[F';
+                    break;
             }
         else if(lang_code == 'gl-ES')
             switch(voice_data) {
@@ -9348,6 +9790,35 @@ window.gspeechDash = function(options) {
                 case '1:7':
                     voice_name = 'Elias[M';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Mia[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Maximilian[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Jonas[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Emilia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Sophia[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Emma[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Benjamin[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Marie[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Amelie[F';
+                    break;
             }
         else if(lang_code == 'el-GR')
             switch(voice_data) {
@@ -9356,6 +9827,25 @@ window.gspeechDash = function(options) {
                     break;
                 case 'A:2':
                     voice_name = 'Ioanna[F';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Maria[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'George[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Dimitris[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Eleni[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Katerina[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Sophia[F';
                     break;
             }
         else if(lang_code == 'gu-IN')
@@ -9368,6 +9858,25 @@ window.gspeechDash = function(options) {
                     break;
                 case 'B:2':
                     voice_name = 'Jigar[M';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Aditi[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Harsh[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Dhruv[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Riya[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Pooja[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Sneha[F';
                     break;
             }
         else if(lang_code == 'hi-IN')
@@ -9387,6 +9896,35 @@ window.gspeechDash = function(options) {
                 case 'C:2':
                     voice_name = 'Aditya[M';
                     break;
+                    
+                case 'A:20':
+                    voice_name = 'Aarohi[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Aarav[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Ananya[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Kavya[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Saanvi[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Nisha[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Aditya[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Nandini[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Tanya[F';
+                    break;
             }
         else if(lang_code == 'hu-HU')
             switch(voice_data) {
@@ -9396,6 +9934,25 @@ window.gspeechDash = function(options) {
                 case 'A:2':
                     voice_name = 'Kinga[F';
                     break;
+                    
+                case 'A:20':
+                    voice_name = 'Hanna[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Bence[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Levente[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Reka[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Eszter[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Zsofia[F';
+                    break;
             }
         else if(lang_code == 'is-IS')
             switch(voice_data) {
@@ -9404,6 +9961,25 @@ window.gspeechDash = function(options) {
                     break;
                 case 'A:1':
                     voice_name = 'Halla[F';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Guorun[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Arni[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Gunnar[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Katrin[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Elin[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Bjork[F';
                     break;
             }
         else if(lang_code == 'id-ID')
@@ -9423,6 +9999,25 @@ window.gspeechDash = function(options) {
                 case 'C:2':
                     voice_name = 'Ahmad[M';
                     break;
+                    
+                case 'A:20':
+                    voice_name = 'Siti[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Budi[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Agus[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Putri[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Wulan[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Intan[F';
+                    break;
             }
         else if(lang_code == 'it-IT')
             switch(voice_data) {
@@ -9440,6 +10035,35 @@ window.gspeechDash = function(options) {
                     break;
                 case 'D:2':
                     voice_name = 'Riccardo[M';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Sofia[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Alessandro[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Lorenzo[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Chiara[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Aurora[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Valentina[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Antonio[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Martina[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Chiara[F';
                     break;
             }
         else if(lang_code == 'ja-JP')
@@ -9459,11 +10083,59 @@ window.gspeechDash = function(options) {
                 case 'A:2':
                     voice_name = 'Kanon[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Sakura[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Riku[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Kaito[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Hina[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Yui[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Aoi[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Kaito[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Akari[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Chihiro[F';
+                    break;
             }
         else if(lang_code == 'jw')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Fitri[F';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Kartini[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Wibowo[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Sukarno[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Sari[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Putri[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Lestari[F';
                     break;
             }
         else if(lang_code == 'kn-IN')
@@ -9477,11 +10149,49 @@ window.gspeechDash = function(options) {
                 case 'B:2':
                     voice_name = 'Pradeep[M';
                     break;
+                    
+                case 'A:20':
+                    voice_name = 'Lakshmi[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Shankar[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Mahesh[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Meghana[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Nandini[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Shwetha[F';
+                    break;
             }
         else if(lang_code == 'km')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Chanthy[F';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Srey[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Sok[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Visal[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Bopha[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Kunthea[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Malis[F';
                     break;
             }
         else if(lang_code == 'ko-KR')
@@ -9501,11 +10211,59 @@ window.gspeechDash = function(options) {
                 case 'D:2':
                     voice_name = 'Sangmin[M';
                     break;
+                    
+                case 'A:20':
+                    voice_name = 'Jiwoo[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Hyunwoo[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Junseo[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Yuna[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Jimin[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Minseo[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Sungwoo[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Sumin[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Soojin[F';
+                    break;
             }
         else if(lang_code == 'la')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Marcus[M';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Claudia[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Lucius[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Maximus[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Lucia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Marcia[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Livia[F';
                     break;
             }
         else if(lang_code == 'lv-LV')
@@ -9515,6 +10273,25 @@ window.gspeechDash = function(options) {
                     break;
                 case 'A:1':
                     voice_name = 'Andris[M';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Anete[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Rihards[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Andris[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Dace[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Inese[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Zane[F';
                     break;
             }
         else if(lang_code == 'lt-LT')
@@ -9579,11 +10356,49 @@ window.gspeechDash = function(options) {
                 case 'A:0':
                     voice_name = 'Khin[F';
                     break;
+                    
+                case 'A:20':
+                    voice_name = 'Thiri[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Min[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Kyaw[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Nandar[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Su[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Hla[F';
+                    break;
             }
         else if(lang_code == 'ne')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Nisha[F';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Sita[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Suman[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Ramesh[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Laxmi[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Rupa[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Anjali[F';
                     break;
             }
         else if(lang_code == 'nb-NO')
@@ -9606,6 +10421,25 @@ window.gspeechDash = function(options) {
                 case 'E:2':
                     voice_name = 'Kari[F';
                     break;
+                    
+                case 'A:20':
+                    voice_name = 'Linnea[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Magnus[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Sander[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Nora[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Emma[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Thea[F';
+                    break;
             }
         else if(lang_code == 'pl-PL')
             switch(voice_data) {
@@ -9626,6 +10460,35 @@ window.gspeechDash = function(options) {
                     break;
                 case 'D:2':
                     voice_name = 'Katarzyna[F';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Zofia[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Szymon[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Antoni[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Julia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Aleksandra[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Natalia[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Wojciech[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Aleksandra[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Karolina[F';
                     break;
             }
         else if(lang_code == 'pt-BR')
@@ -9660,6 +10523,35 @@ window.gspeechDash = function(options) {
                 case 'D:2':
                     voice_name = 'Maria[F';
                     break;
+                    
+                case 'A:20':
+                    voice_name = 'Beatriz[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Miguel[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Pedro[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Sofia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Matilde[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Maria[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Bruno[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Mariana[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Gabriela[F';
+                    break;
             }
         else if(lang_code == 'ro-RO')
             switch(voice_data) {
@@ -9668,6 +10560,25 @@ window.gspeechDash = function(options) {
                     break;
                 case 'A:2':
                     voice_name = 'Simona[F';
+                    break;
+                    
+                case 'A:20':
+                    voice_name = 'Maria[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Bogdan[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Radu[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Ioana[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Alina[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Roxana[F';
                     break;
             }
         else if(lang_code == 'ru-RU')
@@ -9690,6 +10601,35 @@ window.gspeechDash = function(options) {
                 case 'D:2':
                     voice_name = 'Boris[M';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Ekaterina[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Vladimir[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Ivan[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Natalia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Maria[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Lera[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Roman[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Irina[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Vera[F';
+                    break;
             }
         else if(lang_code == 'sr-RS')
             switch(voice_data) {
@@ -9699,11 +10639,49 @@ window.gspeechDash = function(options) {
                 case 'A:1':
                     voice_name = 'Jelena[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Milica[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Lazar[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Vuk[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Teodora[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Jovana[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Katarina[F';
+                    break;
             }
         else if(lang_code == 'si')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Geethika[F';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Sanduni[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Kasun[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Ruwan[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Thilini[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Chamari[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Kanchana[F';
                     break;
             }
         else if(lang_code == 'sk-SK')
@@ -9713,6 +10691,25 @@ window.gspeechDash = function(options) {
                     break;
                 case 'A:2':
                     voice_name = 'Michaela[F';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Lucia[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Andrej[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Peter[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Anna[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Petra[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Jana[F';
                     break;
             }
         else if(lang_code == 'es-ES')
@@ -9741,6 +10738,35 @@ window.gspeechDash = function(options) {
                 case '1:7':
                     voice_name = 'Mateo[M';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Sofía[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Juan[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Luis[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Maria[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Laura[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Ana[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Diego[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Paula[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Andrea[F';
+                    break;
             }
         else if(lang_code == 'es-US')
             switch(voice_data) {
@@ -9768,17 +10794,84 @@ window.gspeechDash = function(options) {
                 case 'D:5':
                     voice_name = 'Carlos[M';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Marta[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Manuel[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Francisco[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Alicia[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Paula[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Gabriela[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Javier[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Isabel[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Alba[F';
+                    break;
             }
         else if(lang_code == 'su')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Dewi[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Teti[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Iwan[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Edi[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Rina[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Yani[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Wulan[F';
+                    break;
             }
         else if(lang_code == 'sw')
             switch(voice_data) {
                 case 'A:0':
                     voice_name = 'Ali[M';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Amani[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Hamisi[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Faraji[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Zuri[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Siti[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Pendo[F';
                     break;
             }
         else if(lang_code == 'sv-SE')
@@ -9840,6 +10933,35 @@ window.gspeechDash = function(options) {
                 case 'A:1':
                     voice_name = 'Siritida[F';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Supatra[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Anurak[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Chaiwat[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Malai[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Thip[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Wanee[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Rattana[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Suthida[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Wanee[F';
+                    break;
             }
         else if(lang_code == 'tr-TR')
             switch(voice_data) {
@@ -9869,6 +10991,35 @@ window.gspeechDash = function(options) {
                     break;
                 case 'A:2':
                     voice_name = 'Nataliya[F';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Kateryna[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Oleksandr[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Ivan[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Maria[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Yuliya[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Anastasiya[F';
+                    break;
+                    
+                case 'G:20':
+                    voice_name = 'Roman[M';
+                    break;
+                case 'H:20':
+                    voice_name = 'Iryna[F';
+                    break;
+                case 'I:20':
+                    voice_name = 'Lesya[F';
                     break;
             }
         else if(lang_code == 'ur')
@@ -9927,6 +11078,25 @@ window.gspeechDash = function(options) {
                 case 'D:1':
                     voice_name = 'Lau[M';
                     break;
+
+                case 'A:20':
+                    voice_name = 'Mei[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Chun[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Ming[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Yuet[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Ting[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Sze[F';
+                    break;
             }
 
         voice_name = voice_name.replace('[M', ' (Male)');
@@ -9934,7 +11104,6 @@ window.gspeechDash = function(options) {
         
         return voice_name;
     };
-
 
     this.refreshLogin = function(page) {
 
@@ -9951,7 +11120,7 @@ window.gspeechDash = function(options) {
         var email_val = $("#gsp_useremail").html();
         $(".gsp_login_email_uni").val(email_val);
         $(".gsp_login_button_uni").data('page', page);
-    }
+    };
 
     this.createLangsListWebsiteSettings = function(sel_lang_code) {
 
