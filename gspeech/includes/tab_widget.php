@@ -1512,7 +1512,30 @@ defined('ABSPATH') or die("No direct access");
 						</div>
 					</div>
 
-					<div class="opts_block ss_opts_hidden ss_opts_visible_0 ss_block_w_2">
+					<div class="opts_block ss_opts_hidden ss_opts_visible_0 ss_block_w_1">
+						<div class="opts_block_label title_holder_vertical">
+							<span>New York Player</span>
+							<span class="questions_icon">
+								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+							</span>
+							<span class="gs_title_vertical"><span class="title_v_subtitle">New York Style:</span> Use a nice solid New York Player design. It will load the timeline and settings after the click on play button.</span>
+						</div>
+						<div class="gs_mono_checkbox_wrapper" id="ss_plr0_newyork_enabled">
+							<div class="gs_mono_switcher">
+								<div class="gs_mono_switcher_button"></div>
+							</div>
+							<div class="gs_mono_label">
+								<span class="gs_mono_label gs_mono_label_0">Disabled</span>
+								<span class="gs_mono_label gs_mono_label_1">Enabled</span>
+								<input type="checkbox" class="gs_mono_checkbox" value="0"/>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="opts_hor_wrapper ">
+
+					<div class="opts_block ss_opts_hidden ss_opts_visible_0 ss_block_w_1">
 						<div class="opts_block_label title_holder_vertical">
 							<span>Play Button</span>
 							<span class="questions_icon">
@@ -1527,6 +1550,26 @@ defined('ABSPATH') or die("No direct access");
 							<div class="gs_mono_label">
 								<span class="gs_mono_label gs_mono_label_0">Style 1</span>
 								<span class="gs_mono_label gs_mono_label_1">Style 2</span>
+								<input type="checkbox" class="gs_mono_checkbox" value="0"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="opts_block ss_opts_hidden ss_opts_visible_0 ss_block_w_2">
+						<div class="opts_block_label title_holder_vertical">
+							<span>Hide N/P</span>
+							<span class="questions_icon">
+								<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+							</span>
+							<span class="gs_title_vertical"><span class="title_v_subtitle">Next/Prev Buttons</span> Show or hide Next/Prev controls</span>
+						</div>
+						<div class="gs_mono_checkbox_wrapper" id="ss_plr0_np_hidden">
+							<div class="gs_mono_switcher">
+								<div class="gs_mono_switcher_button"></div>
+							</div>
+							<div class="gs_mono_label">
+								<span class="gs_mono_label gs_mono_label_0">Disabled</span>
+								<span class="gs_mono_label gs_mono_label_1">Enabled</span>
 								<input type="checkbox" class="gs_mono_checkbox" value="0"/>
 							</div>
 						</div>
@@ -1637,8 +1680,8 @@ defined('ABSPATH') or die("No direct access");
 					
 				</div>
 
-				<div class="opts_hor_wrapper">
-					<div class="opts_block ss_opts_hidden ss_opts_visible_0 ss_opts_visible_1 ss_opts_visible_2 ss_opt_w_1">
+				<div class="opts_hor_wrapper ss_cus2">
+					<div class="opts_block ss_opts_hidden ss_opts_visible_0 ss_opts_visible_1 ss_opts_visible_2 ss_opt_w_1 ">
 						<div class="opts_block_label title_holder_vertical">
 							<span>Width</span>
 							<span class="questions_icon">

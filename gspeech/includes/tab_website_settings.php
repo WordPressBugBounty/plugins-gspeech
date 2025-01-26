@@ -584,6 +584,28 @@ defined('ABSPATH') or die("No direct access");
 					</div>
 					<textarea class="opts_input ss_textarea_dynamic_height" id="ss_wbs_blocked_urls" style=""></textarea>
 				</div>
+
+				<div class="opts_block">
+					<div class="opts_block_label title_holder_vertical">
+						<span>On-Fly Translation</span>
+						<span class="questions_icon">
+							<img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/info.svg" />
+						</span>
+						<span class="gs_title_vertical"><span class="title_v_subtitle">On-Fly Translation:</span> Turn this on, if your site is using on-fly translation method. This option allows to wait for translation to be ready, and apply player on translated content.<br /><br />Note: You should enable also the "Multi-Lang" option.</span>
+						<div class="ss_locked_icon ss_locked_icon_inner"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>/images/svg/lock.svg" /></div>
+					</div>
+
+					<div class="gs_mono_checkbox_wrapper ss_commercial_switcher ss_commercial_turnon_dis" id="wbs_onfly">
+						<div class="gs_mono_switcher">
+							<div class="gs_mono_switcher_button"></div>
+						</div>
+						<div class="gs_mono_label">
+							<span class="gs_mono_label gs_mono_label_0">Disabled</span>
+							<span class="gs_mono_label gs_mono_label_1">Enabled</span>
+							<input type="checkbox" class="gs_mono_checkbox" value="1"/>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div class="ss_options_group_1 ss_tab_wrapper ss_tab_player"">

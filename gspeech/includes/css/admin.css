@@ -1904,6 +1904,10 @@ input.search_input {
     font-size: 14px;
 }
 
+.ss_cus2 .opts_input {
+    min-width: 160px !important;
+}
+
 .opts_hor_wrapper {
     display: flex;
     flex-direction: row;
