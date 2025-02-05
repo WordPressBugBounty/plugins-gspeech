@@ -432,7 +432,7 @@ defined('ABSPATH') or die("No direct access");
 
 				<div class="ss_video_item_3">
 					<div class="ss_video_title ss_title_green">GSpeech - Installation Guide</div>
-					<div class="ss_video_item_holder ss_video_gb_1" data-video_id="zUqtO4UQOwY"></div>
+					<div class="ss_video_item_holder ss_video_gb_1" data-video_id="AoxCtTbFtKk"></div>
 				</div>
 
 				<div class="ss_video_item_3">

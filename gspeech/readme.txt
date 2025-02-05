@@ -4,7 +4,7 @@ Author: creative-solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 3.11.0
+Stable tag: 3.11.1
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -31,7 +31,7 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 * 🔗 [Screenshots](https://wordpress.org/plugins/gspeech/#screenshots) - Different __Text to Audio Player__ types.
 
 ### 🎬 Best Free WordPress Text to Speech Plugin - Video Tutorial
-[youtube https://www.youtube.com/watch?v=zUqtO4UQOwY]
+[youtube https://www.youtube.com/watch?v=AoxCtTbFtKk]
 
 ### 🎬 Video Tour
 [youtube https://www.youtube.com/watch?v=aIartT1SiFs]
@@ -90,11 +90,11 @@ __A Premium Text-to-Speech Service__ ⭐⭐⭐⭐⭐
 
 *"We’ve been using the GSpeech Text-to-Speech (TTS) service on our AI-focused website, and it has been an absolute game-changer for our platform. The quality of the voice output is outstanding, delivering natural-sounding speech that enhances the user experience for our audience. Our readers have praised the feature for its clarity and accessibility, particularly for consuming long-form content.*
 
-*One of the standout aspects of GSpeech is its seamless integration. Setting it up on Unite.AI was incredibly straightforward, and the flexibility it offers allowed us to customize the functionality to suit our specific needs, such as skipping CTAs and non-essential elements. This level of control ensured the audio aligns perfectly with the structure and tone of our articles.*
+*One of the standout aspects of GSpeech is its seamless integration. Setting it up on [Unite.AI](https://unite.ai) was incredibly straightforward, and the flexibility it offers allowed us to customize the functionality to suit our specific needs, such as skipping CTAs and non-essential elements. This level of control ensured the audio aligns perfectly with the structure and tone of our articles.*
 
 *We’ve noticed a significant uptick in user engagement since implementing GSpeech, especially among users who prefer audio content or are multitasking. It’s a perfect fit for our website’s commitment to innovation and accessibility in the AI space."*
 
-&mdash; __Antoine Tardif__ - *CEO Unite.AI*
+&mdash; __Antoine Tardif__ - *CEO [Unite.AI](https://unite.ai)*
 
 ### 🚀 Upgrade to Text-to-speech by GSpeech Commercial Plans to get Advanced Features:
 
@@ -362,7 +362,10 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website.
 
 == Changelog ==
-= V 3.11.0 - 26/01/2025 =
+= V 3.11.1 - 05/02/2025 =
+* Updated video.
+* Dashboard corrections.
+
 * New York  Player added - new player type for full-page player.
 * Issues fixed on dashboard.
 * On-Fly translation Option added, to let players wait for the translation engines.
