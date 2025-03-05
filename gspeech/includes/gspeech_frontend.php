@@ -13,11 +13,11 @@ class GSpeech_Front {
     private static $player_title = '';
     private static $gtranslate_wrapper_selector = '';
 
-    public static function process_post_data() {
+    public static function process_post_data($content) {
 
-    	$post = get_post();
+	    $post = get_post();
 
-    	if($post != null) {
+	    if ($post) {
 
 	        $post_id = $post->ID;
 	        $post_type = get_post_type($post);
@@ -26,28 +26,24 @@ class GSpeech_Front {
 	        $home_url = home_url();
 
 	        $modified_date = get_the_modified_date('Y-m-d H:i:s', $post_id);
-	        $current_date = date('Y-m-d H:i:s', strtotime("now"));
+	        $current_date = date('Y-m-d H:i:s');
 	        $dif = strtotime($current_date) - strtotime($modified_date);
 	        $minutes = self::get_dates_data($dif, 5);
 
 	        $list_cat = array();
-			foreach($cat_data as $k => $cat) {
-				$list_cat[] = $cat->slug;
-			}
+	        foreach ($cat_data as $cat) {
+	            $list_cat[] = $cat->slug;
+	        }
+	        $cat_str = implode(',', $list_cat);
 
-			$cat_str = implode(',', $list_cat);
+	        $post_title = esc_attr(str_replace('"', '\'', $post_title));
+        	$post_type_html = '<div class="gsp_post_data" data-post_type="'.esc_attr($post_type).'" data-cat="'.esc_attr($cat_str).'" data-modified="'.esc_attr($minutes).'" data-title="'.$post_title.'" data-home="'.esc_url($home_url).'"></div>';
 
-	        $content = $post->post_content;
+        	$content .= $post_type_html;
+	    }
 
-	        $post_title = str_replace('"', '\'', $post_title);
-
-	        $post_type_html = '<div class="gsp_post_data" data-post_type="'.$post_type.'" data-cat="'.$cat_str.'" data-modified="'.$minutes.'" data-title="'.$post_title.'" data-home="'.$home_url.'"></div>';
-
-	        $content .= $post_type_html;
-        	
-        	$post->post_content = $content;
-        }
-    }
+	    return $content;
+	}
 
     private static function get_dates_data($diff, $r) {
 
@@ -65,13 +61,6 @@ class GSpeech_Front {
 	private static function init() {
 
         global $wpdb;
-
-        // $post = get_post();
-
-        // $post_id = get_the_ID();
-        // $post_id = $post->ID;
-
-        // echo "post_id: " . $post_id;
 
         $data = get_option('wpgs_settings');
         GSpeech::load_defaults($data);

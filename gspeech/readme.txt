@@ -1,10 +1,10 @@
 === GSpeech TTS – WordPress Text To Speech Plugin ===
 Contributors: creative-solutions
-Author: creative-solutions
+Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 3.11.1
+Stable tag: 3.11.2
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -321,51 +321,28 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 
 == Screenshots == 
 
-1. WordPress Text to Speech Plugin - 3 Player types: __Full Page Player__, Button Player and Circle Player!
-2. WordPress Text to Speech Plugin - Full Player - Gray-&-Blue Theme - Context Player enabled - on client website!
-3. Full Player - Dark Theme - on client website!
-4. WordPress Text to Speech Plugin - Full Player - Black-&-Gray Theme - large audio files, translation enabled - on client website!
-5. WordPress Text to Speech Plugin - Button Player - Text Panel expanded - on client website!
-6. Circle Player, Options panel Expanded - on client website!
-7. Translation block - In your WP Admin - google languages list, AI voices list!
-8. Detailed analytics: Country, City, Device, Play statystics!
-9. Full Player - Custom Stylish Themes - on the client website!
-10. Stylish Themes: compact player  - on client website!
-11. GSpeech 2.X customization(blue)! Text-to-speech by GSpeech.
-12. WordPress Text to Speech Plugin - Full Player - Gray-&-Blue Theme - on client website!
-13. RHT Player(View 3) : Green Template - Screenshot on Iphone - on client website!
-14. RHT Player(View 3) - Red Template: on client website!
-15. Audio Page - Analytics, unlimited downloads! Text-to-speech by GSpeech.
-16. Audios Database,  smart architecture of widgets! Text-to-speech by GSpeech.
-17. RHT Player(View 2) : Language panel expanded - Santa website :)
-18. Full Player - Context Player opened - Screenshot on Iphone - on client website!
-19. Full Player - Black-&-Red Template - on client website!
-20. RHT Player - View 1 - Lite Blue template!
-21. Full Player - Black-&-Red Template - on client website!
-22. Full Player - Black-&-Liteblue Template - on client website!
-23. RHT Player(View 3) - Lite Blue Template - on client website!
-24. Full Player - Customization with live preview, Multiple Themes!
-25. RHT Player(View 1) - Black Template - on client website!
-26. Compact Player: Screenshot on Iphone! Text-to-speech by GSpeech.
-27. RHT Player(View 3) - Red Template: Voice Panel expanded, multiple male/female AI voices - on client website!
-28. Full Player - Gray-&-Green Template - on the client website!
-29. Dashboard in WP-Admin : Settings / General tab!
-30. Dashboard in WP-Admin : Settings / Player tab!
-31. Dashboard in WP-Admin - Widgets menu.
-32. Dashboard in WP-Admin - Widget config / General tab!
-33. Dashboard in WP-Admin - Widget config / Content tab!
-34. Dashboard in WP-Admin - Widget config / Texts tab!
-35. Dashboard in WP-Admin - Widget config / Design tab(live preview)!
-36. Context Player: It follows the user during scrolling when the player is out of view!
-37. Circle Player - smooth effects!
-38. Button Player, Text Panel expanded.
-39. RHT(Read Highlighted Text) Player(View 3), Green Template - on client website.
+1. WordPress Text to Speech Plugin - Let visitors listen to your text-based content with GSpeech AI voice generator!
+2. WordPress Text to Speech Plugin - Translate your content across 70+ languages, using 230+ realistic AI voices!
+3. With real-time narration, your audio will auto-update to match new edits to your content.
+4. Customize your audio player to match your website’s vibe and aesthetic.
+5. GSpeech different player types: full page player, button and circle player.
+6. GSpeech text-to-speech player view.
+7. GSpeech text-to-audio player view.
+8. GSpeech player view.
+9. GSpeech analytics and country based statystics.
+10. GSpeech button player view.
+11. GSpeech player view.
+12. GSpeech player view.
 
 == Changelog ==
+= V 3.11.2 - 05/03/2025 =
+* Fixed content annotation.
+
 = V 3.11.1 - 05/02/2025 =
 * Updated video.
 * Dashboard corrections.
 
+= V 3.11.0 - 01/02/2025 =
 * New York  Player added - new player type for full-page player.
 * Issues fixed on dashboard.
 * On-Fly translation Option added, to let players wait for the translation engines.
