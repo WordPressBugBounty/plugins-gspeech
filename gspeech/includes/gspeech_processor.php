@@ -96,7 +96,8 @@ class GSpeeech_Processor {
 					  `email` text NOT NULL,
 					  `sh_` tinyint(3) UNSIGNED NOT NULL DEFAULT '0',
 					  `sh_w_loaded` tinyint(3) UNSIGNED NOT NULL DEFAULT '0',
-					  `plan` tinyint(3) UNSIGNED NOT NULL DEFAULT '0'
+					  `plan` tinyint(3) UNSIGNED NOT NULL DEFAULT '0',
+					  `appsumo` tinyint(3) UNSIGNED NOT NULL DEFAULT '0'
 			        ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 			        ";
 			dbDelta($sql);
@@ -117,6 +118,7 @@ class GSpeeech_Processor {
 			    $sql .= "ADD `sh_` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `email`, ";
 			    $sql .= "ADD `sh_w_loaded` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `sh_`,;";
 			    $sql .= "ADD `plan` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `sh_w_loaded`;";
+			    $sql .= "ADD `appsumo` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `plan`;";
 
 			    $wpdb->query($sql);
 			}
@@ -130,6 +132,18 @@ class GSpeeech_Processor {
 
 				    $sql = "ALTER TABLE `".$wpdb->prefix."gspeech_data` ";
 				    $sql .= "ADD `plan` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `sh_w_loaded`;";
+
+				    $wpdb->query($sql);
+				}
+
+				// add appsumo field
+				$query = "SHOW COLUMNS FROM `".$wpdb->prefix."gspeech_data` LIKE 'appsumo'";
+				$rows = $wpdb->get_results($query);
+
+				if(sizeof($rows) == 0) {
+
+				    $sql = "ALTER TABLE `".$wpdb->prefix."gspeech_data` ";
+				    $sql .= "ADD `appsumo` tinyint(3) UNSIGNED NOT NULL  DEFAULT '0' AFTER `plan`;";
 
 				    $wpdb->query($sql);
 				}

@@ -198,6 +198,7 @@ class GSpeech_Admin {
         $wpgs_load_sh = intval($row_g->sh_w_loaded);
         $sh_ = intval($row_g->sh_);
         $plan = intval($row_g->plan);
+        $appsumo = intval($row_g->appsumo);
 
 		$gsp_page = isset($_GET['page']) ? $_GET['page'] : '';
 
@@ -264,6 +265,7 @@ class GSpeech_Admin {
 					<div id="gsp_load_shortcode_widgets"><?php echo $wpgs_load_sh; ?></div>
 					<div id="gsp_sh_"><?php echo $sh_; ?></div>
 					<div id="gsp_plan"><?php echo $plan; ?></div>
+					<div id="gsp_appsumo"><?php echo $appsumo; ?></div>
 					<div id="gsp_version"><?php echo GSPEECH_PLG_VERSION; ?></div>
 				</div>
 
@@ -411,7 +413,14 @@ class GSpeech_Admin {
 
 				<div class="gsp_tab_c gsp_tab_c_upgrade" style="display: none">
 
-					<?php include('tab_upgrade.php'); ?>
+					<?php 
+
+					if($appsumo == 0)
+						include('tab_upgrade.php');
+					else
+						include('tab_upgrade_appsumo.php');
+
+				?>
 					
 				</div>
 

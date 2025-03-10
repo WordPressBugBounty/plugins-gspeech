@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.7
-Stable tag: 3.11.2
+Stable tag: 3.12.0
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -335,6 +335,9 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 12. GSpeech player view.
 
 == Changelog ==
+= V 3.12.0 - 10/03/2025 =
+* Added dashboard parameters.
+
 = V 3.11.2 - 05/03/2025 =
 * Fixed content annotation.
 

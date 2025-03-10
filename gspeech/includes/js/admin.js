@@ -1184,8 +1184,10 @@ window.gspeechDash = function(options) {
                                     var email = responseData.email;
                                     var sh_put = responseData.sh_put;
                                     var plan_id = responseData.user_plan;
+                                    var appsumo = responseData.appsumo;
 
                                     $("#gsp_plan").html(plan_id);
+                                    $("#gsp_appsumo").html(appsumo);
 
                                     thisPage.processPlanCorrection();
 
@@ -1202,8 +1204,8 @@ window.gspeechDash = function(options) {
                                         action: 'wpgsp_apply_ajax_save',
                                         _ajax_nonce: wp_ajax_nonce,
                                         type: 'save_data',
-                                        field: "email,sh_w_loaded,widget_id,plan",
-                                        val: email + ':' + sh_put + ':' + widget_id + ':' + plan_id
+                                        field: "email,sh_w_loaded,widget_id,plan,appsumo",
+                                        val: email + ':' + sh_put + ':' + widget_id + ':' + plan_id + ':' + appsumo
                                     };
 
                                     thisPage.options.shortcodes_loaded = sh_put;
@@ -5056,18 +5058,32 @@ window.gspeechDash = function(options) {
 
     };
 
-    this.processPlanCorrection = function() {
+    this.processPlanCorrection_ = function() {
 
         var plan_id = parseInt($("#gsp_plan").html());
+        var is_appsumo = parseInt($("#gsp_appsumo").html());
+        is_appsumo = is_appsumo ?? 0;
 
-        var plans_obj = {
-            "plan_0": "Free",
-            "plan_1": "Personal",
-            "plan_2": "PRO",
-            "plan_3": "Business",
-            "plan_4": "Enterprise",
-            "plan_5": "Personal-2"
-        };
+        is_appsumo = 1;
+
+        if(is_appsumo == 0)
+            var plans_obj = {
+                "plan_0": "Free",
+                "plan_1": "Personal",
+                "plan_2": "PRO",
+                "plan_3": "Business",
+                "plan_4": "Enterprise",
+                "plan_5": "Personal-2"
+            };
+        else
+            var plans_obj = {
+                "plan_0": "Free",
+                "plan_1": "AppSumo Tier 1",
+                "plan_2": "AppSumo Tier 2",
+                "plan_3": "AppSumo Tier 3",
+                "plan_4": "AppSumo Tier 4",
+                "plan_5": "Personal-2"
+            };
 
         var plan_name = plans_obj["plan_" + plan_id];
 
@@ -5098,6 +5114,70 @@ window.gspeechDash = function(options) {
         v_ht = plg_v + ' - ' + plan_name;       
         $('.gsp_link_info_plg_v').html(v_ht);
 
+    };
+
+    this.processPlanCorrection = function () {
+
+        // Fetch and sanitize plan ID and AppSumo status
+        const planId = parseInt($("#gsp_plan").html(), 10) || 0;
+        let isAppSumo = parseInt($("#gsp_appsumo").html(), 10) || 0;
+
+        // Define plan mappings based on AppSumo status
+        const plansObj = isAppSumo
+            ? {
+                  plan_0: "Free",
+                  plan_1: "AppSumo Tier 1",
+                  plan_2: "AppSumo Tier 2",
+                  plan_3: "AppSumo Tier 3",
+                  plan_4: "AppSumo Tier 4",
+                  plan_5: "Personal-2",
+              }
+            : {
+                  plan_0: "Free",
+                  plan_1: "Personal",
+                  plan_2: "PRO",
+                  plan_3: "Business",
+                  plan_4: "Enterprise",
+                  plan_5: "Personal-2",
+              };
+
+        // Get plan name with fallback
+        const planName = plansObj[`plan_${planId}`] || "Unknown Plan";
+
+        // Update UI for non-Free plans
+        if (planId !== 0) {
+            $(".plan_title").html(planName);
+            $(".ss_upgrade_info_top, .ss_upgrade_info, .gsp_upg_link").addClass(
+                "ss_hidden"
+            );
+            // $(".gsp_upgrade_wrapper").addClass("ss_hidden"); // Uncomment if needed
+            $(".gsp_package_free .product_button").html("-");
+
+            // Map plan 5 to 1 for identifier (e.g., Personal-2 uses Personal styling)
+            const planIdIdent = planId === 5 ? 1 : planId;
+            const planIdentName = plansObj[`plan_${planIdIdent}`].toLowerCase();
+
+            $(`.gsp_package_${planIdentName} .product_button`).html("Active");
+        }
+
+        // Update version info
+        const pluginVersion = $("#gsp_version").html() || "N/A";
+        const versionText = `(Version ${pluginVersion}) - ${planName}`;
+        $(".gsp_v_i").html(versionText);
+
+        const linkVersionText = `${pluginVersion} - ${planName}`;
+        $(".gsp_link_info_plg_v").html(linkVersionText);
+
+        // set active class
+        if(isAppSumo) {
+            let $btn = $(`.product_button_plan_${planId}`);
+            $btn.addClass("gsp_plan_active").html("Current Tier");
+
+            $btn.on('click', function(event) { // Prevent any remaining/default behavior
+                event.preventDefault();
+                return false;
+            });
+        }
     };
 
     this.detectState = function() {
@@ -5451,9 +5531,12 @@ window.gspeechDash = function(options) {
                         var em_ret = responseData.em_ret;
                         var website_data = responseData.website_data;
                         var plan_id = -1;
+                        var appsumo = 0;
 
-                        if(success == "true")
+                        if(success == "true") {
                             plan_id = website_data.user_plan;
+                            appsumo = website_data.appsumo;
+                        }
 
                         if(request_email == 1 && em_ret != "") {
 
@@ -5464,8 +5547,8 @@ window.gspeechDash = function(options) {
                                     action: 'wpgsp_apply_ajax_save',
                                     _ajax_nonce: wp_ajax_nonce,
                                     type: 'save_data',
-                                    field: "email,plan",
-                                    val: em_ret + ':' + plan_id
+                                    field: "email,plan,appsumo",
+                                    val: em_ret + ':' + plan_id + ':' + appsumo
                                 };
                             else
                                 var post_data_inner = {
@@ -5497,8 +5580,8 @@ window.gspeechDash = function(options) {
                                 action: 'wpgsp_apply_ajax_save',
                                 _ajax_nonce: wp_ajax_nonce,
                                 type: 'save_data',
-                                field: "plan",
-                                val: plan_id
+                                field: "plan,appsumo",
+                                val: plan_id + ':' + appsumo
                             };
                             $.ajax
                             ({
@@ -5524,6 +5607,7 @@ window.gspeechDash = function(options) {
                             thisPage.setValsWebsiteSettings(website_data);
 
                             $("#gsp_plan").html(plan_id);
+                            $("#gsp_appsumo").html(appsumo);
 
                             thisPage.processPlanCorrection();
                         }
@@ -7991,6 +8075,12 @@ window.gspeechDash = function(options) {
         if(!$lng_sel.length)
             return;
 
+        var appsumo = 0;
+        const $appsumoElement = $("#gsp_appsumo");
+        if ($appsumoElement.length) {
+            appsumo = parseInt($appsumoElement.html(), 10) || 0;
+        }
+
         var sel_lang_code = $lng_sel.data("val"),
             langs = this.langsObj,
             langs_html = '<div class="ss_langs_opt">',
@@ -8001,7 +8091,7 @@ window.gspeechDash = function(options) {
             var k1 = langs[t],
                 l_name = k1["name"];
 
-            var voice_options = this.generateVoices(k1["voice_data"], k1["value"]);
+            var voice_options = this.generateVoices(k1["voice_data"], k1["value"], appsumo);
 
             var l_item = '<div class="ss_translation_item ss_lang_holder_'+k1["value"]+'" data-voices_data="'+k1["voice_data"]+'" data-val="'+k1["value"]+'">';
             l_item += '<div class="ss_tr_line1">';
@@ -8036,7 +8126,8 @@ window.gspeechDash = function(options) {
             l_item += '</div>';
             l_item += '</div>';
 
-            langs_html += l_item;
+            if(voice_options != "")
+                langs_html += l_item;
 
             if(t != 0 && t % p_s == 0)
                 langs_html += '</div><div class="ss_langs_opt">';
@@ -8117,6 +8208,21 @@ window.gspeechDash = function(options) {
 
     this.createLangsListWidget = function() {
 
+        var appsumo = 0;
+        var user_plan = 0;
+        const $gsp_appsumo = $("#gsp_appsumo");
+        const $gsp_plan = $("#gsp_plan");
+        if ($gsp_appsumo.length) {
+            appsumo = parseInt($gsp_appsumo.html(), 10) || 0;
+        }
+        if ($gsp_plan.length) {
+            user_plan = parseInt($gsp_plan.html(), 10) || 0;
+        }
+
+        var appsumo_blocked_langs = ['hy','be','kk','mk','mi','fa','pa-Arab','sl'];
+        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK'];
+        var free_plan_blocked_langs = ['hy','be','eu-ES','gl-ES','kk','lt-LT','mk','mi','fa','pa-Arab','sl','yue-HK'];
+
         var $lng_sel = $("#lng_sel_wdg");
 
         if(!$lng_sel.length || $lng_sel.data("lng_processed") == 1)
@@ -8134,9 +8240,22 @@ window.gspeechDash = function(options) {
                 voice_data = k1["voice_data"],
                 audios_obj = k1["audios"];
 
+            var lang_restricted = false;
+            if(appsumo == 1 && thisPage.inArray(k1["value"],appsumo_blocked_langs)) {
+                lang_restricted = true;
+            }
+
+            if(appsumo == 1 && user_plan == 1 && thisPage.inArray(k1["value"],appsumo_tier1_blocked_langs)) {
+                lang_restricted = true;
+            }
+
+            if(user_plan == 0 && thisPage.inArray(k1["value"],free_plan_blocked_langs))
+                lang_restricted = true;
+
             this.preview_audios[k1["value"]] = audios_obj;
 
-            langs_html += '<li class="search_li" data-val="'+k1["value"]+'" data-voices_data="'+voice_data+'"><span>'+l_name+'</span></li>';
+            if(!lang_restricted)
+                langs_html += '<li class="search_li" data-val="'+k1["value"]+'" data-voices_data="'+voice_data+'"><span>'+l_name+'</span></li>';
         }
 
         $lng_sel.find(".items_select_ul").html(langs_html);
@@ -8337,6 +8456,13 @@ window.gspeechDash = function(options) {
             $("#wbs_lang_enabled").find(".gs_mono_checkbox").prop("checked",true);
 
             $("#ss_translation_options").removeClass("ss_display_none");
+            thisPage.generateWrapperHeight();
+        }
+        else {
+            $("#wbs_lang_enabled").removeClass("gs_mono_switcher_button_on");
+            $("#wbs_lang_enabled").find(".gs_mono_checkbox").prop("checked",false);
+
+            $("#ss_translation_options").addClass("ss_display_none").addClass("gago");
             // thisPage.generateWrapperHeight();
         }
         if(website_options["voice_enabled"] == 1) {
@@ -8543,7 +8669,7 @@ window.gspeechDash = function(options) {
             $(".ss_commercial_switcher").removeClass("ss_disabled");
             $(".ss_locked_icon").addClass("ss_display_none");
 
-            $("#ss_translation_options").removeClass("ss_display_none");
+            // $("#ss_translation_options").removeClass("ss_display_none");
 
             var $gsLanguageSelector = $("#lng_sel"),
                 $gsVoiceSelector = $("#wbs_voice"),
@@ -8767,10 +8893,21 @@ window.gspeechDash = function(options) {
         }
     };
 
-    this.generateVoices = function(voices_data, lang_code) {
+    this.generateVoices = function(voices_data, lang_code, appsumo = 0) {
 
         if(voices_data == "" || voices_data == undefined)
             return;
+
+        var appsumo = 0;
+        var user_plan = 0;
+        const $gsp_plan = $("#gsp_plan");
+        const $gsp_appsumo = $("#gsp_appsumo");
+        if ($gsp_appsumo.length) {
+            appsumo = parseInt($gsp_appsumo.html(), 10) || 0;
+        }
+        if ($gsp_plan.length) {
+            user_plan = parseInt($gsp_plan.html(), 10) || 0;
+        }
 
         var play_icon = '<svg class="icon_play" aria-hidden="true" data-icon="play" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>';
         var stop_icon = '<svg class="icon_stop" aria-hidden="true" data-icon="stop" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>';
@@ -8790,9 +8927,13 @@ window.gspeechDash = function(options) {
             var voiceType = voicesArray[q].split(':')[1];
             var voiceVal = voiceIdent + '-' + voiceType;
 
+            if(appsumo == 1 && (voiceType != "0" && voiceType != "1" && voiceType != "2"))
+                continue;
+
             var voiceName = this.generateVoiceName(voiceIdent,lang_code,voiceType);
             var typeClass = 'ss_voice_type_' + voiceType;
             var disabled_class = plan_id == 0 && voiceType != 0 ? "ss_disabled" : "";
+            disabled_class = plan_id == 1 && voiceType != 0 ? "ss_disabled" : disabled_class;
 
             var voice_premium_htm = '<div class="ss_premium_txt">Premium voice</div><div class="ss_premium_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg></div>';
             var voice_machine_htm = '<div class="ss_machine_txt">Basic voice</div><div class="ss_machine_icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M320 0c17.7 0 32 14.3 32 32V96H480c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H160c-35.3 0-64-28.7-64-64V160c0-35.3 28.7-64 64-64H288V32c0-17.7 14.3-32 32-32zM208 384c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H208zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H304zm96 0c-8.8 0-16 7.2-16 16s7.2 16 16 16h32c8.8 0 16-7.2 16-16s-7.2-16-16-16H400zM264 256c0-22.1-17.9-40-40-40s-40 17.9-40 40s17.9 40 40 40s40-17.9 40-40zm152 40c22.1 0 40-17.9 40-40s-17.9-40-40-40s-40 17.9-40 40s17.9 40 40 40zM48 224H64V416H48c-26.5 0-48-21.5-48-48V272c0-26.5 21.5-48 48-48zm544 0c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H576V224h16z"/></svg></div>';
@@ -11259,6 +11400,21 @@ window.gspeechDash = function(options) {
 
     this.createLangsListWebsiteSettings = function(sel_lang_code) {
 
+        var appsumo = 0;
+        var user_plan = 0;
+        const $gsp_appsumo = $("#gsp_appsumo");
+        const $gsp_plan = $("#gsp_plan");
+        if ($gsp_appsumo.length) {
+            appsumo = parseInt($gsp_appsumo.html(), 10) || 0;
+        }
+        if ($gsp_plan.length) {
+            user_plan = parseInt($gsp_plan.html(), 10) || 0;
+        }
+
+        var appsumo_blocked_langs = ['hy','be','kk','mk','mi','fa','pa-Arab','sl'];
+        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK'];
+        var free_plan_blocked_langs = ['hy','be','eu-ES','gl-ES','kk','lt-LT','mk','mi','fa','pa-Arab','sl','yue-HK'];
+
         var $lng_sel = $("#lng_sel");
 
         if(!$lng_sel.length)
@@ -11273,12 +11429,25 @@ window.gspeechDash = function(options) {
                 l_name = k1["name"],
                 audios_obj = k1["audios"];
 
+            var lang_restricted = false;
+            if(appsumo == 1 && thisPage.inArray(k1["value"],appsumo_blocked_langs)) {
+                lang_restricted = true;
+            }
+
+            if(appsumo == 1 && user_plan == 1 && thisPage.inArray(k1["value"],appsumo_tier1_blocked_langs)) {
+                lang_restricted = true;
+            }
+
+            if(user_plan == 0 && thisPage.inArray(k1["value"],free_plan_blocked_langs))
+                lang_restricted = true;
+
             this.preview_audios[k1["value"]] = audios_obj;
 
             var selected = k1["value"] == sel_lang_code ? 'li_selected ss_ul_li_act' : '',
                 sel_title = k1["value"] == sel_lang_code ? l_name : sel_title;
 
-            langs_html += '<li class="search_li '+selected+'" data-voices_data="'+k1["voice_data"]+'" data-val="'+k1["value"]+'"><span>'+l_name+'</span></li>';
+            if(!lang_restricted)
+                langs_html += '<li class="search_li '+selected+'" data-voices_data="'+k1["voice_data"]+'" data-val="'+k1["value"]+'"><span>'+l_name+'</span></li>';
         }
 
         if(sel_lang_code != -1) {
@@ -11290,6 +11459,21 @@ window.gspeechDash = function(options) {
     };
 
     this.createLangsListReg = function(sel_lang_code) {
+
+        var appsumo = 0;
+        var user_plan = 0;
+        const $gsp_appsumo = $("#gsp_appsumo");
+        const $gsp_plan = $("#gsp_plan");
+        if ($gsp_appsumo.length) {
+            appsumo = parseInt($gsp_appsumo.html(), 10) || 0;
+        }
+        if ($gsp_plan.length) {
+            user_plan = parseInt($gsp_plan.html(), 10) || 0;
+        }
+
+        var appsumo_blocked_langs = ['hy','be','kk','mk','mi','fa','pa-Arab','sl'];
+        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK'];
+        var free_plan_blocked_langs = ['hy','be','eu-ES','gl-ES','kk','lt-LT','mk','mi','fa','pa-Arab','sl','yue-HK'];
 
         var $lng_sel = $("#reg_website_lang");
 
@@ -11309,12 +11493,26 @@ window.gspeechDash = function(options) {
                 l_val_0 = l_val.split('-')[0],
                 audios_obj = k1["audios"];
 
+            var lang_restricted = false;
+            if(appsumo == 1 && thisPage.inArray(k1["value"],appsumo_blocked_langs)) {
+                lang_restricted = true;
+            }
+
+            if(appsumo == 1 && user_plan == 1 && thisPage.inArray(k1["value"],appsumo_tier1_blocked_langs)) {
+                lang_restricted = true;
+            }
+
+            if(user_plan == 0 && thisPage.inArray(k1["value"],free_plan_blocked_langs))
+                lang_restricted = true;
+
+
             // this.preview_audios[k1["value"]] = audios_obj;
 
             var selected = sel_lang_code == 'en' ? (l_val == 'en-US' ? 'li_selected ss_ul_li_act' : '')  : (l_val_0 == sel_lang_code ?  'li_selected ss_ul_li_act' : ''),
                 sel_title = sel_lang_code == 'en' ? (l_val == 'en-US' ? l_name : sel_title)  : (l_val_0 == sel_lang_code ?  l_name : sel_title);
 
-            langs_html += '<li class="search_li '+selected+'" data-voices_data="'+k1["voice_data"]+'" data-val="'+l_val+'"><span>'+l_name+'</span></li>';
+            if(!lang_restricted)
+                langs_html += '<li class="search_li '+selected+'" data-voices_data="'+k1["voice_data"]+'" data-val="'+l_val+'"><span>'+l_name+'</span></li>';
         }
 
         if(sel_lang_code != -1) {
@@ -11326,6 +11524,21 @@ window.gspeechDash = function(options) {
     };
 
     this.createLangsListAddWebsite = function() {
+
+        var appsumo = 0;
+        var user_plan = 0;
+        const $gsp_appsumo = $("#gsp_appsumo");
+        const $gsp_plan = $("#gsp_plan");
+        if ($gsp_appsumo.length) {
+            appsumo = parseInt($gsp_appsumo.html(), 10) || 0;
+        }
+        if ($gsp_plan.length) {
+            user_plan = parseInt($gsp_plan.html(), 10) || 0;
+        }
+
+        var appsumo_blocked_langs = ['hy','be','kk','mk','mi','fa','pa-Arab','sl'];
+        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK'];
+        var free_plan_blocked_langs = ['hy','be','eu-ES','gl-ES','kk','lt-LT','mk','mi','fa','pa-Arab','sl','yue-HK'];
 
         var $lng_sel = $("#add_website_lang");
 
@@ -11347,12 +11560,25 @@ window.gspeechDash = function(options) {
                 l_val_0 = l_val.split('-')[0],
                 audios_obj = k1["audios"];
 
+            var lang_restricted = false;
+            if(appsumo == 1 && thisPage.inArray(k1["value"],appsumo_blocked_langs)) {
+                lang_restricted = true;
+            }
+
+            if(appsumo == 1 && user_plan == 1 && thisPage.inArray(k1["value"],appsumo_tier1_blocked_langs)) {
+                lang_restricted = true;
+            }
+
+            if(user_plan == 0 && thisPage.inArray(k1["value"],free_plan_blocked_langs))
+                lang_restricted = true;
+
             // this.preview_audios[k1["value"]] = audios_obj;
 
             var selected = sel_lang_code == 'en' ? (l_val == 'en-US' ? 'li_selected ss_ul_li_act' : '')  : (l_val_0 == sel_lang_code ?  'li_selected ss_ul_li_act' : ''),
                 sel_title = sel_lang_code == 'en' ? (l_val == 'en-US' ? l_name : sel_title)  : (l_val_0 == sel_lang_code ?  l_name : sel_title);
 
-            langs_html += '<li class="search_li '+selected+'" data-voices_data="'+k1["voice_data"]+'" data-val="'+l_val+'"><span>'+l_name+'</span></li>';
+            if(!lang_restricted)
+                langs_html += '<li class="search_li '+selected+'" data-voices_data="'+k1["voice_data"]+'" data-val="'+l_val+'"><span>'+l_name+'</span></li>';
         }
 
         if(sel_lang_code != -1) {
@@ -11428,6 +11654,12 @@ window.gspeechDash = function(options) {
         if(!$lng_sel.length)
             return;
 
+        var appsumo = 0;
+        const $appsumoElement = $("#gsp_appsumo");
+        if ($appsumoElement.length) {
+            appsumo = parseInt($appsumoElement.html(), 10) || 0;
+        }
+
         var sel_lang_code = $lng_sel.data("val"),
             langs = this.langsObj,
             langs_html = '<div class="ss_langs_opt">',
@@ -11439,7 +11671,7 @@ window.gspeechDash = function(options) {
             var k1 = langs[t],
                 l_name = k1["name"];
 
-            var voice_options = this.generateVoices(k1["voice_data"], k1["value"]);
+            var voice_options = this.generateVoices(k1["voice_data"], k1["value"], appsumo);
 
             var l_item = '<div class="ss_translation_item ss_lang_holder_'+k1["value"]+'" data-voices_data="'+k1["voice_data"]+'" data-val="'+k1["value"]+'">';
             l_item += '<div class="ss_tr_line1">';
@@ -11474,7 +11706,8 @@ window.gspeechDash = function(options) {
             l_item += '</div>';
             l_item += '</div>';
 
-            langs_html += l_item;
+            if(voice_options != '')
+                langs_html += l_item;
 
             if(t != 0 && t % p_s == 0)
                 langs_html += '</div><div class="ss_langs_opt">';

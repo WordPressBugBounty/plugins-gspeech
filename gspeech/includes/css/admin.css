@@ -50,6 +50,16 @@
     border-bottom: 1px dotted #8d2cd0;
 }
 
+.gsp_plan_active {
+    cursor: default !important;
+    background-color: #656464 !important;
+    border: 1px solid #404040 !important;
+    color: #dedede !important;
+}
+.gsp_plan_active:hover {
+    background-color: #989898 !important;
+}
+
 /*.gsp_com_f_l esr {
     color: #09800980;
 }*/
