@@ -9,11 +9,11 @@ Plugin URI: https://gspeech.io
 Description: GSpeech is a universal text to speech audio solution. See <a href="https://gspeech.io/demos">GSpeech Demo</a>. Please <a href="https://gspeech.io/contact-us">Contact Us</a> if you have any questions.
 Author: Text-To-Speech AI Audio Solutions
 Author URI: https://gspeech.io
-Version: 3.12.1
+Version: 3.12.2
 */
 
-$gspeech_plugin_version = '3.12.1';
-$gspeech_new_db_version = 164;
+$gspeech_plugin_version = '3.12.2';
+$gspeech_new_db_version = 165;
 
 define('GSPEECH_PLG_VERSION', $gspeech_plugin_version);
 define('GSPEECH_NEW_DB_VER', $gspeech_new_db_version);
@@ -34,9 +34,7 @@ add_action('admin_menu', array('GSpeech_Admin', 'admin_menu'));
 add_action('admin_init', array('GSpeech_Admin', 'admin_init'));
 add_action('admin_init', array('GSpeech_Admin', 'admin_settings'));
 add_action('wp_enqueue_scripts', array('GSpeech_Front', 'load_scripts'));
-
 add_filter('the_content', array('GSpeech_Front', 'process_post_data'));
-
 add_action('wp_loaded', array('GSpeech_Front', 'load_module'));
 add_action('wp_ajax_wpgsp_apply_feedback', array('GSpeech_Admin', 'wpgsp_apply_feedback'));
 add_action('wp_ajax_nopriv_wpgsp_apply_feedback', array('GSpeech_Admin', 'wpgsp_apply_feedback'));

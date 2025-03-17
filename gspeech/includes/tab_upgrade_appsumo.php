@@ -155,7 +155,7 @@ $img_path = plugins_url( '/images/svg/' , __FILE__ );
 						<div class="gsp_package_price">
 							<div class="gsp_package_price_inner">
 								<span class="price_span_c">$</span>
-								<span class="price_span_1">59</span>
+								<span class="price_span_1">69</span>
 							</div>
 						</div>
 
@@ -282,7 +282,7 @@ $img_path = plugins_url( '/images/svg/' , __FILE__ );
 						<div class="gsp_package_price">
 							<div class="gsp_package_price_inner">
 								<span class="price_span_c">$</span>
-								<span class="price_span_1">129</span>
+								<span class="price_span_1">159</span>
 							</div>
 						</div>
 
@@ -405,7 +405,7 @@ $img_path = plugins_url( '/images/svg/' , __FILE__ );
 						<div class="gsp_package_price">
 							<div class="gsp_package_price_inner">
 								<span class="price_span_c">$</span>
-								<span class="price_span_1">289</span>
+								<span class="price_span_1">339</span>
 							</div>
 						</div>
 
@@ -528,7 +528,7 @@ $img_path = plugins_url( '/images/svg/' , __FILE__ );
 						<div class="gsp_package_price">
 							<div class="gsp_package_price_inner">
 								<span class="price_span_c">$</span>
-								<span class="price_span_1">689</span>
+								<span class="price_span_1">809</span>
 							</div>
 						</div>
 
@@ -650,7 +650,7 @@ $img_path = plugins_url( '/images/svg/' , __FILE__ );
 						<div class="gsp_package_price">
 							<div class="gsp_package_price_inner">
 								<span class="price_span_c">$</span>
-								<span class="price_span_1">1099</span>
+								<span class="price_span_1">1299</span>
 							</div>
 						</div>
 
