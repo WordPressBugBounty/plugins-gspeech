@@ -5130,7 +5130,7 @@ window.gspeechDash = function(options) {
                   plan_2: "AppSumo Tier 2",
                   plan_3: "AppSumo Tier 3",
                   plan_4: "AppSumo Tier 4",
-                  plan_5: "Personal-2",
+                  plan_5: "AppSumo Tier 5",
               }
             : {
                   plan_0: "Free",
@@ -5154,7 +5154,7 @@ window.gspeechDash = function(options) {
             $(".gsp_package_free .product_button").html("-");
 
             // Map plan 5 to 1 for identifier (e.g., Personal-2 uses Personal styling)
-            const planIdIdent = planId === 5 ? 1 : planId;
+            const planIdIdent = planId == 5 && isAppSumo == 0 ? 1 : planId;
             const planIdentName = plansObj[`plan_${planIdIdent}`].toLowerCase();
 
             $(`.gsp_package_${planIdentName} .product_button`).html("Active");
