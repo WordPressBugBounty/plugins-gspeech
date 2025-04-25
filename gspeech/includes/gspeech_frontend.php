@@ -60,54 +60,71 @@ class GSpeech_Front {
 
 	private static function init() {
 
-        global $wpdb;
+	    if (is_admin() || self::is_login_page()) {
+	        return;
+	    }
 
-        $data = get_option('wpgs_settings');
-        GSpeech::load_defaults($data);
+	    // Cache all settings
+	    $cache_key = 'gspeech_settings_cache';
+	    $settings = get_transient($cache_key);
+	    if (false === $settings) {
+	        $settings = [
+	            'wpgs' => get_option('wpgs_settings', []),
+	            'gtranslate' => get_option('GTranslate', []),
+	            'misc' => [
+	                'lazy_load' => intval(get_option('gspeech_lazy_load', 1)),
+	                'widget_id' => get_option('gspeech_widget_id', ''),
+	                'crypto' => get_option('gspeech_crypto', ''),
+	                'reload_session' => intval(get_option('gspeech_reload_session', 0)),
+	                'version_index' => intval(get_option('gspeech_version_index', 0)),
+	                'email' => get_option('gspeech_email', ''),
+	                'sh_w_loaded' => intval(get_option('gspeech_sh_w_loaded', 0)),
+	                'sh_' => intval(get_option('gspeech_sh_', 0)),
+	            ],
+	        ];
 
-        $wpgs_options = GSpeech::load_settings($data);
+	        GSpeech::load_defaults($settings['wpgs']);
+	        set_transient($cache_key, $settings, 5 * MINUTE_IN_SECONDS);
+	    }
 
-        // 3.5.3
-        $gtranslate_data = get_option('GTranslate');
-        if(!$gtranslate_data || !isset($gtranslate_data["wrapper_selector"]) || $gtranslate_data["wrapper_selector"] == "") {
-        	$gtranslate_wrapper_selector = 'gsp_clgtranslate_wrapper';
-        }
-        else {
-        	$gtranslate_wrapper_selector = sanitize_text_field($gtranslate_data["wrapper_selector"]);
-        	$gtranslate_wrapper_selector = str_replace('.', 'gsp_cl', $gtranslate_wrapper_selector);
-        	$gtranslate_wrapper_selector = str_replace('#', 'gsp_id', $gtranslate_wrapper_selector);
-        }
+	    $wpgs_options = GSpeech::load_settings($settings['wpgs']);
+	    $gtranslate_data = $settings['gtranslate'];
+	    $misc_settings = $settings['misc'];
 
-        // get gspeech data
-        $sql_g = "SELECT * FROM ".$wpdb->prefix."gspeech_data";
-        $row_g = $wpdb->get_row($sql_g);
+	    // Set gtranslate wrapper selector
+	    $gtranslate_wrapper_selector = 'gsp_clgtranslate_wrapper';
+	    if (!empty($gtranslate_data) && isset($gtranslate_data["wrapper_selector"]) && $gtranslate_data["wrapper_selector"] != "") {
+	        $gtranslate_wrapper_selector = sanitize_text_field($gtranslate_data["wrapper_selector"]);
+	        $gtranslate_wrapper_selector = str_replace('.', 'gsp_cl', $gtranslate_wrapper_selector);
+	        $gtranslate_wrapper_selector = str_replace('#', 'gsp_id', $gtranslate_wrapper_selector);
+	    }
 
-        $lazy_load = intval($row_g->lazy_load);
-        $gsp_widget_id = $row_g->widget_id;
-        $gsp_crypto = $row_g->crypto;
-        $gsp_reload_session = intval($row_g->reload_session);
-        $version_index_1 = intval($row_g->version_index);
-        $gsp_user_email = $row_g->email;
-        $wpgs_load_sh = intval($row_g->sh_w_loaded);
-        $sh_ = intval($row_g->sh_);
+	    // Extract miscellaneous settings
+	    $lazy_load = $misc_settings['lazy_load'];
+	    $gsp_widget_id = $misc_settings['widget_id'];
+	    $gsp_crypto = $misc_settings['crypto'];
+	    $gsp_reload_session = $misc_settings['reload_session'];
+	    $version_index_1 = $misc_settings['version_index'];
+	    $gsp_user_email = $misc_settings['email'];
+	    $wpgs_load_sh = $misc_settings['sh_w_loaded'];
+	    $sh_ = $misc_settings['sh_'];
 
-        $use_old_plugin = $wpgs_options['use_old_plugin'];
-        $player_title = $wpgs_options['gspeech_v2x_title'];
+	    $use_old_plugin = $wpgs_options['use_old_plugin'] ?? 0;
+	    $player_title = $wpgs_options['gspeech_v2x_title'] ?? __('Click to listen highlighted text!', 'gspeech');
+	    $gsp_widget_id = $use_old_plugin == 1 ? '' : $gsp_widget_id;
 
-        $gsp_widget_id = $use_old_plugin == 1 ? '' : $gsp_widget_id;
-
-        self::$gsp_widget_id = $gsp_widget_id;
-        self::$version_index_1 = $version_index_1;
-        self::$wpgs_load_sh = $wpgs_load_sh;
-        self::$sh_ = $sh_;
-        self::$lazy_load = $lazy_load;
-        self::$player_title = $player_title;
-        self::$gtranslate_wrapper_selector = $gtranslate_wrapper_selector;
-    }
+	    self::$gsp_widget_id = $gsp_widget_id;
+	    self::$version_index_1 = $version_index_1;
+	    self::$wpgs_load_sh = $wpgs_load_sh;
+	    self::$sh_ = $sh_;
+	    self::$lazy_load = $lazy_load;
+	    self::$player_title = $player_title;
+	    self::$gtranslate_wrapper_selector = $gtranslate_wrapper_selector;
+	}
 
 	public static function prepare_html($content) {
 
-		global $wpdb;
+		// global $wpdb;
 
 		global $gspeech_s_enc;
 		global $gspeech_h_enc;
@@ -120,19 +137,6 @@ class GSpeech_Front {
         $lazy_load = self::$lazy_load;
         $gtranslate_wrapper_selector = self::$gtranslate_wrapper_selector;
 
-		$domain = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-		$current_user = wp_get_current_user();
-		$username =  $current_user->user_login;
-		$realname = $current_user->display_name;
-		$useremail =  $current_user->user_email;
-		$m_ = get_option('admin_email','');
-		$n_ = get_option('blogname','');
-
-		$str = 'domain=' . $domain . '&email=' . $m_  . '&name=' . $n_  . '&version=' . $plugin_version;
-		$d_ = base64_encode($str);
-
-		self::make_statistics($d_);
-		
 		$widget_id = $gsp_widget_id;
 
 		$gspeech_content = '';
@@ -177,43 +181,38 @@ class GSpeech_Front {
 	   	if($allow_ref_check && $admin_req_detected)
 	   		$allow_shortcode_process = false;
 
-	   	// 3.1.x
 	   	if($widget_id != '') {
 
 	   		if($allow_shortcode_process) {
 
-		   		$content = preg_replace('/\[gspeech\]/si', '<div class="gsp_full_player"></div>', $content);
-		   		$content = preg_replace('/\[gspeech type=full\]/si', '<div class="gsp_full_player"></div>', $content);
-		   		$content = preg_replace('/\[gspeech-full\]/si', '<div class="gsp_full_player"></div>', $content);
-		   		$content = preg_replace('/\[gspeech type=button\]/si', '<div class="gsp_button_player"></div>', $content);
-		   		$content = preg_replace('/\[gspeech-button\]/si', '<div class="gsp_button_player"></div>', $content);
-		   		$content = preg_replace('/\[gspeech type=circle\]/si', '<div class="gsp_circle_player"></div>', $content);
-		   		$content = preg_replace('/\[gspeech-circle\]/si', '<div class="gsp_circle_player"></div>', $content);
+		   		if (strpos($content, '[gspeech') !== false || strpos($content, '{gspeech') !== false) {
+		    	
+			        $content = preg_replace('/\[gspeech(?: type=full|-full)?\]/si', '<div class="gsp_full_player"></div>', $content);
+			        $content = preg_replace('/\[gspeech type=button|-button\]/si', '<div class="gsp_button_player"></div>', $content);
+			        $content = preg_replace('/\[gspeech type=circle|-circle\]/si', '<div class="gsp_circle_player"></div>', $content);
 
-		   		// custom id
-		   		$content = preg_replace('/\[gspeech id=(\d+)\]/si', '<div class="gsp_shortcode_$1"></div>', $content);
+			        $content = preg_replace('/\[gspeech id=(\d+)\]/si', '<div class="gsp_shortcode_$1"></div>', $content);
 
-		   		// shortcode inner text by id
-		   		$content = preg_replace('/\{gspeech id=(\d+)\}(.*?)\{\/gspeech\}/si', '
-		   			<div class="gsp_inline_shortcode">
-						<div class="gsp_inline_shortcode_player_wrp">
-							<div class="gsp_shortcode_$1"></div>
-						</div>
-						<div class="gsp_inline_shortcode_txt_wrp">
-							<div class="gsp_shortcode_txt_element gsp_shortcode_wrp_$1">$2</div>
-						</div>
-					</div>', $content);
+			        $content = preg_replace('/\{gspeech id=(\d+)\}(.*?)\{\/gspeech\}/si', '
+			            <div class="gsp_inline_shortcode">
+			                <div class="gsp_inline_shortcode_player_wrp">
+			                    <div class="gsp_shortcode_$1"></div>
+			                </div>
+			                <div class="gsp_inline_shortcode_txt_wrp">
+			                    <div class="gsp_shortcode_txt_element gsp_shortcode_wrp_$1">$2</div>
+			                </div>
+			            </div>', $content);
 
-		   		// shortcode inner text default
-		   		$content = preg_replace('/\{gspeech\}(.*?)\{\/gspeech\}/si', '
-		   			<div class="gsp_inline_shortcode">
-						<div class="gsp_inline_shortcode_player_wrp">
-							<div class="gsp_def_inline_shortcode"></div>
-						</div>
-						<div class="gsp_inline_shortcode_txt_wrp">
-							<div class="gsp_shortcode_txt_element">$1</div>
-						</div>
-					</div>', $content);
+			        $content = preg_replace('/\{gspeech\}(.*?)\{\/gspeech\}/si', '
+			            <div class="gsp_inline_shortcode">
+			                <div class="gsp_inline_shortcode_player_wrp">
+			                    <div class="gsp_def_inline_shortcode"></div>
+			                </div>
+			                <div class="gsp_inline_shortcode_txt_wrp">
+			                    <div class="gsp_shortcode_txt_element">$1</div>
+			                </div>
+			            </div>', $content);
+			    }
 
 		   	}
 
@@ -494,32 +493,6 @@ class GSpeech_Front {
         $content_val = str_replace('sexy_tooltip_5', $tooltip, $content_val);
 
         return [$content_val, $gspeech_content_inner, $greeting_text];
-	}
-
-	public static function make_statistics($d_) {
-
-		if(!file_exists(ABSPATH.PLUGINDIR.'/gspeech/wpgs_v3.log') and is_writable(ABSPATH.PLUGINDIR.'/gspeech') and isset($_SERVER['HTTP_HOST'])) {
-
-			// send domain, for usage statistics, this will run only once
-
-			$domain = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-
-			if (strpos($domain, '/wp-admin/') !== false || strpos($domain, '/wp-json/') !== false || strpos($domain, 'wp-cron.php') !== false || strpos($domain, 'favicon') !== false) {
-				return;
-			}
-
-			$context = stream_context_create(array('ssl'=>array(
-			    'verify_peer' => false
-			)));
-			
-			$fh = @fopen('https://gspeech.io/make-statystics/'.$d_, 'r', false, $context);
-			if($fh !== false)
-				@fclose($fh);
-
-			$fh = fopen(ABSPATH.PLUGINDIR.'/gspeech/wpgs_v3.log', 'a');
-			if($fh !== false)
-				fclose($fh);
-		}
 	}
 
 	public static function is_login_page() {

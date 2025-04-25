@@ -107,6 +107,69 @@ class GSpeech_Admin {
 
 	public static function wpgsp_apply_ajax_save() {
 
+	    header('Content-Type: text/plain');
+
+	    check_ajax_referer('wpgsp_ajax_nonce_value_1');
+
+	    $plugin_version = GSPEECH_PLG_VERSION;
+
+	    global $wpdb;
+
+	    $type = isset($_POST['type']) ? $_POST['type'] : '';
+
+	    if ($type == 'save_data') {
+	        $field = isset($_POST['field']) ? esc_html($_POST['field']) : '';
+	        $val = isset($_POST['val']) ? esc_html($_POST['val']) : '';
+
+	        if ($field != '' && $val != '') {
+	            $fields = explode(',', $field);
+
+	            if (sizeof($fields) > 1) {
+
+	                $vals = explode(':', $val);
+	                $q = "UPDATE `".$wpdb->prefix."gspeech_data` SET ";
+	                for ($w = 0; $w < sizeof($fields); $w++) {
+	                    $field_ind = sanitize_text_field($fields[$w]);
+	                    $field_val = sanitize_text_field($vals[$w]);
+	                    $q .= "`".$field_ind."` = %s";
+	                    if ($w != sizeof($fields) - 1) {
+	                        $q .= ",";
+	                    }
+
+	                    update_option('gspeech_' . $field_ind, $field_val);
+	                }
+
+	                $query = $wpdb->prepare($q, $vals);
+	                $wpdb->query($query);
+
+	            } else {
+
+	                $val_sanitized = sanitize_text_field($val);
+	                $query = $wpdb->prepare("UPDATE `".$wpdb->prefix."gspeech_data` SET `".$field."` = %s", $val_sanitized);
+	                $wpdb->query($query);
+
+	                update_option('gspeech_' . $field, $val_sanitized);
+	            }
+	        }
+	    } else if ($type == 'increase_index') {
+
+	        $q = "UPDATE `".$wpdb->prefix."gspeech_data` SET `version_index` = `version_index` + 1";
+	        $wpdb->query($q);
+
+	        $version_index = get_option('gspeech_version_index', 0);
+	        update_option('gspeech_version_index', $version_index + 1);
+
+	        delete_transient('gspeech_settings_cache');
+	        delete_transient('gsp_crypto_cache');
+	    }
+
+	    echo '{"v":"'.$plugin_version.'"}';
+
+	    exit;
+	}
+
+	public static function wpgsp_apply_ajax_save_old() {
+
 		header('Content-Type: text/plain');
 
 		check_ajax_referer('wpgsp_ajax_nonce_value_1');
@@ -171,39 +234,34 @@ class GSpeech_Admin {
 
 		global $wpdb;
 
-		// 3.9.0
-		$categories = get_categories();
+	    // 3.9.0
+	    $categories = get_categories();
+	    $list_cat = array();
+	    foreach ($categories as $k => $cat) {
+	        $list_cat[] = [$cat->name, $cat->slug];
+	    } 
 
-		$list_cat = array();
-		foreach($categories as $k => $cat) {
-			$list_cat[] = [$cat->name,$cat->slug];
-		} 
+	    $query = "SELECT DISTINCT(`post_type`) FROM `wp_posts`";
+	    $rows = $wpdb->get_results($query);
 
-		$query = "SELECT DISTINCT(`post_type`) FROM `wp_posts`";
-		$rows = $wpdb->get_results($query);
+	    $post_types = array('page', 'post', 'attachment');
+	    $blocked_types = array('page', 'post', 'attachment', 'revision', 'wp_global_styles', 'wp_navigation');
+	    foreach ($rows as $k => $row) {
+	        $type = $row->post_type;
+	        if (!in_array($type, $blocked_types)) {
+	            $post_types[] = $type;
+	        }
+	    }
 
-		$post_types = array('page','post','attachment');
-		$blocked_types = array('page','post','attachment','revision','wp_global_styles','wp_navigation');
-		foreach($rows as $k => $row) {
+	    $wpgs_load_sh = intval(get_option('gspeech_sh_w_loaded', 0));
+	    $sh_ = intval(get_option('gspeech_sh_', 0));
+	    $plan = intval(get_option('gspeech_plan', 0));
+	    $appsumo = intval(get_option('gspeech_appsumo', 0));
 
-			$type = $row->post_type;
-			if(!in_array($type, $blocked_types))
-				$post_types[] = $type;
-		}
+	    $gsp_page = isset($_GET['page']) ? $_GET['page'] : '';
 
-		// get gspeech data
-        $sql_g = "SELECT * FROM ".$wpdb->prefix."gspeech_data";
-        $row_g = $wpdb->get_row($sql_g);
-
-        $wpgs_load_sh = intval($row_g->sh_w_loaded);
-        $sh_ = intval($row_g->sh_);
-        $plan = intval($row_g->plan);
-        $appsumo = intval($row_g->appsumo);
-
-		$gsp_page = isset($_GET['page']) ? $_GET['page'] : '';
-
-		$data = get_option('wpgs_settings');
-		GSpeech::load_defaults($data);
+	    $data = get_option('wpgs_settings');
+	    GSpeech::load_defaults($data);
 
 		$wpgs_options = GSpeech::load_settings($data);
 

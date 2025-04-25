@@ -279,7 +279,7 @@ class GSpeech_Notices {
 
         $notices['two_week_review'] = array(
             'title' => __('Please Leave a Review', 'gspeech'),
-            'msg' => __("We hope you have enjoyed using GSpeech! Would you mind taking a few minutes to write a review on WordPress.org? <br>Just writing a simple <b>'thank you'</b> will make us happy!", 'gspeech'),
+            'msg' => __("We hope you have enjoyed using GSpeech! Would you mind taking a few minutes to write a review on WordPress.org? <br>Your feedback is incredibly valuable and <b>helps us grow</b>!", 'gspeech'),
             'link' => '<li><span class="dashicons dashicons-external"></span><a href="https://wordpress.org/support/plugin/gspeech/reviews/?filter=5" target="_blank" rel="noreferrer">' . __('Sure! I would love to!', 'gspeech') . '</a></li>' .
                       '<li><span class="dashicons dashicons-smiley"></span><a href="' . $two_week_review_ignore . '">' . __('I have already left a review', 'gspeech') . '</a></li>' .
                       '<li><span class="dashicons dashicons-calendar-alt"></span><a href="' . $two_week_review_temp . '">' . __('Maybe later', 'gspeech') . '</a></li>' .

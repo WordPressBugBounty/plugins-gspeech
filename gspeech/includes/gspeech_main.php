@@ -135,8 +135,25 @@ class GSpeech extends WP_Widget {
     public static function uninstall() {
 
         delete_option('wpgs_settings');
-		delete_option('gspeech_db_version');
+        delete_option('gspeech_db_version');
         delete_option('gspeech_admin_notice');
+        delete_option('gspeech_widget_id');
+        delete_option('gspeech_lazy_load');
+        delete_option('gspeech_crypto');
+        delete_option('gspeech_reload_session');
+        delete_option('gspeech_plugin_version');
+        delete_option('gspeech_version_index');
+        delete_option('gspeech_email');
+        delete_option('gspeech_sh_');
+        delete_option('gspeech_sh_w_loaded');
+        delete_option('gspeech_plan');
+        delete_option('gspeech_appsumo');
+
+        delete_transient('gspeech_settings_cache');
+        delete_transient('gsp_crypto_cache');
+        delete_transient('gtranslate_settings_cache');
+        delete_transient('gspeech_misc_settings_cache');
+        delete_transient('gspeech_data_admin_cache');
 
 		global $wpdb;
 

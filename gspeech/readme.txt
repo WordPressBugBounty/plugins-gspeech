@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.13.0
+Stable tag: 3.14.0
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -335,6 +335,11 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 12. GSpeech player view.
 
 == Changelog ==
+= V 3.14.0 - 25/04/2025 =
+* Introduced architectural improvements for enhanced performance.
+* Implemented intelligent caching with WordPress transients.
+* Eliminated session usage to improve efficiency.
+
 = V 3.13.0 - 19/04/2025 =
 * WP 6.8 tested.
 * Dashboard corrections.
