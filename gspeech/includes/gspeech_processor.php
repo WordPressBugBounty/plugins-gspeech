@@ -67,12 +67,11 @@ class GSpeeech_Processor {
 
 	    $plg_v = GSPEECH_PLG_VERSION;
 
-	    $domain = get_site_url();
-	    $m_ = get_option('admin_email', '');
-	    $n_ = get_option('blogname', '');
-
+	    $domain = get_site_url() ?? '';
+		$m_ = get_option('admin_email', '') ?? '';
+		$n_ = get_option('blogname', '') ?? '';
 	    $str = 'domain=' . $domain . '&email=' . $m_ . '&name=' . $n_ . '&version=' . $plg_v . '&plugin=gsp_backend';
-	    $d_ = base64_encode($str);
+		$d_ = base64_encode($str);
 
 	    require_once(ABSPATH . '/wp-admin/includes/upgrade.php');
 
@@ -274,7 +273,7 @@ class GSpeeech_Processor {
 	    $user_id = is_user_logged_in() ? get_current_user_id() : self::get_anonymous_user_id();
 	    $cache_prefix = 'gsp_index_' . $user_id;
 
-	    if ($gsp_crypto != "" && function_exists('sodium_crypto_box_seal')) {
+	    if (!empty($gsp_crypto) && is_string($gsp_crypto) && function_exists('sodium_crypto_box_seal')) {
 
 	        $s_enc = get_transient($cache_prefix . '_s');
 	        $h_enc = get_transient($cache_prefix . '_h');
@@ -298,8 +297,6 @@ class GSpeeech_Processor {
 	                error_log('GSpeech encryption error: ' . $e->getMessage());
 	            }
 	        }
-	    } else {
-	        error_log('GSpeech: Sodium extension missing or gsp_crypto empty');
 	    }
 
 	    $gspeech_s_enc = $s_enc;
@@ -316,7 +313,11 @@ class GSpeeech_Processor {
 	        $ip = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
 	        $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? 'unknown';
 	        $anon_id = 'anon_' . substr(md5($ip . $user_agent . wp_salt()), 0, 16);
-	        setcookie($cookie_name, $anon_id, time() + HOUR_IN_SECONDS, '/', '', is_ssl(), true);
+	        if (!headers_sent()) {
+	        	setcookie($cookie_name, $anon_id, time() + HOUR_IN_SECONDS, '/', '', is_ssl(), true);
+	        } else {
+	            error_log('GSpeech: Headers already sent, cannot set cookie');
+	        }
 	    }
 	    return $anon_id;
 	}
@@ -325,7 +326,7 @@ class GSpeeech_Processor {
 
 		self::process_install();
 
-        add_action('init', [__CLASS__, 'run_process_enc_data'], 20);
+        add_action('init', [__CLASS__, 'run_process_enc_data'], 10);
 	}
 
 	public static function run_process_enc_data() {

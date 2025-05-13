@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.14.0
+Stable tag: 3.14.1
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -129,11 +129,11 @@ Text-to-speech by GSpeech will automatically detect the current language of your
 **👉 Use Text To Speech by GSpeech to Create More Engaging WordPress Content**
 Text-to-speech technology can create more engaging content for customers. Convert your articles, blog or any content into high-quality  text-to-speech audio for users who prefer listening over reading. It also shows that you're willing to go the extra mile to accommodate your customers. Transforming text into speech can provide an engaging experience for audiences, encouraging return visits!
 
+### 🎬 Why GSpeech Lifetime Deal is a Must-Have for WordPress
+[youtube https://www.youtube.com/watch?v=FvGKIijSgrA]
+
 ### 🎬 WordPress Text to Speech Plugin - Full Player (AI voices)
 [youtube https://www.youtube.com/watch?v=dbvmoo10_QQ]
-
-### 🎬 WordPress Text to Speech Plugin - RHT Player (AI voices)
-[youtube https://www.youtube.com/watch?v=y2zJjNtOHqY]
 
 **⚙️ GSpeech(3.X) usage terms**
 
@@ -335,6 +335,10 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 12. GSpeech player view.
 
 == Changelog ==
+= V 3.14.1 - 13/05/2025 =
+* Fix in shortcode processing.
+* Fixed potential error log generation.
+
 = V 3.14.0 - 25/04/2025 =
 * Introduced architectural improvements for enhanced performance.
 * Implemented intelligent caching with WordPress transients.

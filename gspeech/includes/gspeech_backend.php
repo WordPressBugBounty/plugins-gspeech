@@ -168,68 +168,6 @@ class GSpeech_Admin {
 	    exit;
 	}
 
-	public static function wpgsp_apply_ajax_save_old() {
-
-		header('Content-Type: text/plain');
-
-		check_ajax_referer('wpgsp_ajax_nonce_value_1');
-
-		$plugin_version = GSPEECH_PLG_VERSION;
-
-		global $wpdb;
-
-		$type = isset($_POST['type']) ? $_POST['type'] : '';
-
-		if($type == 'save_data') {
-
-			$field = isset($_POST['field']) ? esc_html($_POST['field']) : '';
-			$val = isset($_POST['val']) ? esc_html($_POST['val']) : '';
-
-			if($field != '' && $val != '') {
-
-				$fields = explode(',', $field);
-
-				if(sizeof($fields) > 1) {
-
-					$vals = explode(':', $val);
-					$q = "UPDATE `".$wpdb->prefix."gspeech_data` SET ";
-					$vv = "";
-					for($w=0;$w<sizeof($fields);$w++) {
-
-						$field_ind = sanitize_text_field($fields[$w]);
-						$field_val = sanitize_text_field($vals[$w]);
-
-						$q .= "`".$field_ind."` = %s";
-						$vv .= "'".$field_val."'";
-						if($w != sizeof($fields)-1) {
-							$q .= ",";
-							$vv .= ",";
-						}
-					}
-
-					$query = $wpdb->prepare($q, $vals);
-					$wpdb->query($query);
-
-				}
-				else {
-					$val_sanitized = sanitize_text_field($val);
-
-					$query = $wpdb->prepare("UPDATE `".$wpdb->prefix."gspeech_data` SET `".$field."` = %s", $val_sanitized);
-					$wpdb->query($query);
-				}
-			}
-		}
-		else if($type == 'increase_index') {
-
-			$q = "UPDATE `".$wpdb->prefix."gspeech_data` SET `version_index` = `version_index` + 1";
-			$wpdb->query($q);
-		}
-
-		echo '{"v":"'.$plugin_version.'"}';
-
-		exit;
-	}
-
     public static function render_admin() {
 
 		global $wpdb;

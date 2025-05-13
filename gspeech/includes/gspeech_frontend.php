@@ -188,8 +188,8 @@ class GSpeech_Front {
 		   		if (strpos($content, '[gspeech') !== false || strpos($content, '{gspeech') !== false) {
 		    	
 			        $content = preg_replace('/\[gspeech(?: type=full|-full)?\]/si', '<div class="gsp_full_player"></div>', $content);
-			        $content = preg_replace('/\[gspeech type=button|-button\]/si', '<div class="gsp_button_player"></div>', $content);
-			        $content = preg_replace('/\[gspeech type=circle|-circle\]/si', '<div class="gsp_circle_player"></div>', $content);
+			        $content = preg_replace('/\[gspeech type=button\]|\[gspeech-button\]/si', '<div class="gsp_button_player"></div>', $content);
+			        $content = preg_replace('/\[gspeech type=circle\]|\[gspeech-circle\]/si', '<div class="gsp_circle_player"></div>', $content);
 
 			        $content = preg_replace('/\[gspeech id=(\d+)\]/si', '<div class="gsp_shortcode_$1"></div>', $content);
 
@@ -216,7 +216,6 @@ class GSpeech_Front {
 
 		   	}
 
-	   		// 3.2.0 fix
 	   		$gsp_data_html = '<div id="gsp_data_html" data-g_version="'.$plugin_version.'" data-w_id="'.$widget_id.'" data-s_enc="'.$gspeech_s_enc.'" data-h_enc="'.$gspeech_h_enc.'" data-hh_enc="'.$gspeech_hh_enc.'" data-lazy_load="'.$lazy_load.'" data-gt-w="'.$gtranslate_wrapper_selector.'" data-vv_index="'.$version_index_1.'" data-ref="'.$referer.'"></div>' . "\n";
 	   		$content = str_replace('</body>', $gsp_data_html . '</body>', $content);
 	   	}
