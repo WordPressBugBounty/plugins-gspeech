@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.14.1
+Stable tag: 3.14.2
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -195,7 +195,7 @@ Text-to-speech by GSpeech is an unite audio platform company, which covers a wid
 Text-to-speech by GSpeech was created in 2012. In 2023 we introduced a __powerfull platform__: [GSpeech Dashboard](https://gspeech.io/dashboard), with support of the best AI voices(commercial plans), multiple player types, real-time translation of audio content, audios database with ability to download, detailed analytics and statystics, and with full integration into __WordPress Admin Panel__.
 
 = 👉 Which languages are supported? =
-Here is the list: __Afrikaans, Albanian, Arabic, Armenian (commercial), Belarusian (commercial), Basque (commercial), Bengali, Bosnian, Bulgarian, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English (Australia), English (UK), English (India), English (United States), Estonian, Filipino, Finnish, French (Canada), French (France), Galician (commercial), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Javanese, Kannada, Kazakh (commercial), Khmer, Korean, Latin, Latvian, Lithuanian (commercial), Macedonian (commercial), Malay, Malayalam, Marathi, Maori (commercial), Myanmar, Nepali, Norwegian, Persian (commercial), Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian (commercial), Spanish (Spain), Spanish (United States), Sundanese (Indonesia), Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, Yue Chinese (commercial), Welsh__.
+Here is the list: __Afrikaans, Albanian, Arabic, Armenian (commercial), Belarusian (commercial), Basque (commercial), Bengali, Bosnian, Bulgarian, Catalan, Cantonese, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English (Australia), English (UK), English (India), English (United States), Estonian, Filipino, Finnish, French (Canada), French (France), Galician (commercial), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Javanese, Kannada, Kazakh (commercial), Khmer, Korean, Latin, Latvian, Lithuanian (commercial), Macedonian (commercial), Malay, Malayalam, Marathi, Maori (commercial), Myanmar, Nepali, Norwegian, Persian (commercial), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi (Gurmukhi), Punjabi (Shahmukhi - commercial), Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian (commercial), Spanish (Spain), Spanish (United States), Sundanese (Indonesia), Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, Yue Chinese (commercial), Welsh__.
 
 = 👉 How do I install the plugin? =
 The full instructions can be found here: [Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin).
@@ -335,6 +335,9 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 12. GSpeech player view.
 
 == Changelog ==
+= V 3.14.2 - 21/05/2025 =
+* Added language.
+
 = V 3.14.1 - 13/05/2025 =
 * Fix in shortcode processing.
 * Fixed potential error log generation.

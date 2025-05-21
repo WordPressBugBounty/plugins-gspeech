@@ -124,6 +124,11 @@ window.gspeechDash = function(options) {
                 "voice_data": "A:0,A:1,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
             },
             {
+                "name": "Cantonese",
+                "value": "yue",
+                "voice_data": "A:0,A:20,B:20,C:20,D:20,E:20,F:20"
+            },
+            {
                 "name": "Chinese (Simplified)",
                 "value": "cmn-CN",
                 "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
@@ -9682,6 +9687,31 @@ window.gspeechDash = function(options) {
                     break;
                 case 'I:20':
                     voice_name = 'Aina[F';
+                    break;
+            }
+        else if(lang_code == 'yue')
+            switch(voice_data) {
+                case 'A:0':
+                    voice_name = 'Mei[F';
+                    break;
+
+                case 'A:20':
+                    voice_name = 'Ling[F';
+                    break;
+                case 'B:20':
+                    voice_name = 'Chi[M';
+                    break;
+                case 'C:20':
+                    voice_name = 'Lok[M';
+                    break;
+                case 'D:20':
+                    voice_name = 'Sum[F';
+                    break;
+                case 'E:20':
+                    voice_name = 'Yee[F';
+                    break;
+                case 'F:20':
+                    voice_name = 'Ting[F';
                     break;
             }
         else if(lang_code == 'bg-BG')
