@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.14.3
+Stable tag: 3.14.4
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -281,45 +281,7 @@ __Website Settings__:
 
 You specify the __Website Language__, and Default Voice. (Speed and Pitch of voices can be configured, for AI voices).
 
-The players generation is made by the __Smart Widgets Architecture__:
-
-__Widget Settings__:
-
-There are six types of widgets: __Full Page Player__, __Button Player__, __Circle Player__, __RHT Player__, __Welcome Messages__, __Custom Audio__.
-
-Main section of each widget is:
-
-**Content Settings**
-__1: Content Selector:__ specifies which elements should be __included in the audio__. HTML markup being used, which means you call elements by its __html values__. 
-__Usage__:
-To call element by __class__, __.(dot)__ is being used. For __id__, __#__ being used.
-You can specify more than one element there. Separate with __,(coma)__.
-__NOSPEECH Class__:
-To exclude some part of content from the audio, add the class __nospeech__ to the containing element of that piece of content.
-__Greather-then >__:
-Can be used, to navigate to parents element. Example: __.mydiv>.parentdiv__ .
-__Less-then <__:
-Can be used, to navigate to children element. Example: __.mydiv<.childdiv__ .
-
-There are two keywords: __self_class__, and __parent_class__, relative to _Render Element_.
-If you write __self_class__, ir will use the same content, as __Render Element__ has, and for __parent_class__ it will use the parent elements content.
-
-__2: Render Element:__ specifies where to render the widget. 
-__Usage__:
-To call element by __class__, __.(dot)__ is being used. For __id__, __#__ being used.
-__Data usage__: Structrue: __data__-{attribute_name}_:_{attribute_val} .
-If your element has __data-id="777"__, you can access it: __data-id:777__ .
-
-__3. Exclude List__: specifies which elements should be excluded from audio(HTML markup being used, which means you call elements by its html values. To call element by class, .(dot) is being used. For id, # being used). You can specify more than one element there. Separate with ,(coma).
-
-__4. Title Text__:  Player Title. Will be used as top text for the __Full Page Player__, content for __Button Player__, and title for __Circle Player__.
-
-__5. Title Selector__:  Use this to catch the post title, and show it in the player. __Example__: _h1_. Leave it empty, if you are using Title Text.
-
-__6. Allowed Urls__: The list of  urls, where the player should be rendered. Use __*(asterisk)__ to match any character. 
-__Example:__ use __www.example.com/blog*__ to render on all blog pages.
-
-__7. Blocked Urls__: The list of  urls, where the player should not be rendered. Use __*(asterisk)__ to match any character.
+The players generation is made by the __Smart Widgets Architecture__, each of widget has listed under GSpeech->Cloud Console->Widgets section.
 
 You can [contact-us](https://gspeech.io/contact-us), and we will configure it for your website.
 
@@ -342,7 +304,7 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 12. GSpeech player view.
 
 == Changelog ==
-= V 3.14.3 - 10/06/2025 =
+= V 3.14.3, 3.14.4 - 10/06/2025 =
 * Updated inner content.
 
 = V 3.14.2 - 21/05/2025 =
