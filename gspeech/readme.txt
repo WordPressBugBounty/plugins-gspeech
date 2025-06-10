@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.14.4
+Stable tag: 3.14.5
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -73,7 +73,7 @@ Start using the GSpeech WordPress Text to Speech Plugin today and improve your w
 ### 📚 Usage - Text to Speech by GSpeech:
 * ✅ Activate __GSpeech Cloud Console__(from WP Admin, just one click). __Cloud Console__ menu will be activated!
 * ✅ Player will appear in posts and pages. You can manage on which pages show the player.
-* ✅ To edit the player settings, go to __Cloud Console->Widgets->Multi-Page__ audio widget.
+* ✅ To edit the player settings, go to __Cloud Console->Widgets->Multi-Page__ audio widget!
 * ✅ __RHT Player__(Read Highlighted Text) will be activated automatically.
 * 💡 To insert player in any page, use __shortcodes__!
 * ✅ To insert a __Full Page Player__, use __[gspeech]__.
@@ -304,7 +304,7 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 12. GSpeech player view.
 
 == Changelog ==
-= V 3.14.3, 3.14.4 - 10/06/2025 =
+= V 3.14.3, 3.14.4, 3.14.5 - 10/06/2025 =
 * Updated inner content.
 
 = V 3.14.2 - 21/05/2025 =
