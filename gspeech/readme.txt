@@ -4,13 +4,13 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.14.2
+Stable tag: 3.14.3
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI : https://www.gnu.org/licenses/gpl-3.0.html
 
-GSpeech is a powerful WordPress Text to Speech Plugin that allows to automatically generate WordPress content into best Text to Audio in 65 languages.
+Convert WordPress posts into high-quality audio with GSpeech – the best free text to speech plugin for accessibility, audio content, and user engagement.
 
 == Description ==
 
@@ -19,7 +19,7 @@ GSpeech is a leading modern Text To Speech WordPress Plugin, which uses __Google
 
 __GSpeech is a leading website text-to-speech services provider since 2012__. It is the most powerful and user-friendly Wordpress Text to Speech Audio Solution.
 
-This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress Website__ and automatically create audio version of your content and embed via beautiful Text to Audio players. Empower __visitors with disabilities__ to still completely consume your content __without the complications of reading__, and enhance the experience of users that __prefer listening to content over reading__.
+This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress Website__ and automatically create audio version of your content and embed via beautiful Text to Audio players. Empower __visitors with disabilities__ to still completely consume your content __without the complications of reading__, and enhance the experience of users that __prefer listening to content over reading__. GSpeech is the most advanced WordPress text to speech plugin that turns any post, page, or WooCommerce product into natural-sounding audio in 65+ languages. Ideal for improving website accessibility, SEO, and visitor engagement, this text to audio WordPress plugin is fast, smart, and optimized for mobile.
 
 ### 🌐 Useful Links
 * 🔗 [Homepage](https://gspeech.io) - Online __text to audio generator__ is available.
@@ -29,6 +29,7 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 * 🔗 [Dashboard](https://gspeech.io/dashboard) - The same is integrated in __WP Admin__.
 * 🔗 [GSpeech Commercial](https://gspeech.io/#pricing) - Get access to __advanced features__.
 * 🔗 [Screenshots](https://wordpress.org/plugins/gspeech/#screenshots) - Different __Text to Audio Player__ types.
+* 🔗 [Videos](https://gspeech.io/videos) - Different __usage Examples and Guides__ available.
 
 ### 🎬 Best Free WordPress Text to Speech Plugin - Video Tutorial
 [youtube https://www.youtube.com/watch?v=AoxCtTbFtKk]
@@ -129,11 +130,11 @@ Text-to-speech by GSpeech will automatically detect the current language of your
 **👉 Use Text To Speech by GSpeech to Create More Engaging WordPress Content**
 Text-to-speech technology can create more engaging content for customers. Convert your articles, blog or any content into high-quality  text-to-speech audio for users who prefer listening over reading. It also shows that you're willing to go the extra mile to accommodate your customers. Transforming text into speech can provide an engaging experience for audiences, encouraging return visits!
 
+### 🎬 GSpeech Full Review
+[youtube https://www.youtube.com/watch?v=_JBHFqwtLig]
+
 ### 🎬 Why GSpeech Lifetime Deal is a Must-Have for WordPress
 [youtube https://www.youtube.com/watch?v=FvGKIijSgrA]
-
-### 🎬 WordPress Text to Speech Plugin - Full Player (AI voices)
-[youtube https://www.youtube.com/watch?v=dbvmoo10_QQ]
 
 **⚙️ GSpeech(3.X) usage terms**
 
@@ -196,6 +197,12 @@ Text-to-speech by GSpeech was created in 2012. In 2023 we introduced a __powerfu
 
 = 👉 Which languages are supported? =
 Here is the list: __Afrikaans, Albanian, Arabic, Armenian (commercial), Belarusian (commercial), Basque (commercial), Bengali, Bosnian, Bulgarian, Catalan, Cantonese, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, English (Australia), English (UK), English (India), English (United States), Estonian, Filipino, Finnish, French (Canada), French (France), Galician (commercial), German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Javanese, Kannada, Kazakh (commercial), Khmer, Korean, Latin, Latvian, Lithuanian (commercial), Macedonian (commercial), Malay, Malayalam, Marathi, Maori (commercial), Myanmar, Nepali, Norwegian, Persian (commercial), Polish, Portuguese (Brazil), Portuguese (Portugal), Punjabi (Gurmukhi), Punjabi (Shahmukhi - commercial), Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian (commercial), Spanish (Spain), Spanish (United States), Sundanese (Indonesia), Swahili, Swedish, Tamil, Telugu, Thai, Turkish, Ukrainian, Urdu, Vietnamese, Yue Chinese (commercial), Welsh__.
+
+= 👉 What is the best WordPress plugin for text to speech? =
+GSpeech is considered one of the top-rated WordPress plugins for converting text to speech. It offers smart AI voices(paid versions), accessibility features, and full integration into your WP admin.
+
+= 👉 How can I improve website accessibility with audio? =
+Using GSpeech, you can let visitors listen to your content using screen reader–style audio players. This helps blind or visually impaired users and supports WCAG compliance.
 
 = 👉 How do I install the plugin? =
 The full instructions can be found here: [Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin).
@@ -335,6 +342,9 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 12. GSpeech player view.
 
 == Changelog ==
+= V 3.14.3 - 10/06/2025 =
+* Updated inner content.
+
 = V 3.14.2 - 21/05/2025 =
 * Added language.
 
@@ -460,6 +470,8 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 = V 3.6.0 - 29/07/2024 =
 * Moved to WP tokens system on back-end.
 * Fixed hidden warning.
+* Fully compatible with WordPress 6.8 – Updated Jule 2024.
+* Improves WordPress accessibility via WCAG features.
 
 = V 3.5.1, 3.5.2, 3.5.3 - 26/07/2024 =
 * Updated FAQ.

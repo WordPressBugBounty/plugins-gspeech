@@ -20,9 +20,7 @@ if($_GET['tr_tool'] == 'g') {
     // $url = 'http://translate.google.com/translate_tts?ie=UTF-8&q=' . $txt . '&tl=' . $lang . '&client=t';
     $url = 'http://translate.google.com/translate_tts?ie=UTF-8&q='.$txt.'&tl=en&tk='.$token .'&client=t';
     $url = 'http://translate.google.com/translate_tts?ie=UTF-8&q='.$txt.'&tl='.$lang.'&total=1&idx=0&textlen=5&tk='.$token .'&client=tw-ob&prev=input&ttsspeed=1';
-
 }
-
 
 // $agent = 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)';
 $agent = 'stagefright/1.2 (Linux;Android 5.0)';
