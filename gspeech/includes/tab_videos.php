@@ -441,14 +441,20 @@ defined('ABSPATH') or die("No direct access");
 				</div>
 
 				<div class="ss_video_item_3">
-					<div class="ss_video_title ss_title_violet">GSpeech Full Player - Paid Version</div>
-					<div class="ss_video_item_holder ss_video_gb_2" data-video_id="dbvmoo10_QQ"></div>
+					<div class="ss_video_title ss_title_violet">GSpeech Product Full Review</div>
+					<div class="ss_video_item_holder ss_video_gb_2" data-video_id="_JBHFqwtLig"></div>
 				</div>
 
 				<div class="ss_video_item_3">
-					<div class="ss_video_title ss_title_orange">GSpeech RHT Player - Enable Translation, Male/Female AI Voices</div>
+					<div class="ss_video_title ss_title_orange">Why GSpeech Lifetime Deal is a Must-Have for WordPress</div>
+					<div class="ss_video_item_holder ss_video_gb_5" data-video_id="FvGKIijSgrA"></div>
+				</div>
+
+				<div class="ss_video_item_3">
+					<div class="ss_video_title ss_title_orange">GSpeech Manage Voices and Translation, voice tuning</div>
 					<div class="ss_video_item_holder ss_video_gb_3" data-video_id="y2zJjNtOHqY"></div>
 				</div>
+
 			</div>
 
 		</div>
