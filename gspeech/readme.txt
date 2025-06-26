@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.14.8
+Stable tag: 3.14.9
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -31,11 +31,11 @@ This Free Text to Speech Plugin allows to __Enhance Accessibility of WordPress W
 * 🔗 [Screenshots](https://wordpress.org/plugins/gspeech/#screenshots) - Different __Text to Audio Player__ types.
 * 🔗 [Videos](https://gspeech.io/videos) - Different __usage Examples and Guides__ available.
 
-### 🎬 Best Free WordPress Text to Speech Plugin - Video Tutorial
+### 🎬 Best Free WordPress Text to Speech Plugin - Video step-by-step Tutorial
 [youtube https://www.youtube.com/watch?v=AoxCtTbFtKk]
 
-### 🎬 Video Tour
-[youtube https://www.youtube.com/watch?v=aIartT1SiFs]
+### 🎬  GSpeech: The Ultimate WordPress Text-to-Speech Solution - Full Review
+[youtube https://www.youtube.com/watch?v=VHOU6aIHqUc]
 
 ### 👆 Why Use the GSpeech Text to Speech Plugin for WordPress?
 * ✅ __Enhance Accessibility__: Boost the accessibility of your WordPress website with the GSpeech text to speech plugin. Make your content available to a wider audience, including people with visual impairments or other disabilities. By offering an alternative way to consume content, you create a more inclusive experience for all users, helping your website serve a diverse range of visitors. Increase accessibility and improve your website’s overall SEO by catering to users who rely on text-to-speech features.
@@ -130,8 +130,11 @@ Text-to-speech by GSpeech will automatically detect the current language of your
 **👉 Use Text To Speech by GSpeech to Create More Engaging WordPress Content**
 Text-to-speech technology can create more engaging content for customers. Convert your articles, blog or any content into high-quality  text-to-speech audio for users who prefer listening over reading. It also shows that you're willing to go the extra mile to accommodate your customers. Transforming text into speech can provide an engaging experience for audiences, encouraging return visits!
 
-### 🎬 GSpeech Full Review
-[youtube https://www.youtube.com/watch?v=_JBHFqwtLig]
+### 🎬 GSpeech Text To Speech Video Tour
+[youtube https://www.youtube.com/watch?v=aIartT1SiFs]
+
+### 🎬 Text to speech for WordPress: Transform Text to Audio with AI Magic!
+[youtube https://www.youtube.com/watch?v=dI_CoXphy4M]
 
 ### 🎬 Why GSpeech Lifetime Deal is a Must-Have for WordPress
 [youtube https://www.youtube.com/watch?v=FvGKIijSgrA]
@@ -304,7 +307,10 @@ No, __all the TTS keys__ and the automatic real time translations are included i
 12. GSpeech player view.
 
 == Changelog ==
-= V 3.14.8- 12/06/2025 =
+= V 3.14.9 - 26/06/2025 =
+* Updates in dashboard.
+
+= V 3.14.8 - 12/06/2025 =
 * Updates in dashboard.
 
 = V 3.14.6, 3.14.7 - 11/06/2025 =
