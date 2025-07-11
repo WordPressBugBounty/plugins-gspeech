@@ -10,6 +10,7 @@ class GSpeech_Front {
     private static $wpgs_load_sh = '';
     private static $sh_ = '';
     private static $lazy_load = '';
+    private static $reload_session = '';
     private static $player_title = '';
     private static $gtranslate_wrapper_selector = '';
 
@@ -118,6 +119,7 @@ class GSpeech_Front {
 	    self::$wpgs_load_sh = $wpgs_load_sh;
 	    self::$sh_ = $sh_;
 	    self::$lazy_load = $lazy_load;
+	    self::$reload_session = $gsp_reload_session;
 	    self::$player_title = $player_title;
 	    self::$gtranslate_wrapper_selector = $gtranslate_wrapper_selector;
 	}
@@ -126,15 +128,12 @@ class GSpeech_Front {
 
 		// global $wpdb;
 
-		global $gspeech_s_enc;
-		global $gspeech_h_enc;
-		global $gspeech_hh_enc;
-
 		$plugin_version = GSPEECH_PLG_VERSION;
 
 		$gsp_widget_id = self::$gsp_widget_id;
         $version_index_1 = self::$version_index_1;
         $lazy_load = self::$lazy_load;
+        $reload_session = self::$reload_session;
         $gtranslate_wrapper_selector = self::$gtranslate_wrapper_selector;
 
 		$widget_id = $gsp_widget_id;
@@ -216,7 +215,7 @@ class GSpeech_Front {
 
 		   	}
 
-	   		$gsp_data_html = '<div id="gsp_data_html" data-g_version="'.$plugin_version.'" data-w_id="'.$widget_id.'" data-s_enc="'.$gspeech_s_enc.'" data-h_enc="'.$gspeech_h_enc.'" data-hh_enc="'.$gspeech_hh_enc.'" data-lazy_load="'.$lazy_load.'" data-gt-w="'.$gtranslate_wrapper_selector.'" data-vv_index="'.$version_index_1.'" data-ref="'.$referer.'"></div>' . "\n";
+	   		$gsp_data_html = '<div id="gsp_data_html" data-g_version="'.$plugin_version.'" data-w_id="'.$widget_id.'" data-s_enc="" data-h_enc="" data-hh_enc="" data-lazy_load="'.$lazy_load.'" data-reload_session="'.$reload_session.'" data-gt-w="'.$gtranslate_wrapper_selector.'" data-vv_index="'.$version_index_1.'" data-ref="'.$referer.'"></div>' . "\n";
 	   		$content = str_replace('</body>', $gsp_data_html . '</body>', $content);
 	   	}
 
@@ -535,14 +534,10 @@ class GSpeech_Front {
 	public static function load_scripts() {
 
         $plugin_version = GSPEECH_PLG_VERSION;
-
-        global $gspeech_s_enc;
-		global $gspeech_h_enc;
-		global $gspeech_hh_enc;
-
         $gsp_widget_id = self::$gsp_widget_id;
         $version_index_1 = self::$version_index_1;
         $lazy_load = self::$lazy_load;
+        $reload_session = self::$reload_session;
         $gtranslate_wrapper_selector = self::$gtranslate_wrapper_selector;
 
         if($gsp_widget_id == "") {
@@ -557,10 +552,18 @@ class GSpeech_Front {
         }
         else {
 
-            $gsp_index = "gspeech_front_script_n127";
+        	$referer = isset($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : '';
+        	$ajax_nonce = wp_create_nonce('wpgsp_ajax_nonce_value_1');
 
             wp_enqueue_script("jquery");
-            wp_enqueue_script('wpgs-script777', plugin_dir_url( __FILE__ ) . 'js/gspeech_front.js?g_indexsp___eq' . $gsp_index . 'gsp___delg_versiongsp___eq' . $plugin_version . 'gsp___delw_idgsp___eq' . $gsp_widget_id . 'gsp___dels_encgsp___eq' . $gspeech_s_enc . 'gsp___delh_encgsp___eq' . $gspeech_h_enc . 'gsp___delhh_encgsp___eq' . $gspeech_hh_enc . 'gsp___dellazy_loadgsp___eq' . $lazy_load .'gsp___delgt_wgsp___eq' . $gtranslate_wrapper_selector . 'gsp___delvv_indexgsp___eq' . $version_index_1, array('jquery'));
+            wp_enqueue_script('wpgs-script776', plugin_dir_url( __FILE__ ) . 'js/gspeech_front_inline.js', array('jquery'), $plugin_version);
+            $inline_script = "(function(){function updateGspDataHtml(){let gspDataHtml=jQuery('#gsp_data_html');if(!gspDataHtml.length){jQuery('body').append('<div id=\"gsp_data_html\" data-g_version=\"$plugin_version\" data-w_id=\"$gsp_widget_id\" data-lazy_load=\"$lazy_load\" data-reload_session=\"$reload_session\" data-gt-w=\"$gtranslate_wrapper_selector\" data-vv_index=\"$version_index_1\" data-ref=\"'+encodeURI('$referer')+'\" data-s_enc=\"\" data-h_enc=\"\" data-hh_enc=\"\"></div>');}}updateGspDataHtml();})();";
+	        wp_add_inline_script('wpgs-script776', $inline_script);
+            wp_enqueue_script('wpgs-script777', plugin_dir_url( __FILE__ ) . 'js/gspeech_front.js', array('jquery', 'wpgs-script776'), $plugin_version);
+	        wp_localize_script('wpgs-script777', 'gsp_ajax_obj', [
+	            'ajax_url' => admin_url('admin-ajax.php'),
+	            'nonce' => $ajax_nonce
+	        ]);
         }
     }
 }

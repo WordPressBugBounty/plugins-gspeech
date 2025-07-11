@@ -32,80 +32,60 @@ window.gspeechFront = function(options) {
 
     this.applyFunctions = function() {
 
-        if($("#gsp_data_html").length) {
+        var $gsp_data_html = $("#gsp_data_html");
 
-            var $gsp_data_html = $("#gsp_data_html");
-
-            var lazy_load = $gsp_data_html.data("lazy_load");
-            var widget_id = $gsp_data_html.data("w_id");
-            var v_ind = $gsp_data_html.data("vv_index");
-            var s_enc = $gsp_data_html.data("s_enc");
-            var h_enc = $gsp_data_html.data("h_enc");
-            var hh_enc = $gsp_data_html.data("hh_enc");
-            var gt_w = $gsp_data_html.data("gt-w");
+        if (!$gsp_data_html.length) {
+            console.log("GSpeech: required html is missing.")
+            return;
         }
-        else {
 
-            if($("#wpgs-script777").length) {
+        var lazy_load = $gsp_data_html.data("lazy_load");
+        var reload_session = parseInt($gsp_data_html.data("reload_session"));
+        var widget_id = $gsp_data_html.data("w_id");
+        var v_ind = $gsp_data_html.data("vv_index");
+        var gt_w = $gsp_data_html.data("gt-w");
 
-                $("#wpgs-script777").attr("id", "wpgsp_front_script");
-            }
-            else { // for old wordpress versions, which does not set ID to scripts
+        let storage;
+        try {
+            storage = window.localStorage;
+            storage.setItem('test', 'test');
+            storage.removeItem('test');
+        } catch (e) {
+            storage = window.sessionStorage;
+        }
 
-                $("script").each(function(i) {
+        let encData = storage.getItem('gsp_enc_data') ? JSON.parse(storage.getItem('gsp_enc_data')) : {};
 
-                    var src = $(this).attr("src");
+        if (reload_session == 1 || !encData.h_enc || !encData.s_enc || !encData.hh_enc) {
 
-                    if(src == undefined || src == '')
-                        return;
-
-                    if(src.match(/gspeech_front/g)) {
-
-                        $(this).attr("id", "wpgsp_front_script");
-
-                        return false;
-                    }
-                });
-            }
-
-            var $gspeech_cloud_data = $("#wpgsp_front_script");
-
-            if(!$gspeech_cloud_data.length)
-                return;
-
-            var src = $gspeech_cloud_data.attr("src");
-
-            src = src.replace(/gsp___del/gi, '\&');
-            src = src.replace(/gsp___eq/gi, '\=');
-            src = src.replace(/\?/gi, '\&');
-
-            // create options array
-            var gsp_opts = {};
-            var gsp_opts_array = src.split("&");
-            gsp_opts_array.forEach(function(option_item, i) {
-
-                var opt_data = option_item.split("=");
-                gsp_opts[opt_data[0]] = opt_data[1];
+            jQuery.post(gsp_ajax_obj.ajax_url, {
+                action: 'wpgsp_validate_enc_data',
+                _ajax_nonce: gsp_ajax_obj.nonce
+            }, function(response) {
+                if (response.success) {
+                    encData = {
+                        s_enc: response.data.s_enc,
+                        h_enc: response.data.h_enc,
+                        hh_enc: response.data.hh_enc
+                    };
+                    storage.setItem('gsp_enc_data', JSON.stringify(encData));
+                    loadCloudWidget(encData);
+                }
+            }).fail(function() {
+                loadCloudWidget(encData);
             });
-
-            var lazy_load = gsp_opts["lazy_load"];
-            var widget_id = gsp_opts["w_id"];
-            var v_ind = gsp_opts["vv_index"];
-            var s_enc = gsp_opts["s_enc"];
-            var h_enc = gsp_opts["h_enc"];
-            var hh_enc = gsp_opts["hh_enc"];
-            var gt_w = gsp_opts["gt_w"];
+        } else {
+            loadCloudWidget(encData);
         }
 
-        var load_timeout = lazy_load == 1 ? thisPage.options.lazy_load_timeout : 0;
+        function loadCloudWidget(encData) {
+            var load_timeout = lazy_load == 1 ? thisPage.options.lazy_load_timeout : 0;
+            var $gspeech_widget_code = '<script id="gspeech_cloud_widget" defer src="https://widget.gspeech.io/' + widget_id + '?v_ind=' + v_ind + '" data-widget_id="' + widget_id + '" data-s="' + (encData.s_enc || '') + '" data-h="' + (encData.h_enc || '') + '" data-hh="' + (encData.hh_enc || '') + '" data-gt_w="' + gt_w + '"></script>';
 
-        var $gspeech_widget_code = '<script id="gspeech_cloud_widget" defer src="https://widget.gspeech.io/'+widget_id+'?v_ind='+v_ind+'" data-widget_id="'+widget_id+'" data-s="'+s_enc+'" data-h="'+h_enc+'" data-hh="'+hh_enc+'" data-gt_w="'+gt_w+'"></script>';
-
-        setTimeout(function() {
-
-            $("body").append($gspeech_widget_code);
-
-        }, load_timeout);
+            setTimeout(function() {
+                $("body").append($gspeech_widget_code);
+            }, load_timeout);
+        }
     };
 
     // Inner methods ///////////////////////////////////////////////////////////////////////

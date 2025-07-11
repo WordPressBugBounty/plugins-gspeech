@@ -246,80 +246,16 @@ class GSpeeech_Processor {
 	}
 
 	private static function process_enc_data() {
-
+		
 	    if (is_admin()) {
 	        return;
 	    }
 
 	    global $gspeech_s_enc, $gspeech_h_enc, $gspeech_hh_enc;
 
-	    $s_enc = "";
-	    $h_enc = "";
-	    $hh_enc = "";
-
-	    $cache_key = 'gsp_crypto_cache';
-	    $crypto_settings = get_transient($cache_key);
-	    if (false === $crypto_settings) {
-	        $crypto_settings = [
-	            'crypto' => get_option('gspeech_crypto', ''),
-	            'reload_session' => intval(get_option('gspeech_reload_session', 0)),
-	        ];
-	        set_transient($cache_key, $crypto_settings, 5 * MINUTE_IN_SECONDS);
-	    }
-
-	    $gsp_crypto = $crypto_settings['crypto'];
-	    $gsp_reload_session = $crypto_settings['reload_session'];
-
-	    $user_id = is_user_logged_in() ? get_current_user_id() : self::get_anonymous_user_id();
-	    $cache_prefix = 'gsp_index_' . $user_id;
-
-	    if (!empty($gsp_crypto) && is_string($gsp_crypto) && function_exists('sodium_crypto_box_seal')) {
-
-	        $s_enc = get_transient($cache_prefix . '_s');
-	        $h_enc = get_transient($cache_prefix . '_h');
-	        $hh_enc = get_transient($cache_prefix . '_hh');
-
-	        if (false === $s_enc || $gsp_reload_session == 1) {
-
-	            try {
-	                $gsp_crypto_pk = hex2bin($gsp_crypto);
-	                $magic_str = "Simon you are great!";
-	                $h_enc = bin2hex(random_bytes(32));
-	                $s_enc = sodium_crypto_box_seal($magic_str, $gsp_crypto_pk);
-	                $s_enc = bin2hex($s_enc);
-	                $hh_enc = sodium_crypto_box_seal($h_enc, $gsp_crypto_pk);
-	                $hh_enc = bin2hex($hh_enc);
-
-	                set_transient($cache_prefix . '_s', $s_enc, HOUR_IN_SECONDS);
-	                set_transient($cache_prefix . '_h', $h_enc, HOUR_IN_SECONDS);
-	                set_transient($cache_prefix . '_hh', $hh_enc, HOUR_IN_SECONDS);
-	            } catch (Exception $e) {
-	                error_log('GSpeech encryption error: ' . $e->getMessage());
-	            }
-	        }
-	    }
-
-	    $gspeech_s_enc = $s_enc;
-	    $gspeech_h_enc = $h_enc;
-	    $gspeech_hh_enc = $hh_enc;
-	}
-
-	private static function get_anonymous_user_id() {
-
-	    $cookie_name = 'gsp_anon_id';
-	    if (isset($_COOKIE[$cookie_name])) {
-	        $anon_id = sanitize_key($_COOKIE[$cookie_name]);
-	    } else {
-	        $ip = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
-	        $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? 'unknown';
-	        $anon_id = 'anon_' . substr(md5($ip . $user_agent . wp_salt()), 0, 16);
-	        if (!headers_sent()) {
-	        	setcookie($cookie_name, $anon_id, time() + HOUR_IN_SECONDS, '/', '', is_ssl(), true);
-	        } else {
-	            error_log('GSpeech: Headers already sent, cannot set cookie');
-	        }
-	    }
-	    return $anon_id;
+	    $gspeech_s_enc = "";
+	    $gspeech_h_enc = "";
+	    $gspeech_hh_enc = "";
 	}
 
 	public static function init() {

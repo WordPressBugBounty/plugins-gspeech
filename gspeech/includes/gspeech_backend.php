@@ -168,6 +168,44 @@ class GSpeech_Admin {
 	    exit;
 	}
 
+	public static function wpgsp_validate_enc_data() {
+		
+	    check_ajax_referer('wpgsp_ajax_nonce_value_1');
+
+	    $crypto_settings = [
+	        'crypto' => get_option('gspeech_crypto', ''),
+	        'reload_session' => intval(get_option('gspeech_reload_session', 0)),
+	    ];
+
+	    $gsp_crypto = $crypto_settings['crypto'];
+	    $gsp_reload_session = $crypto_settings['reload_session'];
+
+	    $s_enc = "";
+	    $h_enc = "";
+	    $hh_enc = "";
+
+	    if (!empty($gsp_crypto) && is_string($gsp_crypto) && function_exists('sodium_crypto_box_seal')) {
+	        try {
+	            $gsp_crypto_pk = hex2bin($gsp_crypto);
+	            $magic_str = "Simon you are great!";
+	            $h_enc = bin2hex(random_bytes(32));
+	            $s_enc = sodium_crypto_box_seal($magic_str, $gsp_crypto_pk);
+	            $s_enc = bin2hex($s_enc);
+	            $hh_enc = sodium_crypto_box_seal($h_enc, $gsp_crypto_pk);
+	            $hh_enc = bin2hex($hh_enc);
+	        } catch (Exception $e) {
+	            error_log('GSpeech encryption error: ' . $e->getMessage());
+	            wp_send_json_error(['message' => 'Encryption error']);
+	        }
+	    }
+
+	    wp_send_json_success([
+	        's_enc' => $s_enc,
+	        'h_enc' => $h_enc,
+	        'hh_enc' => $hh_enc
+	    ]);
+	}
+
     public static function render_admin() {
 
 		global $wpdb;

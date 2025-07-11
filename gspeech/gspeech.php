@@ -9,11 +9,11 @@ Plugin URI: https://gspeech.io
 Description: GSpeech is a universal text to speech audio solution. See <a href="https://gspeech.io/demos">GSpeech Demo</a>. Please <a href="https://gspeech.io/contact-us">Contact Us</a> if you have any questions.
 Author: Text-To-Speech AI Audio Solutions
 Author URI: https://gspeech.io
-Version: 3.14.9
+Version: 3.15.0
 */
 
-$gspeech_plugin_version = '3.14.9';
-$gspeech_new_db_version = 180;
+$gspeech_plugin_version = '3.15.0';
+$gspeech_new_db_version = 181;
 
 define('GSPEECH_PLG_VERSION', $gspeech_plugin_version);
 define('GSPEECH_NEW_DB_VER', $gspeech_new_db_version);
@@ -46,6 +46,8 @@ add_action('wp_ajax_wpgsp_apply_feedback', array('GSpeech_Admin', 'wpgsp_apply_f
 add_action('wp_ajax_nopriv_wpgsp_apply_feedback', array('GSpeech_Admin', 'wpgsp_apply_feedback'));
 add_action('wp_ajax_wpgsp_apply_ajax_save', array('GSpeech_Admin', 'wpgsp_apply_ajax_save'));
 add_action('wp_ajax_nopriv_wpgsp_apply_ajax_save', array('GSpeech_Admin', 'wpgsp_apply_ajax_save'));
+add_action('wp_ajax_wpgsp_validate_enc_data', array('GSpeech_Admin', 'wpgsp_validate_enc_data'));
+add_action('wp_ajax_nopriv_wpgsp_validate_enc_data', array('GSpeech_Admin', 'wpgsp_validate_enc_data'));
 add_filter('plugin_action_links_' . plugin_basename(__FILE__), array('GSpeech_Admin', 'plugin_action_links'));
 
 register_shutdown_function(array('GSpeech_Front', 'make_ob_end_flush'));
