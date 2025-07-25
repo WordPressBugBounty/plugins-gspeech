@@ -169,9 +169,9 @@ class GSpeech_Front {
 	   	// 3.5.2 fix
 	   	$admin_req_detected = false;
 	   	$referer = isset($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : '';
-	   	if($referer != '' && str_contains($referer, 'wp-admin/')) {
-	   		$admin_req_detected = true;
-	   	}
+	   	if ($referer != '' && strpos($referer, 'wp-admin/') !== false) {
+			$admin_req_detected = true;
+		}
 
 	   	// add option to database, to allow referer check
 	   	$allow_ref_check = true;
