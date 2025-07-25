@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.16.1
+Stable tag: 3.16.2
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -330,7 +330,6 @@ You can [contact us](https://gspeech.io/contact-us), and we will configure it fo
 = 👉 Do I need to pay for Google TTS and Translate API key usage? =
 No, all __TTS keys__ and __real-time translation keys__ are included in all commercial packages. You don’t need to manage API keys yourself.
 
-
 == Screenshots == 
 
 1. WordPress Text to Speech Plugin - Let visitors listen to your text-based content with GSpeech AI voice generator!
@@ -348,11 +347,10 @@ No, all __TTS keys__ and __real-time translation keys__ are included in all comm
 
 == Changelog ==
 
-= V 3.16.1 - 25/07/2025 =
-* Replaced str_contains with strpos structure, to support php<8 versions.
-
-= V 3.16.0 - 25/07/2025 =
+= V 3.16.0, V 3.16.1, V 3.16.2 - 25/07/2025 =
 * Enabled large(1+ hours) articles real-time translation and audio generation.
+* Replaced str_contains with strpos structure, to support php<8 versions.
+* Backend corrections.
 
 = V 3.15.0 - 11/07/2025 =
 * Optimized data storage for high-traffic sites: Replaced cookie-based storage with localStorage/sessionStorage to eliminate server-side database usage, ensuring scalability and minimal load.
