@@ -4,13 +4,13 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.14.9
+Stable tag: 3.16.0
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI : https://www.gnu.org/licenses/gpl-3.0.html
 
-Convert WordPress posts into high-quality audio with GSpeech – the best free text to speech plugin for accessibility, audio content, and user engagement.
+GSpeech is a powerful WordPress Text to Speech Plugin that allows to automatically generate WordPress content into best Text to Audio in 65 languages.
 
 == Description ==
 
@@ -347,6 +347,9 @@ No, all __TTS keys__ and __real-time translation keys__ are included in all comm
 12. GSpeech player view.
 
 == Changelog ==
+
+= V 3.16.0 - 25/07/2025 =
+* Enabled large(1+ hours) articles real-time translation and audio generation.
 
 = V 3.15.0 - 11/07/2025 =
 * Optimized data storage for high-traffic sites: Replaced cookie-based storage with localStorage/sessionStorage to eliminate server-side database usage, ensuring scalability and minimal load.
