@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.16.2
+Stable tag: 3.16.3
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -347,7 +347,7 @@ No, all __TTS keys__ and __real-time translation keys__ are included in all comm
 
 == Changelog ==
 
-= V 3.16.0, V 3.16.1, V 3.16.2 - 25/07/2025 =
+= V 3.16.0, V 3.16.1, V 3.16.2, V 3.16.3 - 25/07/2025 =
 * Enabled large(1+ hours) articles real-time translation and audio generation.
 * Replaced str_contains with strpos structure, to support php<8 versions.
 * Backend corrections.
