@@ -555,15 +555,31 @@ class GSpeech_Front {
         	$referer = isset($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : '';
         	$ajax_nonce = wp_create_nonce('wpgsp_ajax_nonce_value_1');
 
-            wp_enqueue_script("jquery");
-            wp_enqueue_script('wpgs-script776', plugin_dir_url( __FILE__ ) . 'js/gspeech_front_inline.js', array('jquery'), $plugin_version);
-            $inline_script = "(function(){function updateGspDataHtml(){let gspDataHtml=jQuery('#gsp_data_html');if(!gspDataHtml.length){jQuery('body').append('<div id=\"gsp_data_html\" data-g_version=\"$plugin_version\" data-w_id=\"$gsp_widget_id\" data-lazy_load=\"$lazy_load\" data-reload_session=\"$reload_session\" data-gt-w=\"$gtranslate_wrapper_selector\" data-vv_index=\"$version_index_1\" data-ref=\"'+encodeURI('$referer')+'\" data-s_enc=\"\" data-h_enc=\"\" data-hh_enc=\"\"></div>');}}updateGspDataHtml();})();";
-	        wp_add_inline_script('wpgs-script776', $inline_script);
-            wp_enqueue_script('wpgs-script777', plugin_dir_url( __FILE__ ) . 'js/gspeech_front.js', array('jquery', 'wpgs-script776'), $plugin_version);
-	        wp_localize_script('wpgs-script777', 'gsp_ajax_obj', [
-	            'ajax_url' => admin_url('admin-ajax.php'),
-	            'nonce' => $ajax_nonce
-	        ]);
+			wp_enqueue_script('jquery');
+
+			wp_enqueue_script(
+				'wpgs-script776',
+				plugin_dir_url(__FILE__) . 'js/gspeech_front_inline.js',
+				array('jquery'),
+				$plugin_version,
+				false // HEAD
+			);
+
+			$inline_script = "(function(){function updateGspDataHtml(){let gspDataHtml=jQuery('#gsp_data_html');if(!gspDataHtml.length){jQuery('body').append('<div id=\"gsp_data_html\" data-g_version=\"$plugin_version\" data-w_id=\"$gsp_widget_id\" data-lazy_load=\"$lazy_load\" data-reload_session=\"$reload_session\" data-gt-w=\"$gtranslate_wrapper_selector\" data-vv_index=\"$version_index_1\" data-ref=\"'+encodeURI('$referer')+'\" data-s_enc=\"\" data-h_enc=\"\" data-hh_enc=\"\"></div>');}}updateGspDataHtml();})();";
+			wp_add_inline_script('wpgs-script776', $inline_script);
+
+			wp_enqueue_script(
+				'wpgs-script777',
+				plugin_dir_url(__FILE__) . 'js/gspeech_front.js',
+				array('jquery','wpgs-script776'),
+				$plugin_version,
+				false // HEAD
+			);
+
+			wp_localize_script('wpgs-script777','gsp_ajax_obj', array(
+				'ajax_url' => admin_url('admin-ajax.php'),
+				'nonce'    => $ajax_nonce,
+			));
         }
     }
 }
