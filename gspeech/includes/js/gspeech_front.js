@@ -78,15 +78,6 @@ window.gspeechFront = function(options) {
             loadCloudWidget(encData);
         }
 
-        function loadCloudWidget_old(encData) {
-            var load_timeout = lazy_load == 1 ? thisPage.options.lazy_load_timeout : 0;
-            var $gspeech_widget_code = '<script id="gspeech_cloud_widget" defer src="https://widget.gspeech.io/' + widget_id + '?v_ind=' + v_ind + '" data-widget_id="' + widget_id + '" data-s="' + (encData.s_enc || '') + '" data-h="' + (encData.h_enc || '') + '" data-hh="' + (encData.hh_enc || '') + '" data-gt_w="' + gt_w + '"></script>';
-
-            setTimeout(function() {
-                $("body").append($gspeech_widget_code);
-            }, load_timeout);
-        }
-
         function loadCloudWidget(encData) {
             var load_timeout = lazy_load == 1 ? thisPage.options.lazy_load_timeout : 0;
         
