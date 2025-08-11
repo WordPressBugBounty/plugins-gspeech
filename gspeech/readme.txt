@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.17.2
+Stable tag: 3.17.3
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -347,7 +347,7 @@ No, all __TTS keys__ and __real-time translation keys__ are included in all comm
 
 == Changelog ==
 
-= V 3.17.0, 3.17.1, 3.17.2 - 10/08/2025 =
+= V 3.17.0 -> 3.17.3 - 10/08/2025 =
 * Compatibility with Jetpack Boost and other optimizers!
 
 = V 3.16.6 - 09/08/2025 =
