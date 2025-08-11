@@ -9,11 +9,11 @@ Plugin URI: https://gspeech.io
 Description: GSpeech is a universal text to speech audio solution. See <a href="https://gspeech.io/demos">GSpeech Demo</a>. Please <a href="https://gspeech.io/contact-us">Contact Us</a> if you have any questions.
 Author: Text-To-Speech AI Audio Solutions
 Author URI: https://gspeech.io
-Version: 3.17.0
+Version: 3.17.2
 */
 
-$gspeech_plugin_version = '3.17.0';
-$gspeech_new_db_version = 189;
+$gspeech_plugin_version = '3.17.2';
+$gspeech_new_db_version = 192;
 
 define('GSPEECH_PLG_VERSION', $gspeech_plugin_version);
 define('GSPEECH_NEW_DB_VER', $gspeech_new_db_version);
@@ -51,6 +51,14 @@ add_filter('script_loader_tag', function ($tag, $handle) {
     }
     return $tag;
 }, 10, 2);
+
+add_action('wp_print_footer_scripts', function () {
+    $src = plugin_dir_url(__FILE__) . 'includes/js/gspeech_front.js';
+    $version = defined('GSPEECH_PLG_VERSION') ? GSPEECH_PLG_VERSION : '1.0.0';
+    ?>
+    <script>(function(){try{for(var s=document.scripts,f=!1,i=0;i<s.length;i++)if(/gspeech_front\.js/i.test(s[i].src)){f=!0;break}if(!window.gspeechFront&&!document.getElementById("wpgs-script777-js")&&!f){console.warn("[GSpeech] gspeech_front.js not found — loading fallback");var e=document.createElement("script");e.id="wpgs-script777-js";e.setAttribute("data-no-defer","");e.setAttribute("data-no-optimize","");e.setAttribute("data-cfasync","false");e.src=<?php echo json_encode($src . (strpos($src,"?")===false ? "?v=" : "&v=") . $version); ?>;document.head.appendChild(e)}else console.log("[GSpeech] gspeech_front.js already loaded")}catch(e){}})();</script>
+    <?php
+}, 999);
 
 add_filter('the_content', array('GSpeech_Front', 'process_post_data'));
 add_action('wp_loaded', array('GSpeech_Front', 'load_module'));
