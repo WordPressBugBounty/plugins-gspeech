@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
 Tested up to: 6.8
-Stable tag: 3.17.5
+Stable tag: 3.17.7
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -346,6 +346,11 @@ No, all __TTS keys__ and __real-time translation keys__ are included in all comm
 12. GSpeech player view.
 
 == Changelog ==
+
+= V 3.17.6 -> 3.17.7 - 11/08/2025 =
+* Added frontend fallback to auto-load gsp_ajax_obj, #gsp_data_html, and gspeech_front.js if optimizers strip them.
+* jQuery auto-load if missing, with duplicate-load prevention.
+* Improved compatibility with caching/minification plugins.
 
 = V 3.17.0 -> 3.17.5 - 10/08/2025 =
 * Compatibility with Jetpack Boost plugin and other optimizers!

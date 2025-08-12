@@ -56,27 +56,44 @@ window.gspeechFront = function(options) {
 
         let encData = storage.getItem('gsp_enc_data') ? JSON.parse(storage.getItem('gsp_enc_data')) : {};
 
+        // есть ли локализация от WP?
+        var canAjax = (typeof window.gsp_ajax_obj === 'object') &&
+                      window.gsp_ajax_obj &&
+                      typeof gsp_ajax_obj.ajax_url === 'string' &&
+                      gsp_ajax_obj.ajax_url &&
+                      typeof gsp_ajax_obj.nonce === 'string' &&
+                      gsp_ajax_obj.nonce;
+
         if (reload_session == 1 || !encData.h_enc || !encData.s_enc || !encData.hh_enc) {
 
-            jQuery.post(gsp_ajax_obj.ajax_url, {
-                action: 'wpgsp_validate_enc_data',
-                _ajax_nonce: gsp_ajax_obj.nonce
-            }, function(response) {
-                if (response.success) {
-                    encData = {
-                        s_enc: response.data.s_enc,
-                        h_enc: response.data.h_enc,
-                        hh_enc: response.data.hh_enc
-                    };
-                    storage.setItem('gsp_enc_data', JSON.stringify(encData));
+            if (canAjax) {
+                jQuery.post(gsp_ajax_obj.ajax_url, {
+                    action: 'wpgsp_validate_enc_data',
+                    _ajax_nonce: gsp_ajax_obj.nonce
+                }, function(response) {
+                    if (response && response.success && response.data) {
+                        encData = {
+                            s_enc: response.data.s_enc || '',
+                            h_enc: response.data.h_enc || '',
+                            hh_enc: response.data.hh_enc || ''
+                        };
+                        try { storage.setItem('gsp_enc_data', JSON.stringify(encData)); } catch(e){}
+                    }
                     loadCloudWidget(encData);
-                }
-            }).fail(function() {
+                }).fail(function() {
+                    // нет ответа от аджакса — грузим виджет без энков
+                    loadCloudWidget(encData);
+                });
+            } else {
+                // локализации нет (оптимизатор вырезал) — грузим без запроса
+                console.warn('[GSpeech] gsp_ajax_obj is missing — loading widget without enc data');
                 loadCloudWidget(encData);
-            });
+            }
+
         } else {
             loadCloudWidget(encData);
         }
+
 
         function loadCloudWidget(encData) {
             var load_timeout = lazy_load == 1 ? thisPage.options.lazy_load_timeout : 0;
