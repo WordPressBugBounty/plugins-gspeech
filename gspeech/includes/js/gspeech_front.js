@@ -1,3 +1,6 @@
+(function waitForjQuery(attempts){
+    if (typeof window.jQuery !== "undefined") {
+
 (function($) {
 
 window.gspeechFront = function(options) {
@@ -166,4 +169,12 @@ $(document).ready(function() {
     var gsp_options = {};
     window.gspeech_front = new gspeechFront(gsp_options);
 });
+
 })(jQuery);
+
+} else if (attempts < 100) {
+    setTimeout(function(){ waitForjQuery(attempts+1); }, 50);
+} else {
+    console.warn("[GSpeech] jQuery not available after waiting.");
+}
+})(0);
