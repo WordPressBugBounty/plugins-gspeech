@@ -59,7 +59,6 @@ window.gspeechFront = function(options) {
 
         let encData = storage.getItem('gsp_enc_data') ? JSON.parse(storage.getItem('gsp_enc_data')) : {};
 
-        // есть ли локализация от WP?
         var canAjax = (typeof window.gsp_ajax_obj === 'object') &&
                       window.gsp_ajax_obj &&
                       typeof gsp_ajax_obj.ajax_url === 'string' &&
@@ -84,11 +83,9 @@ window.gspeechFront = function(options) {
                     }
                     loadCloudWidget(encData);
                 }).fail(function() {
-                    // нет ответа от аджакса — грузим виджет без энков
                     loadCloudWidget(encData);
                 });
             } else {
-                // локализации нет (оптимизатор вырезал) — грузим без запроса
                 console.warn('[GSpeech] gsp_ajax_obj is missing — loading widget without enc data');
                 loadCloudWidget(encData);
             }
@@ -96,7 +93,6 @@ window.gspeechFront = function(options) {
         } else {
             loadCloudWidget(encData);
         }
-
 
         function loadCloudWidget(encData) {
             var load_timeout = lazy_load == 1 ? thisPage.options.lazy_load_timeout : 0;
