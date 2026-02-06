@@ -107,66 +107,144 @@ class GSpeech_Admin {
 
 	public static function wpgsp_apply_ajax_save() {
 
-	    header('Content-Type: text/plain');
-
-	    check_ajax_referer('wpgsp_ajax_nonce_value_1');
-
-	    $plugin_version = GSPEECH_PLG_VERSION;
-
-	    global $wpdb;
-
-	    $type = isset($_POST['type']) ? $_POST['type'] : '';
-
-	    if ($type == 'save_data') {
-	        $field = isset($_POST['field']) ? esc_html($_POST['field']) : '';
-	        $val = isset($_POST['val']) ? esc_html($_POST['val']) : '';
-
-	        if ($field != '' && $val != '') {
-	            $fields = explode(',', $field);
-
-	            if (sizeof($fields) > 1) {
-
-	                $vals = explode(':', $val);
-	                $q = "UPDATE `".$wpdb->prefix."gspeech_data` SET ";
-	                for ($w = 0; $w < sizeof($fields); $w++) {
-	                    $field_ind = sanitize_text_field($fields[$w]);
-	                    $field_val = sanitize_text_field($vals[$w]);
-	                    $q .= "`".$field_ind."` = %s";
-	                    if ($w != sizeof($fields) - 1) {
-	                        $q .= ",";
-	                    }
-
-	                    update_option('gspeech_' . $field_ind, $field_val);
-	                }
-
-	                $query = $wpdb->prepare($q, $vals);
-	                $wpdb->query($query);
-
-	            } else {
-
-	                $val_sanitized = sanitize_text_field($val);
-	                $query = $wpdb->prepare("UPDATE `".$wpdb->prefix."gspeech_data` SET `".$field."` = %s", $val_sanitized);
-	                $wpdb->query($query);
-
-	                update_option('gspeech_' . $field, $val_sanitized);
-	            }
-	        }
-	    } else if ($type == 'increase_index') {
-
-	        $q = "UPDATE `".$wpdb->prefix."gspeech_data` SET `version_index` = `version_index` + 1";
-	        $wpdb->query($q);
-
-	        $version_index = get_option('gspeech_version_index', 0);
-	        update_option('gspeech_version_index', $version_index + 1);
-
-	        delete_transient('gspeech_settings_cache');
-	        delete_transient('gsp_crypto_cache');
-	    }
-
-	    echo '{"v":"'.$plugin_version.'"}';
-
-	    exit;
+		header('Content-Type: text/plain');
+	
+		// nonce
+		check_ajax_referer('wpgsp_ajax_nonce_value_1');
+	
+		// дополнительная проверка прав (рекомендуется)
+		if ( ! current_user_can('manage_options') ) {
+			status_header(403);
+			echo '{"e":"forbidden"}';
+			exit;
+		}
+	
+		$plugin_version = GSPEECH_PLG_VERSION;
+	
+		global $wpdb;
+	
+		$type = isset($_POST['type']) ? (string) $_POST['type'] : '';
+	
+		// table name
+		$table = $wpdb->prefix . 'gspeech_data';
+	
+		// Получаем реальные колонки таблицы — allow-list
+		$cols = $wpdb->get_col( "SHOW COLUMNS FROM `{$table}`" );
+		if ( empty($cols) || !is_array($cols) ) {
+			status_header(500);
+			echo '{"e":"schema"}';
+			exit;
+		}
+		$col_set = array_fill_keys($cols, true);
+	
+		if ($type == 'save_data') {
+			$field = isset($_POST['field']) ? wp_unslash($_POST['field']) : '';
+			$val   = isset($_POST['val'])   ? wp_unslash($_POST['val'])   : '';
+	
+			if ($field === '' || $val === '') {
+				status_header(400);
+				echo '{"e":"args"}';
+				exit;
+			}
+	
+			// поддерживаем старый формат: несколько полей через "," и значения через ":"
+			$fields = array_map('trim', explode(',', $field));
+			// нормализуем имена полей — используем sanitize_key (строгое имя)
+			$fields = array_map(function($f){ return sanitize_key((string)$f); }, $fields);
+			// убираем пустые
+			$fields = array_values(array_filter($fields, static function($x){ return $x !== ''; }));
+	
+			if ( empty($fields) ) {
+				status_header(400);
+				echo '{"e":"no_fields"}';
+				exit;
+			}
+	
+			// проверяем имена колонок против реальной схемы
+			foreach ($fields as $f) {
+				if (!isset($col_set[$f])) {
+					status_header(400);
+					echo '{"e":"bad_field","field":"'.$f.'"}';
+					exit;
+				}
+			}
+	
+			if (count($fields) > 1) {
+	
+				// значения
+				$vals = explode(':', (string)$val);
+				// очищаем значения
+				$vals_clean = array_map(function($v){ return sanitize_text_field(wp_unslash($v)); }, $vals);
+	
+				// длины должны совпадать
+				if (count($vals_clean) !== count($fields)) {
+					status_header(400);
+					echo '{"e":"len_mismatch"}';
+					exit;
+				}
+	
+				// построим SET части с проверенными идентификаторами колонок
+				$assign = [];
+				foreach ($fields as $f) {
+					$assign[] = "`{$f}` = %s";
+				}
+				$sql = "UPDATE `{$table}` SET " . implode(', ', $assign);
+	
+				// prepare: распаковываем значения корректно
+				$prepare_args = array_merge([$sql], $vals_clean);
+				$prepared = call_user_func_array([$wpdb, 'prepare'], $prepare_args);
+				$wpdb->query($prepared);
+	
+				// обновляем опции (старое поведение)
+				foreach ($fields as $i => $f) {
+					update_option('gspeech_' . $f, $vals_clean[$i]);
+				}
+	
+			} else {
+				// single-field
+				$f = $fields[0];
+				$v = sanitize_text_field($val);
+	
+				// $f уже проверен на существование в $col_set
+				$sql = "UPDATE `{$table}` SET `{$f}` = %s";
+				$prepared = $wpdb->prepare($sql, $v);
+				$wpdb->query($prepared);
+	
+				update_option('gspeech_' . $f, $v);
+			}
+	
+			// очищаем кэши (как раньше)
+			delete_transient('gspeech_settings_cache');
+			delete_transient('gsp_crypto_cache');
+	
+		} else if ($type == 'increase_index') {
+	
+			// убедимся, что колонка есть
+			if (!isset($col_set['version_index'])) {
+				status_header(500);
+				echo '{"e":"schema"}';
+				exit;
+			}
+	
+			// безопасный инкремент (нет внешних данных)
+			$wpdb->query("UPDATE `{$table}` SET `version_index` = `version_index` + 1");
+	
+			$version_index = get_option('gspeech_version_index', 0);
+			update_option('gspeech_version_index', $version_index + 1);
+	
+			delete_transient('gspeech_settings_cache');
+			delete_transient('gsp_crypto_cache');
+		} else {
+			// неизвестный тип — просто возвращаем версию, как раньше (или можно вернуть ошибку)
+			// echo '{"v":"'.$plugin_version.'"}';
+			// exit;
+		}
+	
+		// success
+		echo '{"v":"'.$plugin_version.'"}';
+		exit;
 	}
+	
 
 	public static function wpgsp_validate_enc_data() {
 		

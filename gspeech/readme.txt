@@ -3,8 +3,8 @@ Contributors: creative-solutions
 Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, text to audio, speech, audio
 Requires at least: 3.5
-Tested up to: 6.8
-Stable tag: 3.17.13
+Tested up to: 6.9
+Stable tag: 3.19.4
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
@@ -346,6 +346,29 @@ No, all __TTS keys__ and __real-time translation keys__ are included in all comm
 12. GSpeech player view.
 
 == Changelog ==
+
+= V 3.19.4 - 02/02/2026 =
+* Backend parameters corrections.
+
+= V 3.19.3 - 27/01/2026 =
+* Options corrections.
+
+= V 3.19.2 - 01/01/2026 =
+* Backend parameter corrections.
+
+= V 3.19.1 - 31/12/2025 =
+* Happy New Year 2026! ✝️🎄🙂
+* Backend fixes.
+
+= V 3.19.0 - 13/12/2025 =
+* Added new options.
+* WP 6.9 tested!
+
+= V 3.18.1 - 23/10/2025 =
+* Improved frontend stability and fixed script loading issue caused by redirects on certain servers.
+
+= V 3.18.0 - 11/10/2025 =
+* Security: fixed Admin+ SQL injection in `wpgsp_apply_ajax_save` (CVE-2025-10187). Credit: Moose Love / Wordfence.
 
 = V 3.17.13 - 01/10/2025 =
 * Minor fixes.

@@ -176,7 +176,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "English (United States)",
                 "value": "en-US",
-                "voice_data": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21"
             },
             {
                 "name": "Estonian (Estonia)",
@@ -8224,8 +8224,8 @@ window.gspeechDash = function(options) {
             user_plan = parseInt($gsp_plan.html(), 10) || 0;
         }
 
-        var appsumo_blocked_langs = ['hy','be','kk','mk','mi','fa','pa-Arab','sl'];
-        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK'];
+        var appsumo_blocked_langs = [];
+        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK','hy','be','kk','mk','mi','fa','pa-Arab','sl'];
         var free_plan_blocked_langs = ['hy','be','eu-ES','gl-ES','kk','lt-LT','mk','mi','fa','pa-Arab','sl','yue-HK'];
 
         var $lng_sel = $("#lng_sel_wdg");
@@ -8932,8 +8932,8 @@ window.gspeechDash = function(options) {
             var voiceType = voicesArray[q].split(':')[1];
             var voiceVal = voiceIdent + '-' + voiceType;
 
-            if(appsumo == 1 && (voiceType != "0" && voiceType != "1" && voiceType != "2"))
-                continue;
+            // if(appsumo == 1 && (voiceType != "0" && voiceType != "1" && voiceType != "2"))
+            //     continue;
 
             var voiceName = this.generateVoiceName(voiceIdent,lang_code,voiceType);
             var typeClass = 'ss_voice_type_' + voiceType;
@@ -9049,6 +9049,40 @@ window.gspeechDash = function(options) {
                     break;
                 case 'I:20':
                     voice_name = 'Jennifer[F';
+                    break;
+
+                case 'A:21':
+                    voice_name = 'Sophia HD[F';
+                    break;
+                case 'B:21':
+                    voice_name = 'Andrew HD[M';
+                    break;
+                case 'C:21':
+                    voice_name = 'James HD[M';
+                    break;
+                case 'D:21':
+                    voice_name = 'Bertha HD[F';
+                    break;
+                case 'E:21':
+                    voice_name = 'Aleana HD[F';
+                    break;
+                case 'F:21':
+                    voice_name = 'Maya HD[F';
+                    break;
+                case 'G:21':
+                    voice_name = 'Simon HD[M';
+                    break;
+                case 'H:21':
+                    voice_name = 'Chloe HD[F';
+                    break;
+                case 'I:21':
+                    voice_name = 'Jennifer HD[F';
+                    break;
+                case 'J:21':
+                    voice_name = 'Jordan HD[F';
+                    break;
+                case 'K:21':
+                    voice_name = 'Morgan HD[F';
                     break;
             }
         else if(lang_code == 'en-IN')
@@ -11441,8 +11475,8 @@ window.gspeechDash = function(options) {
             user_plan = parseInt($gsp_plan.html(), 10) || 0;
         }
 
-        var appsumo_blocked_langs = ['hy','be','kk','mk','mi','fa','pa-Arab','sl'];
-        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK'];
+        var appsumo_blocked_langs = [];
+        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK','hy','be','kk','mk','mi','fa','pa-Arab','sl'];
         var free_plan_blocked_langs = ['hy','be','eu-ES','gl-ES','kk','lt-LT','mk','mi','fa','pa-Arab','sl','yue-HK'];
 
         var $lng_sel = $("#lng_sel");
@@ -11501,8 +11535,8 @@ window.gspeechDash = function(options) {
             user_plan = parseInt($gsp_plan.html(), 10) || 0;
         }
 
-        var appsumo_blocked_langs = ['hy','be','kk','mk','mi','fa','pa-Arab','sl'];
-        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK'];
+        var appsumo_blocked_langs = [];
+        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK','hy','be','kk','mk','mi','fa','pa-Arab','sl'];
         var free_plan_blocked_langs = ['hy','be','eu-ES','gl-ES','kk','lt-LT','mk','mi','fa','pa-Arab','sl','yue-HK'];
 
         var $lng_sel = $("#reg_website_lang");
@@ -11566,8 +11600,8 @@ window.gspeechDash = function(options) {
             user_plan = parseInt($gsp_plan.html(), 10) || 0;
         }
 
-        var appsumo_blocked_langs = ['hy','be','kk','mk','mi','fa','pa-Arab','sl'];
-        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK'];
+        var appsumo_blocked_langs = [];
+        var appsumo_tier1_blocked_langs = ['eu-ES','gl-ES','lt-LT','yue-HK','hy','be','kk','mk','mi','fa','pa-Arab','sl'];
         var free_plan_blocked_langs = ['hy','be','eu-ES','gl-ES','kk','lt-LT','mk','mi','fa','pa-Arab','sl','yue-HK'];
 
         var $lng_sel = $("#add_website_lang");

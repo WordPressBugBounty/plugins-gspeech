@@ -849,7 +849,7 @@ defined('ABSPATH') or die("No direct access");
 	<div id="gsp_chars_stat_wrapper">
 		<div class="gsp_chars_counter_wrapper">
 			<div class="gsp_chars_counter">
-				<div class="gsp_chars_count_title">Characters left <span class="month_data"> (From <span class="gsp_chars_itm_1">-</span>)</span></div>
+				<div class="gsp_chars_count_title">Credits left <span class="month_data"> (From <span class="gsp_chars_itm_1">-</span>)</span></div>
 				<div class="gsp_chars_count_val"><span class="gsp_chars_itm_2">-</span></div>
 				<div class="gsp_chars_per_m">of <span class="gsp_month_data gsp_chars_itm_3">-</span></div>
 				<div class="gsp_chars_count_progress__wrapper">
@@ -859,7 +859,7 @@ defined('ABSPATH') or die("No direct access");
 				<a href="https://gspeech.io/#pricing" target="_blank" class="gsp_chars_block_upgrade gsp_activate_upgrade">Upgrade</a>
 			</div>
 			<div class="gsp_chars_stat">
-				<div class="gsp_chars_stat_title">Characters Usage Statistics</div>
+				<div class="gsp_chars_stat_title">Credits Usage Statistics</div>
 				<div class="gsp_chars_stat_line">
 					<div class="gsp_stat_line_title">This cycle:</div>
 					<div class="gsp_stat_line_val"><span class="gsp_chars_itm_4">-</span></div>

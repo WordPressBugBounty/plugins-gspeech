@@ -14,33 +14,47 @@ class GSpeech_Front {
     private static $player_title = '';
     private static $gtranslate_wrapper_selector = '';
 
-    public static function process_post_data($content) {
+	public static function process_post_data($content) {
 
 	    $post = get_post();
 
 	    if ($post) {
 
-	        $post_id = $post->ID;
-	        $post_type = get_post_type($post);
-	        $cat_data = get_the_category($post_id);
+	        $post_id    = $post->ID;
+	        $post_type  = get_post_type($post);
+	        $cat_data   = get_the_category($post_id);
 	        $post_title = get_the_title($post_id);
-	        $home_url = home_url();
+	        $home_url   = home_url();
 
+	        // Modified date → diff in minutes
 	        $modified_date = get_the_modified_date('Y-m-d H:i:s', $post_id);
-	        $current_date = date('Y-m-d H:i:s');
-	        $dif = strtotime($current_date) - strtotime($modified_date);
-	        $minutes = self::get_dates_data($dif, 5);
+	        $current_date  = date('Y-m-d H:i:s');
+	        $dif           = strtotime($current_date) - strtotime($modified_date);
+	        $minutes       = self::get_dates_data($dif, 5);
 
+	        // Created date (publish date)
+	        $created_ts = get_post_time('U', false, $post_id);
+
+	        // Categories
 	        $list_cat = array();
 	        foreach ($cat_data as $cat) {
 	            $list_cat[] = $cat->slug;
 	        }
 	        $cat_str = implode(',', $list_cat);
 
+	        // Sanitize title
 	        $post_title = esc_attr(str_replace('"', '\'', $post_title));
-        	$post_type_html = '<div class="gsp_post_data" data-post_type="'.esc_attr($post_type).'" data-cat="'.esc_attr($cat_str).'" data-modified="'.esc_attr($minutes).'" data-title="'.$post_title.'" data-home="'.esc_url($home_url).'"></div>';
 
-        	$content .= $post_type_html;
+	        // Add created date as data-created
+	        $post_type_html = '<div class="gsp_post_data" 
+	            data-post_type="'.esc_attr($post_type).'" 
+	            data-cat="'.esc_attr($cat_str).'" 
+	            data-modified="'.esc_attr($minutes).'"
+	            data-created="'.esc_attr($created_ts).'"
+	            data-title="'.$post_title.'" 
+	            data-home="'.esc_url($home_url).'"></div>';
+
+	        $content .= $post_type_html;
 	    }
 
 	    return $content;
