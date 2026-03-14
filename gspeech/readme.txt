@@ -1,93 +1,110 @@
 === GSpeech TTS – WordPress Text To Speech Plugin ===
 Contributors: creative-solutions
 Author: Text to Speech AI Audio Solutions
-Tags: accessibility, text to speech, text to audio, speech, audio
+Tags: accessibility, text to speech, text to audio, tts, audio player
 Requires at least: 3.5
 Tested up to: 6.9
-Stable tag: 3.19.4
+Stable tag: 3.19.5
 Donate link: https://gspeech.io/#pricing
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI : https://www.gnu.org/licenses/gpl-3.0.html
 
-GSpeech is a powerful WordPress Text to Speech Plugin that allows to automatically generate WordPress content into best Text to Audio in 65 languages.
+Free WordPress Text to Speech plugin with AI voices. Add an audio player to WordPress posts, pages and WooCommerce products to improve accessibility.
 
 == Description ==
 
-### WordPress Text to Speech Plugin - GSpeech TTS
-GSpeech is a leading modern Text To Speech WordPress Plugin that uses __Google Technology__ to generate __natural-sounding audio__ and __works seamlessly on all devices and browsers__! With __support for 65+ languages__, your site becomes accessible to __global audiences__. The commercial versions of this free text-to-speech WordPress plugin offer __premium human-like AI Voices__, making your content easier to listen to and more engaging for your users. __Adding text-to-speech functionality__ can significantly boost your site’s __SEO rankings__ and __help increase your traffic and conversions__.
+### WordPress Text to Speech Plugin – GSpeech TTS
 
-__GSpeech is a leading website text-to-speech services provider since 2012__. It is the most powerful and user-friendly WordPress Text to Speech Audio Solution.
+GSpeech converts WordPress posts, pages, and WooCommerce products into natural-sounding audio with built-in text to speech players in 70+ languages. Easily **add an audio player to WordPress posts**, pages, and product descriptions so visitors can listen to your content instead of just reading it.
 
-This Free Text to Speech Plugin helps __Enhance the Accessibility of WordPress Websites__ by automatically creating audio versions of your content and embedding them via beautiful, customizable Text to Audio players. It empowers __visitors with visual impairments or reading difficulties__ to fully experience your content __without needing to read__, and also improves the experience for users who __prefer listening to content__. GSpeech is the most advanced WordPress text to speech plugin that turns any post, page, or WooCommerce product into natural-sounding audio in 65+ languages. Ideal for improving website accessibility, SEO, and visitor engagement, this text to audio WordPress plugin is fast, smart, and optimized for mobile.
+GSpeech is a powerful **free text to speech plugin for WordPress** that automatically generates audio and embeds a modern **text to speech audio player** directly into your articles, blog posts, and WooCommerce products. Turn written content into engaging **text to audio experiences** that visitors can listen to anytime.
 
-### 🌐 Useful Links – WordPress Text to Speech Plugin Resources
-Discover more about GSpeech WordPress Text to Speech Plugin through these useful links:
+Audio is generated once, cached, and delivered instantly to visitors, making GSpeech one of the fastest **text to speech solutions for WordPress**. Improve accessibility, engagement, and SEO by adding audio narration to articles, blogs, news sites, and e-commerce content.
 
-* 🔗 [GSpeech Homepage – Text to Audio Generator](https://gspeech.io) – Create __engaging audio__ from text instantly.
-* 🔗 [Live Demo – Try Text to Speech in Action](https://gspeech.io/demos) – Listen to examples in __different languages__.
-* 🔗 [Implementation Guide – Video Tutorials](https://gspeech.io/text-to-speech-wordpress-tts-plugin) – __Step-by-step setup__ instructions for WordPress.
-* 🔗 [Support – Contact GSpeech Team](https://gspeech.io/contact-us) – __Reach out to us__ for help and inquiries.
-* 🔗 [Dashboard – Online text to speech platform](https://gspeech.io/dashboard) – Same is __integrated into wp-admin__.
-* 🔗 [GSpeech Commercial – Pricing](https://gspeech.io/#pricing) – Unlock __advanced text-to-speech__ features.
-* 🔗 [Screenshots – GSpeech Text to Audio Players](https://wordpress.org/plugins/gspeech/#screenshots) – Explore __different audio player__ designs.
-* 🔗 [Videos – Text To Speech Use Cases](https://gspeech.io/videos) – __Watch examples__ and tutorials.
+GSpeech uses Google technology to generate high-quality speech with **cloud voices that work consistently across all browsers and devices**. Commercial plans include premium human-like AI voices (50+ per language) powered by leading AI models from **OpenAI (ChatGPT TTS)** and **Google Cloud TTS**, including **Chirp3 HD** and **Gemini Flash**, along with speed and pitch controls, custom voice prompts and instructions, and the unique **Voices Vibes system with a library of 100+ voice styles** designed to boost engagement and SEO.
 
-### 🎬 Best Free WordPress Text to Speech Plugin – Step-by-Step Video Tutorial
+Since 2012, GSpeech has helped website owners improve accessibility and user engagement by automatically creating **audio versions of website content** and embedding them with customizable audio players.
+
+Unlike many WordPress text-to-speech plugins that rely on browser voices or require external API keys, GSpeech uses its powerful **GSpeech Cloud Console** with fully integrated cloud voices that do not depend on the visitor’s browser or device. Just install the free plugin, **sign up for free with one click**, and start generating audio instantly.
+
+
+### 🌐 Useful Links – GSpeech Text-to-Speech Resources
+Explore more about the GSpeech WordPress Text-to-Speech Plugin through the resources below:
+
+* 🔗 [GSpeech Homepage – AI Text to Audio Platform](https://gspeech.io) – Turn website content into natural-sounding audio instantly.
+* 🔗 [Live Demo – Hear Text to Speech in Action](https://gspeech.io/demos) – Listen to real examples in multiple languages.
+* 🔗 [Implementation Guide – Setup Tutorials](https://gspeech.io/text-to-speech-wordpress-tts-plugin) – Step-by-step guide for installing and configuring the plugin.
+* 🔗 [Support – Contact the GSpeech Team](https://gspeech.io/contact-us) – Get help with installation and configuration.
+* 🔗 [GSpeech Cloud Console](https://gspeech.io/dashboard) – Manage voices, widgets, analytics, and audio generation directly from your dashboard.
+* 🔗 [GSpeech Commercial Plans](https://gspeech.io/#pricing) – Unlock AI voices, translation, analytics, and advanced features.
+* 🔗 [Plugin Screenshots](https://wordpress.org/plugins/gspeech/#screenshots) – Explore different player layouts and designs.
+* 🔗 [Video Tutorials](https://gspeech.io/videos) – Learn how to use GSpeech effectively.
+
+### 🎬 WordPress Text-to-Speech Plugin – Step-by-Step Video Tutorial
 [youtube https://www.youtube.com/watch?v=AoxCtTbFtKk]
 
-### 🎬 GSpeech: The Ultimate WordPress Text-to-Speech Solution – Full Review
+### 🎬 GSpeech – Full Text-to-Speech Platform Overview
 [youtube https://www.youtube.com/watch?v=VHOU6aIHqUc]
 
-### 👆 Why Use the GSpeech Text to Speech Plugin for WordPress?
+### 👆 Why Use the GSpeech Text-to-Speech Plugin?
 
-* ✅ __Enhance Accessibility__: Improve the accessibility of your WordPress website using the GSpeech Text to Speech Plugin. Make your content available to a wider audience, including users with visual impairments or reading difficulties. Offering a text to audio alternative creates a more inclusive experience and supports your SEO growth.
-* ✅ __Improve User Experience with Text to Speech__: The GSpeech WordPress Text to Speech Plugin provides an engaging and interactive way to consume content. Beautiful and functional text to audio players allow users to effortlessly listen to your WordPress posts and pages. Offering a text to speech option increases user interaction, improves content accessibility, and boosts visitor satisfaction and retention.
-* ✅ __Boost Multitasking and Convenience__: Enable your audience to listen to your WordPress text to audio content while driving, working out, or multitasking. The GSpeech Text to Speech Plugin for WordPress gives your users the flexibility to consume content on the go, enhancing convenience, increasing engagement, and encouraging repeat visits.
-* ✅ __Free and Easy to Start__: Install the GSpeech WordPress text to speech plugin for free in just a few clicks. No coding skills needed. Upgrade anytime to access premium AI voices, real-time translation, and advanced multilingual audio features.
+* ✅ __Improve Website Accessibility__ – Provide audio versions of your content for visually impaired users and visitors who prefer listening instead of reading.
+* ✅ __Increase Engagement__ – Let users listen to articles, blog posts, and product descriptions with modern audio players.
+* ✅ __Boost SEO and Time on Page__ – Audio content increases engagement signals and improves user experience.
+* ✅ __Cloud-Powered Voices__ – GSpeech generates audio using cloud speech engines that work consistently across all browsers and devices.
+* ✅ __Smart Audio Caching__ – Audio is generated once and delivered instantly on future visits.
+* ✅ __No API Keys Required__ – Everything is integrated into the GSpeech Cloud Console for simple setup.
 
-### 💭 Get Started with GSpeech – The Best WordPress Text to Speech Plugin
-Start using the GSpeech WordPress Text to Speech Plugin today to boost your website’s accessibility, user engagement, and SEO performance. Install now and watch your traffic grow!
+### 💭 Get Started with GSpeech
+Install the GSpeech WordPress Text-to-Speech Plugin today and transform your website content into engaging audio. Improve accessibility, increase user engagement, and deliver a modern listening experience to your visitors.
 
 ### 👉 Text to Speech by GSpeech – Free Plugin Features:
-* ✅ __Easy Usage__: Automatically convert your WordPress content into engaging audio with just a few clicks!
-* ✅ __Multiple Languages__: Supports 65+ languages. Check the full list in the [FAQ](https://wordpress.org/plugins/gspeech/#%F0%9F%91%89%20which%20languages%20are%20supported%3F).
-* ✅ __Different Players__: Choose from 3 player types: __Full Page Player__, __Button Player__, and __Circle Player__ – [Demo](https://gspeech.io/demos).
-* ✅ __Easy Shortcodes__: Use *[gspeech]*, *[gspeech-button]*, or *[gspeech-circle]* shortcodes to insert players anywhere.
-* ✅ __2-Minute Installation__: Complete configuration with __just one click__ directly from __WP Admin__.
-* ✅ __Manage Where to Show__: Automatically display the player on __all pages__, or control its placement as needed.
-* ✅ __RHT Player__: Read Highlighted Text Player. It appears instantly after selecting any text – [Demo](https://gspeech.io/blog/gspeech-read-highlighted-text-player).
-* ✅ __Welcome Messages__: Play audio greetings when users visit your website.
-* ✅ __Audio Database__: Access all audio files from your WP Admin with __unlimited downloads__.
-* ✅ __Smart Technology__: Audio files are generated __only once__ and cached for faster playback.
-* ✅ __Text Optimization__: Automatically removes special characters and URLs from audio output.
-* ✅ __TTS Banners__: Animated banners notify users that __Text-to-Speech is active__ on your website.
-* ✅ __Different Themes__: Choose from __16+ player themes and templates__.
-* ✅ __No API Keys Needed__: No Google TTS API keys required – GSpeech handles everything for you.
-* ✅ __Powerful Dashboard__: Detailed __country, city, and play statistics__ directly in your WordPress __WP Admin__.
-* ✅ __WooCommerce Support__: Seamlessly add text-to-speech to your WooCommerce store.
-* ✅ __Device Statistics__: Analyze usage by __desktop__, __mobile__, and __tablet__ visitors.
-* ✅ __Smart Loading__: GSpeech is __fully optimized and does not slow down your page loading__.
-* ✅ __Fully Mobile Supported__: The audio player is fully responsive and mobile-friendly.
-* ✅ __Cross-Browser Compatibility__: Works flawlessly across all modern browsers.
-* ✅ __No Server Requirements__: Easily install without additional server configuration.
-* ✅ __Modern Design and Smooth Effects__: Clean, visually appealing, and interactive.
-* ✅ __Helpful and Responsive Support__: Friendly and professional customer support team.
 
-### 📚 Usage – Text to Speech by GSpeech:
-* ✅ Activate __GSpeech Cloud Console__ directly from WP Admin with just one click. The __Cloud Console__ menu will be enabled.
-* ✅ The audio player will automatically appear on posts and pages. You can control where to display it.
-* ✅ To edit player settings, go to __Cloud Console -> Widgets -> Multi-Page__ audio widget.
-* ✅ The __RHT Player__ (Read Highlighted Text) is activated automatically.
-* 💡 To insert a player anywhere, use the __shortcodes__!
-* ✅ To insert a __Full Page Player__, use __[gspeech]__.
-* ✅ To insert a __Button Player__, use __[gspeech-button]__.
-* ✅ To insert a __Circle Player__, use __[gspeech-circle]__.
-* ✅ To view player type examples, visit the [Demo Page](https://gspeech.io/demos).
-* ✅ To manage individual player settings, go to __Cloud Console -> Widgets__; each player type has its own widget.
-* ✅ To enable __Welcome Messages__, publish the __Welcome Message__ audio widget from the __Cloud Console__.
-* ✅ To exclude parts of content from audio playback, use the class __nospeech__.
-* ✅ For more usage examples, visit the [FAQ](https://wordpress.org/plugins/gspeech/#faq).
+* ✅ __Easy Setup__: Convert WordPress posts and pages into audio with just a few clicks.
+* ✅ __65+ Languages__: Generate speech for multilingual websites. See the full list in the [FAQ](https://wordpress.org/plugins/gspeech/#%F0%9F%91%89%20which%20languages%20are%20supported%3F).
+* ✅ __Multiple Audio Players__: Choose from 3 player types – __Full Page Player__, __Button Player__, and __Circle Player__. See the [Demo](https://gspeech.io/demos).
+* ✅ __Shortcodes Support__: Insert players anywhere using *[gspeech]*, *[gspeech-button]*, or *[gspeech-circle]*.
+* ✅ __1-Click Activation__: Activate the __GSpeech Cloud Console__ directly from WP Admin.
+* ✅ __Smart Audio Caching__: Audio files are generated once and delivered instantly on future visits.
+* ✅ __Read Highlighted Text (RHT)__: Instantly play audio for any selected text – [Demo](https://gspeech.io/blog/gspeech-read-highlighted-text-player).
+* ✅ __Welcome Messages__: Automatically greet visitors with audio when they open your website.
+* ✅ __Audio Database__: Manage and download generated audio files directly from WP Admin.
+* ✅ __Flexible Display Rules__: Show players automatically on pages or control where they appear.
+* ✅ __Text Optimization__: Automatically removes URLs and special characters from audio output.
+* ✅ __16+ Player Themes__: Customize the audio player design to match your website.
+* ✅ __No API Keys Required__: GSpeech handles all speech engine integrations for you.
+* ✅ __Built-in Analytics__: View statistics by country, city, and plays directly inside WordPress.
+* ✅ __WooCommerce Support__: Add text-to-speech to WooCommerce products and descriptions.
+* ✅ __Device Statistics__: Analyze usage across desktop, mobile, and tablet visitors.
+* ✅ __Performance Optimized__: Lightweight and designed not to slow down your website.
+* ✅ __Mobile Friendly__: Fully responsive players that work on all devices.
+* ✅ __Cross-Browser Compatible__: Works consistently across all modern browsers.
+* ✅ __No Server Configuration__: Works instantly without special server requirements.
+* ✅ __Modern UI__: Clean audio players with smooth animations.
+* ✅ __Professional Support__: Fast and friendly support from the GSpeech team.
+
+---
+
+### 📚 Usage – Text to Speech by GSpeech
+
+* ✅ Activate __GSpeech Cloud Console__ directly from WP Admin with one click.
+* ✅ The audio player will automatically appear on posts and pages.
+* ✅ To edit player settings, go to __Cloud Console → Widgets → Multi-Page__.
+* ✅ The __Read Highlighted Text (RHT)__ player works automatically after activation.
+* 💡 Insert players anywhere using shortcodes.
+
+__Available shortcodes:__
+
+* __[gspeech]__ – Full Page Player  
+* __[gspeech-button]__ – Button Player  
+* __[gspeech-circle]__ – Circle Player  
+
+* ✅ To see player examples, visit the [Demo Page](https://gspeech.io/demos).
+* ✅ Manage player settings in __Cloud Console → Widgets__.
+* ✅ Enable __Welcome Messages__ by publishing the widget in Cloud Console.
+* ✅ Exclude elements from audio using the class __nospeech__.
+* ✅ For more examples and advanced configuration, visit the [FAQ](https://wordpress.org/plugins/gspeech/#faq).
 
 == 💬 WordPress Text to Speech Plugin – CUSTOMER TESTIMONIAL ==
 
@@ -346,6 +363,10 @@ No, all __TTS keys__ and __real-time translation keys__ are included in all comm
 12. GSpeech player view.
 
 == Changelog ==
+
+= V 3.19.5 - 14/03/2026 =
+* Backend parameters corrections.
+* Readme corrections.
 
 = V 3.19.4 - 02/02/2026 =
 * Backend parameters corrections.
