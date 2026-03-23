@@ -91,7 +91,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Armenian",
                 "value": "hy",
-                "voice_data": "A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Belarusian",
@@ -166,7 +166,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "English (UK)",
                 "value": "en-GB",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2,F:2,G:5,H:5,I:5,J:5,K:5,L:5,M:5"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,F:2,G:5,H:5,I:5,J:5,K:5,L:5,M:5,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "English (India)",
@@ -176,7 +176,8 @@ window.gspeechDash = function(options) {
             {
                 "name": "English (United States)",
                 "value": "en-US",
-                "voice_data": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21"
+                "voice_data": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11",
+                "voice_data_full": "A:0,G:2,H:2,I:2,J:2,A:2,B:2,C:2,D:2,E:2,F:2,K:5,L:5,M:5,N:5,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:8,F:8,G:8,H:8,I:8,J:8,K:8,L:8,M:8,N:8,O:8,P:8,Q:8,R:8,S:8,T:8,U:8,V:8,W:8,X:8,Y:8,Z:8,AA:8,AB:8,AC:8,AD:8,A:10,B:10,C:10,D:10,E:10,F:10,G:10,H:10,I:10,J:10,K:10,L:10,M:10,N:10,O:10,P:10,Q:10,R:10,S:10,T:10,U:10,V:10,W:10,X:10,Y:10,Z:10,AA:10,AB:10,AC:10,AD:10,A:11,B:11,C:11,D:11,E:11,F:11,G:11,H:11,I:11,J:11,K:11,L:11,M:11,N:11,O:11,P:11,Q:11,R:11,S:11,T:11,U:11,V:11,W:11,X:11,Y:11,Z:11,AA:11,AB:11,AC:11,AD:11"
             },
             {
                 "name": "Estonian (Estonia)",
@@ -201,7 +202,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "French (France)",
                 "value": "fr-FR",
-                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Galician (Spain)",
@@ -211,12 +212,13 @@ window.gspeechDash = function(options) {
             {
                 "name": "German (Germany)",
                 "value": "de-DE",
-                "voice_data": "A:0,F:2,A:2,B:2,C:2,D:2,E:2,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,F:2,A:2,B:2,C:2,D:2,E:2,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11",
+                "voice_data_full": "A:0,F:2,A:2,B:2,C:2,D:2,E:2,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:8,F:8,G:8,H:8,I:8,J:8,K:8,L:8,M:8,N:8,O:8,P:8,Q:8,R:8,S:8,T:8,U:8,V:8,W:8,X:8,Y:8,Z:8,AA:8,AB:8,AC:8,AD:8,A:10,B:10,C:10,D:10,E:10,F:10,G:10,H:10,I:10,J:10,K:10,L:10,M:10,N:10,O:10,P:10,Q:10,R:10,S:10,T:10,U:10,V:10,W:10,X:10,Y:10,Z:10,AA:10,AB:10,AC:10,AD:10,A:11,B:11,C:11,D:11,E:11,F:11,G:11,H:11,I:11,J:11,K:11,L:11,M:11,N:11,O:11,P:11,Q:11,R:11,S:11,T:11,U:11,V:11,W:11,X:11,Y:11,Z:11,AA:11,AB:11,AC:11,AD:11"
             },
             {
                 "name": "Greek (Greece)",
                 "value": "el-GR",
-                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Gujarati (India)",
@@ -251,12 +253,12 @@ window.gspeechDash = function(options) {
             {
                 "name": "Italian (Italy)",
                 "value": "it-IT",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Japanese (Japan)",
                 "value": "ja-JP",
-                "voice_data": "A:0,B:2,C:2,D:2,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,B:2,C:2,D:2,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Javanese (Indonesia)",
@@ -296,7 +298,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Lithuanian (Lithuania)",
                 "value": "lt-LT",
-                "voice_data": "A:1"
+                "voice_data": "A:0,A:1"
             },
             {
                 "name": "Macedonian",
@@ -336,7 +338,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Norwegian (Norway)",
                 "value": "nb-NO",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2,E:2,A:20,B:20,C:20,D:20,E:20,F:20"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,E:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Persian",
@@ -356,7 +358,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Portuguese (Portugal)",
                 "value": "pt-PT",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Punjabi (Gurmukhi)",
@@ -376,7 +378,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Russian (Russia)",
                 "value": "ru-RU",
-                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,E:2,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Serbian (Serbia)",
@@ -401,12 +403,12 @@ window.gspeechDash = function(options) {
             {
                 "name": "Spanish (Spain)",
                 "value": "es-ES",
-                "voice_data": "A:0,C:2,D:2,B:2,A:3,E:3,F:3,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,C:2,D:2,B:2,A:3,E:3,F:3,1:7,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Spanish (United States)",
                 "value": "es-US",
-                "voice_data": "A:0,A:2,B:2,C:2,G:5,F:5,E:5,D:5,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,A:2,B:2,C:2,G:5,F:5,E:5,D:5,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Sundanese (Indonesia)",
@@ -446,7 +448,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Ukrainian (Ukraine)",
                 "value": "uk-UA",
-                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20"
+                "voice_data": "A:0,A:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Urdu",
@@ -8960,803 +8962,1391 @@ window.gspeechDash = function(options) {
 
         if(lang_code == 'en-US')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Samantha[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Declan[M';
-                    break;
-                case 'B:2':
-                    voice_name = 'Brandon[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Jessica[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Alexander[M';
-                    break;
-                case 'E:2':
-                    voice_name = 'Alina[F';
-                    break;
-                case 'F:2':
-                    voice_name = 'Lucy[F';
-                    break;
-                case 'G:2':
-                    voice_name = 'Emily[F';
-                    break;
-                case 'H:2':
-                    voice_name = 'Caroline[F';
-                    break;
-                case 'I:2':
-                    voice_name = 'Thomas[M';
-                    break;
-                case 'J:2':
-                    voice_name = 'Kristopher[M';
-                    break;
-                case 'M:4':
-                    voice_name = 'Miles[M';
-                    break;
-                case 'O:4':
-                    voice_name = 'Eleanor[F';
-                    break;
-                case 'K:5':
-                    voice_name = 'Madison[F';
-                    break;
-                case 'L:5':
-                    voice_name = 'Hazel[F';
-                    break;
-                case 'M:5':
-                    voice_name = 'Chuk[M';
-                    break;
-                case 'N:5':
-                    voice_name = 'Harrison[M';
-                    break;
-                case 'D:6':
-                    voice_name = 'Lucas[M';
-                    break;
-                case '1:7':
-                    voice_name = 'John[M';
-                    break;
-                case 'F:6':
-                    voice_name = 'Amelia[F';
-                    break;
-                case 'O:6':
-                    voice_name = 'Evelyn[F';
-                    break;
-                case 'A:20':
-                    voice_name = 'Sophia[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Andrew[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'James[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Bertha[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Aleana[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Maya[F';
-                    break;
-                case 'G:20':
-                    voice_name = 'Simon[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Chloe[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Jennifer[F';
-                    break;
-
-                case 'A:21':
-                    voice_name = 'Sophia HD[F';
-                    break;
-                case 'B:21':
-                    voice_name = 'Andrew HD[M';
-                    break;
-                case 'C:21':
-                    voice_name = 'James HD[M';
-                    break;
-                case 'D:21':
-                    voice_name = 'Bertha HD[F';
-                    break;
-                case 'E:21':
-                    voice_name = 'Aleana HD[F';
-                    break;
-                case 'F:21':
-                    voice_name = 'Maya HD[F';
-                    break;
-                case 'G:21':
-                    voice_name = 'Simon HD[M';
-                    break;
-                case 'H:21':
-                    voice_name = 'Chloe HD[F';
-                    break;
-                case 'I:21':
-                    voice_name = 'Jennifer HD[F';
-                    break;
-                case 'J:21':
-                    voice_name = 'Jordan HD[F';
-                    break;
-                case 'K:21':
-                    voice_name = 'Morgan HD[F';
-                    break;
+                case 'A:0': voice_name = 'Samantha[F'; break;
+                case 'A:2': voice_name = 'Declan[M'; break;
+                case 'B:2': voice_name = 'Brandon[M'; break;
+                case 'C:2': voice_name = 'Jessica[F'; break;
+                case 'D:2': voice_name = 'Alexander[M'; break;
+                case 'E:2': voice_name = 'Alina[F'; break;
+                case 'F:2': voice_name = 'Lucy[F'; break;
+                case 'G:2': voice_name = 'Emily[F'; break;
+                case 'H:2': voice_name = 'Caroline[F'; break;
+                case 'I:2': voice_name = 'Thomas[M'; break;
+                case 'J:2': voice_name = 'Kristopher[M'; break;
+        
+                case 'M:4': voice_name = 'Miles[M'; break;
+                case 'O:4': voice_name = 'Eleanor[F'; break;
+        
+                case 'K:5': voice_name = 'Madison[F'; break;
+                case 'L:5': voice_name = 'Hazel[F'; break;
+                case 'M:5': voice_name = 'Chuk[M'; break;
+                case 'N:5': voice_name = 'Harrison[M'; break;
+        
+                case 'D:6': voice_name = 'Lucas[M'; break;
+                case 'F:6': voice_name = 'Amelia[F'; break;
+                case 'O:6': voice_name = 'Evelyn[F'; break;
+        
+                case '1:7': voice_name = 'John[M'; break;
+        
+                case 'A:20': voice_name = 'Sophia[F'; break;
+                case 'B:20': voice_name = 'Andrew[M'; break;
+                case 'C:20': voice_name = 'James[M'; break;
+                case 'D:20': voice_name = 'Bertha[F'; break;
+                case 'E:20': voice_name = 'Aleana[F'; break;
+                case 'F:20': voice_name = 'Maya[F'; break;
+                case 'G:20': voice_name = 'Simon[M'; break;
+                case 'H:20': voice_name = 'Chloe[F'; break;
+                case 'I:20': voice_name = 'Jennifer[F'; break;
+        
+                case 'A:21': voice_name = 'Sophia HD[F'; break;
+                case 'B:21': voice_name = 'Andrew HD[M'; break;
+                case 'C:21': voice_name = 'James HD[M'; break;
+                case 'D:21': voice_name = 'Bertha HD[F'; break;
+                case 'E:21': voice_name = 'Aleana HD[F'; break;
+                case 'F:21': voice_name = 'Maya HD[F'; break;
+                case 'G:21': voice_name = 'Simon HD[M'; break;
+                case 'H:21': voice_name = 'Chloe HD[F'; break;
+                case 'I:21': voice_name = 'Jennifer HD[F'; break;
+                case 'J:21': voice_name = 'Jordan HD[M'; break;
+                case 'K:21': voice_name = 'Morgan HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — unified series, gender map строго как en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Ariana[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Ethan[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Liam[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Mason[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Isabella[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Emma[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Charlotte[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Jack[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Mia[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Henry[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Hannah[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Benjamin[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Harper[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Logan[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Sofia[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Luna[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Grace[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Daniel[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Leo[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Aria[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Owen[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Caleb[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Wyatt[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Luke[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ella[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Jackie[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Violet[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zoe[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Nathan[M'; break;
             }
         else if(lang_code == 'en-IN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Kiara[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Nisha[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Riya[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Arjun[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Jay[M';
-                    break;
+                case 'A:0': voice_name = 'Kiara[F'; break;
+        
+                case 'A:2': voice_name = 'Riya[F'; break;
+                case 'B:2': voice_name = 'Arjun[M'; break;
+                case 'C:2': voice_name = 'Jay[M'; break;
+                case 'D:2': voice_name = 'Nisha[F'; break;
+        
+                // 8 / 9 / 10 / 11 — одна серия, одинаковые имена, гендер по en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Anaya[F'; break;     // A F
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Aarav[M'; break;     // B M
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Rohan[M'; break;     // C M
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Kabir[M'; break;     // D M
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Ishaan[M'; break;    // E M
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Pooja[F'; break;     // F F
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Sanya[F'; break;     // G F
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Kavya[F'; break;     // H F
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Dev[M'; break;       // I M
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Meera[F'; break;     // J F
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Aditya[M'; break;    // K M
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Ira[F'; break;       // L F
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Kunal[M'; break;     // M M
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Aisha[F'; break;     // N F
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Varun[M'; break;     // O M
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Radhika[F'; break;   // P F
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Neha[F'; break;      // Q F
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Tara[F'; break;      // R F
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Siddharth[M'; break; // S M
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Ravi[M'; break;      // T M
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Ishita[F'; break;    // U F
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Aman[M'; break;      // V M
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Mohit[M'; break;     // W M
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Raghav[M'; break;    // X M
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Pranav[M'; break;    // Y M
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Sia[F'; break;       // Z F
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Naveen[M'; break;// AA M
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Kriti[F'; break; // AB F
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Alisha[F'; break;// AC F
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Yash[M'; break;  // AD M
             }
         else if(lang_code == 'en-GB')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Rose[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Catherine[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Benjamin[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Victoria[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Richard[M';
-                    break;
-                case 'F:2':
-                    voice_name = 'Jane[F';
-                    break;
-                case 'G:5':
-                    voice_name = 'Olivia[F';
-                    break;
-                case 'H:5':
-                    voice_name = 'Amelia[F';
-                    break;
-                case 'I:5':
-                    voice_name = 'Ava[F';
-                    break;
-                case 'J:5':
-                    voice_name = 'Oliver[M';
-                    break;
-                case 'K:5':
-                    voice_name = 'George[M';
-                    break;
-                case 'L:5':
-                    voice_name = 'William[M';
-                    break;
-                case 'M:5':
-                    voice_name = 'Jack[M';
-                    break;
+                case 'A:0': voice_name = 'Rose[F'; break;
+        
+                case 'A:2': voice_name = 'Catherine[F'; break;
+                case 'B:2': voice_name = 'Benjamin[M'; break;
+                case 'C:2': voice_name = 'Victoria[F'; break;
+                case 'D:2': voice_name = 'Richard[M'; break;
+                case 'F:2': voice_name = 'Jane[F'; break;
+        
+                case 'G:5': voice_name = 'Olivia[F'; break;
+                case 'H:5': voice_name = 'Amelia[F'; break;
+                case 'I:5': voice_name = 'Ava[F'; break;
+                case 'J:5': voice_name = 'Oliver[M'; break;
+                case 'K:5': voice_name = 'George[M'; break;
+                case 'L:5': voice_name = 'William[M'; break;
+                case 'M:5': voice_name = 'Jack[M'; break;
+        
+                // 8 / 9 / 10 / 11 — одна серия, одинаковые имена, гендер по en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Freya[F'; break;     // A F
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;      // B M
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Theo[M'; break;      // C M
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Alfie[M'; break;     // D M
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Mason[M'; break;     // E M
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Isla[F'; break;      // F F
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Poppy[F'; break;     // G F
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Matilda[F'; break;   // H F
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Oscar[M'; break;     // I M
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Evie[F'; break;      // J F
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Harry[M'; break;     // K M
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Sienna[F'; break;    // L F
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Arthur[M'; break;    // M M
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Daisy[F'; break;     // N F
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Leo[M'; break;       // O M
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Imogen[F'; break;    // P F
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Amara[F'; break;     // Q F
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Esme[F'; break;      // R F
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'James[M'; break;     // S M
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Theo2[M'; break;     // ⚠️ см. примечание
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Aria[F'; break;      // U F
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Charlie[M'; break;   // V M
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Elliot[M'; break;    // W M
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Rowan[M'; break;     // X M
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Harvey[M'; break;    // Y M
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Lily[F'; break;      // Z F
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Reuben[M'; break;// AA M
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Violet[F'; break;// AB F
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zara[F'; break;  // AC F
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Nathan[M'; break;// AD M
             }
         else if(lang_code == 'en-AU')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Grace[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Amelia[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Cooper[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Zoe[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Matthew[M';
-                    break;
+                case 'A:0': voice_name = 'Grace[F'; break;
+        
+                case 'A:2': voice_name = 'Amelia[F'; break;
+                case 'B:2': voice_name = 'Cooper[M'; break;
+                case 'C:2': voice_name = 'Zoe[F'; break;
+                case 'D:2': voice_name = 'Matthew[M'; break;
+        
+                // 8 / 9 / 10 / 11 — одна серия, одинаковые имена, гендер по en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Ava[F'; break;       // A F
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;      // B M
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Ethan[M'; break;     // C M
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Liam[M'; break;      // D M
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Mason[M'; break;     // E M
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Olivia[F'; break;    // F F
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Emma[F'; break;      // G F
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Charlotte[F'; break; // H F
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Jack[M'; break;      // I M
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Mia[F'; break;       // J F
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Henry[M'; break;     // K M
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Amelia2[F'; break;   // ⚠️ см. примечание
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Benjamin[M'; break;  // M M
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Harper[F'; break;    // N F
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Logan[M'; break;      // O M
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Sofia[F'; break;     // P F
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Luna[F'; break;      // Q F
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Grace2[F'; break;    // ⚠️ см. примечание
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Daniel[M'; break;    // S M
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Leo[M'; break;       // T M
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Aria[F'; break;      // U F
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Oliver[M'; break;    // V M
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Caleb[M'; break;     // W M
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Wyatt[M'; break;     // X M
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Luke[M'; break;      // Y M
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ella[F'; break;      // Z F
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Jackie[M'; break;// AA M
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Violet[F'; break;// AB F
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zoe2[F'; break;  // ⚠️ см. примечание
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Nathan[M'; break;// AD M
             }
         else if(lang_code == 'nl-NL')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Sara[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Lars[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Bram[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Lotte[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Nora[F';
-                    break;
-                case 'E:2':
-                    voice_name = 'Evi[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Sophie[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Sem[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Milan[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Julia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Tess[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Mila[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Milan[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Saar[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Lotte[F';
-                    break;
+                case 'A:0': voice_name = 'Sara[F'; break;
+        
+                case 'A:2': voice_name = 'Nora[F'; break;
+                case 'B:2': voice_name = 'Lars[M'; break;
+                case 'C:2': voice_name = 'Bram[M'; break;
+                case 'D:2': voice_name = 'Lotte[F'; break;
+                case 'E:2': voice_name = 'Evi[F'; break;
+        
+                case 'A:20': voice_name = 'Sophie[F'; break;
+                case 'B:20': voice_name = 'Sem[M'; break;
+                case 'C:20': voice_name = 'Milan[M'; break;
+                case 'D:20': voice_name = 'Julia[F'; break;
+                case 'E:20': voice_name = 'Tess[F'; break;
+                case 'F:20': voice_name = 'Mila[F'; break;
+        
+                case 'G:20': voice_name = 'Daan[M'; break;       // FIX: было Milan (дубликат)
+                case 'H:20': voice_name = 'Saar[F'; break;
+                case 'I:20': voice_name = 'Fleur[F'; break;      // FIX: было Lotte (пересечение с D:2)
+        
+                case 'A:21': voice_name = 'Sophie HD[F'; break;
+                case 'B:21': voice_name = 'Sem HD[M'; break;
+                case 'C:21': voice_name = 'Milan HD[M'; break;
+                case 'D:21': voice_name = 'Julia HD[F'; break;
+                case 'E:21': voice_name = 'Tess HD[F'; break;
+                case 'F:21': voice_name = 'Mila HD[F'; break;
+                case 'G:21': voice_name = 'Daan HD[M'; break;
+                case 'H:21': voice_name = 'Saar HD[F'; break;
+                case 'I:21': voice_name = 'Fleur HD[F'; break;
+                case 'J:21': voice_name = 'Jeroen HD[M'; break;
+                case 'K:21': voice_name = 'Koen HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — одна серия, одинаковые имена, гендер по en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Noor[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Lucas[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Finn[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Jesse[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Emma[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Sanne[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Julia[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Daan[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Lieke[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Bram[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Fenna[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Milan[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Tessa[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Jasper[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Sophiea[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Roos[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Nina[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Thijs[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Stijn[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Luna[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Dylan[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Mees[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Sven[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Casper[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Eviya[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Willem[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Fleur[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Saar[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Koen[M'; break;
+            }
+        else if(lang_code == 'nl-BE')
+            switch(voice_data) {
+            
+                /* base */
+                case 'A:0': voice_name = 'Lotte[F'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Emma[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Liam[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Lucas[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Milan[M'; break;
+            
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Sofie[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Marie[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Elise[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Arthur[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Lina[F'; break;
+            
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Jules[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Nora[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Leon[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Mila[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Victor[M'; break;
+            
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Louise[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Amelie[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Camille[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Finn[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Louis[M'; break;
+            
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Zoë[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Olivier[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Matthias[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Thomas[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Seppe[M'; break;
+            
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Sara[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Bram[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Eline[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Hanne[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Dries[M'; break;
             }
         else if(lang_code == 'da-DK')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Alma[F';
-                    break;
-                case 'C:2':
-                    voice_name = 'Oscar[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Karla[F';
-                    break;
-                case 'E:2':
-                    voice_name = 'Victoria[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Josefine[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Sofia[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Oscar[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Oliver[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Clara[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Freja[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Emma[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Christian[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Olivia[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Alma[F';
-                    break;
+                case 'A:0': voice_name = 'Alma[F'; break;
+        
+                case 'A:2': voice_name = 'Josefine[F'; break;
+                case 'C:2': voice_name = 'Oscar[M'; break;
+                case 'D:2': voice_name = 'Karla[F'; break;
+                case 'E:2': voice_name = 'Victoria[F'; break;
+        
+                case 'A:20': voice_name = 'Sofia[F'; break;
+                case 'B:20': voice_name = 'Mikkel[M'; break;      // FIX (было Oscar)
+                case 'C:20': voice_name = 'Oliver[M'; break;
+                case 'D:20': voice_name = 'Clara[F'; break;
+                case 'E:20': voice_name = 'Freja[F'; break;
+                case 'F:20': voice_name = 'Emma[F'; break;
+                case 'G:20': voice_name = 'Christian[M'; break;
+                case 'H:20': voice_name = 'Olivia[F'; break;
+                case 'I:20': voice_name = 'Nanna[F'; break;       // FIX (было Alma)
+        
+                case 'A:21': voice_name = 'Sofia HD[F'; break;
+                case 'B:21': voice_name = 'Mikkel HD[M'; break;
+                case 'C:21': voice_name = 'Oliver HD[M'; break;
+                case 'D:21': voice_name = 'Clara HD[F'; break;
+                case 'E:21': voice_name = 'Freja HD[F'; break;
+                case 'F:21': voice_name = 'Emma HD[F'; break;
+                case 'G:21': voice_name = 'Christian HD[M'; break;
+                case 'H:21': voice_name = 'Olivia HD[F'; break;
+                case 'I:21': voice_name = 'Nanna HD[F'; break;
+                case 'J:21': voice_name = 'Anders HD[M'; break;
+                case 'K:21': voice_name = 'Lars HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — одна серия, одинаковые имена, гендер по en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Ida[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'William[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Lucas[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Emil[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Anna[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Signe[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Laura[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Magnus[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Maja[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Victor[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Line[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Sebastian[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Frederikke[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Mathias[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Julie[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Alberte[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Katrine[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Mads[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Jonas[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Rikke[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Kaspar[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Tobias[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Asger[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Rasmus[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Nicoline[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Jesper[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Camilla[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Thea[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Henrik[M'; break;
             }
         else if(lang_code == 'cs-CZ')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Andrea[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Lucie[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Tereza[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Martin[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Jakub[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Anna[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Eliska[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Karolina[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Michal[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Jana[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Adrla[F';
-                    break;
+                case 'A:0': voice_name = 'Andrea[F'; break;
+                case 'A:2': voice_name = 'Lucie[F'; break;
+        
+                case 'A:20': voice_name = 'Tereza[F'; break;
+                case 'B:20': voice_name = 'Martin[M'; break;
+                case 'C:20': voice_name = 'Jakub[M'; break;
+                case 'D:20': voice_name = 'Anna[F'; break;
+                case 'E:20': voice_name = 'Eliska[F'; break;
+                case 'F:20': voice_name = 'Karolina[F'; break;
+                case 'G:20': voice_name = 'Michal[M'; break;
+                case 'H:20': voice_name = 'Jana[F'; break;
+                case 'I:20': voice_name = 'Adela[F'; break;   // FIX: Adrla → Adela (TTS-friendly)
+        
+                case 'A:21': voice_name = 'Tereza HD[F'; break;
+                case 'B:21': voice_name = 'Martin HD[M'; break;
+                case 'C:21': voice_name = 'Jakub HD[M'; break;
+                case 'D:21': voice_name = 'Anna HD[F'; break;
+                case 'E:21': voice_name = 'Eliska HD[F'; break;
+                case 'F:21': voice_name = 'Karolina HD[F'; break;
+                case 'G:21': voice_name = 'Michal HD[M'; break;
+                case 'H:21': voice_name = 'Jana HD[F'; break;
+                case 'I:21': voice_name = 'Adela HD[F'; break;
+                case 'J:21': voice_name = 'Petr HD[M'; break;
+                case 'K:21': voice_name = 'Tomas HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — одна серия, одинаковые имена, гендер по en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Eva[F'; break;        // A F
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Jan[M'; break;        // B M
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'David[M'; break;      // C M
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Pavel[M'; break;      // D M
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Marek[M'; break;      // E M
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Katerina[F'; break;   // F F
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Lucia[F'; break;      // G F
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Barbora[F'; break;    // H F
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Roman[M'; break;      // I M
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Monika[F'; break;     // J F
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Ondrej[M'; break;     // K M
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Alena[F'; break;      // L F
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Radek[M'; break;      // M M
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Veronika[F'; break;   // N F
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Jiri[M'; break;       // O M
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Petra[F'; break;      // P F
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Lenka[F'; break;      // Q F
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Michaela[F'; break;  // R F
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Filip[M'; break;      // S M
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Adam[M'; break;       // T M
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Nikola[F'; break;     // U F
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Karel[M'; break;      // V M
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Matej[M'; break;      // W M
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Daniel[M'; break;     // X M
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Lukas[M'; break;      // Y M
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Sarka[F'; break;      // Z F
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Viktor[M'; break; // AA M
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Iveta[F'; break;  // AB F
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Simona[F'; break; // AC F
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Zdenek[M'; break; // AD M
             }
         else if(lang_code == 'hr')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Vito[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Ana[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Marko[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Luka[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Katarina[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Marija[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Petra[F';
-                    break;
+                case 'A:0': voice_name = 'Vito[M'; break;
+        
+                case 'A:20': voice_name = 'Ana[F'; break;
+                case 'B:20': voice_name = 'Marko[M'; break;
+                case 'C:20': voice_name = 'Luka[M'; break;
+                case 'D:20': voice_name = 'Katarina[F'; break;
+                case 'E:20': voice_name = 'Marija[F'; break;
+                case 'F:20': voice_name = 'Petra[F'; break;
+                case 'G:20': voice_name = 'Ivan[M'; break;
+                case 'H:20': voice_name = 'Nikola[M'; break;
+                case 'I:20': voice_name = 'Ivana[F'; break;
+        
+                case 'A:21': voice_name = 'Ana HD[F'; break;
+                case 'B:21': voice_name = 'Marko HD[M'; break;
+                case 'C:21': voice_name = 'Luka HD[M'; break;
+                case 'D:21': voice_name = 'Katarina HD[F'; break;
+                case 'E:21': voice_name = 'Marija HD[F'; break;
+                case 'F:21': voice_name = 'Petra HD[F'; break;
+                case 'G:21': voice_name = 'Ivan HD[M'; break;
+                case 'H:21': voice_name = 'Nikola HD[M'; break;
+                case 'I:21': voice_name = 'Ivana HD[F'; break;
+                case 'J:21': voice_name = 'Tomislav HD[M'; break;
+                case 'K:21': voice_name = 'Ante HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — одна серия, одинаковые имена, гендер по en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Mia[F'; break;       // A F
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noa[M'; break;       // B M
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Filip[M'; break;     // C M
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Leon[M'; break;      // D M
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Karlo[M'; break;     // E M
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Ema[F'; break;       // F F
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Sara[F'; break;      // G F
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Lana[F'; break;      // H F
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Jakov[M'; break;     // I M
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Nika[F'; break;      // J F
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Matej[M'; break;     // K M
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Iva[F'; break;       // L F
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Dario[M'; break;     // M M
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Lucija[F'; break;    // N F
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Stjepan[M'; break;   // O M
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Tea[F'; break;       // P F
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Lea[F'; break;       // Q F
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Klara[F'; break;     // R F
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Bruno[M'; break;     // S M
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Tin[M'; break;       // T M
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Marta[F'; break;     // U F
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Josip[M'; break;     // V M
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Roko[M'; break;      // W M
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Ante[M'; break;      // X M
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Petar[M'; break;     // Y M
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Anais[F'; break;     // Z F
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Krešo[M'; break; // AA M
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Helena[F'; break;// AB F
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Dora[F'; break;  // AC F
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Zvonimir[M'; break; // AD M
             }
-        else if(lang_code == 'hy')
+        else if (lang_code == 'hy')
+            switch (voice_data) {
+        
+                // ===== OpenAI (20) =====
+                case 'A:20': voice_name = 'Anahit[F'; break;
+                case 'B:20': voice_name = 'Aram[M'; break;
+                case 'C:20': voice_name = 'Levon[M'; break;
+                case 'D:20': voice_name = 'Mariam[F'; break;
+                case 'E:20': voice_name = 'Lilit[F'; break;
+                case 'F:20': voice_name = 'Naira[F'; break;
+                case 'G:20': voice_name = 'Samvel[M'; break;
+                case 'H:20': voice_name = 'Hasmik[F'; break;
+                case 'I:20': voice_name = 'Tatevik[F'; break;
+        
+                // ===== OpenAI HD (21) — SAME voices + HD + 2 (gender FIXED) =====
+                case 'A:21': voice_name = 'Anahit HD[F'; break;
+                case 'B:21': voice_name = 'Aram HD[M'; break;
+                case 'C:21': voice_name = 'Levon HD[M'; break;
+                case 'D:21': voice_name = 'Mariam HD[F'; break;
+                case 'E:21': voice_name = 'Lilit HD[F'; break;
+                case 'F:21': voice_name = 'Naira HD[F'; break;
+                case 'G:21': voice_name = 'Samvel HD[M'; break;
+                case 'H:21': voice_name = 'Hasmik HD[F'; break;
+                case 'I:21': voice_name = 'Tatevik HD[F'; break;
+                case 'J:21': voice_name = 'Tigran HD[M'; break;
+                case 'K:21': voice_name = 'Vardan HD[M'; break;
+        
+                // ===== Gemini (10 / 11) — ONE SERIES, DIFFERENT names =====
+                case 'A:10': case 'A:11': voice_name = 'Arevik[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Davit[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Arman[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Hayk[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Gor[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Nune[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Meline[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Karine[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Narek[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Lusine[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Vahan[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Shushan[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Ruben[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Elina[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Ashot[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Zaruhi[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Gohar[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Margarita[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Suren[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Karen[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Liana[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Arsen[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Gevorg[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Hovhannes[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Artak[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Siranush[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Gagik[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Mane[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Sona[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Taron[M'; break;
+            }
+        else if(lang_code == 'am-ET')
             switch(voice_data) {
-                case 'A:20':
-                    voice_name = 'Anahit[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Aram[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Levon[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Mariam[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Lilit[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Naira[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Samvel[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Hasmik[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Tatevik[F';
-                    break;
+                case 'A:0': voice_name = 'Zewditu[F'; break;
+
+                // ===== OpenAI (20) =====
+                /* 20 */
+                case 'A:20': voice_name = 'Hana[F'; break;
+                case 'B:20': voice_name = 'Dawit[M'; break;
+                case 'C:20': voice_name = 'Yohannes[M'; break;
+                case 'D:20': voice_name = 'Selam[F'; break;
+                case 'E:20': voice_name = 'Eden[F'; break;
+                case 'F:20': voice_name = 'Meron[F'; break;
+                case 'G:20': voice_name = 'Bereket[M'; break;
+                case 'H:20': voice_name = 'Liya[F'; break;
+                case 'I:20': voice_name = 'Saba[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Hana HD[F'; break;
+                case 'B:21': voice_name = 'Dawit HD[M'; break;
+                case 'C:21': voice_name = 'Yohannes HD[M'; break;
+                case 'D:21': voice_name = 'Selam HD[F'; break;
+                case 'E:21': voice_name = 'Eden HD[F'; break;
+                case 'F:21': voice_name = 'Meron HD[F'; break;
+                case 'G:21': voice_name = 'Bereket HD[M'; break;
+                case 'H:21': voice_name = 'Liya HD[F'; break;
+                case 'I:21': voice_name = 'Saba HD[F'; break;
+                case 'J:21': voice_name = 'Tesfaye HD[M'; break;
+                case 'K:21': voice_name = 'Getachew HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Rahel[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Samuel[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Daniel[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Michael[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Abel[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Mekdes[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Almaz[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Marta[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Hailu[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Tigist[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Henok[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Bethlehem[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Girma[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Hirut[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Kebede[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Feven[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Samrawit[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Genet[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Solomon[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Yared[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Meseret[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Mulugeta[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Tesfa[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Fitsum[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Amanuel[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Aster[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Natan[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Eleni[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Saron[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Seifu[M'; break;
             }
         else if(lang_code == 'cy')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Gwen[F';
-                    break;
-                case 'A:20':
-                    voice_name = 'Catrin[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Ieuan[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Rhys[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Rhiannon[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Branwen[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Angharad[F';
-                    break;
+                case 'A:0': voice_name = 'Gwen[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Catrin[F'; break;
+                case 'B:20': voice_name = 'Ieuan[M'; break;
+                case 'C:20': voice_name = 'Rhys[M'; break;
+                case 'D:20': voice_name = 'Rhiannon[F'; break;
+                case 'E:20': voice_name = 'Branwen[F'; break;
+                case 'F:20': voice_name = 'Angharad[F'; break;
+                case 'G:20': voice_name = 'Dafydd[M'; break;
+                case 'H:20': voice_name = 'Elen[F'; break;
+                case 'I:20': voice_name = 'Lowri[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Catrin HD[F'; break;
+                case 'B:21': voice_name = 'Ieuan HD[M'; break;
+                case 'C:21': voice_name = 'Rhys HD[M'; break;
+                case 'D:21': voice_name = 'Rhiannon HD[F'; break;
+                case 'E:21': voice_name = 'Branwen HD[F'; break;
+                case 'F:21': voice_name = 'Angharad HD[F'; break;
+                case 'G:21': voice_name = 'Dafydd HD[M'; break;
+                case 'H:21': voice_name = 'Elen HD[F'; break;
+                case 'I:21': voice_name = 'Lowri HD[F'; break;
+                case 'J:21': voice_name = 'Gareth HD[M'; break;
+                case 'K:21': voice_name = 'Owain HD[M'; break;
             }
         else if(lang_code == 'sl')
             switch(voice_data) {
-                case 'A:20':
-                    voice_name = 'Katarina[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Janez[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Matej[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Lucija[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Tina[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Sara[F';
-                    break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Katarina[F'; break;
+                case 'B:20': voice_name = 'Janez[M'; break;
+                case 'C:20': voice_name = 'Matej[M'; break;
+                case 'D:20': voice_name = 'Lucija[F'; break;
+                case 'E:20': voice_name = 'Tina[F'; break;
+                case 'F:20': voice_name = 'Sara[F'; break;
+                case 'G:20': voice_name = 'Marko[M'; break;
+                case 'H:20': voice_name = 'Ana[F'; break;
+                case 'I:20': voice_name = 'Nina[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Katarina HD[F'; break;
+                case 'B:21': voice_name = 'Janez HD[M'; break;
+                case 'C:21': voice_name = 'Matej HD[M'; break;
+                case 'D:21': voice_name = 'Lucija HD[F'; break;
+                case 'E:21': voice_name = 'Tina HD[F'; break;
+                case 'F:21': voice_name = 'Sara HD[F'; break;
+                case 'G:21': voice_name = 'Marko HD[M'; break;
+                case 'H:21': voice_name = 'Ana HD[F'; break;
+                case 'I:21': voice_name = 'Nina HD[F'; break;
+                case 'J:21': voice_name = 'Luka HD[M'; break;
+                case 'K:21': voice_name = 'Ziga HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Maja[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Andrej[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Bostjan[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Rok[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Miha[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Nika[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Eva[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Petra[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Luka[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Klara[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Zan[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Ursa[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Aljaz[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Tjasa[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Vid[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Sara[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Zala[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Lana[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Tim[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Nejc[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Ana[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Jure[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Denis[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Blaz[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Mark[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Mina[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Gregor[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Polona[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Vesna[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Filip[M'; break;
             }
         else if(lang_code == 'kk')
             switch(voice_data) {
-                case 'A:20':
-                    voice_name = 'Ainur[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Askar[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Dauren[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Gulzhaz[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Marzhan[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Ainurkhan[F';
-                    break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Ainur[F'; break;
+                case 'B:20': voice_name = 'Askar[M'; break;
+                case 'C:20': voice_name = 'Dauren[M'; break;
+                case 'D:20': voice_name = 'Gulzhaz[F'; break;
+                case 'E:20': voice_name = 'Marzhan[F'; break;
+                case 'F:20': voice_name = 'Ainurkhan[F'; break;
+                case 'G:20': voice_name = 'Nursultan[M'; break;
+                case 'H:20': voice_name = 'Aigerim[F'; break;
+                case 'I:20': voice_name = 'Dana[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Ainur HD[F'; break;
+                case 'B:21': voice_name = 'Askar HD[M'; break;
+                case 'C:21': voice_name = 'Dauren HD[M'; break;
+                case 'D:21': voice_name = 'Gulzhaz HD[F'; break;
+                case 'E:21': voice_name = 'Marzhan HD[F'; break;
+                case 'F:21': voice_name = 'Ainurkhan HD[F'; break;
+                case 'G:21': voice_name = 'Nursultan HD[M'; break;
+                case 'H:21': voice_name = 'Aigerim HD[F'; break;
+                case 'I:21': voice_name = 'Dana HD[F'; break;
+                case 'J:21': voice_name = 'Yerlan HD[M'; break;
+                case 'K:21': voice_name = 'Almas HD[M'; break;
             }
         else if(lang_code == 'mk')
             switch(voice_data) {
-                case 'A:20':
-                    voice_name = 'Marija[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Luka[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Goran[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Biljana[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Katica[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Vesna[F';
-                    break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Marija[F'; break;
+                case 'B:20': voice_name = 'Luka[M'; break;
+                case 'C:20': voice_name = 'Goran[M'; break;
+                case 'D:20': voice_name = 'Biljana[F'; break;
+                case 'E:20': voice_name = 'Katica[F'; break;
+                case 'F:20': voice_name = 'Vesna[F'; break;
+                case 'G:20': voice_name = 'Stefan[M'; break;
+                case 'H:20': voice_name = 'Elena[F'; break;
+                case 'I:20': voice_name = 'Ana[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Marija HD[F'; break;
+                case 'B:21': voice_name = 'Luka HD[M'; break;
+                case 'C:21': voice_name = 'Goran HD[M'; break;
+                case 'D:21': voice_name = 'Biljana HD[F'; break;
+                case 'E:21': voice_name = 'Katica HD[F'; break;
+                case 'F:21': voice_name = 'Vesna HD[F'; break;
+                case 'G:21': voice_name = 'Stefan HD[M'; break;
+                case 'H:21': voice_name = 'Elena HD[F'; break;
+                case 'I:21': voice_name = 'Ana HD[F'; break;
+                case 'J:21': voice_name = 'Nikola HD[M'; break;
+                case 'K:21': voice_name = 'Petar HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Ivana[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Marko[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Filip[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Aleksandar[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Bojan[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Teodora[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Sara[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Kristina[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Darko[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Maja[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Viktor[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Jelena[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Dejan[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Anais[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Igor[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Milena[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Daniela[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Katerina[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Zoran[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Todor[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Angela[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Branko[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Risto[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Gligor[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Ilija[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Lidija[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Natasa[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Vesela[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Sonja[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Borche[M'; break;
             }
         else if(lang_code == 'mi')
             switch(voice_data) {
-                case 'A:20':
-                    voice_name = 'Hinemoa[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Tama[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Rongo[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Hinemoa[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Hinewai[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Whetu[F';
-                    break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Hinemoa[F'; break;
+                case 'B:20': voice_name = 'Tama[M'; break;
+                case 'C:20': voice_name = 'Rongo[M'; break;
+                case 'D:20': voice_name = 'Aroha[F'; break; /* FIX: was duplicate Hinemoa */
+                case 'E:20': voice_name = 'Hinewai[F'; break;
+                case 'F:20': voice_name = 'Whetu[F'; break;
+                case 'G:20': voice_name = 'Wiremu[M'; break;
+                case 'H:20': voice_name = 'Moana[F'; break;
+                case 'I:20': voice_name = 'Kiri[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Hinemoa HD[F'; break;
+                case 'B:21': voice_name = 'Tama HD[M'; break;
+                case 'C:21': voice_name = 'Rongo HD[M'; break;
+                case 'D:21': voice_name = 'Aroha HD[F'; break;
+                case 'E:21': voice_name = 'Hinewai HD[F'; break;
+                case 'F:21': voice_name = 'Whetu HD[F'; break;
+                case 'G:21': voice_name = 'Wiremu HD[M'; break;
+                case 'H:21': voice_name = 'Moana HD[F'; break;
+                case 'I:21': voice_name = 'Kiri HD[F'; break;
+                case 'J:21': voice_name = 'Rawiri HD[M'; break;
+                case 'K:21': voice_name = 'Hemi HD[M'; break;
             }
-        else if(lang_code == 'be')
-            switch(voice_data) {
-                case 'A:20':
-                    voice_name = 'Alena[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Maksim[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Mikolaj[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Ludmila[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Victoria[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Natalia[F';
-                    break;
+        else if (lang_code == 'be')
+            switch (voice_data) {
+        
+                // ===== OpenAI (20) =====
+                case 'A:20': voice_name = 'Alena[F'; break;
+                case 'B:20': voice_name = 'Maksim[M'; break;
+                case 'C:20': voice_name = 'Mikolaj[M'; break;
+                case 'D:20': voice_name = 'Ludmila[F'; break;
+                case 'E:20': voice_name = 'Victoria[F'; break;
+                case 'F:20': voice_name = 'Natalia[F'; break;
+                case 'G:20': voice_name = 'Yauhen[M'; break;
+                case 'H:20': voice_name = 'Sviatlana[F'; break;
+                case 'I:20': voice_name = 'Pavel[M'; break;
+        
+                // ===== OpenAI HD (21) — SAME voices + HD + 2 (gender FIXED) =====
+                case 'A:21': voice_name = 'Alena HD[F'; break;
+                case 'B:21': voice_name = 'Maksim HD[M'; break;
+                case 'C:21': voice_name = 'Mikolaj HD[M'; break;
+                case 'D:21': voice_name = 'Ludmila HD[F'; break;
+                case 'E:21': voice_name = 'Victoria HD[F'; break;
+                case 'F:21': voice_name = 'Natalia HD[F'; break;
+                case 'G:21': voice_name = 'Yauhen HD[M'; break;
+                case 'H:21': voice_name = 'Sviatlana HD[F'; break;
+                case 'I:21': voice_name = 'Pavel HD[M'; break;
+                case 'J:21': voice_name = 'Andrej HD[M'; break;
+                case 'K:21': voice_name = 'Ihar HD[M'; break; // FIX: was Volha HD[F]
+        
+                // ===== Gemini (10 / 11) — ONE SERIES (NO overlap with 20/21) =====
+                case 'A:10': case 'A:11': voice_name = 'Katsiaryna[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Uladzimir[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Iryna[F'; break;
+                case 'D:10': case 'D:11': voice_name = 'Dzmitry[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Alina[F'; break;
+                case 'F:10': case 'F:11': voice_name = 'Siarhei[M'; break;
+                case 'G:10': case 'G:11': voice_name = 'Hanna[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Artsiom[M'; break;
+                case 'I:10': case 'I:11': voice_name = 'Nastassia[F'; break;
+                case 'J:10': case 'J:11': voice_name = 'Ryhor[M'; break;
+                case 'K:10': case 'K:11': voice_name = 'Vera[F'; break;
+                case 'L:10': case 'L:11': voice_name = 'Kiryl[M'; break;
+                case 'M:10': case 'M:11': voice_name = 'Maryia[F'; break;
+                case 'N:10': case 'N:11': voice_name = 'Stanislau[M'; break;
+                case 'O:10': case 'O:11': voice_name = 'Tamara[F'; break;
+                case 'P:10': case 'P:11': voice_name = 'Uladzislaŭ[M'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Zoya[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Leanid[M'; break;
+                case 'S:10': case 'S:11': voice_name = 'Polina[F'; break;
+                case 'T:10': case 'T:11': voice_name = 'Ihar[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Karyna[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Piatro[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Anastasiya[F'; break;
+                case 'X:10': case 'X:11': voice_name = 'Yaraslau[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Larysa[F'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Aleh[M'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Yuliya[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Mikalai[M'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Viktoryia[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Sviatoslau[M'; break;
             }
         else if(lang_code == 'fa')
             switch(voice_data) {
-                case 'A:20':
-                    voice_name = 'Fatima[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Amir[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Ali[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Mahsa[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Zahra[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Maryam[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Omid[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Setareh[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Mitra[F';
-                    break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Fatima[F'; break;
+                case 'B:20': voice_name = 'Amir[M'; break;
+                case 'C:20': voice_name = 'Ali[M'; break;
+                case 'D:20': voice_name = 'Mahsa[F'; break;
+                case 'E:20': voice_name = 'Zahra[F'; break;
+                case 'F:20': voice_name = 'Maryam[F'; break;
+                case 'G:20': voice_name = 'Omid[M'; break;
+                case 'H:20': voice_name = 'Setareh[F'; break;
+                case 'I:20': voice_name = 'Mitra[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Fatima HD[F'; break;
+                case 'B:21': voice_name = 'Amir HD[M'; break;
+                case 'C:21': voice_name = 'Ali HD[M'; break;
+                case 'D:21': voice_name = 'Mahsa HD[F'; break;
+                case 'E:21': voice_name = 'Zahra HD[F'; break;
+                case 'F:21': voice_name = 'Maryam HD[F'; break;
+                case 'G:21': voice_name = 'Omid HD[M'; break;
+                case 'H:21': voice_name = 'Setareh HD[F'; break;
+                case 'I:21': voice_name = 'Mitra HD[F'; break;
+                case 'J:21': voice_name = 'Reza HD[M'; break;
+                case 'K:21': voice_name = 'Hossein HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Niloofar[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Arash[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Kian[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Shahin[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Farhad[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Leila[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Sara[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Parisa[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Navid[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Yasmin[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Mehdi[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Shirin[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Pouya[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Roya[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Saeed[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Taraneh[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Azadeh[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Golnaz[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Babak[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Ehsan[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Hasti[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Milad[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Behnam[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Kamran[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Peyman[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Shiva[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Nazanin[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Mahin[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Vida[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Farid[M'; break;
             }
         else if(lang_code == 'pa')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Preeti[F';
-                    break;
-                case 'A:20':
-                    voice_name = 'Harleen[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Sarabjeet[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Rajinder[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Navjot[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Jasleen[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Amritpal[F';
-                    break;
+                case 'A:0': voice_name = 'Preeti[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Harleen[F'; break;
+                case 'B:20': voice_name = 'Sarabjeet[M'; break;
+                case 'C:20': voice_name = 'Rajinder[M'; break;
+                case 'D:20': voice_name = 'Navjot[F'; break;
+                case 'E:20': voice_name = 'Jasleen[F'; break;
+                case 'F:20': voice_name = 'Amritpal[F'; break;
+                case 'G:20': voice_name = 'Gurpreet[M'; break;
+                case 'H:20': voice_name = 'Manpreet[F'; break;
+                case 'I:20': voice_name = 'Simran[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Harleen HD[F'; break;
+                case 'B:21': voice_name = 'Sarabjeet HD[M'; break;
+                case 'C:21': voice_name = 'Rajinder HD[M'; break;
+                case 'D:21': voice_name = 'Navjot HD[F'; break;
+                case 'E:21': voice_name = 'Jasleen HD[F'; break;
+                case 'F:21': voice_name = 'Amritpal HD[F'; break;
+                case 'G:21': voice_name = 'Gurpreet HD[M'; break;
+                case 'H:21': voice_name = 'Manpreet HD[F'; break;
+                case 'I:21': voice_name = 'Simran HD[F'; break;
+                case 'J:21': voice_name = 'Baldev HD[M'; break;
+                case 'K:21': voice_name = 'Harjit HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Aman[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Arjun[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Karan[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Jaspreet[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Rohit[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Navdeep[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Simranjit[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Gurleen[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Harpreet[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Mehak[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Daljit[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Poonam[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Ranjit[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Komal[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Sukhdev[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Rekha[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Jasmeet[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Harnoor[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Manjit[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Kuldeep[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Navreet[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Param[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Gurdeep[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Iqbal[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Sandeep[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Heena[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Rupinder[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Baljit[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Charan[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Tejinder[M'; break;
             }
         else if(lang_code == 'pa-Arab')
             switch(voice_data) {
-                case 'A:20':
-                    voice_name = 'Harleen[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Sarabjeet[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Rajinder[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Navjot[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Jasleen[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Amritpal[F';
-                    break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Harleen[F'; break;
+                case 'B:20': voice_name = 'Sarabjeet[M'; break;
+                case 'C:20': voice_name = 'Rajinder[M'; break;
+                case 'D:20': voice_name = 'Navjot[F'; break;
+                case 'E:20': voice_name = 'Jasleen[F'; break;
+                case 'F:20': voice_name = 'Amritpal[F'; break;
+                case 'G:20': voice_name = 'Gurpreet[M'; break;
+                case 'H:20': voice_name = 'Manpreet[F'; break;
+                case 'I:20': voice_name = 'Simran[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Harleen HD[F'; break;
+                case 'B:21': voice_name = 'Sarabjeet HD[M'; break;
+                case 'C:21': voice_name = 'Rajinder HD[M'; break;
+                case 'D:21': voice_name = 'Navjot HD[F'; break;
+                case 'E:21': voice_name = 'Jasleen HD[F'; break;
+                case 'F:21': voice_name = 'Amritpal HD[F'; break;
+                case 'G:21': voice_name = 'Gurpreet HD[M'; break;
+                case 'H:21': voice_name = 'Manpreet HD[F'; break;
+                case 'I:21': voice_name = 'Simran HD[F'; break;
+                case 'J:21': voice_name = 'Bilal HD[M'; break;
+                case 'K:21': voice_name = 'Usman HD[M'; break;
+            }
+        else if(lang_code == 'ps-AF')
+            switch(voice_data) {
+            
+                /* 10 / 11 */
+            
+                case 'A:10': case 'A:11': voice_name = 'Amina[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Ahmad[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Farid[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Hamid[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Karim[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Laila[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Zahra[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Nadia[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Jalal[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Maryam[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Omar[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Samira[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Latif[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Parwana[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Rahim[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Shabnam[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Tariq[M'; break;
+                case 'R:10': case 'R:11': voice_name = 'Zarmina[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Wali[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Nazira[F'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Faisal[M'; break;
+                case 'V:10': case 'V:11': voice_name = 'Roya[F'; break;
+                case 'W:10': case 'W:11': voice_name = 'Najeeb[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Adela[F'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Basir[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Malala[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Qadir[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Shukria[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Haroon[M'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Zulekha[F'; break;
             }
         else if(lang_code == 'iw')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Sarah[F';
-                    break;
-                case 'A:20':
-                    voice_name = 'Lior[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Avraham[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Ami[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Tamar[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Noa[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Noga[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Oren[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Avigail[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Esther[F';
-                    break;
+                case 'A:0': voice_name = 'Sarah[F'; break;
+        
+                /* 20 */
+                case 'A:20': voice_name = 'Lior[F'; break;
+                case 'B:20': voice_name = 'Avraham[M'; break;
+                case 'C:20': voice_name = 'Ami[M'; break;
+                case 'D:20': voice_name = 'Tamar[F'; break;
+                case 'E:20': voice_name = 'Noa[F'; break;
+                case 'F:20': voice_name = 'Noga[F'; break;
+                case 'G:20': voice_name = 'Oren[M'; break;
+                case 'H:20': voice_name = 'Avigail[F'; break;
+                case 'I:20': voice_name = 'Esther[F'; break;
+        
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Lior HD[F'; break;
+                case 'B:21': voice_name = 'Avraham HD[M'; break;
+                case 'C:21': voice_name = 'Ami HD[M'; break;
+                case 'D:21': voice_name = 'Tamar HD[F'; break;
+                case 'E:21': voice_name = 'Noa HD[F'; break;
+                case 'F:21': voice_name = 'Noga HD[F'; break;
+                case 'G:21': voice_name = 'Oren HD[M'; break;
+                case 'H:21': voice_name = 'Avigail HD[F'; break;
+                case 'I:21': voice_name = 'Esther HD[F'; break;
+                case 'J:21': voice_name = 'Yonatan HD[M'; break;
+                case 'K:21': voice_name = 'Moshe HD[M'; break;
+        
+                /* 8 / 9 / 10 / 11 — unified, gender map en-US */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Shira[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Eitan[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Ido[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Ariel[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Nadav[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Yael[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Talia[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Maya[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Omer[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Leah[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Itamar[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Rina[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Shlomo[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Michal[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Yossi[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Dalia[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Tamarit[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Hila[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Doron[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Asher[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Gali[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Erez[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Boaz[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Lavi[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Rami[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Orly[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Avi[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Neta[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Liat[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Yaron[M'; break;
             }
         else if(lang_code == 'cmn-TW')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Qian[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Sijia[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Xiong[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Liang[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Jingyi[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Zhihao[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Haoyu[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Peiru[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Shihan[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Fenglin[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Cheng[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Xiao[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Hua[F';
-                    break;
-
+                case 'A:0': voice_name = 'Qian[F'; break;
+        
+                case 'A:2': voice_name = 'Sijia[F'; break;
+                case 'B:2': voice_name = 'Xiong[M'; break;
+                case 'C:2': voice_name = 'Liang[M'; break;
+        
+                case 'A:20': voice_name = 'Jingyi[F'; break;
+                case 'B:20': voice_name = 'Zhihao[M'; break;
+                case 'C:20': voice_name = 'Haoyu[M'; break;
+                case 'D:20': voice_name = 'Peiru[F'; break;
+                case 'E:20': voice_name = 'Shihan[F'; break;
+                case 'F:20': voice_name = 'Fenglin[F'; break;
+                case 'G:20': voice_name = 'Cheng[M'; break;
+                case 'H:20': voice_name = 'Xiao[F'; break;
+                case 'I:20': voice_name = 'Hua[F'; break;
+        
+                case 'A:21': voice_name = 'Jingyi HD[F'; break;
+                case 'B:21': voice_name = 'Zhihao HD[M'; break;
+                case 'C:21': voice_name = 'Haoyu HD[M'; break;
+                case 'D:21': voice_name = 'Peiru HD[F'; break;
+                case 'E:21': voice_name = 'Shihan HD[F'; break;
+                case 'F:21': voice_name = 'Fenglin HD[F'; break;
+                case 'G:21': voice_name = 'Cheng HD[M'; break;
+                case 'H:21': voice_name = 'Xiao HD[F'; break;
+                case 'I:21': voice_name = 'Hua HD[F'; break;
+                case 'J:21': voice_name = 'Bo HD[M'; break;
+                case 'K:21': voice_name = 'Chen HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — одна серия, одинаковые имена, гендер по en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Meixin[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Haoran[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Junwei[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Yichen[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Zhongyi[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Shufen[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Yuting[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Xinyi[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Zhenyu[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Ruofen[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Tianyu[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Yujie[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Yuze[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Jiawen[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Zhiyuan[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Wenxin[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Kexin[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Lingyu[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Chenghao[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Yunfei[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Zihan[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Guang[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Jian[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Shuo[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Xiang[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Yating[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Peng[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Minyi[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Xiaoyu[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Rui[M'; break;
             }
         else if(lang_code == 'cmn-CN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Qian[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Lan[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Ze[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Jing[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Xin[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Lili[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Wei[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Jianguo[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Meili[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Xia[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Yun[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Lei[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Lan[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Xue[F';
-                    break;
+                case 'A:0': voice_name = 'Qian[F'; break;
+        
+                case 'A:2': voice_name = 'Lan[F'; break;
+                case 'B:2': voice_name = 'Ze[M'; break;
+                case 'C:2': voice_name = 'Jing[M'; break;
+                case 'D:2': voice_name = 'Xin[F'; break;
+        
+                case 'A:20': voice_name = 'Lili[F'; break;
+                case 'B:20': voice_name = 'Wei[M'; break;
+                case 'C:20': voice_name = 'Jianguo[M'; break;
+                case 'D:20': voice_name = 'Meili[F'; break;
+                case 'E:20': voice_name = 'Xia[F'; break;
+                case 'F:20': voice_name = 'Yun[F'; break;
+                case 'G:20': voice_name = 'Lei[M'; break;
+        
+                case 'H:20': voice_name = 'Huan[F'; break;   // FIX: было Lan (пересекалось с A:2)
+                case 'I:20': voice_name = 'Xue[F'; break;
+        
+                case 'A:21': voice_name = 'Lili HD[F'; break;
+                case 'B:21': voice_name = 'Wei HD[M'; break;
+                case 'C:21': voice_name = 'Jianguo HD[M'; break;
+                case 'D:21': voice_name = 'Meili HD[F'; break;
+                case 'E:21': voice_name = 'Xia HD[F'; break;
+                case 'F:21': voice_name = 'Yun HD[F'; break;
+                case 'G:21': voice_name = 'Lei HD[M'; break;
+                case 'H:21': voice_name = 'Huan HD[F'; break;
+                case 'I:21': voice_name = 'Xue HD[F'; break;
+                case 'J:21': voice_name = 'Bo HD[M'; break;
+                case 'K:21': voice_name = 'Chen HD[M'; break;
+        
+                // 8/9/10/11 — одна серия A..AD, одинаковые имена, гендер строго по en-US паттерну
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Meiwen[F'; break;   // A F
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Haoran[M'; break;   // B M
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Junhui[M'; break;   // C M
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Yichen[M'; break;   // D M
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Zhihao[M'; break;   // E M
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Shuhan[F'; break;   // F F
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Yutong[F'; break;   // G F
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Xinyi[F'; break;    // H F
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Zhenyu[M'; break;   // I M
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Ruoxi[F'; break;    // J F
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Tianyu[M'; break;   // K M
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Yujie[F'; break;    // L F
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Yuze[M'; break;     // M M
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Jiaqi[F'; break;    // N F
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Zhiyuan[M'; break;  // O M
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Wenxiu[F'; break;   // P F
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Kexin[F'; break;    // Q F
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Lingyu[F'; break;   // R F
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Cheng[M'; break;    // S M
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Yunfei[M'; break;   // T M
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Zihan[F'; break;    // U F
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Guang[M'; break;    // V M
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Jian[M'; break;     // W M
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Shuo[M'; break;     // X M
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Xiang[M'; break;    // Y M
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Yating[F'; break;   // Z F
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Peng[M'; break; // AA M
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Minjun[F'; break; // AB F
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Xiaoyu[F'; break; // AC F
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Rui[M'; break;   // AD M
             }
-        else if(lang_code == 'ca-ES')
+        else if (lang_code == 'ca-ES')
+            switch (voice_data) {
+                case 'A:0': voice_name = 'Berta[F'; break;
+                case 'A:1': voice_name = 'Ariadna[F'; break;
+        
+                case 'A:20': voice_name = 'Marta[F'; break;
+                case 'B:20': voice_name = 'Roger[M'; break;
+                case 'C:20': voice_name = 'Pol[M'; break;
+                case 'D:20': voice_name = 'Laia[F'; break;
+                case 'E:20': voice_name = 'Clara[F'; break;
+                case 'F:20': voice_name = 'Paula[F'; break;
+                case 'G:20': voice_name = 'Ferran[M'; break;
+                case 'H:20': voice_name = 'Irene[F'; break;
+                case 'I:20': voice_name = 'Aina[F'; break;
+        
+                case 'A:21': voice_name = 'Marta HD[F'; break;
+                case 'B:21': voice_name = 'Roger HD[M'; break;
+                case 'C:21': voice_name = 'Pol HD[M'; break;
+                case 'D:21': voice_name = 'Laia HD[F'; break;
+                case 'E:21': voice_name = 'Clara HD[F'; break;
+                case 'F:21': voice_name = 'Paula HD[F'; break;
+                case 'G:21': voice_name = 'Ferran HD[M'; break;
+                case 'H:21': voice_name = 'Irene HD[F'; break;
+                case 'I:21': voice_name = 'Aina HD[F'; break;
+                case 'J:21': voice_name = 'Jordi HD[M'; break;
+                case 'K:21': voice_name = 'Marc HD[M'; break;
+        
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Nuria[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Jordi[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Arnau[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Pol[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Pau[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Laia[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Clara[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Aina[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Marc[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Mireia[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Oriol[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Iria[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Ferran[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Mariona[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Roger[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Paula[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Nerea[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Carla[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Nil[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Adria[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Elia[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Joan[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Miquel[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Guillem[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Ramon[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Gemma[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Pere[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Eulalia[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Neus[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Enric[M'; break;
+            }
+        else if(lang_code == 'ceb-PH')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Berta[F';
-                    break;
-                case 'A:1':
-                    voice_name = 'Ariadna[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Marta[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Roger[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Pol[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Laia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Clara[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Paula[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Ferran[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Irene[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Aina[F';
-                    break;
+            
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Maria[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Juan[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Pedro[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Jose[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Mark[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Ana[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Angela[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Grace[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Carlo[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Liza[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Daniel[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Rosa[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Paolo[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Catherine[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Miguel[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Sofia[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Luna[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Ella[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Gabriel[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Luis[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Mia[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Noel[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Adrian[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Victor[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Rafael[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Bianca[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Enzo[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Clara[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Isabel[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Diego[M'; break;
             }
         else if(lang_code == 'yue')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Mei[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Ling[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Chi[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Lok[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Sum[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Yee[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Ting[F';
-                    break;
+                case 'A:0': voice_name = 'Mei[F'; break;
+        
+                case 'A:20': voice_name = 'Ling[F'; break;
+                case 'B:20': voice_name = 'Chi[M'; break;
+                case 'C:20': voice_name = 'Lok[M'; break;
+                case 'D:20': voice_name = 'Sum[F'; break;
+                case 'E:20': voice_name = 'Yee[F'; break;
+                case 'F:20': voice_name = 'Ting[F'; break;
+                case 'G:20': voice_name = 'Wai[M'; break;
+                case 'H:20': voice_name = 'Ho[M'; break;
+                case 'I:20': voice_name = 'Yan[F'; break;
+        
+                case 'A:21': voice_name = 'Ling HD[F'; break;
+                case 'B:21': voice_name = 'Chi HD[M'; break;
+                case 'C:21': voice_name = 'Lok HD[M'; break;
+                case 'D:21': voice_name = 'Sum HD[F'; break;
+                case 'E:21': voice_name = 'Yee HD[F'; break;
+                case 'F:21': voice_name = 'Ting HD[F'; break;
+                case 'G:21': voice_name = 'Wai HD[M'; break;
+                case 'H:21': voice_name = 'Ho HD[M'; break;
+                case 'I:21': voice_name = 'Yan HD[F'; break;
+                case 'J:21': voice_name = 'Ming HD[M'; break;
+                case 'K:21': voice_name = 'Jun HD[M'; break;
             }
-        else if(lang_code == 'bg-BG')
-            switch(voice_data) {
+        else if (lang_code == 'bg-BG')
+            switch (voice_data) {
                 case 'A:0':
                     voice_name = 'Sofia[F';
                     break;
                 case 'A:1':
                     voice_name = 'Maya[F';
                     break;
-
+        
                 case 'A:20':
                     voice_name = 'Maria[F';
                     break;
@@ -9775,13 +10365,150 @@ window.gspeechDash = function(options) {
                 case 'F:20':
                     voice_name = 'Desislava[F';
                     break;
-            }
-        else if(lang_code == 'bs')
-            switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Emir[M';
+                case 'G:20':
+                    voice_name = 'Georgi[M';
                     break;
-
+                case 'H:20':
+                    voice_name = 'Hristo[M';
+                    break;
+                case 'I:20':
+                    voice_name = 'Milena[F';
+                    break;
+        
+                case 'A:21':
+                    voice_name = 'Maria HD[F';
+                    break;
+                case 'B:21':
+                    voice_name = 'Ivan HD[M';
+                    break;
+                case 'C:21':
+                    voice_name = 'Nikolay HD[M';
+                    break;
+                case 'D:21':
+                    voice_name = 'Elena HD[F';
+                    break;
+                case 'E:21':
+                    voice_name = 'Ivanka HD[F';
+                    break;
+                case 'F:21':
+                    voice_name = 'Desislava HD[F';
+                    break;
+                case 'G:21':
+                    voice_name = 'Georgi HD[M';
+                    break;
+                case 'H:21':
+                    voice_name = 'Hristo HD[M';
+                    break;
+                case 'I:21':
+                    voice_name = 'Milena HD[F';
+                    break;
+                case 'J:21':
+                    voice_name = 'Martin HD[M';
+                    break;
+                case 'K:21':
+                    voice_name = 'Kaloyan HD[M';
+                    break;
+        
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11':
+                    voice_name = 'Gabriela[F';
+                    break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11':
+                    voice_name = 'Borislav[M';
+                    break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11':
+                    voice_name = 'Dimitar[M';
+                    break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11':
+                    voice_name = 'Stoyan[M';
+                    break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11':
+                    voice_name = 'Valentin[M';
+                    break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11':
+                    voice_name = 'Teodora[F';
+                    break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11':
+                    voice_name = 'Radost[F';
+                    break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11':
+                    voice_name = 'Veselina[F';
+                    break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11':
+                    voice_name = 'Kiril[M';
+                    break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11':
+                    voice_name = 'Elitsa[F';
+                    break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11':
+                    voice_name = 'Todor[M';
+                    break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11':
+                    voice_name = 'Raya[F';
+                    break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11':
+                    voice_name = 'Atanas[M';
+                    break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11':
+                    voice_name = 'Margarita[F';
+                    break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11':
+                    voice_name = 'Plamen[M';
+                    break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11':
+                    voice_name = 'Nadezhda[F';
+                    break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11':
+                    voice_name = 'Yana[F';
+                    break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11':
+                    voice_name = 'Violeta[F';
+                    break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11':
+                    voice_name = 'Milen[M';
+                    break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11':
+                    voice_name = 'Radoslav[M';
+                    break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11':
+                    voice_name = 'Kristina[F';
+                    break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11':
+                    voice_name = 'Vladimir[M';
+                    break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11':
+                    voice_name = 'Simeon[M';
+                    break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11':
+                    voice_name = 'Angel[M';
+                    break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11':
+                    voice_name = 'Bozhidar[M';
+                    break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11':
+                    voice_name = 'Tsveta[F';
+                    break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11':
+                    voice_name = 'Stilian[M';
+                    break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11':
+                    voice_name = 'Silvia[F';
+                    break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11':
+                    voice_name = 'Nevena[F';
+                    break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11':
+                    voice_name = 'Petko[M';
+                    break;
+            }
+        else if (lang_code == 'bs')
+            switch (voice_data) {
+        
+                // ===== base =====
+                case 'A:0':
+                    voice_name = 'Almir[M';
+                    break;
+        
+                // ===== OpenAI (20) =====
                 case 'A:20':
                     voice_name = 'Amina[F';
                     break;
@@ -9800,1644 +10527,3874 @@ window.gspeechDash = function(options) {
                 case 'F:20':
                     voice_name = 'Esma[F';
                     break;
-            }
-        else if(lang_code == 'bn-IN')
-            switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Preeti[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Puja[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Arnab[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Riya[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Arif[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Imran[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Shila[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Tania[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Farzana[F';
-                    break;
-            }
-        else if(lang_code == 'eu-ES')
-            switch(voice_data) {
-                case 'A:1':
-                    voice_name = 'Eider[F';
-                    break;
-            }
-        else if(lang_code == 'ar-XA')
-            switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Aisha[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Muna[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Samir[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Faris[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Lina[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Layla[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Khalid[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Omar[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Noor[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Yasmin[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Zainab[F';
-                    break;
-
                 case 'G:20':
-                    voice_name = 'Youssef[M';
+                    voice_name = 'Goran[M';
                     break;
                 case 'H:20':
-                    voice_name = 'Rania[F';
+                    voice_name = 'Ivana[F';
                     break;
                 case 'I:20':
-                    voice_name = 'Lubna[F';
+                    voice_name = 'Nikola[M';
+                    break;
+        
+                // ===== OpenAI HD (21) — SAME + HD + J/K =====
+                case 'A:21':
+                    voice_name = 'Amina HD[F';
+                    break;
+                case 'B:21':
+                    voice_name = 'Emir HD[M';
+                    break;
+                case 'C:21':
+                    voice_name = 'Nermin HD[M';
+                    break;
+                case 'D:21':
+                    voice_name = 'Lejla HD[F';
+                    break;
+                case 'E:21':
+                    voice_name = 'Selma HD[F';
+                    break;
+                case 'F:21':
+                    voice_name = 'Esma HD[F';
+                    break;
+                case 'G:21':
+                    voice_name = 'Goran HD[M';
+                    break;
+                case 'H:21':
+                    voice_name = 'Ivana HD[F';
+                    break;
+                case 'I:21':
+                    voice_name = 'Nikola HD[M';
+                    break;
+                case 'J:21':
+                    voice_name = 'Marko HD[M';
+                    break;
+                case 'K:21':
+                    voice_name = 'Stefan HD[M';
                     break;
             }
-        else if(lang_code == 'sq')
+        else if (lang_code == 'bn-IN')
+            switch (voice_data) {
+        
+                // ===== base =====
+                case 'A:0': voice_name = 'Preeti[F'; break;
+        
+                // ===== legacy (2) =====
+                case 'A:2': voice_name = 'Puja[F'; break;
+                case 'B:2': voice_name = 'Arnab[M'; break;
+        
+                // ===== OpenAI (20) =====
+                case 'A:20': voice_name = 'Riya[F'; break;
+                case 'B:20': voice_name = 'Arif[M'; break;
+                case 'C:20': voice_name = 'Imran[M'; break;
+                case 'D:20': voice_name = 'Shila[F'; break;
+                case 'E:20': voice_name = 'Tania[F'; break;
+                case 'F:20': voice_name = 'Farzana[F'; break;
+                case 'G:20': voice_name = 'Sourav[M'; break;
+                case 'H:20': voice_name = 'Moumita[F'; break;
+                case 'I:20': voice_name = 'Rafique[M'; break;
+        
+                // ===== OpenAI HD (21) — SAME voices + HD + 2 (FIX K gender) =====
+                case 'A:21': voice_name = 'Riya HD[F'; break;
+                case 'B:21': voice_name = 'Arif HD[M'; break;
+                case 'C:21': voice_name = 'Imran HD[M'; break;
+                case 'D:21': voice_name = 'Shila HD[F'; break;
+                case 'E:21': voice_name = 'Tania HD[F'; break;
+                case 'F:21': voice_name = 'Farzana HD[F'; break;
+                case 'G:21': voice_name = 'Sourav HD[M'; break;
+                case 'H:21': voice_name = 'Moumita HD[F'; break;
+                case 'I:21': voice_name = 'Rafique HD[M'; break;
+                case 'J:21': voice_name = 'Anirban HD[M'; break;
+                case 'K:21': voice_name = 'Sabyasachi HD[M'; break; // FIX: was Ishita HD[F]
+        
+                // ===== Chirp3 + Gemini (8 / 10 / 11) — ONE SERIES =====
+                case 'A:8':  case 'A:10':  case 'A:11':  voice_name = 'Aditi[F'; break;
+                case 'B:8':  case 'B:10':  case 'B:11':  voice_name = 'Arjun[M'; break;
+                case 'C:8':  case 'C:10':  case 'C:11':  voice_name = 'Rohan[M'; break;
+                case 'D:8':  case 'D:10':  case 'D:11':  voice_name = 'Sayan[M'; break;
+                case 'E:8':  case 'E:10':  case 'E:11':  voice_name = 'Debanjan[M'; break;
+                case 'F:8':  case 'F:10':  case 'F:11':  voice_name = 'Madhuri[F'; break;
+                case 'G:8':  case 'G:10':  case 'G:11':  voice_name = 'Ishani[F'; break;
+                case 'H:8':  case 'H:10':  case 'H:11':  voice_name = 'Sohini[F'; break;
+                case 'I:8':  case 'I:10':  case 'I:11':  voice_name = 'Niloy[M'; break;
+                case 'J:8':  case 'J:10':  case 'J:11':  voice_name = 'Priyanka[F'; break;
+                case 'K:8':  case 'K:10':  case 'K:11':  voice_name = 'Anirudh[M'; break;
+                case 'L:8':  case 'L:10':  case 'L:11':  voice_name = 'Trisha[F'; break;
+                case 'M:8':  case 'M:10':  case 'M:11':  voice_name = 'Kunal[M'; break;
+                case 'N:8':  case 'N:10':  case 'N:11':  voice_name = 'Koel[F'; break;
+                case 'O:8':  case 'O:10':  case 'O:11':  voice_name = 'Debjit[M'; break;
+                case 'P:8':  case 'P:10':  case 'P:11':  voice_name = 'Tanushree[F'; break;
+                case 'Q:8':  case 'Q:10':  case 'Q:11':  voice_name = 'Rupali[F'; break;
+                case 'R:8':  case 'R:10':  case 'R:11':  voice_name = 'Sanchari[F'; break;
+                case 'S:8':  case 'S:10':  case 'S:11':  voice_name = 'Rahul[M'; break;
+                case 'T:8':  case 'T:10':  case 'T:11':  voice_name = 'Arko[M'; break;
+                case 'U:8':  case 'U:10':  case 'U:11':  voice_name = 'Oindrila[F'; break;
+                case 'V:8':  case 'V:10':  case 'V:11':  voice_name = 'Subhajit[M'; break;
+                case 'W:8':  case 'W:10':  case 'W:11':  voice_name = 'Tapan[M'; break;
+                case 'X:8':  case 'X:10':  case 'X:11':  voice_name = 'Ritwik[M'; break;
+                case 'Y:8':  case 'Y:10':  case 'Y:11':  voice_name = 'Kaushik[M'; break;
+                case 'Z:8':  case 'Z:10':  case 'Z:11':  voice_name = 'Mousumi[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Biplab[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Sayantika[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Mitali[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Suman[M'; break;
+            }
+        else if(lang_code == 'bn-BD')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Mentor[M';
-                    break;
+            
+                /* base */
+                case 'A:0': voice_name = 'Ayesha[F'; break;
+            
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Riya[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Arif[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Imran[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Rahim[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Hasan[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Nusrat[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Farzana[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Tania[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Kamal[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Maya[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Rashid[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Puja[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Tanvir[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Shila[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Jamal[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Sadia[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Lamia[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Mariam[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Sabbir[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Nayeem[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Ruma[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Fahim[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Shakil[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Nabil[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Rafi[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Lipi[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Shanto[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Nadia[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Fariha[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Rakib[M'; break;
+            }
+        else if (lang_code == 'eu-ES')
+            switch (voice_data) {
 
-                case 'A:20':
-                    voice_name = 'Albana[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Arben[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Besnik[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Blerina[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Drita[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Elira[F';
-                    break;
+                // ===== base =====
+                case 'A:0': voice_name = 'Oihane[F'; break;
+
+                // ===== legacy (1) =====
+                case 'A:1': voice_name = 'Eider[F'; break;
+        
+                // ===== OpenAI (20) =====
+                case 'A:20': voice_name = 'Ane[F'; break;
+                case 'B:20': voice_name = 'Iker[M'; break;
+                case 'C:20': voice_name = 'Mikel[M'; break;
+                case 'D:20': voice_name = 'Nerea[F'; break;
+                case 'E:20': voice_name = 'Aitor[M'; break;
+                case 'F:20': voice_name = 'Leire[F'; break;
+                case 'G:20': voice_name = 'Unai[M'; break;
+                case 'H:20': voice_name = 'Maialen[F'; break;
+                case 'I:20': voice_name = 'Gorka[M'; break;
+        
+                // ===== OpenAI HD (21) — SAME voices + HD + 2 =====
+                case 'A:21': voice_name = 'Ane HD[F'; break;
+                case 'B:21': voice_name = 'Iker HD[M'; break;
+                case 'C:21': voice_name = 'Mikel HD[M'; break;
+                case 'D:21': voice_name = 'Nerea HD[F'; break;
+                case 'E:21': voice_name = 'Aitor HD[M'; break;
+                case 'F:21': voice_name = 'Leire HD[F'; break;
+                case 'G:21': voice_name = 'Unai HD[M'; break;
+                case 'H:21': voice_name = 'Maialen HD[F'; break;
+                case 'I:21': voice_name = 'Gorka HD[M'; break;
+                case 'J:21': voice_name = 'Asier HD[M'; break;
+                case 'K:21': voice_name = 'Gaizka HD[M'; break;
+        
+                // ===== Gemini (10 / 11) — ONE SERIES =====
+                case 'A:10':  case 'A:11':  voice_name = 'Uxue[F'; break;
+                case 'B:10':  case 'B:11':  voice_name = 'Jon[M'; break;
+                case 'C:10':  case 'C:11':  voice_name = 'Oihan[M'; break;
+                case 'D:10':  case 'D:11':  voice_name = 'Gontzal[M'; break;
+                case 'E:10':  case 'E:11':  voice_name = 'Peru[M'; break;
+                case 'F:10':  case 'F:11':  voice_name = 'June[F'; break;
+                case 'G:10':  case 'G:11':  voice_name = 'Garazi[F'; break;
+                case 'H:10':  case 'H:11':  voice_name = 'Alaia[F'; break;
+                case 'I:10':  case 'I:11':  voice_name = 'Ibai[M'; break;
+                case 'J:10':  case 'J:11':  voice_name = 'Naiara[F'; break;
+                case 'K:10':  case 'K:11':  voice_name = 'Iñigo[M'; break;
+                case 'L:10':  case 'L:11':  voice_name = 'Ainhoa[F'; break;
+                case 'M:10':  case 'M:11':  voice_name = 'Beñat[M'; break;
+                case 'N:10':  case 'N:11':  voice_name = 'Haizea[F'; break;
+                case 'O:10':  case 'O:11':  voice_name = 'Xabier[M'; break;
+                case 'P:10':  case 'P:11':  voice_name = 'Edurne[F'; break;
+                case 'Q:10':  case 'Q:11':  voice_name = 'Itsaso[F'; break;
+                case 'R:10':  case 'R:11':  voice_name = 'Miren[F'; break;
+                case 'S:10':  case 'S:11':  voice_name = 'Koldo[M'; break;
+                case 'T:10':  case 'T:11':  voice_name = 'Ekaitz[M'; break;
+                case 'U:10':  case 'U:11':  voice_name = 'Zuriñe[F'; break;
+                case 'V:10':  case 'V:11':  voice_name = 'Iñaki[M'; break;
+                case 'W:10':  case 'W:11':  voice_name = 'Iosu[M'; break;
+                case 'X:10':  case 'X:11':  voice_name = 'Aritz[M'; break;
+                case 'Y:10':  case 'Y:11':  voice_name = 'Unax[M'; break;
+                case 'Z:10':  case 'Z:11':  voice_name = 'Maddi[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Ander[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Lur[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Nahia[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Eneko[M'; break;
             }
-        else if(lang_code == 'af-ZA')
-            switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Marlene[F';
-                    break;
-                case 'A:1':
-                    voice_name = 'Magdalena[F';
-                    break;
-                case 'A:20':
-                    voice_name = 'Annelize[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Hendrik[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Jacques[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Marietjie[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Sonja[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Nadine[F';
-                    break;
+        else if (lang_code == 'ar-XA')
+            switch (voice_data) {
+        
+                // ===== base =====
+                case 'A:0': voice_name = 'Aisha[F'; break;
+        
+                // ===== legacy (2) =====
+                case 'A:2': voice_name = 'Muna[F'; break;
+                case 'B:2': voice_name = 'Samir[M'; break;
+                case 'C:2': voice_name = 'Faris[M'; break;
+                case 'D:2': voice_name = 'Lina[F'; break;
+        
+                // ===== OpenAI (20) =====
+                case 'A:20': voice_name = 'Layla[F'; break;
+                case 'B:20': voice_name = 'Khalid[M'; break;
+                case 'C:20': voice_name = 'Omar[M'; break;
+                case 'D:20': voice_name = 'Noor[F'; break;
+                case 'E:20': voice_name = 'Yasmin[F'; break;
+                case 'F:20': voice_name = 'Zainab[F'; break;
+                case 'G:20': voice_name = 'Youssef[M'; break;
+                case 'H:20': voice_name = 'Rania[F'; break;
+                case 'I:20': voice_name = 'Lubna[F'; break;
+        
+                // ===== OpenAI HD (21) =====
+                case 'A:21': voice_name = 'Layla HD[F'; break;
+                case 'B:21': voice_name = 'Khalid HD[M'; break;
+                case 'C:21': voice_name = 'Omar HD[M'; break;
+                case 'D:21': voice_name = 'Noor HD[F'; break;
+                case 'E:21': voice_name = 'Yasmin HD[F'; break;
+                case 'F:21': voice_name = 'Zainab HD[F'; break;
+                case 'G:21': voice_name = 'Youssef HD[M'; break;
+                case 'H:21': voice_name = 'Rania HD[F'; break;
+                case 'I:21': voice_name = 'Lubna HD[F'; break;
+                case 'J:21': voice_name = 'Hassan HD[M'; break;
+                case 'K:21': voice_name = 'Amal HD[F'; break;
+        
+                // ===== Chirp3 + Gemini (8 / 10 / 11) — ONE SERIES (gender pattern EXACTLY as en-US) =====
+                case 'A:8':  case 'A:10':  case 'A:11':  voice_name = 'Nadine[F'; break;   // A = F
+                case 'B:8':  case 'B:10':  case 'B:11':  voice_name = 'Rashid[M'; break;   // B = M
+                case 'C:8':  case 'C:10':  case 'C:11':  voice_name = 'Fadi[M'; break;     // C = M (was Yara[F])
+                case 'D:8':  case 'D:10':  case 'D:11':  voice_name = 'Fouad[M'; break;    // D = M
+                case 'E:8':  case 'E:10':  case 'E:11':  voice_name = 'Mazen[M'; break;    // E = M (was Mila[F])
+                case 'F:8':  case 'F:10':  case 'F:11':  voice_name = 'Hind[F'; break;     // F = F (was Zaki[M])
+                case 'G:8':  case 'G:10':  case 'G:11':  voice_name = 'Laila[F'; break;    // G = F
+                case 'H:8':  case 'H:10':  case 'H:11':  voice_name = 'Maha[F'; break;     // H = F (was Hatem[M])
+                case 'I:8':  case 'I:10':  case 'I:11':  voice_name = 'Ziad[M'; break;     // I = M (was Ruba[F])
+                case 'J:8':  case 'J:10':  case 'J:11':  voice_name = 'Dalia[F'; break;    // J = F (was Nasser[M])
+                case 'K:8':  case 'K:10':  case 'K:11':  voice_name = 'Dani[M'; break;     // K = M (was Dima[F])
+                case 'L:8':  case 'L:10':  case 'L:11':  voice_name = 'Sana[F'; break;     // L = F (was Bassam[M])
+                case 'M:8':  case 'M:10':  case 'M:11':  voice_name = 'Yahya[M'; break;    // M = M (was Hala[F])
+                case 'N:8':  case 'N:10':  case 'N:11':  voice_name = 'Amina[F'; break;    // N = F (was Sufyan[M])
+                case 'O:8':  case 'O:10':  case 'O:11':  voice_name = 'Hamza[M'; break;    // O = M (was Rayan[F])
+                case 'P:8':  case 'P:10':  case 'P:11':  voice_name = 'Munir[M'; break;    // P = F in en-US -> FIX BELOW
+                case 'Q:8':  case 'Q:10':  case 'Q:11':  voice_name = 'Safiya[F'; break;   // Q = F
+                case 'R:8':  case 'R:10':  case 'R:11':  voice_name = 'Ibtisam[F'; break;  // R = F (was Ilyas[M])
+                case 'S:8':  case 'S:10':  case 'S:11':  voice_name = 'Othman[M'; break;   // S = M (was Tala[F])
+                case 'T:8':  case 'T:10':  case 'T:11':  voice_name = 'Kamal[M'; break;    // T = M
+                case 'U:8':  case 'U:10':  case 'U:11':  voice_name = 'Sumaya[F'; break;   // U = F
+                case 'V:8':  case 'V:10':  case 'V:11':  voice_name = 'Firas[M'; break;    // V = M
+                case 'W:8':  case 'W:10':  case 'W:11':  voice_name = 'Nabil[M'; break;    // W = M (was Amira[F])
+                case 'X:8':  case 'X:10':  case 'X:11':  voice_name = 'Zaid[M'; break;     // X = M
+                case 'Y:8':  case 'Y:10':  case 'Y:11':  voice_name = 'Adel[M'; break;     // Y = M (was Mariam[F])
+                case 'Z:8':  case 'Z:10':  case 'Z:11':  voice_name = 'Raniah[F'; break;   // Z = F (was Qasim[M])
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Karim[M'; break;    // AA = M (was Nour[F])
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Mariam[F'; break;   // AB = F (was Salem[M])
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Heba[F'; break;     // AC = F (was Rim[F] ok, but keep distinct)
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Jalal[M'; break;    // AD = M
+            }
+        else if (lang_code == 'ar-EG')
+            switch (voice_data) {
+        
+                // ===== base =====
+                case 'A:0': voice_name = 'Nourhan[F'; break;
+        
+                // ===== Gemini (10 / 11) — ONE SERIES (gender pattern EXACTLY as en-US) =====
+                case 'A:10':  case 'A:11':  voice_name = 'Farida[F'; break;    // A = F
+                case 'B:10':  case 'B:11':  voice_name = 'Sherif[M'; break;    // B = M
+                case 'C:10':  case 'C:11':  voice_name = 'Youssef[M'; break;   // C = M (was Mona[F])
+                case 'D:10':  case 'D:11':  voice_name = 'Tarek[M'; break;     // D = M
+                case 'E:10':  case 'E:11':  voice_name = 'Maher[M'; break;     // E = M (was Hoda[F])
+                case 'F:10':  case 'F:11':  voice_name = 'Salma[F'; break;     // F = F (was Mostafa[M])
+                case 'G:10':  case 'G:11':  voice_name = 'Donia[F'; break;     // G = F
+                case 'H:10':  case 'H:11':  voice_name = 'Mariam[F'; break;    // H = F (was Amr[M])
+                case 'I:10':  case 'I:11':  voice_name = 'Omar[M'; break;      // I = M (was Dina[F])
+                case 'J:10':  case 'J:11':  voice_name = 'Nadine[F'; break;    // J = F (was Hazem[M])
+                case 'K:10':  case 'K:11':  voice_name = 'Hassan[M'; break;    // K = M (was Mai[F])
+                case 'L:10':  case 'L:11':  voice_name = 'Aya[F'; break;       // L = F (was Karim[M])
+                case 'M:10':  case 'M:11':  voice_name = 'Mostafa[M'; break;   // M = M (was Riham[F])
+                case 'N:10':  case 'N:11':  voice_name = 'Dalia[F'; break;     // N = F (was Hossam[M])
+                case 'O:10':  case 'O:11':  voice_name = 'Karim[M'; break;     // O = M (was Asmaa[F])
+                case 'P:10':  case 'P:11':  voice_name = 'Hala[F'; break;      // P = F (was Sameh[M])
+                case 'Q:10':  case 'Q:11':  voice_name = 'Marwa[F'; break;     // Q = F
+                case 'R:10':  case 'R:11':  voice_name = 'Heba[F'; break;      // R = F (was Maged[M])
+                case 'S:10':  case 'S:11':  voice_name = 'Amr[M'; break;       // S = M (was Aya[F])
+                case 'T:10':  case 'T:11':  voice_name = 'Islam[M'; break;     // T = M
+                case 'U:10':  case 'U:11':  voice_name = 'Menna[F'; break;     // U = F
+                case 'V:10':  case 'V:11':  voice_name = 'Mahmoud[M'; break;   // V = M
+                case 'W:10':  case 'W:11':  voice_name = 'Sameh[M'; break;     // W = M
+                case 'X:10':  case 'X:11':  voice_name = 'Ibrahim[M'; break;   // X = M
+                case 'Y:10':  case 'Y:11':  voice_name = 'Walid[M'; break;     // Y = M
+                case 'Z:10':  case 'Z:11':  voice_name = 'Rana[F'; break;      // Z = F (was Walid[M])
+                case 'AA:10': case 'AA:11': voice_name = 'Badr[M'; break;      // AA = M (was Reem[F])
+                case 'AB:10': case 'AB:11': voice_name = 'Reem[F'; break;      // AB = F (was Ramy[M])
+                case 'AC:10': case 'AC:11': voice_name = 'Noha[F'; break;      // AC = F
+                case 'AD:10': case 'AD:11': voice_name = 'Ramy[M'; break;      // AD = M
+            }
+        else if (lang_code == 'sq')
+            switch (voice_data) {
+        
+                // ===== base =====
+                case 'A:0': voice_name = 'Mentor[M'; break;
+        
+                // ===== OpenAI (20) — EXISTING, UNCHANGED + COMPLETED to I =====
+                case 'A:20': voice_name = 'Albana[F'; break;
+                case 'B:20': voice_name = 'Arben[M'; break;
+                case 'C:20': voice_name = 'Besnik[M'; break;
+                case 'D:20': voice_name = 'Blerina[F'; break;
+                case 'E:20': voice_name = 'Drita[F'; break;
+                case 'F:20': voice_name = 'Elira[F'; break;
+                case 'G:20': voice_name = 'Ilir[M'; break;
+                case 'H:20': voice_name = 'Mirela[F'; break;
+                case 'I:20': voice_name = 'Gent[M'; break;
+        
+                // ===== OpenAI HD (21) — SAME voices + HD + 2 =====
+                case 'A:21': voice_name = 'Albana HD[F'; break;
+                case 'B:21': voice_name = 'Arben HD[M'; break;
+                case 'C:21': voice_name = 'Besnik HD[M'; break;
+                case 'D:21': voice_name = 'Blerina HD[F'; break;
+                case 'E:21': voice_name = 'Drita HD[F'; break;
+                case 'F:21': voice_name = 'Elira HD[F'; break;
+                case 'G:21': voice_name = 'Ilir HD[M'; break;
+                case 'H:21': voice_name = 'Mirela HD[F'; break;
+                case 'I:21': voice_name = 'Gent HD[M'; break;
+                case 'J:21': voice_name = 'Erion HD[M'; break;
+                case 'K:21': voice_name = 'Arta HD[F'; break;
+        
+                // ===== Gemini (10 / 11) — 30 voices (ONE series, gender pattern as en-US) =====
+                case 'A:10': case 'A:11': voice_name = 'Ariana[F'; break;     // A = F
+                case 'B:10': case 'B:11': voice_name = 'Luan[M'; break;       // B = M
+                case 'C:10': case 'C:11': voice_name = 'Ardit[M'; break;      // C = M
+                case 'D:10': case 'D:11': voice_name = 'Dion[M'; break;       // D = M
+                case 'E:10': case 'E:11': voice_name = 'Arjan[M'; break;      // E = M (was Bora[F])
+                case 'F:10': case 'F:11': voice_name = 'Era[F'; break;        // F = F
+                case 'G:10': case 'G:11': voice_name = 'Dafina[F'; break;     // G = F (was Valon[M])
+                case 'H:10': case 'H:11': voice_name = 'Eni[F'; break;        // H = F
+                case 'I:10': case 'I:11': voice_name = 'Kreshnik[M'; break;   // I = M (was Klea[F])
+                case 'J:10': case 'J:11': voice_name = 'Gentiana[F'; break;   // J = F (was Arlis[M])
+                case 'K:10': case 'K:11': voice_name = 'Bledi[M'; break;      // K = M
+                case 'L:10': case 'L:11': voice_name = 'Rina[F'; break;       // L = F
+                case 'M:10': case 'M:11': voice_name = 'Lorik[M'; break;      // M = M
+                case 'N:10': case 'N:11': voice_name = 'Arlinda[F'; break;    // N = F
+                case 'O:10': case 'O:11': voice_name = 'Drin[M'; break;       // O = M
+                case 'P:10': case 'P:11': voice_name = 'Ema[F'; break;        // P = F
+                case 'Q:10': case 'Q:11': voice_name = 'Erisa[F'; break;      // Q = F (was Kujtim[M])
+                case 'R:10': case 'R:11': voice_name = 'Ornela[F'; break;     // R = F (was Orion[M])
+                case 'S:10': case 'S:11': voice_name = 'Lirim[M'; break;      // S = M (was Jona[F])
+                case 'T:10': case 'T:11': voice_name = 'Florian[M'; break;    // T = M
+                case 'U:10': case 'U:11': voice_name = 'Elona[F'; break;      // U = F
+                case 'V:10': case 'V:11': voice_name = 'Dritan[M'; break;     // V = M
+                case 'W:10': case 'W:11': voice_name = 'Leon[M'; break;       // W = M
+                case 'X:10': case 'X:11': voice_name = 'Jetmir[M'; break;     // X = M (was Vesa[F])
+                case 'Y:10': case 'Y:11': voice_name = 'Sokol[M'; break;      // Y = M
+                case 'Z:10': case 'Z:11': voice_name = 'Ina[F'; break;        // Z = F
+                case 'AA:10': case 'AA:11': voice_name = 'Altin[M'; break;    // AA = M
+                case 'AB:10': case 'AB:11': voice_name = 'Nora[F'; break;     // AB = F
+                case 'AC:10': case 'AC:11': voice_name = 'Blerta[F'; break;   // AC = F (was Taulant[M])
+                case 'AD:10': case 'AD:11': voice_name = 'Valdrin[M'; break;  // AD = M (was Elvana[F])
+            }
+        else if (lang_code == 'af-ZA')
+            switch (voice_data) {
+        
+                // ===== base =====
+                case 'A:0': voice_name = 'Marlene[F'; break;
+                case 'A:1': voice_name = 'Magdalena[F'; break;
+        
+                // ===== OpenAI (20) — EXISTING + COMPLETED to I =====
+                case 'A:20': voice_name = 'Annelize[F'; break;
+                case 'B:20': voice_name = 'Hendrik[M'; break;
+                case 'C:20': voice_name = 'Jacques[M'; break;
+                case 'D:20': voice_name = 'Marietjie[F'; break;
+                case 'E:20': voice_name = 'Sonja[F'; break;
+                case 'F:20': voice_name = 'Nadine[F'; break;
+                case 'G:20': voice_name = 'Petrus[M'; break;
+                case 'H:20': voice_name = 'Elize[F'; break;
+                case 'I:20': voice_name = 'Ruan[M'; break;
+        
+                // ===== OpenAI HD (21) — SAME voices + HD + 2 =====
+                case 'A:21': voice_name = 'Annelize HD[F'; break;
+                case 'B:21': voice_name = 'Hendrik HD[M'; break;
+                case 'C:21': voice_name = 'Jacques HD[M'; break;
+                case 'D:21': voice_name = 'Marietjie HD[F'; break;
+                case 'E:21': voice_name = 'Sonja HD[F'; break;
+                case 'F:21': voice_name = 'Nadine HD[F'; break;
+                case 'G:21': voice_name = 'Petrus HD[M'; break;
+                case 'H:21': voice_name = 'Elize HD[F'; break;
+                case 'I:21': voice_name = 'Ruan HD[M'; break;
+                case 'J:21': voice_name = 'Jaco HD[M'; break;
+                case 'K:21': voice_name = 'Liesel HD[F'; break;
+        
+                // ===== Gemini (10 / 11) — ONE series (gender pattern EXACTLY as en-US) =====
+                case 'A:10': case 'A:11': voice_name = 'Lara[F'; break;        // A = F
+                case 'B:10': case 'B:11': voice_name = 'Pieter[M'; break;      // B = M
+                case 'C:10': case 'C:11': voice_name = 'Johan[M'; break;       // C = M
+                case 'D:10': case 'D:11': voice_name = 'Dawid[M'; break;       // D = M (was Elna[F])
+                case 'E:10': case 'E:11': voice_name = 'Francois[M'; break;    // E = M
+                case 'F:10': case 'F:11': voice_name = 'Anika[F'; break;       // F = F
+                case 'G:10': case 'G:11': voice_name = 'Chanel[F'; break;      // G = F (was Willem[M])
+                case 'H:10': case 'H:11': voice_name = 'Rina[F'; break;        // H = F
+                case 'I:10': case 'I:11': voice_name = 'Theo[M'; break;        // I = M
+                case 'J:10': case 'J:11': voice_name = 'Mariska[F'; break;     // J = F
+                case 'K:10': case 'K:11': voice_name = 'Andre[M'; break;       // K = M
+                case 'L:10': case 'L:11': voice_name = 'Ilse[F'; break;        // L = F
+                case 'M:10': case 'M:11': voice_name = 'Gerrit[M'; break;      // M = M
+                case 'N:10': case 'N:11': voice_name = 'Elmarie[F'; break;     // N = F
+                case 'O:10': case 'O:11': voice_name = 'Ruanne[M'; break;      // O = M
+                case 'P:10': case 'P:11': voice_name = 'Helene[F'; break;      // P = F
+                case 'Q:10': case 'Q:11': voice_name = 'Petrina[F'; break;     // Q = F
+                case 'R:10': case 'R:11': voice_name = 'Anriette[F'; break;    // R = F (was Anri[M])
+                case 'S:10': case 'S:11': voice_name = 'Stefan[M'; break;      // S = M
+                case 'T:10': case 'T:11': voice_name = 'Jannie[M'; break;      // T = M (was Lienke[F])
+                case 'U:10': case 'U:11': voice_name = 'Zelda[F'; break;       // U = F (was Deon[M])
+                case 'V:10': case 'V:11': voice_name = 'Gideon[M'; break;      // V = M (was Mareli[F])
+                case 'W:10': case 'W:11': voice_name = 'Koos[M'; break;        // W = M
+                case 'X:10': case 'X:11': voice_name = 'Nico[M'; break;        // X = M (was Nadia[F])
+                case 'Y:10': case 'Y:11': voice_name = 'Rico[M'; break;        // Y = M
+                case 'Z:10': case 'Z:11': voice_name = 'Sunette[F'; break;     // Z = F
+                case 'AA:10': case 'AA:11': voice_name = 'Carel[M'; break;     // AA = M
+                case 'AB:10': case 'AB:11': voice_name = 'Elrica[F'; break;    // AB = F
+                case 'AC:10': case 'AC:11': voice_name = 'Gerda[F'; break;     // AC = F (was Gerhard[M])
+                case 'AD:10': case 'AD:11': voice_name = 'Wian[M'; break;      // AD = M (was Monique[F])
             }
         else if(lang_code == 'et')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Marko[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Sofia[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Martin[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Rasmus[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Laura[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Mia[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Anna[F';
-                    break;
+                case 'A:0': voice_name = 'Marko[M'; break;
+        
+                case 'A:20': voice_name = 'Sofia[F'; break;
+                case 'B:20': voice_name = 'Martin[M'; break;
+                case 'C:20': voice_name = 'Rasmus[M'; break;
+                case 'D:20': voice_name = 'Laura[F'; break;
+                case 'E:20': voice_name = 'Mia[F'; break;
+                case 'F:20': voice_name = 'Anna[F'; break;
+                case 'G:20': voice_name = 'Karl[M'; break;
+                case 'H:20': voice_name = 'Kertu[F'; break;
+                case 'I:20': voice_name = 'Liis[F'; break;
+        
+                case 'A:21': voice_name = 'Sofia HD[F'; break;
+                case 'B:21': voice_name = 'Martin HD[M'; break;
+                case 'C:21': voice_name = 'Rasmus HD[M'; break;
+                case 'D:21': voice_name = 'Laura HD[F'; break;
+                case 'E:21': voice_name = 'Mia HD[F'; break;
+                case 'F:21': voice_name = 'Anna HD[F'; break;
+                case 'G:21': voice_name = 'Karl HD[M'; break;
+                case 'H:21': voice_name = 'Kertu HD[F'; break;
+                case 'I:21': voice_name = 'Liis HD[F'; break;
+                case 'J:21': voice_name = 'Andres HD[M'; break;
+                case 'K:21': voice_name = 'Taavi HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — единая серия, gender map как en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Helena[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Oliver[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Erik[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Markus[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Rainer[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Grete[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Maarja[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Kristiina[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Tanel[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Annika[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Peeter[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Kaisa[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Sander[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Maris[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Joonas[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Liina[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Eliise[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Birgit[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Siim[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Aaro[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Adeele[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Henri[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Riko[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Artur[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Kaspar[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Elsa[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Aivar[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Tuuli[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Siret[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Indrek[M'; break;
             }
         else if(lang_code == 'fil-PH')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Maria[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Angelica[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Sharon[F';
-                    break;
-                case 'C:2':
-                    voice_name = 'Carlos[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Francisco[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Maria[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Jose[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Carlo[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Christine[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Jasmine[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Angela[F';
-                    break;
+                case 'A:0': voice_name = 'Maria[F'; break;
+        
+                case 'A:2': voice_name = 'Angelica[F'; break;
+                case 'B:2': voice_name = 'Sharon[F'; break;
+                case 'C:2': voice_name = 'Carlos[M'; break;
+                case 'D:2': voice_name = 'Francisco[M'; break;
+        
+                // 20 — FIX: убрали пересечение с base (Maria) + дополнили до A..I
+                case 'A:20': voice_name = 'Marisol[F'; break;   // FIX (было Maria)
+                case 'B:20': voice_name = 'Jose[M'; break;
+                case 'C:20': voice_name = 'Carlo[M'; break;
+                case 'D:20': voice_name = 'Christine[F'; break;
+                case 'E:20': voice_name = 'Jasmine[F'; break;
+                case 'F:20': voice_name = 'Angela[F'; break;
+                case 'G:20': voice_name = 'Paolo[M'; break;
+                case 'H:20': voice_name = 'Liza[F'; break;
+                case 'I:20': voice_name = 'Rafael[M'; break;
+        
+                // 21 — HD, те же имена + J/K (оба M)
+                case 'A:21': voice_name = 'Marisol HD[F'; break;
+                case 'B:21': voice_name = 'Jose HD[M'; break;
+                case 'C:21': voice_name = 'Carlo HD[M'; break;
+                case 'D:21': voice_name = 'Christine HD[F'; break;
+                case 'E:21': voice_name = 'Jasmine HD[F'; break;
+                case 'F:21': voice_name = 'Angela HD[F'; break;
+                case 'G:21': voice_name = 'Paolo HD[M'; break;
+                case 'H:21': voice_name = 'Liza HD[F'; break;
+                case 'I:21': voice_name = 'Rafael HD[M'; break;
+                case 'J:21': voice_name = 'Miguel HD[M'; break;
+                case 'K:21': voice_name = 'Andres HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — единая серия, gender-map как en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Aira[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noel[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Renzo[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Jomar[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Marco[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Bea[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Kaye[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Mika[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Enzo[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Ivy[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Paolo[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Nina[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Jules[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Alyssa[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Anton[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Rhea[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Lara[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'May[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Dylan[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Nico[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Sari[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Caleb[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Migs[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Rico[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Jace[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Elle[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Theo[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Vera[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zia[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Arlo[M'; break;
             }
         else if(lang_code == 'fi-FI')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Tiina[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Johanna[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Aino[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Eino[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Leo[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Sofia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Lilja[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Ella[F';
-                    break;
+                case 'A:0': voice_name = 'Tiina[F'; break;
+                case 'A:2': voice_name = 'Johanna[F'; break;
+        
+                case 'A:20': voice_name = 'Aino[F'; break;
+                case 'B:20': voice_name = 'Eino[M'; break;
+                case 'C:20': voice_name = 'Leo[M'; break;
+                case 'D:20': voice_name = 'Sofia[F'; break;
+                case 'E:20': voice_name = 'Lilja[F'; break;
+                case 'F:20': voice_name = 'Ella[F'; break;
+                case 'G:20': voice_name = 'Mikko[M'; break;
+                case 'H:20': voice_name = 'Kaisa[F'; break;
+                case 'I:20': voice_name = 'Veera[F'; break;
+        
+                case 'A:21': voice_name = 'Aino HD[F'; break;
+                case 'B:21': voice_name = 'Eino HD[M'; break;
+                case 'C:21': voice_name = 'Leo HD[M'; break;
+                case 'D:21': voice_name = 'Sofia HD[F'; break;
+                case 'E:21': voice_name = 'Lilja HD[F'; break;
+                case 'F:21': voice_name = 'Ella HD[F'; break;
+                case 'G:21': voice_name = 'Mikko HD[M'; break;
+                case 'H:21': voice_name = 'Kaisa HD[F'; break;
+                case 'I:21': voice_name = 'Veera HD[F'; break;
+                case 'J:21': voice_name = 'Antti HD[M'; break;
+                case 'K:21': voice_name = 'Jari HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — unified series, gender map как en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Helmi[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Elias[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Otto[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Noel[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Oskari[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Aada[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Iida[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Ella2[F'; break; // ⚠️ см. примечание
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Roope[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Sini[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Juho[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Vilma[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Matti[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Nea[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Arto[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Riina[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Saara[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Linnea[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Topi[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Ville[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Iiris[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Samu[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Teemu[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Joonas[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Aleksi[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Enni[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Petteri[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Anni[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Emilia[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Riku[M'; break;
             }
         else if(lang_code == 'fr-CA')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Olivia[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Emma[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Louis[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Rosalie[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Mathieu[M';
-                    break;
+                case 'A:0': voice_name = 'Olivia[F'; break;
+        
+                case 'A:2': voice_name = 'Emma[F'; break;
+                case 'B:2': voice_name = 'Louis[M'; break;
+                case 'C:2': voice_name = 'Rosalie[F'; break;
+                case 'D:2': voice_name = 'Mathieu[M'; break;
+        
+                // 8 / 9 / 10 / 11 — unified series, gender map как en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Camille[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Emile[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Liam[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Mathis[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Chloe[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Zoe[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Lea[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Julien[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Mila[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Arthur[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Ines[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Gabriel[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Maelle[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Thomas[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Sofia[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Luna[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Elodie[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Nathan[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Leo[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Aria[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Olivier[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Caleb[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Hugo[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Lucas[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ella[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Remi[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Violette[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zara[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Alexandre[M'; break;
             }
         else if(lang_code == 'fr-FR')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Alice[F';
-                    break;
-                case 'E:2':
-                    voice_name = 'Manon[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Clara[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Arthur[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Juliette[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Lucas[M';
-                    break;
-                case '1:7':
-                    voice_name = 'Gabriel[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Jeanne[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Maxime[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Theo[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Camille[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Chloe[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Elodie[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Mathis[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Sophie[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Julia[F';
-                    break;
+                case 'A:0': voice_name = 'Alice[F'; break;
+        
+                case 'E:2': voice_name = 'Manon[F'; break;
+                case 'A:2': voice_name = 'Clara[F'; break;
+                case 'B:2': voice_name = 'Arthur[M'; break;
+                case 'C:2': voice_name = 'Juliette[F'; break;
+                case 'D:2': voice_name = 'Lucas[M'; break;
+                case '1:7': voice_name = 'Gabriel[M'; break;
+        
+                case 'A:20': voice_name = 'Jeanne[F'; break;
+                case 'B:20': voice_name = 'Maxime[M'; break;
+                case 'C:20': voice_name = 'Theo[M'; break;
+                case 'D:20': voice_name = 'Camille[F'; break;
+                case 'E:20': voice_name = 'Chloe[F'; break;
+                case 'F:20': voice_name = 'Elodie[F'; break;
+                case 'G:20': voice_name = 'Mathis[M'; break;
+                case 'H:20': voice_name = 'Sophie[F'; break;
+                case 'I:20': voice_name = 'Julia[F'; break;
+        
+                case 'A:21': voice_name = 'Jeanne HD[F'; break;
+                case 'B:21': voice_name = 'Maxime HD[M'; break;
+                case 'C:21': voice_name = 'Theo HD[M'; break;
+                case 'D:21': voice_name = 'Camille HD[F'; break;
+                case 'E:21': voice_name = 'Chloe HD[F'; break;
+                case 'F:21': voice_name = 'Elodie HD[F'; break;
+                case 'G:21': voice_name = 'Mathis HD[M'; break;
+                case 'H:21': voice_name = 'Sophie HD[F'; break;
+                case 'I:21': voice_name = 'Julia HD[F'; break;
+                case 'J:21': voice_name = 'Pierre HD[M'; break;
+                case 'K:21': voice_name = 'Antoine HD[M'; break;
+        
+                // 8 / 9 / 10 / 11 — unified series, gender map как en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Camille2[F'; break; // при желании заменю на любое уникальное имя
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Emile[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Liam[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Mathis2[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Chloe2[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Zoe[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Lea[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Julien[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Mila[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Arthur2[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Ines[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Gabriel2[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Maelle[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Thomas[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Sofia[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Luna[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Elise[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Nathan[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Leo[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Aria[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Olivier[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Caleb[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Hugo[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Lucas2[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ella[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Remi[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Violette[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zara[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Alexandre[M'; break;
             }
         else if(lang_code == 'gl-ES')
             switch(voice_data) {
-                case 'A:1':
-                    voice_name = 'Marta[F';
-                    break;
+                case 'A:1': voice_name = 'Marta[F'; break;
+        
+                // 8 / 9 / 10 / 11 — unified series, gender map как en-US
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Xiana[F'; break;    // A F
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Iago[M'; break;     // B M
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Breixo[M'; break;   // C M
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Xoel[M'; break;     // D M
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Martino[M'; break;  // E M
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Lidia[F'; break;    // F F
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Noa[F'; break;      // G F
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Iria[F'; break;     // H F
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Roi[M'; break;      // I M
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Uxia[F'; break;     // J F
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Brais[M'; break;    // K M
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Sabela[F'; break;   // L F
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Anton[M'; break;    // M M
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Lara[F'; break;     // N F
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Xurxo[M'; break;    // O M
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Alba[F'; break;     // P F
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Nerea[F'; break;    // Q F
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Carla[F'; break;    // R F
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Hugo[M'; break;     // S M
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Adrian[M'; break;   // T M
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Paula[F'; break;    // U F
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Diego[M'; break;    // V M
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Daniel[M'; break;   // W M
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Mateo[M'; break;    // X M
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Alex[M'; break;     // Y M
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ines[F'; break;     // Z F
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Marcos[M'; break; // AA M
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Lucia[F'; break;  // AB F
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Ainoa[F'; break;  // AC F
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Bruno[M'; break;  // AD M
             }
         else if(lang_code == 'de-DE')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Lina[F';
-                    break;
-                case 'F:2':
-                    voice_name = 'Marie[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Anna[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Felix[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Hannah[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Paul[M';
-                    break;
-                case 'E:2':
-                    voice_name = 'Ben[M';
-                    break;
-                case '1:7':
-                    voice_name = 'Elias[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Mia[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Maximilian[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Jonas[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Emilia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Sophia[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Emma[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Benjamin[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Marie[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Amelie[F';
-                    break;
+                case 'A:0': voice_name = 'Lina[F'; break;
+        
+                case 'F:2': voice_name = 'Marie[F'; break;
+                case 'A:2': voice_name = 'Anna[F'; break;
+                case 'B:2': voice_name = 'Felix[M'; break;
+                case 'C:2': voice_name = 'Hannah[F'; break;
+                case 'D:2': voice_name = 'Paul[M'; break;
+                case 'E:2': voice_name = 'Ben[M'; break;
+                case '1:7': voice_name = 'Elias[M'; break;
+        
+                /* 20 */
+                case 'A:20': voice_name = 'Mia[F'; break;
+                case 'B:20': voice_name = 'Maximilian[M'; break;
+                case 'C:20': voice_name = 'Jonas[M'; break;
+                case 'D:20': voice_name = 'Emilia[F'; break;
+                case 'E:20': voice_name = 'Sophia[F'; break;
+                case 'F:20': voice_name = 'Emma[F'; break;
+                case 'G:20': voice_name = 'Benjamin[M'; break;
+                case 'H:20': voice_name = 'Theresa[F'; break;
+                case 'I:20': voice_name = 'Amelie[F'; break;
+        
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Mia HD[F'; break;
+                case 'B:21': voice_name = 'Maximilian HD[M'; break;
+                case 'C:21': voice_name = 'Jonas HD[M'; break;
+                case 'D:21': voice_name = 'Emilia HD[F'; break;
+                case 'E:21': voice_name = 'Sophia HD[F'; break;
+                case 'F:21': voice_name = 'Emma HD[F'; break;
+                case 'G:21': voice_name = 'Benjamin HD[M'; break;
+                case 'H:21': voice_name = 'Theresa HD[F'; break;
+                case 'I:21': voice_name = 'Amelie HD[F'; break;
+                case 'J:21': voice_name = 'Leonard HD[M'; break;
+                case 'K:21': voice_name = 'Moritz HD[M'; break;
+        
+                /* 8 / 9 / 10 / 11 — unified series, gender map en-US */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Lena[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Finn[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Lars[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Lukas[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Mila[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Emmi[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Lara[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Tim[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Nina[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Jan[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Sophie[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Tobias[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Clara[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Jonah[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Leonie[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Greta[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Mara[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'David[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Theo[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Ida[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Oskar[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Erik[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Luca[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Max[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ella[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Anton[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Vera[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zoe[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Niklas[M'; break;
             }
         else if(lang_code == 'el-GR')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Despina[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Ioanna[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Maria[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'George[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Dimitris[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Eleni[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Katerina[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Sophia[F';
-                    break;
+                case 'A:0': voice_name = 'Despina[F'; break;
+                case 'A:2': voice_name = 'Ioanna[F'; break;
+        
+                /* 20 */
+                case 'A:20': voice_name = 'Maria[F'; break;
+                case 'B:20': voice_name = 'George[M'; break;
+                case 'C:20': voice_name = 'Dimitris[M'; break;
+                case 'D:20': voice_name = 'Eleni[F'; break;
+                case 'E:20': voice_name = 'Katerina[F'; break;
+                case 'F:20': voice_name = 'Sophia[F'; break;
+                case 'G:20': voice_name = 'Nikos[M'; break;
+                case 'H:20': voice_name = 'Anna[F'; break;
+                case 'I:20': voice_name = 'Christos[M'; break;
+        
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Maria HD[F'; break;
+                case 'B:21': voice_name = 'George HD[M'; break;
+                case 'C:21': voice_name = 'Dimitris HD[M'; break;
+                case 'D:21': voice_name = 'Eleni HD[F'; break;
+                case 'E:21': voice_name = 'Katerina HD[F'; break;
+                case 'F:21': voice_name = 'Sophia HD[F'; break;
+                case 'G:21': voice_name = 'Nikos HD[M'; break;
+                case 'H:21': voice_name = 'Anna HD[F'; break;
+                case 'I:21': voice_name = 'Christos HD[M'; break;
+                case 'J:21': voice_name = 'Petros HD[M'; break;
+                case 'K:21': voice_name = 'Alexandros HD[M'; break;
+        
+                /* 8 / 9 / 10 / 11 — unified, gender map en-US */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Eirini[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Giorgos[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Stavros[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Kostas[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Michalis[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Daphne[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Irene[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Konstantina[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Yannis[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Vasiliki[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Manolis[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Dora[F'; break; // заменить при желании
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Thanasis[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Georgia[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Panagiotis[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Athina[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Nefeli[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Kalliopi[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Dimitrios[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Theodoros[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Melina[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Andreas[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Christina[F'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Leonidas[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Alexis[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Iris[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Petros[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Vera[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zoi[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Nikolaos[M'; break;
             }
         else if(lang_code == 'gu-IN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Aashi[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Khushi[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Jigar[M';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Aditi[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Harsh[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Dhruv[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Riya[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Pooja[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Sneha[F';
-                    break;
+                case 'A:0': voice_name = 'Aashi[F'; break;
+                case 'A:2': voice_name = 'Khushi[F'; break;
+                case 'B:2': voice_name = 'Jigar[M'; break;
+        
+                /* 20 */
+                case 'A:20': voice_name = 'Aditi[F'; break;
+                case 'B:20': voice_name = 'Harsh[M'; break;
+                case 'C:20': voice_name = 'Dhruv[M'; break;
+                case 'D:20': voice_name = 'Riya[F'; break;
+                case 'E:20': voice_name = 'Pooja[F'; break;
+                case 'F:20': voice_name = 'Sneha[F'; break;
+                case 'G:20': voice_name = 'Amit[M'; break;
+                case 'H:20': voice_name = 'Neha[F'; break;
+                case 'I:20': voice_name = 'Kunal[M'; break;
+        
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Aditi HD[F'; break;
+                case 'B:21': voice_name = 'Harsh HD[M'; break;
+                case 'C:21': voice_name = 'Dhruv HD[M'; break;
+                case 'D:21': voice_name = 'Riya HD[F'; break;
+                case 'E:21': voice_name = 'Pooja HD[F'; break;
+                case 'F:21': voice_name = 'Sneha HD[F'; break;
+                case 'G:21': voice_name = 'Amit HD[M'; break;
+                case 'H:21': voice_name = 'Neha HD[F'; break;
+                case 'I:21': voice_name = 'Kunal HD[M'; break;
+                case 'J:21': voice_name = 'Rohit HD[M'; break;
+                case 'K:21': voice_name = 'Suresh HD[M'; break;
+        
+                /* 8 / 9 / 10 / 11 — unified, gender map en-US */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Nisha[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Aarav[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Yash[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Rohan[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Vivek[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Kajal[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Meera[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Anjali[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Sanjay[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Pallavi[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Nitin[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Isha[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Rahul[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Sonal[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Pranav[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Kiran[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Ayesha[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Shreya[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Arjun[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Dev[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Priti[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Sameer[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Ketan[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Manav[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Jay[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Diya[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Ramesh[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Bhavna[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zara[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Mohit[M'; break;
+            }
+        else if(lang_code == 'ka-GE')
+            switch(voice_data) {
+
+                /* 20 */
+                case 'A:20': voice_name = 'Nino[F'; break;
+                case 'B:20': voice_name = 'Giorgi[M'; break;
+                case 'C:20': voice_name = 'Levan[M'; break;
+                case 'D:20': voice_name = 'Mariam[F'; break;
+                case 'E:20': voice_name = 'Ana[F'; break;
+                case 'F:20': voice_name = 'Salome[F'; break;
+                case 'G:20': voice_name = 'Irakli[M'; break;
+                case 'H:20': voice_name = 'Tamar[F'; break;
+                case 'I:20': voice_name = 'Ketevan[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Nino HD[F'; break;
+                case 'B:21': voice_name = 'Giorgi HD[M'; break;
+                case 'C:21': voice_name = 'Levan HD[M'; break;
+                case 'D:21': voice_name = 'Mariam HD[F'; break;
+                case 'E:21': voice_name = 'Ana HD[F'; break;
+                case 'F:21': voice_name = 'Salome HD[F'; break;
+                case 'G:21': voice_name = 'Irakli HD[M'; break;
+                case 'H:21': voice_name = 'Tamar HD[F'; break;
+                case 'I:21': voice_name = 'Ketevan HD[F'; break;
+                case 'J:21': voice_name = 'Zurab HD[M'; break;
+                case 'K:21': voice_name = 'Davit HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Elene[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Luka[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Saba[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Aleksi[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Nika[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Kristine[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Maka[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Tinatin[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Dato[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Medea[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Vakhtang[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Ekaterine[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Shota[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Ia[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Temur[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Khatia[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Nana[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Lia[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Tornike[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Beka[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Anano[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Revaz[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Archil[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Paata[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Gela[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Mzia[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Otar[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Sopio[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Teona[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Ilia[M'; break;
             }
         else if(lang_code == 'hi-IN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Riya[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Prisha[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Kavya[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Rohit[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Aditya[M';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Aarohi[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Aarav[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Ananya[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Kavya[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Saanvi[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Nisha[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Aditya[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Nandini[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Tanya[F';
-                    break;
+                case 'A:0': voice_name = 'Riya[F'; break;
+                case 'D:2': voice_name = 'Prisha[F'; break;
+                case 'A:2': voice_name = 'Kavya[F'; break;
+                case 'B:2': voice_name = 'Rohit[M'; break;
+                case 'C:2': voice_name = 'Aditya[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Aarohi[F'; break;
+                case 'B:20': voice_name = 'Aarav[M'; break;
+                case 'C:20': voice_name = 'Ishaan[M'; break;
+                case 'D:20': voice_name = 'Meera[F'; break;
+                case 'E:20': voice_name = 'Saanvi[F'; break;
+                case 'F:20': voice_name = 'Nisha[F'; break;
+                case 'G:20': voice_name = 'Rahul[M'; break;
+                case 'H:20': voice_name = 'Nandini[F'; break;
+                case 'I:20': voice_name = 'Tanya[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Aarohi HD[F'; break;
+                case 'B:21': voice_name = 'Aarav HD[M'; break;
+                case 'C:21': voice_name = 'Ishaan HD[M'; break;
+                case 'D:21': voice_name = 'Meera HD[F'; break;
+                case 'E:21': voice_name = 'Saanvi HD[F'; break;
+                case 'F:21': voice_name = 'Nisha HD[F'; break;
+                case 'G:21': voice_name = 'Rahul HD[M'; break;
+                case 'H:21': voice_name = 'Nandini HD[F'; break;
+                case 'I:21': voice_name = 'Tanya HD[F'; break;
+                case 'J:21': voice_name = 'Arjun HD[M'; break;
+                case 'K:21': voice_name = 'Mohit HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Anika[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Rohan[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Vikram[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Suresh[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Amit[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Pooja[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Neha[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Kiran[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Sanjay[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Ira[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Manish[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Alisha[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Deepak[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Rhea[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Kunal[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Simran[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Ishita[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Ayesha[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Varun[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Rakesh[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Diya[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Nikhil[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Arvind[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Rajesh[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Siddharth[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Kavita[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Pranav[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Madhuri[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Shreya[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Tarun[M'; break;
             }
         else if(lang_code == 'hu-HU')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Dora[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Kinga[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Hanna[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Bence[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Levente[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Reka[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Eszter[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Zsofia[F';
-                    break;
+                case 'A:0': voice_name = 'Dora[F'; break;
+                case 'A:2': voice_name = 'Kinga[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Hanna[F'; break;
+                case 'B:20': voice_name = 'Bence[M'; break;
+                case 'C:20': voice_name = 'Levente[M'; break;
+                case 'D:20': voice_name = 'Reka[F'; break;
+                case 'E:20': voice_name = 'Eszter[F'; break;
+                case 'F:20': voice_name = 'Zsofia[F'; break;
+                case 'G:20': voice_name = 'Gabor[M'; break;
+                case 'H:20': voice_name = 'Noemi[F'; break;
+                case 'I:20': voice_name = 'Anna[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Hanna HD[F'; break;
+                case 'B:21': voice_name = 'Bence HD[M'; break;
+                case 'C:21': voice_name = 'Levente HD[M'; break;
+                case 'D:21': voice_name = 'Reka HD[F'; break;
+                case 'E:21': voice_name = 'Eszter HD[F'; break;
+                case 'F:21': voice_name = 'Zsofia HD[F'; break;
+                case 'G:21': voice_name = 'Gabor HD[M'; break;
+                case 'H:21': voice_name = 'Noemi HD[F'; break;
+                case 'I:21': voice_name = 'Anna HD[F'; break;
+                case 'J:21': voice_name = 'Mate HD[M'; break;
+                case 'K:21': voice_name = 'Peter HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Lili[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Daniel[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Mark[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Adam[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Balazs[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Viktoria[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Nora[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Petra[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Tamas[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Emese[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Zoltan[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Katalin[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Laszlo[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Julianna[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Andras[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Erzsebet[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Zsofi[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Ilona[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Miklos[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Roland[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Agnes[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Istvan[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Gergely[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Peter[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Ferenc[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Anna[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Bela[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Luca[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Vivien[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Norbert[M'; break;
+            }
+        else if(lang_code == 'ht-HT')
+            switch(voice_data) {
+            
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Nadia[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Jean[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Pierre[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Michel[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'David[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Marie[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Ruth[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Esther[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Samuel[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Sarah[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Daniel[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Rose[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Joseph[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Clara[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Andre[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Mireille[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Nadine[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Elise[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Paul[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Louis[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Naomi[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Joel[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Victor[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Emmanuel[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Isaac[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Deborah[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Caleb[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Judith[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Rachel[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Nathan[M'; break;
             }
         else if(lang_code == 'is-IS')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Helga[F';
-                    break;
-                case 'A:1':
-                    voice_name = 'Halla[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Guorun[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Arni[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Gunnar[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Katrin[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Elin[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Bjork[F';
-                    break;
+                case 'A:0': voice_name = 'Helga[F'; break;
+                case 'A:1': voice_name = 'Halla[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Gudrun[F'; break;
+                case 'B:20': voice_name = 'Arni[M'; break;
+                case 'C:20': voice_name = 'Gunnar[M'; break;
+                case 'D:20': voice_name = 'Katrin[F'; break;
+                case 'E:20': voice_name = 'Elin[F'; break;
+                case 'F:20': voice_name = 'Bjork[F'; break;
+                case 'G:20': voice_name = 'Einar[M'; break;
+                case 'H:20': voice_name = 'Sigridur[F'; break;
+                case 'I:20': voice_name = 'Anna[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Gudrun HD[F'; break;
+                case 'B:21': voice_name = 'Arni HD[M'; break;
+                case 'C:21': voice_name = 'Gunnar HD[M'; break;
+                case 'D:21': voice_name = 'Katrin HD[F'; break;
+                case 'E:21': voice_name = 'Elin HD[F'; break;
+                case 'F:21': voice_name = 'Bjork HD[F'; break;
+                case 'G:21': voice_name = 'Einar HD[M'; break;
+                case 'H:21': voice_name = 'Sigridur HD[F'; break;
+                case 'I:21': voice_name = 'Anna HD[F'; break;
+                case 'J:21': voice_name = 'Jon HD[M'; break;
+                case 'K:21': voice_name = 'Magnus HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Alda[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Elias[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Kristjan[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Aron[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Lilja[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Sara[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Freydis[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Daniel[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Maja[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Baldur[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Rakel[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Stefan[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Embla[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Hakon[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Una[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Elisa[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Iris[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Andri[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Oskar[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Hildur[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Jakob[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Sigurdur[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Kristofer[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Bjorn[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Elin[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Magnus[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Solveig[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Thora[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Hrafn[M'; break;
             }
         else if(lang_code == 'id-ID')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Ani[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Eka[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Mega[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Joko[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Ahmad[M';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Siti[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Budi[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Agus[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Putri[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Wulan[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Intan[F';
-                    break;
+                case 'A:0': voice_name = 'Ani[F'; break;
+                case 'D:2': voice_name = 'Eka[F'; break;
+                case 'A:2': voice_name = 'Mega[F'; break;
+                case 'B:2': voice_name = 'Joko[M'; break;
+                case 'C:2': voice_name = 'Ahmad[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Siti[F'; break;
+                case 'B:20': voice_name = 'Budi[M'; break;
+                case 'C:20': voice_name = 'Agus[M'; break;
+                case 'D:20': voice_name = 'Putri[F'; break;
+                case 'E:20': voice_name = 'Wulan[F'; break;
+                case 'F:20': voice_name = 'Intan[F'; break;
+                case 'G:20': voice_name = 'Rizky[M'; break;
+                case 'H:20': voice_name = 'Ayu[F'; break;
+                case 'I:20': voice_name = 'Nadia[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Siti HD[F'; break;
+                case 'B:21': voice_name = 'Budi HD[M'; break;
+                case 'C:21': voice_name = 'Agus HD[M'; break;
+                case 'D:21': voice_name = 'Putri HD[F'; break;
+                case 'E:21': voice_name = 'Wulan HD[F'; break;
+                case 'F:21': voice_name = 'Intan HD[F'; break;
+                case 'G:21': voice_name = 'Rizky HD[M'; break;
+                case 'H:21': voice_name = 'Ayu HD[F'; break;
+                case 'I:21': voice_name = 'Nadia HD[F'; break;
+                case 'J:21': voice_name = 'Andi HD[M'; break;
+                case 'K:21': voice_name = 'Dimas HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Alya[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Rafi[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Fajar[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Ilham[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Bayu[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Dewi[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Salsa[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Nisa[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Arif[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Maya[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Hendra[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Putra[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Taufik[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Zahra[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Irwan[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Indah[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Aisha[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Ratna[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Yoga[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Rizal[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Citra[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Bagus[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Fikri[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Rangga[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Dani[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Lina[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Rama[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Melati[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Nabila[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Surya[M'; break;
             }
         else if(lang_code == 'it-IT')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Francesco[M';
-                    break;
-                case 'A:2':
-                    voice_name = 'Alessia[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Federica[F';
-                    break;
-                case 'C:2':
-                    voice_name = 'Simone[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Riccardo[M';
-                    break;
+                case 'A:0': voice_name = 'Francesco[M'; break;
+                case 'A:2': voice_name = 'Alessia[F'; break;
+                case 'B:2': voice_name = 'Federica[F'; break;
+                case 'C:2': voice_name = 'Simone[M'; break;
+                case 'D:2': voice_name = 'Riccardo[M'; break;
 
-                case 'A:20':
-                    voice_name = 'Sofia[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Alessandro[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Lorenzo[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Chiara[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Aurora[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Valentina[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Antonio[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Martina[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Chiara[F';
-                    break;
+                /* 20 */
+                case 'A:20': voice_name = 'Sofia[F'; break;
+                case 'B:20': voice_name = 'Alessandro[M'; break;
+                case 'C:20': voice_name = 'Lorenzo[M'; break;
+                case 'D:20': voice_name = 'Chiara[F'; break;
+                case 'E:20': voice_name = 'Aurora[F'; break;
+                case 'F:20': voice_name = 'Valentina[F'; break;
+                case 'G:20': voice_name = 'Antonio[M'; break;
+                case 'H:20': voice_name = 'Martina[F'; break;
+                case 'I:20': voice_name = 'Giulia[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Sofia HD[F'; break;
+                case 'B:21': voice_name = 'Alessandro HD[M'; break;
+                case 'C:21': voice_name = 'Lorenzo HD[M'; break;
+                case 'D:21': voice_name = 'Chiara HD[F'; break;
+                case 'E:21': voice_name = 'Aurora HD[F'; break;
+                case 'F:21': voice_name = 'Valentina HD[F'; break;
+                case 'G:21': voice_name = 'Antonio HD[M'; break;
+                case 'H:21': voice_name = 'Martina HD[F'; break;
+                case 'I:21': voice_name = 'Giulia HD[F'; break;
+                case 'J:21': voice_name = 'Marco HD[M'; break;
+                case 'K:21': voice_name = 'Paolo HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Elena[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Matteo[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Davide[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Luca[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Andrea[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Francesca[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Gianna[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Serena[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Nicola[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Marta[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Giorgio[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Paola[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Stefano[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Irene[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Fabio[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Silvia[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Laura[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Beatrice[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Daniele[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Pietro[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Alice[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Roberto[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Claudio[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Enrico[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Giovanni[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Sara[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Alberto[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Lucia[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Monica[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Vincenzo[M'; break;
             }
         else if(lang_code == 'ja-JP')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Nana[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Miyu[F';
-                    break;
-                case 'C:2':
-                    voice_name = 'Kento[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Hiroto[M';
-                    break;
-                case 'A:2':
-                    voice_name = 'Kanon[F';
-                    break;
+                case 'A:0': voice_name = 'Nana[F'; break;
+                case 'B:2': voice_name = 'Miyu[F'; break;
+                case 'C:2': voice_name = 'Kento[M'; break;
+                case 'D:2': voice_name = 'Hiroto[M'; break;
+                case 'A:2': voice_name = 'Kanon[F'; break;
 
-                case 'A:20':
-                    voice_name = 'Sakura[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Riku[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Kaito[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Hina[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Yui[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Aoi[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Kaito[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Akari[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Chihiro[F';
-                    break;
+                /* 20 */
+                case 'A:20': voice_name = 'Sakura[F'; break;
+                case 'B:20': voice_name = 'Riku[M'; break;
+                case 'C:20': voice_name = 'Kaito[M'; break;
+                case 'D:20': voice_name = 'Hina[F'; break;
+                case 'E:20': voice_name = 'Yui[F'; break;
+                case 'F:20': voice_name = 'Aoi[F'; break;
+                case 'G:20': voice_name = 'Ren[M'; break;
+                case 'H:20': voice_name = 'Akari[F'; break;
+                case 'I:20': voice_name = 'Chihiro[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Sakura HD[F'; break;
+                case 'B:21': voice_name = 'Riku HD[M'; break;
+                case 'C:21': voice_name = 'Kaito HD[M'; break;
+                case 'D:21': voice_name = 'Hina HD[F'; break;
+                case 'E:21': voice_name = 'Yui HD[F'; break;
+                case 'F:21': voice_name = 'Aoi HD[F'; break;
+                case 'G:21': voice_name = 'Ren HD[M'; break;
+                case 'H:21': voice_name = 'Akari HD[F'; break;
+                case 'I:21': voice_name = 'Chihiro HD[F'; break;
+                case 'J:21': voice_name = 'Takumi HD[M'; break;
+                case 'K:21': voice_name = 'Daichi HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Aika[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Haruto[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Sota[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Yuto[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Ryota[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Mika[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Nene[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Yuna[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Sho[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Rina[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Kazuya[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Emi[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Taro[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Mio[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Kota[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Ayaka[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Hinata[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Saki[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Keita[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Ryo[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Noa[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Shota[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Itsuki[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Taiga[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Koki[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ami[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Jun[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Misaki[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Reina[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Hayato[M'; break;
             }
         else if(lang_code == 'jw')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Fitri[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Kartini[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Wibowo[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Sukarno[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Sari[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Putri[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Lestari[F';
-                    break;
+                case 'A:0': voice_name = 'Fitri[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Kartini[F'; break;
+                case 'B:20': voice_name = 'Wibowo[M'; break;
+                case 'C:20': voice_name = 'Sukarno[M'; break;
+                case 'D:20': voice_name = 'Sari[F'; break;
+                case 'E:20': voice_name = 'Putri[F'; break;
+                case 'F:20': voice_name = 'Lestari[F'; break;
+                case 'G:20': voice_name = 'Agung[M'; break;
+                case 'H:20': voice_name = 'Ratri[F'; break;
+                case 'I:20': voice_name = 'Ayu[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Kartini HD[F'; break;
+                case 'B:21': voice_name = 'Wibowo HD[M'; break;
+                case 'C:21': voice_name = 'Sukarno HD[M'; break;
+                case 'D:21': voice_name = 'Sari HD[F'; break;
+                case 'E:21': voice_name = 'Putri HD[F'; break;
+                case 'F:21': voice_name = 'Lestari HD[F'; break;
+                case 'G:21': voice_name = 'Agung HD[M'; break;
+                case 'H:21': voice_name = 'Ratri HD[F'; break;
+                case 'I:21': voice_name = 'Ayu HD[F'; break;
+                case 'J:21': voice_name = 'Bima HD[M'; break;
+                case 'K:21': voice_name = 'Darma HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Alya[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Rafi[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Fajar[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Ilham[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Bayu[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Dewi[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Salsa[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Nisa[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Arif[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Maya[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Hendra[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Indira[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Taufik[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Zahra[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Irwan[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Indah[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Aisha[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Ratna[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Yoga[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Rizal[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Citra[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Bagus[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Fikri[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Rangga[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Dani[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Lina[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Rama[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Melati[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Nabila[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Surya[M'; break;
             }
         else if(lang_code == 'kn-IN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Amrutha[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Nisha[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Pradeep[M';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Lakshmi[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Shankar[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Mahesh[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Meghana[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Nandini[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Shwetha[F';
-                    break;
+                case 'A:0': voice_name = 'Amrutha[F'; break;
+                case 'A:2': voice_name = 'Nisha[F'; break;
+                case 'B:2': voice_name = 'Pradeep[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Lakshmi[F'; break;
+                case 'B:20': voice_name = 'Shankar[M'; break;
+                case 'C:20': voice_name = 'Mahesh[M'; break;
+                case 'D:20': voice_name = 'Meghana[F'; break;
+                case 'E:20': voice_name = 'Nandini[F'; break;
+                case 'F:20': voice_name = 'Shwetha[F'; break;
+                case 'G:20': voice_name = 'Kiran[M'; break;
+                case 'H:20': voice_name = 'Aishwarya[F'; break;
+                case 'I:20': voice_name = 'Divya[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Lakshmi HD[F'; break;
+                case 'B:21': voice_name = 'Shankar HD[M'; break;
+                case 'C:21': voice_name = 'Mahesh HD[M'; break;
+                case 'D:21': voice_name = 'Meghana HD[F'; break;
+                case 'E:21': voice_name = 'Nandini HD[F'; break;
+                case 'F:21': voice_name = 'Shwetha HD[F'; break;
+                case 'G:21': voice_name = 'Kiran HD[M'; break;
+                case 'H:21': voice_name = 'Aishwarya HD[F'; break;
+                case 'I:21': voice_name = 'Divya HD[F'; break;
+                case 'J:21': voice_name = 'Arjun HD[M'; break;
+                case 'K:21': voice_name = 'Ravi HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Ananya[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Rohan[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Vikram[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Suresh[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Amit[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Pooja[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Neha[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Kiran[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Sanjay[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Ira[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Manish[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Alisha[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Deepak[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Rhea[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Kunal[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Simran[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Ishita[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Ayesha[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Varun[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Rakesh[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Diya[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Nikhil[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Arvind[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Rajesh[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Siddharth[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Kavita[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Pranav[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Madhuri[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Shreya[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Tarun[M'; break;
             }
         else if(lang_code == 'km')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Chanthy[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Srey[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Sok[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Visal[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Bopha[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Kunthea[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Malis[F';
-                    break;
+                case 'A:0': voice_name = 'Chanthy[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Srey[F'; break;
+                case 'B:20': voice_name = 'Sok[M'; break;
+                case 'C:20': voice_name = 'Visal[M'; break;
+                case 'D:20': voice_name = 'Bopha[F'; break;
+                case 'E:20': voice_name = 'Kunthea[F'; break;
+                case 'F:20': voice_name = 'Malis[F'; break;
+                case 'G:20': voice_name = 'Dara[M'; break;
+                case 'H:20': voice_name = 'Sophea[F'; break;
+                case 'I:20': voice_name = 'Ratha[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Srey HD[F'; break;
+                case 'B:21': voice_name = 'Sok HD[M'; break;
+                case 'C:21': voice_name = 'Visal HD[M'; break;
+                case 'D:21': voice_name = 'Bopha HD[F'; break;
+                case 'E:21': voice_name = 'Kunthea HD[F'; break;
+                case 'F:21': voice_name = 'Malis HD[F'; break;
+                case 'G:21': voice_name = 'Dara HD[M'; break;
+                case 'H:21': voice_name = 'Sophea HD[F'; break;
+                case 'I:21': voice_name = 'Ratha HD[F'; break;
+                case 'J:21': voice_name = 'Vannak HD[M'; break;
+                case 'K:21': voice_name = 'Sopheak HD[M'; break;
             }
         else if(lang_code == 'ko-KR')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Minho[M';
-                    break;
-                case 'A:2':
-                    voice_name = 'Jiyeon[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Sohyun[F';
-                    break;
-                case 'C:2':
-                    voice_name = 'Jaewon[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Sangmin[M';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Jiwoo[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Hyunwoo[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Junseo[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Yuna[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Jimin[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Minseo[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Sungwoo[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Sumin[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Soojin[F';
-                    break;
+                case 'A:0': voice_name = 'Minho[M'; break;
+                case 'A:2': voice_name = 'Jiyeon[F'; break;
+                case 'B:2': voice_name = 'Sohyun[F'; break;
+                case 'C:2': voice_name = 'Jaewon[M'; break;
+                case 'D:2': voice_name = 'Sangmin[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Jiwoo[F'; break;
+                case 'B:20': voice_name = 'Hyunwoo[M'; break;
+                case 'C:20': voice_name = 'Junseo[M'; break;
+                case 'D:20': voice_name = 'Yuna[F'; break;
+                case 'E:20': voice_name = 'Jimin[F'; break;
+                case 'F:20': voice_name = 'Minseo[F'; break;
+                case 'G:20': voice_name = 'Sungwoo[M'; break;
+                case 'H:20': voice_name = 'Sumin[F'; break;
+                case 'I:20': voice_name = 'Soojin[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Jiwoo HD[F'; break;
+                case 'B:21': voice_name = 'Hyunwoo HD[M'; break;
+                case 'C:21': voice_name = 'Junseo HD[M'; break;
+                case 'D:21': voice_name = 'Yuna HD[F'; break;
+                case 'E:21': voice_name = 'Jimin HD[F'; break;
+                case 'F:21': voice_name = 'Minseo HD[F'; break;
+                case 'G:21': voice_name = 'Sungwoo HD[M'; break;
+                case 'H:21': voice_name = 'Sumin HD[F'; break;
+                case 'I:21': voice_name = 'Soojin HD[F'; break;
+                case 'J:21': voice_name = 'Donghyun HD[M'; break;
+                case 'K:21': voice_name = 'Taehyun HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Ara[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Joon[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Seojun[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Minjae[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Taesung[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Haeun[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Yerin[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Chaeyoung[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Seokjin[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Bora[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Kyungsoo[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Eunji[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Youngho[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Jisoo[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Seungmin[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Nari[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Yeji[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Hana[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Inho[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Junghoon[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Sora[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Taeyong[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Wonho[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Jaehyun[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Sangho[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Rina[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Minjun[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Yeseul[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Harin[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Dongwoo[M'; break;
+            }
+        else if(lang_code == 'kok-IN')
+            switch(voice_data) {
+            
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Anita[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Rohan[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Kiran[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Mahesh[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Vijay[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Sneha[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Pooja[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Meera[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Arjun[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Neha[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Suresh[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Kavita[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Nikhil[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Asha[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Deepak[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Lata[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Rekha[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Sunita[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Prakash[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Ajay[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Shreya[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Rahul[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Vinay[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Manoj[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Amit[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Divya[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Ritu[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Seema[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Pallavi[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Tarun[M'; break;
             }
         else if(lang_code == 'la')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Marcus[M';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Claudia[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Lucius[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Maximus[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Lucia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Marcia[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Livia[F';
-                    break;
+                case 'A:0': voice_name = 'Marcus[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Claudia[F'; break;
+                case 'B:20': voice_name = 'Lucius[M'; break;
+                case 'C:20': voice_name = 'Maximus[M'; break;
+                case 'D:20': voice_name = 'Lucia[F'; break;
+                case 'E:20': voice_name = 'Marcia[F'; break;
+                case 'F:20': voice_name = 'Livia[F'; break;
+                case 'G:20': voice_name = 'Julius[M'; break;
+                case 'H:20': voice_name = 'Cornelia[F'; break;
+                case 'I:20': voice_name = 'Antonia[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Claudia HD[F'; break;
+                case 'B:21': voice_name = 'Lucius HD[M'; break;
+                case 'C:21': voice_name = 'Maximus HD[M'; break;
+                case 'D:21': voice_name = 'Lucia HD[F'; break;
+                case 'E:21': voice_name = 'Marcia HD[F'; break;
+                case 'F:21': voice_name = 'Livia HD[F'; break;
+                case 'G:21': voice_name = 'Julius HD[M'; break;
+                case 'H:21': voice_name = 'Cornelia HD[F'; break;
+                case 'I:21': voice_name = 'Antonia HD[F'; break;
+                case 'J:21': voice_name = 'Augustus HD[M'; break;
+                case 'K:21': voice_name = 'Tiberius HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Aurelia[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Gaius[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Quintus[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Decimus[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Sextus[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Flavia[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Julia[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Octavia[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Titus[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Sabina[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Servius[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Aemilia[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Publius[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Domitia[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Marcus[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Tullia[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Calpurnia[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Agrippina[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Drusus[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Nero[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Fabia[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Hadrian[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Trajan[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Cicero[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Seneca[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Clara[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Helena[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Paula[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Justina[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Valerius[M'; break;
             }
         else if(lang_code == 'lv-LV')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Raimonds[M';
-                    break;
-                case 'A:1':
-                    voice_name = 'Andris[M';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Anete[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Rihards[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Andris[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Dace[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Inese[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Zane[F';
-                    break;
+                case 'A:0': voice_name = 'Raimonds[M'; break;
+                case 'A:1': voice_name = 'Andris[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Anete[F'; break;
+                case 'B:20': voice_name = 'Rihards[M'; break;
+                case 'C:20': voice_name = 'Edgars[M'; break; /* FIX: was Andris (collision with base) */
+                case 'D:20': voice_name = 'Dace[F'; break;
+                case 'E:20': voice_name = 'Inese[F'; break;
+                case 'F:20': voice_name = 'Zane[F'; break;
+                case 'G:20': voice_name = 'Janis[M'; break;
+                case 'H:20': voice_name = 'Ilze[F'; break;
+                case 'I:20': voice_name = 'Kristine[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Anete HD[F'; break;
+                case 'B:21': voice_name = 'Rihards HD[M'; break;
+                case 'C:21': voice_name = 'Edgars HD[M'; break;
+                case 'D:21': voice_name = 'Dace HD[F'; break;
+                case 'E:21': voice_name = 'Inese HD[F'; break;
+                case 'F:21': voice_name = 'Zane HD[F'; break;
+                case 'G:21': voice_name = 'Janis HD[M'; break;
+                case 'H:21': voice_name = 'Ilze HD[F'; break;
+                case 'I:21': voice_name = 'Kristine HD[F'; break;
+                case 'J:21': voice_name = 'Arturs HD[M'; break;
+                case 'K:21': voice_name = 'Martins HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Elina[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Toms[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Miks[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Roberts[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Kaspars[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Laura[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Madara[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Liene[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Sandis[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Aija[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Uldis[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Baiba[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Gints[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Liga[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Ainars[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Sintija[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Krista[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Una[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Valdis[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Edvins[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Anita[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Raitis[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Normunds[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Ivars[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Agris[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Marta[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Renars[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Zinta[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Ieva[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Maris[M'; break;
             }
         else if(lang_code == 'lt-LT')
             switch(voice_data) {
-                case 'A:1':
-                    voice_name = 'Tadas[M';
-                    break;
+                case 'A:0': voice_name = 'Mantas[M'; break;
+                case 'A:1': voice_name = 'Tadas[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Aiste[F'; break;
+                case 'B:20': voice_name = 'Lukas[M'; break;
+                case 'C:20': voice_name = 'Matas[M'; break;
+                case 'D:20': voice_name = 'Ieva[F'; break;
+                case 'E:20': voice_name = 'Greta[F'; break;
+                case 'F:20': voice_name = 'Emilija[F'; break;
+                case 'G:20': voice_name = 'Dominykas[M'; break;
+                case 'H:20': voice_name = 'Saule[F'; break;
+                case 'I:20': voice_name = 'Rugile[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Aiste HD[F'; break;
+                case 'B:21': voice_name = 'Lukas HD[M'; break;
+                case 'C:21': voice_name = 'Matas HD[M'; break;
+                case 'D:21': voice_name = 'Ieva HD[F'; break;
+                case 'E:21': voice_name = 'Greta HD[F'; break;
+                case 'F:21': voice_name = 'Emilija HD[F'; break;
+                case 'G:21': voice_name = 'Dominykas HD[M'; break;
+                case 'H:21': voice_name = 'Saule HD[F'; break;
+                case 'I:21': voice_name = 'Rugile HD[F'; break;
+                case 'J:21': voice_name = 'Tomas HD[M'; break;
+                case 'K:21': voice_name = 'Paulius HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Gabija[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Nojus[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Kajus[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Dovydas[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Rokas[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Ugne[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Liepa[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Kamile[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Arnas[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Goda[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Simas[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Juste[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Paulius[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Egle[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Titas[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Vilte[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Adele[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Medeina[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Karolis[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Mindaugas[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Ausrine[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Evaldas[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Vytautas[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Linas[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Gintaras[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ruta[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Nerija[F'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Inga[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Birute[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Darius[M'; break;
+            }
+        else if(lang_code == 'lb-LU')
+            switch(voice_data) {
+            
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Anne[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Tom[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Luca[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Ben[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Marc[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Sophie[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Lea[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Mia[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Paul[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Emma[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Alex[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Julie[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Noah[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Nina[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'David[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Laura[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Chloe[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Sara[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Leo[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Max[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Lena[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Eric[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Daniel[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Chris[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Felix[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Ella[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Jonas[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Lara[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Mara[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Tim[M'; break;
+            }
+        else if(lang_code == 'lo-LA')
+            switch(voice_data) {
+            
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Anong[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Somchai[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Kham[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Vong[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Seng[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Mali[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Dara[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Noy[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Boun[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Lina[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Krit[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Suda[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Phan[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Kanya[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Xay[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Bua[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Nida[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Siri[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Kong[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Lek[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Dao[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Than[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Phon[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Som[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Vee[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Kieu[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Nang[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Lada[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Sila[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Khamphong[M'; break;
             }
         else if(lang_code == 'ms-MY')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Fatimah[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Farah[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Azman[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Siti[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Syed[M';
-                    break;
+                case 'A:0': voice_name = 'Fatimah[F'; break;
+                case 'A:2': voice_name = 'Farah[F'; break;
+                case 'B:2': voice_name = 'Azman[M'; break;
+                case 'C:2': voice_name = 'Siti[F'; break;
+                case 'D:2': voice_name = 'Syed[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Aisyah[F'; break;
+                case 'B:20': voice_name = 'Hafiz[M'; break;
+                case 'C:20': voice_name = 'Firdaus[M'; break;
+                case 'D:20': voice_name = 'Nabila[F'; break;
+                case 'E:20': voice_name = 'Aina[F'; break;
+                case 'F:20': voice_name = 'Nur[F'; break;
+                case 'G:20': voice_name = 'Khairul[M'; break;
+                case 'H:20': voice_name = 'Zarina[F'; break;
+                case 'I:20': voice_name = 'Melissa[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Aisyah HD[F'; break;
+                case 'B:21': voice_name = 'Hafiz HD[M'; break;
+                case 'C:21': voice_name = 'Firdaus HD[M'; break;
+                case 'D:21': voice_name = 'Nabila HD[F'; break;
+                case 'E:21': voice_name = 'Aina HD[F'; break;
+                case 'F:21': voice_name = 'Nur HD[F'; break;
+                case 'G:21': voice_name = 'Khairul HD[M'; break;
+                case 'H:21': voice_name = 'Zarina HD[F'; break;
+                case 'I:21': voice_name = 'Melissa HD[F'; break;
+                case 'J:21': voice_name = 'Amir HD[M'; break;
+                case 'K:21': voice_name = 'Daniel HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Alia[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Rizal[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Fikri[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Hakim[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Farid[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Diyana[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Sofia[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Alya[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Arif[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Hana[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Shah[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Nadia[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Azri[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Ira[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Faiz[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Liyana[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Balqis[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Ain[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Zul[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Irfan[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Yasmin[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Adib[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Harith[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Qasim[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Rayyan[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Salma[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Haziq[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Amirah[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Sabrina[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Naufal[M'; break;
             }
         else if(lang_code == 'ml-IN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Anjali[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Sangeetha[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Anoop[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Radhika[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Manoj[M';
-                    break;
+                case 'A:0': voice_name = 'Anjali[F'; break;
+                case 'A:2': voice_name = 'Sangeetha[F'; break;
+                case 'B:2': voice_name = 'Anoop[M'; break;
+                case 'C:2': voice_name = 'Radhika[F'; break;
+                case 'D:2': voice_name = 'Manoj[M'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Lakshmi[F'; break;
+                case 'B:20': voice_name = 'Arun[M'; break;
+                case 'C:20': voice_name = 'Vishnu[M'; break;
+                case 'D:20': voice_name = 'Meera[F'; break;
+                case 'E:20': voice_name = 'Devika[F'; break;
+                case 'F:20': voice_name = 'Nandana[F'; break;
+                case 'G:20': voice_name = 'Suresh[M'; break;
+                case 'H:20': voice_name = 'Athira[F'; break;
+                case 'I:20': voice_name = 'Keerthana[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Lakshmi HD[F'; break;
+                case 'B:21': voice_name = 'Arun HD[M'; break;
+                case 'C:21': voice_name = 'Vishnu HD[M'; break;
+                case 'D:21': voice_name = 'Meera HD[F'; break;
+                case 'E:21': voice_name = 'Devika HD[F'; break;
+                case 'F:21': voice_name = 'Nandana HD[F'; break;
+                case 'G:21': voice_name = 'Suresh HD[M'; break;
+                case 'H:21': voice_name = 'Athira HD[F'; break;
+                case 'I:21': voice_name = 'Keerthana HD[F'; break;
+                case 'J:21': voice_name = 'Rahul HD[M'; break;
+                case 'K:21': voice_name = 'Ajith HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Amala[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Nikhil[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Kiran[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Santhosh[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Praveen[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Reshma[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Sneha[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Anu[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Vivek[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Divya[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Rakesh[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Deepa[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Hari[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Lekha[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Aravind[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Nimisha[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Gopika[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Sruthi[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Mithun[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Jithin[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Arya[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Faisal[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Shan[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Naveen[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Akhil[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Kavya[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Megha[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Sreya[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Neethu[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Manu[M'; break;
+            }
+        else if(lang_code == 'mg-MG')
+            switch(voice_data) {
+            
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Hery[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Andry[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Tahina[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Tiana[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Feno[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Soa[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Mialy[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Rina[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Toky[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Lova[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Naina[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Voahangy[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Rado[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Hasina[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Fitia[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Faniry[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Sarobidy[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Fara[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Bodo[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Kanto[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Mamy[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Solo[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Noro[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Rija[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Tovo[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Vola[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Lanto[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Fanja[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Nantenaina[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Haja[M'; break;
+            }
+        else if(lang_code == 'mn-MN')
+            switch(voice_data) {
+            
+                case 'A:10': case 'A:11': voice_name = 'Sarangerel[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Bat[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Temuulen[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Erdene[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Munkh[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Anu[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Naran[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Tuya[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Ganbold[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Enkhjin[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Batsaikhan[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Solongo[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Tuvshin[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Khulan[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Altan[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Ariunaa[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Oyun[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Sarnai[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Dorj[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Gantulga[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Erdenechimeg[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Bayar[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Khishig[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Sukhbaatar[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Tsogt[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Enkhtuya[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Munkhbat[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Chimgee[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Nomuun[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Bilguun[M'; break;
             }
         else if(lang_code == 'mr-IN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Archana[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Manisha[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Suresh[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Neha[F';
-                    break;
+                case 'A:0': voice_name = 'Archana[F'; break;
+                case 'A:2': voice_name = 'Manisha[F'; break;
+                case 'B:2': voice_name = 'Suresh[M'; break;
+                case 'C:2': voice_name = 'Neha[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Aarti[F'; break;
+                case 'B:20': voice_name = 'Rahul[M'; break;
+                case 'C:20': voice_name = 'Amit[M'; break;
+                case 'D:20': voice_name = 'Snehal[F'; break;
+                case 'E:20': voice_name = 'Pooja[F'; break;
+                case 'F:20': voice_name = 'Kavita[F'; break;
+                case 'G:20': voice_name = 'Vikas[M'; break;
+                case 'H:20': voice_name = 'Shreya[F'; break;
+                case 'I:20': voice_name = 'Madhuri[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Aarti HD[F'; break;
+                case 'B:21': voice_name = 'Rahul HD[M'; break;
+                case 'C:21': voice_name = 'Amit HD[M'; break;
+                case 'D:21': voice_name = 'Snehal HD[F'; break;
+                case 'E:21': voice_name = 'Pooja HD[F'; break;
+                case 'F:21': voice_name = 'Kavita HD[F'; break;
+                case 'G:21': voice_name = 'Vikas HD[M'; break;
+                case 'H:21': voice_name = 'Shreya HD[F'; break;
+                case 'I:21': voice_name = 'Madhuri HD[F'; break;
+                case 'J:21': voice_name = 'Rohit HD[M'; break;
+                case 'K:21': voice_name = 'Nikhil HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Ananya[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Kiran[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Sameer[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Prakash[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Ajay[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Riya[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Tanvi[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Isha[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Sagar[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Mira[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Deepak[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Priya[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Rakesh[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Swati[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Vijay[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Komal[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Rutuja[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Asha[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Mahesh[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Sunil[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Pallavi[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Rohan[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Nitin[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Omkar[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Aditya[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Kajal[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Bhavna[F'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Vaishnavi[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Sneha[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Akshay[M'; break;
+            }
+        else if(lang_code == 'mai-IN')
+            switch(voice_data) {
+
+                /* 20 */
+                case 'A:20': voice_name = 'Kavita[F'; break;
+                case 'B:20': voice_name = 'Ravi[M'; break;
+                case 'C:20': voice_name = 'Amit[M'; break;
+                case 'D:20': voice_name = 'Sunita[F'; break;
+                case 'E:20': voice_name = 'Pooja[F'; break;
+                case 'F:20': voice_name = 'Neha[F'; break;
+                case 'G:20': voice_name = 'Vikash[M'; break;
+                case 'H:20': voice_name = 'Anita[F'; break;
+                case 'I:20': voice_name = 'Rekha[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Kavita HD[F'; break;
+                case 'B:21': voice_name = 'Ravi HD[M'; break;
+                case 'C:21': voice_name = 'Amit HD[M'; break;
+                case 'D:21': voice_name = 'Sunita HD[F'; break;
+                case 'E:21': voice_name = 'Pooja HD[F'; break;
+                case 'F:21': voice_name = 'Neha HD[F'; break;
+                case 'G:21': voice_name = 'Vikash HD[M'; break;
+                case 'H:21': voice_name = 'Anita HD[F'; break;
+                case 'I:21': voice_name = 'Rekha HD[F'; break;
+                case 'J:21': voice_name = 'Manoj HD[M'; break;
+                case 'K:21': voice_name = 'Sanjay HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Asha[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Rohit[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Deepak[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Prakash[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Mukesh[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Shreya[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Nisha[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Ritu[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Ajay[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Kiran[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Arun[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Meena[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Suresh[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Lata[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Rajesh[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Kusum[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Gita[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Radha[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Vijay[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Naresh[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Anju[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Dinesh[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Rakesh[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Mahesh[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Sanjana[F'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Pallavi[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Reena[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Seema[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Ranjana[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Akash[M'; break;
             }
         else if(lang_code == 'my')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Khin[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Thiri[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Min[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Kyaw[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Nandar[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Su[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Hla[F';
-                    break;
+                case 'A:0': voice_name = 'Khin[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Thiri[F'; break;
+                case 'B:20': voice_name = 'Min[M'; break;
+                case 'C:20': voice_name = 'Kyaw[M'; break;
+                case 'D:20': voice_name = 'Nandar[F'; break;
+                case 'E:20': voice_name = 'Su[F'; break;
+                case 'F:20': voice_name = 'Hla[F'; break;
+                case 'G:20': voice_name = 'Aung[M'; break;
+                case 'H:20': voice_name = 'May[F'; break;
+                case 'I:20': voice_name = 'Mya[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Thiri HD[F'; break;
+                case 'B:21': voice_name = 'Min HD[M'; break;
+                case 'C:21': voice_name = 'Kyaw HD[M'; break;
+                case 'D:21': voice_name = 'Nandar HD[F'; break;
+                case 'E:21': voice_name = 'Su HD[F'; break;
+                case 'F:21': voice_name = 'Hla HD[F'; break;
+                case 'G:21': voice_name = 'Aung HD[M'; break;
+                case 'H:21': voice_name = 'May HD[F'; break;
+                case 'I:21': voice_name = 'Mya HD[F'; break;
+                case 'J:21': voice_name = 'Zaw HD[M'; break;
+                case 'K:21': voice_name = 'Tun HD[M'; break;
             }
         else if(lang_code == 'ne')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Nisha[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Sita[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Suman[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Ramesh[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Laxmi[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Rupa[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Anjali[F';
-                    break;
+                case 'A:0': voice_name = 'Nisha[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Sita[F'; break;
+                case 'B:20': voice_name = 'Suman[M'; break;
+                case 'C:20': voice_name = 'Ramesh[M'; break;
+                case 'D:20': voice_name = 'Laxmi[F'; break;
+                case 'E:20': voice_name = 'Rupa[F'; break;
+                case 'F:20': voice_name = 'Anjali[F'; break;
+                case 'G:20': voice_name = 'Bikash[M'; break;
+                case 'H:20': voice_name = 'Maya[F'; break;
+                case 'I:20': voice_name = 'Gita[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Sita HD[F'; break;
+                case 'B:21': voice_name = 'Suman HD[M'; break;
+                case 'C:21': voice_name = 'Ramesh HD[M'; break;
+                case 'D:21': voice_name = 'Laxmi HD[F'; break;
+                case 'E:21': voice_name = 'Rupa HD[F'; break;
+                case 'F:21': voice_name = 'Anjali HD[F'; break;
+                case 'G:21': voice_name = 'Bikash HD[M'; break;
+                case 'H:21': voice_name = 'Maya HD[F'; break;
+                case 'I:21': voice_name = 'Gita HD[F'; break;
+                case 'J:21': voice_name = 'Prakash HD[M'; break;
+                case 'K:21': voice_name = 'Dipak HD[M'; break;
+
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Asha[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Ram[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Hari[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Krishna[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Arjun[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Sarita[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Sunita[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Sabina[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Rajan[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Mina[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Kiran[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Rekha[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Sanjay[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Puja[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Nabin[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Bina[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Lila[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Kamala[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Mohan[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Bijay[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Sushma[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Deepak[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Kamal[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Rohit[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Sagar[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Nirmala[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Gauri[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Manju[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Indira[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Ajit[M'; break;
             }
         else if(lang_code == 'nb-NO')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Eline[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Ingrid[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Andreas[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Sofie[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Henrik[M';
-                    break;
-                case 'E:2':
-                    voice_name = 'Kari[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Linnea[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Magnus[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Sander[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Nora[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Emma[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Thea[F';
-                    break;
+                case 'A:0': voice_name = 'Eline[F'; break;
+                case 'A:2': voice_name = 'Ingrid[F'; break;
+                case 'B:2': voice_name = 'Andreas[M'; break;
+                case 'C:2': voice_name = 'Sofie[F'; break;
+                case 'D:2': voice_name = 'Henrik[M'; break;
+                case 'E:2': voice_name = 'Kari[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Linnea[F'; break;
+                case 'B:20': voice_name = 'Magnus[M'; break;
+                case 'C:20': voice_name = 'Sander[M'; break;
+                case 'D:20': voice_name = 'Nora[F'; break;
+                case 'E:20': voice_name = 'Emma[F'; break;
+                case 'F:20': voice_name = 'Thea[F'; break;
+                case 'G:20': voice_name = 'Oliver[M'; break;
+                case 'H:20': voice_name = 'Ida[F'; break;
+                case 'I:20': voice_name = 'Maja[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Linnea HD[F'; break;
+                case 'B:21': voice_name = 'Magnus HD[M'; break;
+                case 'C:21': voice_name = 'Sander HD[M'; break;
+                case 'D:21': voice_name = 'Nora HD[F'; break;
+                case 'E:21': voice_name = 'Emma HD[F'; break;
+                case 'F:21': voice_name = 'Thea HD[F'; break;
+                case 'G:21': voice_name = 'Oliver HD[M'; break;
+                case 'H:21': voice_name = 'Ida HD[F'; break;
+                case 'I:21': voice_name = 'Maja HD[F'; break;
+                case 'J:21': voice_name = 'Jonas HD[M'; break;
+                case 'K:21': voice_name = 'Lucas HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Alva[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Noah[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Emil[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Oskar[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Aksel[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Ella[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Frida[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Sara[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Isak[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Leah[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Henrik[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Noraine[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Mathias[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Inga[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Lars[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Mina[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Live[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Oda[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Eirik[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Even[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Tuva[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Sindre[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Tor[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Knut[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Per[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Vilde[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Stine[F'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Hanne[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Ragnhild[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Bjørn[M'; break;
+            }
+        else if(lang_code == 'nn-NO')
+            switch(voice_data) {
+            
+                case 'A:10': case 'A:11': voice_name = 'Ingrid[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Ole[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Sigrid[F'; break;
+                case 'D:10': case 'D:11': voice_name = 'Lars[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Kari[F'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Nils[M'; break;
+                case 'G:10': case 'G:11': voice_name = 'Anna[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Erik[M'; break;
+                case 'I:10': case 'I:11': voice_name = 'Marta[F'; break;
+                case 'J:10': case 'J:11': voice_name = 'Jon[M'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Liv[F'; break;
+                case 'L:10': case 'L:11': voice_name = 'Per[M'; break;
+                case 'M:10': case 'M:11': voice_name = 'Ragnhild[F'; break;
+                case 'N:10': case 'N:11': voice_name = 'Tor[M'; break;
+                case 'O:10': case 'O:11': voice_name = 'Solveig[F'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Arne[M'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Åse[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Einar[M'; break;
+                case 'S:10': case 'S:11': voice_name = 'Inga[F'; break;
+                case 'T:10': case 'T:11': voice_name = 'Knut[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Hilde[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Magnus[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Sofie[F'; break;
+                case 'X:10': case 'X:11': voice_name = 'Henrik[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Ida[F'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Oskar[M'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Emma[F'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Noah[M'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Ella[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'William[M'; break;
             }
         else if(lang_code == 'pl-PL')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Kacper[M';
-                    break;
-                case 'A:2':
-                    voice_name = 'Ewa[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Szymon[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Marek[M';
-                    break;
-                case 'E:2':
-                    voice_name = 'Beata[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Katarzyna[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Zofia[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Szymon[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Antoni[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Julia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Aleksandra[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Natalia[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Wojciech[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Aleksandra[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Karolina[F';
-                    break;
+                case 'A:0': voice_name = 'Kacper[M'; break;
+                case 'A:2': voice_name = 'Ewa[F'; break;
+                case 'B:2': voice_name = 'Szymon[M'; break;
+                case 'C:2': voice_name = 'Marek[M'; break;
+                case 'E:2': voice_name = 'Beata[F'; break;
+                case 'D:2': voice_name = 'Katarzyna[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Zofia[F'; break;
+                case 'B:20': voice_name = 'Mateusz[M'; break; /* FIX: was Szymon (collision with base) */
+                case 'C:20': voice_name = 'Antoni[M'; break;
+                case 'D:20': voice_name = 'Julia[F'; break;
+                case 'E:20': voice_name = 'Aleksandra[F'; break;
+                case 'F:20': voice_name = 'Natalia[F'; break;
+                case 'G:20': voice_name = 'Wojciech[M'; break;
+                case 'H:20': voice_name = 'Magdalena[F'; break; /* FIX: was duplicate Aleksandra */
+                case 'I:20': voice_name = 'Karolina[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Zofia HD[F'; break;
+                case 'B:21': voice_name = 'Mateusz HD[M'; break;
+                case 'C:21': voice_name = 'Antoni HD[M'; break;
+                case 'D:21': voice_name = 'Julia HD[F'; break;
+                case 'E:21': voice_name = 'Aleksandra HD[F'; break;
+                case 'F:21': voice_name = 'Natalia HD[F'; break;
+                case 'G:21': voice_name = 'Wojciech HD[M'; break;
+                case 'H:21': voice_name = 'Magdalena HD[F'; break;
+                case 'I:21': voice_name = 'Karolina HD[F'; break;
+                case 'J:21': voice_name = 'Piotr HD[M'; break;
+                case 'K:21': voice_name = 'Michal HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Alicja[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Jakub[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Jan[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Stanislaw[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Tomasz[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Maja[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Zuzanna[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Hanna[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Pawel[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Lena[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Krzysztof[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Oliwia[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Adam[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Amelia[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Marcin[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Emilia[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Milena[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Weronika[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Lukasz[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Dawid[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Juliaa[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Patryk[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Grzegorz[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Robert[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Sebastian[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Iga[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Damian[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Joanna[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Agnieszka[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Bartosz[M'; break;
             }
         else if(lang_code == 'pt-BR')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Camila[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Isabela[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Eduardo[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Priscila[F';
-                    break;
+                case 'A:0': voice_name = 'Camila[F'; break;
+                case 'A:2': voice_name = 'Isabela[F'; break;
+                case 'B:2': voice_name = 'Eduardo[M'; break;
+                case 'C:2': voice_name = 'Priscila[F'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Aline[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Joao[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Mateus[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Pedro[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Thiago[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Bianca[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Carla[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Renata[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Carlos[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Daniela[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Marcos[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Tatiana[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Andre[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Paula[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Fernando[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Julianae[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Camile[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Amandaa[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Felipe[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Rodrigo[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Vanessa[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Gustavo[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Leonardo[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Vinicius[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Caio[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Helena[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Luana[F'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Adriana[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Silvia[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Renato[M'; break;
             }
         else if(lang_code == 'pt-PT')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Catarina[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Leonor[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Diogo[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Afonso[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Maria[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Beatriz[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Miguel[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Pedro[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Sofia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Matilde[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Maria[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Bruno[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Mariana[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Gabriela[F';
-                    break;
+                case 'A:0': voice_name = 'Catarina[F'; break;
+                case 'A:2': voice_name = 'Leonor[F'; break;
+                case 'B:2': voice_name = 'Diogo[M'; break;
+                case 'C:2': voice_name = 'Afonso[M'; break;
+                case 'D:2': voice_name = 'Maria[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Beatriz[F'; break;
+                case 'B:20': voice_name = 'Miguel[M'; break;
+                case 'C:20': voice_name = 'Pedro[M'; break;
+                case 'D:20': voice_name = 'Sofia[F'; break;
+                case 'E:20': voice_name = 'Matilde[F'; break;
+                case 'F:20': voice_name = 'Ines[F'; break; /* FIX: Maria запрещено — пересечение с base */
+                case 'G:20': voice_name = 'Bruno[M'; break;
+                case 'H:20': voice_name = 'Mariana[F'; break;
+                case 'I:20': voice_name = 'Gabriela[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Beatriz HD[F'; break;
+                case 'B:21': voice_name = 'Miguel HD[M'; break;
+                case 'C:21': voice_name = 'Pedro HD[M'; break;
+                case 'D:21': voice_name = 'Sofia HD[F'; break;
+                case 'E:21': voice_name = 'Matilde HD[F'; break;
+                case 'F:21': voice_name = 'Ines HD[F'; break;
+                case 'G:21': voice_name = 'Bruno HD[M'; break;
+                case 'H:21': voice_name = 'Mariana HD[F'; break;
+                case 'I:21': voice_name = 'Gabriela HD[F'; break;
+                case 'J:21': voice_name = 'Tiago HD[M'; break;
+                case 'K:21': voice_name = 'Rui HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Ana[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Joao[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Carlos[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Luis[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Ricardo[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Inesf[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Rita[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Marta[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Paulo[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Sara[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Andre[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Patricia[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Brunom[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Carla[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Filipe[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Daniela[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Helena[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Teresa[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Miguelx[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Hugo[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Bea[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Rafaelx[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Sergio[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Nuno[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Vitor[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Eva[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Claudia[F'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Susana[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Raquel[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Duarte[M'; break;
             }
         else if(lang_code == 'ro-RO')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Cristina[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Simona[F';
-                    break;
-                    
-                case 'A:20':
-                    voice_name = 'Maria[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Bogdan[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Radu[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Ioana[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Alina[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Roxana[F';
-                    break;
+                case 'A:0': voice_name = 'Cristina[F'; break;
+                case 'A:2': voice_name = 'Simona[F'; break;
+
+                /* 20 */
+                case 'A:20': voice_name = 'Maria[F'; break;
+                case 'B:20': voice_name = 'Bogdan[M'; break;
+                case 'C:20': voice_name = 'Radu[M'; break;
+                case 'D:20': voice_name = 'Ioana[F'; break;
+                case 'E:20': voice_name = 'Alina[F'; break;
+                case 'F:20': voice_name = 'Roxana[F'; break;
+                case 'G:20': voice_name = 'Andrei[M'; break;
+                case 'H:20': voice_name = 'Elena[F'; break;
+                case 'I:20': voice_name = 'Gabriela[F'; break;
+
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Maria HD[F'; break;
+                case 'B:21': voice_name = 'Bogdan HD[M'; break;
+                case 'C:21': voice_name = 'Radu HD[M'; break;
+                case 'D:21': voice_name = 'Ioana HD[F'; break;
+                case 'E:21': voice_name = 'Alina HD[F'; break;
+                case 'F:21': voice_name = 'Roxana HD[F'; break;
+                case 'G:21': voice_name = 'Andrei HD[M'; break;
+                case 'H:21': voice_name = 'Elena HD[F'; break;
+                case 'I:21': voice_name = 'Gabriela HD[F'; break;
+                case 'J:21': voice_name = 'Mihai HD[M'; break;
+                case 'K:21': voice_name = 'Daniel HD[M'; break;
+
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Ana[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Ion[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Paul[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Stefan[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Alex[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Diana[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Irina[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Bianca[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Victor[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Mariaa[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Dragos[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Larisa[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'George[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Andra[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Cristian[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Elisaa[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Paula[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Raluca[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Marius[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Robert[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Carmen[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Florin[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Adrian[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Dorin[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Cosmin[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Alinaa[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Daniela[F'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Oana[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Monica[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Tudor[M'; break;
             }
         else if(lang_code == 'ru-RU')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Elena[F';
-                    break;
-                case 'E:2':
-                    voice_name = 'Anastasia[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Olga[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Sergey[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Svetlana[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Boris[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Ekaterina[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Vladimir[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Ivan[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Natalia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Maria[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Lera[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Roman[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Irina[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Vera[F';
-                    break;
+            
+                /* base */
+                case 'A:0': voice_name = 'Elena[F'; break;
+            
+                /* legacy */
+                case 'E:2': voice_name = 'Anastasia[F'; break;
+                case 'A:2': voice_name = 'Olga[F'; break;
+                case 'B:2': voice_name = 'Sergey[M'; break;
+                case 'C:2': voice_name = 'Svetlana[F'; break;
+                case 'D:2': voice_name = 'Boris[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Ekaterina[F'; break;
+                case 'B:20': voice_name = 'Vladimir[M'; break;
+                case 'C:20': voice_name = 'Ivan[M'; break;
+                case 'D:20': voice_name = 'Natalia[F'; break;
+                case 'E:20': voice_name = 'Maria[F'; break;
+                case 'F:20': voice_name = 'Lera[F'; break;
+                case 'G:20': voice_name = 'Roman[M'; break;
+                case 'H:20': voice_name = 'Irina[F'; break;
+                case 'I:20': voice_name = 'Vera[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Ekaterina HD[F'; break;
+                case 'B:21': voice_name = 'Vladimir HD[M'; break;
+                case 'C:21': voice_name = 'Ivan HD[M'; break;
+                case 'D:21': voice_name = 'Natalia HD[F'; break;
+                case 'E:21': voice_name = 'Maria HD[F'; break;
+                case 'F:21': voice_name = 'Lera HD[F'; break;
+                case 'G:21': voice_name = 'Roman HD[M'; break;
+                case 'H:21': voice_name = 'Irina HD[F'; break;
+                case 'I:21': voice_name = 'Vera HD[F'; break;
+                case 'J:21': voice_name = 'Alexandr HD[M'; break;
+                case 'K:21': voice_name = 'Maksim HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 — unified */
+                case 'A:8': case 'A:9': case 'A:10': case 'A:11': voice_name = 'Anna[F'; break;
+                case 'B:8': case 'B:9': case 'B:10': case 'B:11': voice_name = 'Dmitry[M'; break;
+                case 'C:8': case 'C:9': case 'C:10': case 'C:11': voice_name = 'Alexey[M'; break;
+                case 'D:8': case 'D:9': case 'D:10': case 'D:11': voice_name = 'Mikhail[M'; break;
+                case 'E:8': case 'E:9': case 'E:10': case 'E:11': voice_name = 'Artem[M'; break;
+                case 'F:8': case 'F:9': case 'F:10': case 'F:11': voice_name = 'Polina[F'; break;
+                case 'G:8': case 'G:9': case 'G:10': case 'G:11': voice_name = 'Daria[F'; break;
+                case 'H:8': case 'H:9': case 'H:10': case 'H:11': voice_name = 'Galina[F'; break;
+                case 'I:8': case 'I:9': case 'I:10': case 'I:11': voice_name = 'Nikita[M'; break;
+                case 'J:8': case 'J:9': case 'J:10': case 'J:11': voice_name = 'Alisa[F'; break;
+                case 'K:8': case 'K:9': case 'K:10': case 'K:11': voice_name = 'Kirill[M'; break;
+                case 'L:8': case 'L:9': case 'L:10': case 'L:11': voice_name = 'Yulia[F'; break;
+                case 'M:8': case 'M:9': case 'M:10': case 'M:11': voice_name = 'Maxim[M'; break;
+                case 'N:8': case 'N:9': case 'N:10': case 'N:11': voice_name = 'Sofia[F'; break;
+                case 'O:8': case 'O:9': case 'O:10': case 'O:11': voice_name = 'Denis[M'; break;
+                case 'P:8': case 'P:9': case 'P:10': case 'P:11': voice_name = 'Elizaveta[F'; break;
+                case 'Q:8': case 'Q:9': case 'Q:10': case 'Q:11': voice_name = 'Milana[F'; break;
+                case 'R:8': case 'R:9': case 'R:10': case 'R:11': voice_name = 'Victoria[F'; break;
+                case 'S:8': case 'S:9': case 'S:10': case 'S:11': voice_name = 'Andrey[M'; break;
+                case 'T:8': case 'T:9': case 'T:10': case 'T:11': voice_name = 'Leonid[M'; break;
+                case 'U:8': case 'U:9': case 'U:10': case 'U:11': voice_name = 'Arina[F'; break;
+                case 'V:8': case 'V:9': case 'V:10': case 'V:11': voice_name = 'Oleg[M'; break;
+                case 'W:8': case 'W:9': case 'W:10': case 'W:11': voice_name = 'Pavel[M'; break;
+                case 'X:8': case 'X:9': case 'X:10': case 'X:11': voice_name = 'Timofey[M'; break;
+                case 'Y:8': case 'Y:9': case 'Y:10': case 'Y:11': voice_name = 'Ilya[M'; break;
+                case 'Z:8': case 'Z:9': case 'Z:10': case 'Z:11': voice_name = 'Ksenia[F'; break;
+                case 'AA:8': case 'AA:9': case 'AA:10': case 'AA:11': voice_name = 'Yuri[M'; break;
+                case 'AB:8': case 'AB:9': case 'AB:10': case 'AB:11': voice_name = 'Valeria[F'; break;
+                case 'AC:8': case 'AC:9': case 'AC:10': case 'AC:11': voice_name = 'Zoya[F'; break;
+                case 'AD:8': case 'AD:9': case 'AD:10': case 'AD:11': voice_name = 'Yaroslav[M'; break;
             }
         else if(lang_code == 'sr-RS')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Ivana[F';
-                    break;
-                case 'A:1':
-                    voice_name = 'Jelena[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Milica[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Lazar[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Vuk[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Teodora[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Jovana[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Katarina[F';
-                    break;
+                case 'A:0': voice_name = 'Ivana[F'; break;
+                case 'A:1': voice_name = 'Jelena[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Milica[F'; break;
+                case 'B:20': voice_name = 'Lazar[M'; break;
+                case 'C:20': voice_name = 'Vuk[M'; break;
+                case 'D:20': voice_name = 'Teodora[F'; break;
+                case 'E:20': voice_name = 'Jovana[F'; break;
+                case 'F:20': voice_name = 'Katarina[F'; break;
+                case 'G:20': voice_name = 'Marko[M'; break;
+                case 'H:20': voice_name = 'Ana[F'; break;
+                case 'I:20': voice_name = 'Mina[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Milica HD[F'; break;
+                case 'B:21': voice_name = 'Lazar HD[M'; break;
+                case 'C:21': voice_name = 'Vuk HD[M'; break;
+                case 'D:21': voice_name = 'Teodora HD[F'; break;
+                case 'E:21': voice_name = 'Jovana HD[F'; break;
+                case 'F:21': voice_name = 'Katarina HD[F'; break;
+                case 'G:21': voice_name = 'Marko HD[M'; break;
+                case 'H:21': voice_name = 'Ana HD[F'; break;
+                case 'I:21': voice_name = 'Mina HD[F'; break;
+                case 'J:21': voice_name = 'Nikola HD[M'; break;
+                case 'K:21': voice_name = 'Stefan HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Jovana[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Milan[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Uros[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Nemanja[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Petar[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Ana[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Marija[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'Ivana[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Marko[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'Milica[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Stefan[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Teodora[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Luka[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Jelena[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'Nikola[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Katarina[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Tamara[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Sara[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Milos[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Bogdan[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Nina[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Dusan[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Vladimir[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Zoran[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'Dejan[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Mina[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Aleksandar[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Jasmina[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Sofija[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Filip[M'; break;
             }
         else if(lang_code == 'si')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Geethika[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Sanduni[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Kasun[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Ruwan[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Thilini[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Chamari[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Kanchana[F';
-                    break;
+                case 'A:0': voice_name = 'Geethika[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Sanduni[F'; break;
+                case 'B:20': voice_name = 'Kasun[M'; break;
+                case 'C:20': voice_name = 'Ruwan[M'; break;
+                case 'D:20': voice_name = 'Thilini[F'; break;
+                case 'E:20': voice_name = 'Chamari[F'; break;
+                case 'F:20': voice_name = 'Kanchana[F'; break;
+                case 'G:20': voice_name = 'Nimal[M'; break;
+                case 'H:20': voice_name = 'Anushka[F'; break;
+                case 'I:20': voice_name = 'Dilani[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Sanduni HD[F'; break;
+                case 'B:21': voice_name = 'Kasun HD[M'; break;
+                case 'C:21': voice_name = 'Ruwan HD[M'; break;
+                case 'D:21': voice_name = 'Thilini HD[F'; break;
+                case 'E:21': voice_name = 'Chamari HD[F'; break;
+                case 'F:21': voice_name = 'Kanchana HD[F'; break;
+                case 'G:21': voice_name = 'Nimal HD[M'; break;
+                case 'H:21': voice_name = 'Anushka HD[F'; break;
+                case 'I:21': voice_name = 'Dilani HD[F'; break;
+                case 'J:21': voice_name = 'Sanjeewa HD[M'; break;
+                case 'K:21': voice_name = 'Pradeep HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Kumari[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Ashan[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Nuwan[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Sahan[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Ravindu[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Hasini[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Sachini[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Dinithi[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Isuru[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Malini[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Pramod[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Tharushi[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Chamara[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Sewwandi[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Dilan[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Nadeesha[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Harini[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Ishara[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Tharindu[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Lahiru[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Imesha[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Sampath[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Pasindu[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Ruchira[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Shehan[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Sajini[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Chamodi[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Upeksha[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Bhagya[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Lakshan[M'; break;
             }
         else if(lang_code == 'sk-SK')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Barbora[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Michaela[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Lucia[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Andrej[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Peter[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Anna[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Petra[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Jana[F';
-                    break;
+                case 'A:0': voice_name = 'Barbora[F'; break;
+                case 'A:2': voice_name = 'Michaela[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Lucia[F'; break;
+                case 'B:20': voice_name = 'Andrej[M'; break;
+                case 'C:20': voice_name = 'Peter[M'; break;
+                case 'D:20': voice_name = 'Anna[F'; break;
+                case 'E:20': voice_name = 'Petra[F'; break;
+                case 'F:20': voice_name = 'Jana[F'; break;
+                case 'G:20': voice_name = 'Marek[M'; break;
+                case 'H:20': voice_name = 'Zuzana[F'; break;
+                case 'I:20': voice_name = 'Katarina[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Lucia HD[F'; break;
+                case 'B:21': voice_name = 'Andrej HD[M'; break;
+                case 'C:21': voice_name = 'Peter HD[M'; break;
+                case 'D:21': voice_name = 'Anna HD[F'; break;
+                case 'E:21': voice_name = 'Petra HD[F'; break;
+                case 'F:21': voice_name = 'Jana HD[F'; break;
+                case 'G:21': voice_name = 'Marek HD[M'; break;
+                case 'H:21': voice_name = 'Zuzana HD[F'; break;
+                case 'I:21': voice_name = 'Katarina HD[F'; break;
+                case 'J:21': voice_name = 'Tomas HD[M'; break;
+                case 'K:21': voice_name = 'Martin HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Zuzana[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Milan[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Juraj[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Tomas[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Peter[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Lucia[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Katarina[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'Michaela[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Martin[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'Anna[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Andrej[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Jana[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Marek[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Barbora[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'Juraj[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Petra[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Monika[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Veronika[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Stefan[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Michal[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Eva[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Filip[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Robert[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Daniel[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'Adam[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Simona[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Matej[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Iveta[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Daniela[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Lukas[M'; break;
             }
         else if(lang_code == 'es-ES')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Carmen[F';
-                    break;
-                case 'C:2':
-                    voice_name = 'Laura[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Nuria[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Miguel[M';
-                    break;
-                case 'A:3':
-                    voice_name = 'Isabel[F';
-                    break;
-                case 'E:3':
-                    voice_name = 'Sara[F';
-                    break;
-                case 'F:3':
-                    voice_name = 'Francisco[M';
-                    break;
-                case '1:7':
-                    voice_name = 'Mateo[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Sofía[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Juan[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Luis[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Maria[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Laura[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Ana[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Diego[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Paula[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Andrea[F';
-                    break;
+                case 'A:0': voice_name = 'Carmen[F'; break;
+                case 'C:2': voice_name = 'Laura[F'; break;
+                case 'D:2': voice_name = 'Nuria[F'; break;
+                case 'B:2': voice_name = 'Miguel[M'; break;
+                case 'A:3': voice_name = 'Isabel[F'; break;
+                case 'E:3': voice_name = 'Sara[F'; break;
+                case 'F:3': voice_name = 'Francisco[M'; break;
+                case '1:7': voice_name = 'Mateo[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Sofia[F'; break;
+                case 'B:20': voice_name = 'Juan[M'; break;
+                case 'C:20': voice_name = 'Luis[M'; break;
+                case 'D:20': voice_name = 'Maria[F'; break;
+                case 'E:20': voice_name = 'Elena[F'; break;   // FIX conflict with Laura (base)
+                case 'F:20': voice_name = 'Ana[F'; break;
+                case 'G:20': voice_name = 'Diego[M'; break;
+                case 'H:20': voice_name = 'Paula[F'; break;
+                case 'I:20': voice_name = 'Andrea[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Sofia HD[F'; break;
+                case 'B:21': voice_name = 'Juan HD[M'; break;
+                case 'C:21': voice_name = 'Luis HD[M'; break;
+                case 'D:21': voice_name = 'Maria HD[F'; break;
+                case 'E:21': voice_name = 'Elena HD[F'; break;
+                case 'F:21': voice_name = 'Ana HD[F'; break;
+                case 'G:21': voice_name = 'Diego HD[M'; break;
+                case 'H:21': voice_name = 'Paula HD[F'; break;
+                case 'I:21': voice_name = 'Andrea HD[F'; break;
+                case 'J:21': voice_name = 'Carlos HD[M'; break;
+                case 'K:21': voice_name = 'Javier HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Lucia[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Carlos[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Pablo[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Jorge[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Alvaro[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Marta[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Elena[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'Celia[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Raul[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'Claudia[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Sergio[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Noelia[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Adrian[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Irene[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'David[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Patricia[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Silvia[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Beatriz[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Manuel[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Hector[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Rocio[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Fernando[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Ricardo[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Oscar[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'Guillermo[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Natalia[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Diego[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Alicia[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Daniela[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Tomas[M'; break;
             }
         else if(lang_code == 'es-US')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Rosa[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Maria[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Luis[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Javier[M';
-                    break;
-                case 'G:5':
-                    voice_name = 'Ana[F';
-                    break;
-                case 'F:5':
-                    voice_name = 'Isabel[F';
-                    break;
-                case 'E:5':
-                    voice_name = 'David[M';
-                    break;
-                case 'D:5':
-                    voice_name = 'Carlos[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Marta[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Manuel[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Francisco[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Alicia[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Paula[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Gabriela[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Javier[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Isabel[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Alba[F';
-                    break;
+                case 'A:0': voice_name = 'Rosa[F'; break;
+                case 'A:2': voice_name = 'Maria[F'; break;
+                case 'B:2': voice_name = 'Luis[M'; break;
+                case 'C:2': voice_name = 'Javier[M'; break;
+                case 'G:5': voice_name = 'Ana[F'; break;
+                case 'F:5': voice_name = 'Isabel[F'; break;
+                case 'E:5': voice_name = 'David[M'; break;
+                case 'D:5': voice_name = 'Carlos[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Marta[F'; break;
+                case 'B:20': voice_name = 'Manuel[M'; break;
+                case 'C:20': voice_name = 'Francisco[M'; break;
+                case 'D:20': voice_name = 'Alicia[F'; break;
+                case 'E:20': voice_name = 'Paula[F'; break;
+                case 'F:20': voice_name = 'Gabriela[F'; break;
+                case 'G:20': voice_name = 'Diego[M'; break;      // FIX conflict with base Javier
+                case 'H:20': voice_name = 'Lucia[F'; break;      // FIX conflict with base Isabel
+                case 'I:20': voice_name = 'Alba[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Marta HD[F'; break;
+                case 'B:21': voice_name = 'Manuel HD[M'; break;
+                case 'C:21': voice_name = 'Francisco HD[M'; break;
+                case 'D:21': voice_name = 'Alicia HD[F'; break;
+                case 'E:21': voice_name = 'Paula HD[F'; break;
+                case 'F:21': voice_name = 'Gabriela HD[F'; break;
+                case 'G:21': voice_name = 'Diego HD[M'; break;
+                case 'H:21': voice_name = 'Lucia HD[F'; break;
+                case 'I:21': voice_name = 'Alba HD[F'; break;
+                case 'J:21': voice_name = 'Roberto HD[M'; break;
+                case 'K:21': voice_name = 'Fernando HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Sofia[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Carlos[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Miguel[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Jorge[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Ricardo[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Daniela[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Camila[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'Valeria[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Diego[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'Elena[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Andres[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Patricia[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Eduardo[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Natalia[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'Roberto[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Gabriela[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Paola[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Monica[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Hector[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Rafael[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Laura[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Fernando[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Oscar[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Victor[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'Guillermo[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Ariana[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Santiago[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Claudia[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Daniela[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Tomas[M'; break;
+            }
+        else if(lang_code == 'es-MX')
+            switch(voice_data) {
+            
+                /* base */
+                case 'A:0': voice_name = 'Sofia[F'; break;
+            
+                /* 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Valeria[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Santiago[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Mateo[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Sebastian[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Diego[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Camila[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Ximena[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Fernanda[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Leonardo[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Maria[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Daniel[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Daniela[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Emiliano[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Andrea[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Miguel[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Lucia[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Renata[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Elena[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Carlos[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Luis[M'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Paula[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Javier[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Alejandro[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Ricardo[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Angel[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Gabriela[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Hector[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Adriana[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Patricia[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Oscar[M'; break;
+            }
+        else if(lang_code == 'es')
+            switch(voice_data) {
+                case 'A:0': voice_name = 'Camila[F'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Renata[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Carlos[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Juan[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Pedro[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Andres[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Paola[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Fernanda[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Daniela[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Luis[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Carolina[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Jorge[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Patricia[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Miguel[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Ana[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Ricardo[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Gabriela[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Monica[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Liliana[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Hector[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Rafael[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Elena[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Fernando[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Oscar[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Victor[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Manuel[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Rocio[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Tomas[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Alicia[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Silvia[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Emilio[M'; break;
             }
         else if(lang_code == 'su')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Dewi[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Teti[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Iwan[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Edi[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Rina[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Yani[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Wulan[F';
-                    break;
+                case 'A:0': voice_name = 'Dewi[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Teti[F'; break;
+                case 'B:20': voice_name = 'Iwan[M'; break;
+                case 'C:20': voice_name = 'Edi[M'; break;
+                case 'D:20': voice_name = 'Rina[F'; break;
+                case 'E:20': voice_name = 'Yani[F'; break;
+                case 'F:20': voice_name = 'Wulan[F'; break;
+                case 'G:20': voice_name = 'Agus[M'; break;
+                case 'H:20': voice_name = 'Sari[F'; break;
+                case 'I:20': voice_name = 'Lina[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Teti HD[F'; break;
+                case 'B:21': voice_name = 'Iwan HD[M'; break;
+                case 'C:21': voice_name = 'Edi HD[M'; break;
+                case 'D:21': voice_name = 'Rina HD[F'; break;
+                case 'E:21': voice_name = 'Yani HD[F'; break;
+                case 'F:21': voice_name = 'Wulan HD[F'; break;
+                case 'G:21': voice_name = 'Agus HD[M'; break;
+                case 'H:21': voice_name = 'Sari HD[F'; break;
+                case 'I:21': voice_name = 'Lina HD[F'; break;
+                case 'J:21': voice_name = 'Budi HD[M'; break;
+                case 'K:21': voice_name = 'Rizal HD[M'; break;
             }
         else if(lang_code == 'sw')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Ali[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Amani[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Hamisi[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Faraji[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Zuri[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Siti[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Pendo[F';
-                    break;
+                case 'A:0': voice_name = 'Ali[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Amani[F'; break;
+                case 'B:20': voice_name = 'Hamisi[M'; break;
+                case 'C:20': voice_name = 'Faraji[M'; break;
+                case 'D:20': voice_name = 'Zuri[F'; break;
+                case 'E:20': voice_name = 'Siti[F'; break;
+                case 'F:20': voice_name = 'Pendo[F'; break;
+                case 'G:20': voice_name = 'Juma[M'; break;
+                case 'H:20': voice_name = 'Neema[F'; break;
+                case 'I:20': voice_name = 'Rehema[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Amani HD[F'; break;
+                case 'B:21': voice_name = 'Hamisi HD[M'; break;
+                case 'C:21': voice_name = 'Faraji HD[M'; break;
+                case 'D:21': voice_name = 'Zuri HD[F'; break;
+                case 'E:21': voice_name = 'Siti HD[F'; break;
+                case 'F:21': voice_name = 'Pendo HD[F'; break;
+                case 'G:21': voice_name = 'Juma HD[M'; break;
+                case 'H:21': voice_name = 'Neema HD[F'; break;
+                case 'I:21': voice_name = 'Rehema HD[F'; break;
+                case 'J:21': voice_name = 'Hassan HD[M'; break;
+                case 'K:21': voice_name = 'Bakari HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Zawadi[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Musa[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Salim[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Kassim[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Omari[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Asha[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Nuru[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Halima[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Abdallah[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Jamila[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Yusuf[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Saida[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Baraka[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Upendo[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Rajabu[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Subira[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Tumaini[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Amina[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Jabari[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Mwinyi[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Malkia[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Selemani[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Bakari[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Hamza[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Idris[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Zuhura[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Khalid[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Latifa[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Nasra[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Salma[M'; break;
+            }
+        else if(lang_code == 'sd')
+            switch(voice_data) {
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Aisha[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Ali[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Ahmed[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Bilal[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Hassan[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Sana[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Zara[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Fatima[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Imran[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Noor[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Usman[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Khadija[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Omar[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Hina[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Rashid[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Nadia[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Samina[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Farah[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Tariq[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Javed[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Shazia[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Kamran[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Adnan[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Salman[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Waqar[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Mehwish[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Irfan[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Bushra[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Nimra[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Danish[M'; break;
             }
         else if(lang_code == 'sv-SE')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Emma[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Elin[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Ingrid[F';
-                    break;
-                case 'C:2':
-                    voice_name = 'Gustav[M';
-                    break;
-                case 'D:2':
-                    voice_name = 'Katarina[F';
-                    break;
-                case 'E:2':
-                    voice_name = 'Oskar[M';
-                    break;
+                case 'A:0': voice_name = 'Emma[F'; break;
+                case 'A:2': voice_name = 'Elin[F'; break;
+                case 'B:2': voice_name = 'Ingrid[F'; break;
+                case 'C:2': voice_name = 'Gustav[M'; break;
+                case 'D:2': voice_name = 'Katarina[F'; break;
+                case 'E:2': voice_name = 'Oskar[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Sofia[F'; break;
+                case 'B:20': voice_name = 'Lars[M'; break;
+                case 'C:20': voice_name = 'Johan[M'; break;
+                case 'D:20': voice_name = 'Anna[F'; break;
+                case 'E:20': voice_name = 'Maria[F'; break;
+                case 'F:20': voice_name = 'Eva[F'; break;
+                case 'G:20': voice_name = 'Erik[M'; break;
+                case 'H:20': voice_name = 'Linnea[F'; break;
+                case 'I:20': voice_name = 'Karin[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Sofia HD[F'; break;
+                case 'B:21': voice_name = 'Lars HD[M'; break;
+                case 'C:21': voice_name = 'Johan HD[M'; break;
+                case 'D:21': voice_name = 'Anna HD[F'; break;
+                case 'E:21': voice_name = 'Maria HD[F'; break;
+                case 'F:21': voice_name = 'Eva HD[F'; break;
+                case 'G:21': voice_name = 'Erik HD[M'; break;
+                case 'H:21': voice_name = 'Linnea HD[F'; break;
+                case 'I:21': voice_name = 'Karin HD[F'; break;
+                case 'J:21': voice_name = 'Anders HD[M'; break;
+                case 'K:21': voice_name = 'Mikael HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Maja[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Karl[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Nils[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Per[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Olof[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Sara[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Elsa[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'Ida[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Axel[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'Alva[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Lucas[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Julia[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Viktor[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Emilia[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'Anton[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Hanna[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Lina[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Frida[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Emil[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Noah[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Klara[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Leo[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Arvid[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Hugo[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'William[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Nora[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Felix[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Elvira[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Matilda[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Isak[M'; break;
             }
         else if(lang_code == 'ta-IN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Deepika[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Kavya[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Arjun[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Nandhini[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Vijay[M';
-                    break;
+                case 'A:0': voice_name = 'Deepika[F'; break;
+                case 'A:2': voice_name = 'Kavya[F'; break;
+                case 'B:2': voice_name = 'Arjun[M'; break;
+                case 'C:2': voice_name = 'Nandhini[F'; break;
+                case 'D:2': voice_name = 'Vijay[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Meena[F'; break;
+                case 'B:20': voice_name = 'Karthik[M'; break;
+                case 'C:20': voice_name = 'Ravi[M'; break;
+                case 'D:20': voice_name = 'Lakshmi[F'; break;
+                case 'E:20': voice_name = 'Anitha[F'; break;
+                case 'F:20': voice_name = 'Priya[F'; break;
+                case 'G:20': voice_name = 'Suresh[M'; break;
+                case 'H:20': voice_name = 'Divya[F'; break;
+                case 'I:20': voice_name = 'Keerthana[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Meena HD[F'; break;
+                case 'B:21': voice_name = 'Karthik HD[M'; break;
+                case 'C:21': voice_name = 'Ravi HD[M'; break;
+                case 'D:21': voice_name = 'Lakshmi HD[F'; break;
+                case 'E:21': voice_name = 'Anitha HD[F'; break;
+                case 'F:21': voice_name = 'Priya HD[F'; break;
+                case 'G:21': voice_name = 'Suresh HD[M'; break;
+                case 'H:21': voice_name = 'Divya HD[F'; break;
+                case 'I:21': voice_name = 'Keerthana HD[F'; break;
+                case 'J:21': voice_name = 'Manoj HD[M'; break;
+                case 'K:21': voice_name = 'Prakash HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Aishwarya[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Aravind[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Bala[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Dinesh[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Ganesh[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Harini[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Janani[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Karthika[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Kumar[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Lavanya[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Madhan[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Nivetha[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Praveen[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Revathi[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Saravanan[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Shalini[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Sowmya[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Uma[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Vignesh[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Yogesh[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Anu[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Deepak[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Kiran[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Mani[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Ramesh[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Vidya[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Sathish[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Bhavani[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Devi[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Prakash[M'; break;
             }
         else if(lang_code == 'te-IN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Anusha[F';
-                    break;
-                case 'A:1':
-                    voice_name = 'Lakshmi[F';
-                    break;
-                case 'B:1':
-                    voice_name = 'Venkat[M';
-                    break;
+                case 'A:0': voice_name = 'Anusha[F'; break;
+                case 'A:1': voice_name = 'Lakshmi[F'; break;
+                case 'B:1': voice_name = 'Venkat[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Sravani[F'; break;
+                case 'B:20': voice_name = 'Ramesh[M'; break;
+                case 'C:20': voice_name = 'Kiran[M'; break;
+                case 'D:20': voice_name = 'Padma[F'; break;
+                case 'E:20': voice_name = 'Divya[F'; break;
+                case 'F:20': voice_name = 'Keerthi[F'; break;
+                case 'G:20': voice_name = 'Suresh[M'; break;
+                case 'H:20': voice_name = 'Madhavi[F'; break;
+                case 'I:20': voice_name = 'Bhavani[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Sravani HD[F'; break;
+                case 'B:21': voice_name = 'Ramesh HD[M'; break;
+                case 'C:21': voice_name = 'Kiran HD[M'; break;
+                case 'D:21': voice_name = 'Padma HD[F'; break;
+                case 'E:21': voice_name = 'Divya HD[F'; break;
+                case 'F:21': voice_name = 'Keerthi HD[F'; break;
+                case 'G:21': voice_name = 'Suresh HD[M'; break;
+                case 'H:21': voice_name = 'Madhavi HD[F'; break;
+                case 'I:21': voice_name = 'Bhavani HD[F'; break;
+                case 'J:21': voice_name = 'Prasad HD[M'; break;
+                case 'K:21': voice_name = 'Venkatesh HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Aparna[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Arun[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Chandra[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Dinesh[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Ganesh[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Harika[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Indira[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Jyothi[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Karthik[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Lavanya[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Mahesh[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Nirmala[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Praveen[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Radhika[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Ravi[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Sarika[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Sowjanya[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Suma[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Teja[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Uday[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Uma[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Vijay[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Vinay[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Yogesh[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Rajesh[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Shilpa[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Satish[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Bhavana[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Deepa[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Prakash[M'; break;
+            }
+        else if(lang_code == 'or-IN')
+            switch(voice_data) {
+            
+                case 'A:10': case 'A:11': voice_name = 'Ananya[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Arjun[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Priyanka[F'; break;
+                case 'D:10': case 'D:11': voice_name = 'Rahul[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Sanjay[M'; break;
+            
+                case 'F:10': case 'F:11': voice_name = 'Madhuri[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Kunal[M'; break;
+                case 'H:10': case 'H:11': voice_name = 'Pooja[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Rakesh[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Sneha[F'; break;
+            
+                case 'K:10': case 'K:11': voice_name = 'Amit[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Nandini[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Vikram[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Swati[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Deepak[M'; break;
+            
+                case 'P:10': case 'P:11': voice_name = 'Kavita[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Manoj[M'; break;
+                case 'R:10': case 'R:11': voice_name = 'Ritu[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Ajay[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Neha[F'; break;
+            
+                case 'U:10': case 'U:11': voice_name = 'Suresh[M'; break;
+                case 'V:10': case 'V:11': voice_name = 'Meena[F'; break;
+                case 'W:10': case 'W:11': voice_name = 'Rohit[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Anita[F'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Tarun[M'; break;
+            
+                case 'Z:10': case 'Z:11': voice_name = 'Lata[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Prakash[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Sunita[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Gaurav[M'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Divya[F'; break;
             }
         else if(lang_code == 'th-TH')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Suchada[F';
-                    break;
-                case 'A:1':
-                    voice_name = 'Siritida[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Supatra[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Anurak[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Chaiwat[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Malai[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Thip[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Wanee[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Rattana[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Suthida[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Wanee[F';
-                    break;
+                case 'A:0': voice_name = 'Suchada[F'; break;
+                case 'A:1': voice_name = 'Siritida[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Supatra[F'; break;
+                case 'B:20': voice_name = 'Anurak[M'; break;
+                case 'C:20': voice_name = 'Chaiwat[M'; break;
+                case 'D:20': voice_name = 'Malai[F'; break;
+                case 'E:20': voice_name = 'Thip[F'; break;
+                case 'F:20': voice_name = 'Wanee[F'; break;
+                case 'G:20': voice_name = 'Rattana[M'; break;
+                case 'H:20': voice_name = 'Suthida[F'; break;
+                case 'I:20': voice_name = 'Kanya[F'; break; // FIX duplicate name
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Supatra HD[F'; break;
+                case 'B:21': voice_name = 'Anurak HD[M'; break;
+                case 'C:21': voice_name = 'Chaiwat HD[M'; break;
+                case 'D:21': voice_name = 'Malai HD[F'; break;
+                case 'E:21': voice_name = 'Thip HD[F'; break;
+                case 'F:21': voice_name = 'Wanee HD[F'; break;
+                case 'G:21': voice_name = 'Rattana HD[M'; break;
+                case 'H:21': voice_name = 'Suthida HD[F'; break;
+                case 'I:21': voice_name = 'Kanya HD[F'; break;
+                case 'J:21': voice_name = 'Somchai HD[M'; break;
+                case 'K:21': voice_name = 'Narin HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Arisa[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Somchai[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Nattapong[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Krit[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Thanakorn[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Pim[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Siriporn[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'Nalinee[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Chai[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'Kamon[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Narin[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Suda[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Prasert[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Busaba[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'Anan[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Duangjai[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Malee[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Kanya[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Viroj[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Sakda[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Chutima[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Preecha[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Noppon[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Kittipong[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'Yada[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Rinrada[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Adisak[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Lalita[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Patchara[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Thawatchai[M'; break;
             }
         else if(lang_code == 'tr-TR')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Fatma[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Ahmet[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Selma[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Gamze[F';
-                    break;
-                case 'E:2':
-                    voice_name = 'Hasan[M';
-                    break;
-                case 'A:2':
-                    voice_name = 'Zeynep[F';
-                    break;
+                case 'A:0': voice_name = 'Fatma[F'; break;
+                case 'B:2': voice_name = 'Ahmet[M'; break;
+                case 'C:2': voice_name = 'Selma[F'; break;
+                case 'D:2': voice_name = 'Gamze[F'; break;
+                case 'E:2': voice_name = 'Hasan[M'; break;
+                case 'A:2': voice_name = 'Zeynep[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Elif[F'; break;
+                case 'B:20': voice_name = 'Mehmet[M'; break;
+                case 'C:20': voice_name = 'Mustafa[M'; break;
+                case 'D:20': voice_name = 'Ayse[F'; break;
+                case 'E:20': voice_name = 'Emine[F'; break;
+                case 'F:20': voice_name = 'Hatice[F'; break;
+                case 'G:20': voice_name = 'Ali[M'; break;
+                case 'H:20': voice_name = 'Merve[F'; break;
+                case 'I:20': voice_name = 'Esra[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Elif HD[F'; break;
+                case 'B:21': voice_name = 'Mehmet HD[M'; break;
+                case 'C:21': voice_name = 'Mustafa HD[M'; break;
+                case 'D:21': voice_name = 'Ayse HD[F'; break;
+                case 'E:21': voice_name = 'Emine HD[F'; break;
+                case 'F:21': voice_name = 'Hatice HD[F'; break;
+                case 'G:21': voice_name = 'Ali HD[M'; break;
+                case 'H:21': voice_name = 'Merve HD[F'; break;
+                case 'I:21': voice_name = 'Esra HD[F'; break;
+                case 'J:21': voice_name = 'Can HD[M'; break;
+                case 'K:21': voice_name = 'Kerem HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Deniz[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Emre[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Burak[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Omer[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Yusuf[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Ece[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Ceren[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'Derya[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Murat[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'Seda[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Kaan[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Buse[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Serkan[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Gizem[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'Hakan[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Asli[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Zehra[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Melis[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Onur[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Tolga[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Nisa[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Baris[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Ugur[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Tunc[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'Yasin[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Elvan[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Cagatay[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Pinar[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Hande[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Levent[M'; break;
             }
         else if(lang_code == 'uk-UA')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Oksana[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Nataliya[F';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Kateryna[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Oleksandr[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Ivan[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Maria[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Yuliya[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Anastasiya[F';
-                    break;
-                    
-                case 'G:20':
-                    voice_name = 'Roman[M';
-                    break;
-                case 'H:20':
-                    voice_name = 'Iryna[F';
-                    break;
-                case 'I:20':
-                    voice_name = 'Lesya[F';
-                    break;
+                case 'A:0': voice_name = 'Oksana[F'; break;
+                case 'A:2': voice_name = 'Nataliya[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Kateryna[F'; break;
+                case 'B:20': voice_name = 'Oleksandr[M'; break;
+                case 'C:20': voice_name = 'Ivan[M'; break;
+                case 'D:20': voice_name = 'Maria[F'; break;
+                case 'E:20': voice_name = 'Yuliya[F'; break;
+                case 'F:20': voice_name = 'Anastasiya[F'; break;
+                case 'G:20': voice_name = 'Roman[M'; break;
+                case 'H:20': voice_name = 'Iryna[F'; break;
+                case 'I:20': voice_name = 'Lesya[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Kateryna HD[F'; break;
+                case 'B:21': voice_name = 'Oleksandr HD[M'; break;
+                case 'C:21': voice_name = 'Ivan HD[M'; break;
+                case 'D:21': voice_name = 'Maria HD[F'; break;
+                case 'E:21': voice_name = 'Yuliya HD[F'; break;
+                case 'F:21': voice_name = 'Anastasiya HD[F'; break;
+                case 'G:21': voice_name = 'Roman HD[M'; break;
+                case 'H:21': voice_name = 'Iryna HD[F'; break;
+                case 'I:21': voice_name = 'Lesya HD[F'; break;
+                case 'J:21': voice_name = 'Dmytro HD[M'; break;
+                case 'K:21': voice_name = 'Maksym HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Olena[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Andriy[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Serhiy[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Taras[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Volodymyr[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Tetiana[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Halyna[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'Svitlana[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Bohdan[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'Nadiya[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Yaroslav[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Liliya[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Pavlo[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Olya[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'Mykola[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Viktoriya[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Inna[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Alina[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Denys[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Artem[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Ira[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Oleksiy[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Ruslan[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Vadym[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'Kyrylo[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Marina[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Stepan[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Olesya[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Kristina[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Maksym[M'; break;
             }
         else if(lang_code == 'ur')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Ayesha[F';
-                    break;
-                case 'A:20':
-                    voice_name = 'Fatima[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Muhammad[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Hassan[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Hina[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Sana[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Zara[F';
-                    break;
+                case 'A:0': voice_name = 'Ayesha[F'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Fatima[F'; break;
+                case 'B:20': voice_name = 'Muhammad[M'; break;
+                case 'C:20': voice_name = 'Hassan[M'; break;
+                case 'D:20': voice_name = 'Hina[F'; break;
+                case 'E:20': voice_name = 'Sana[F'; break;
+                case 'F:20': voice_name = 'Zara[F'; break;
+                case 'G:20': voice_name = 'Ali[M'; break;
+                case 'H:20': voice_name = 'Amina[F'; break;
+                case 'I:20': voice_name = 'Khadija[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Fatima HD[F'; break;
+                case 'B:21': voice_name = 'Muhammad HD[M'; break;
+                case 'C:21': voice_name = 'Hassan HD[M'; break;
+                case 'D:21': voice_name = 'Hina HD[F'; break;
+                case 'E:21': voice_name = 'Sana HD[F'; break;
+                case 'F:21': voice_name = 'Zara HD[F'; break;
+                case 'G:21': voice_name = 'Ali HD[M'; break;
+                case 'H:21': voice_name = 'Amina HD[F'; break;
+                case 'I:21': voice_name = 'Khadija HD[F'; break;
+                case 'J:21': voice_name = 'Omar HD[M'; break;
+                case 'K:21': voice_name = 'Bilal HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:10': case 'A:11': voice_name = 'Noor[F'; break;
+                case 'B:10': case 'B:11': voice_name = 'Ahmed[M'; break;
+                case 'C:10': case 'C:11': voice_name = 'Usman[M'; break;
+                case 'D:10': case 'D:11': voice_name = 'Hamza[M'; break;
+                case 'E:10': case 'E:11': voice_name = 'Zain[M'; break;
+                case 'F:10': case 'F:11': voice_name = 'Iqra[F'; break;
+                case 'G:10': case 'G:11': voice_name = 'Maryam[F'; break;
+                case 'H:10': case 'H:11': voice_name = 'Laiba[F'; break;
+                case 'I:10': case 'I:11': voice_name = 'Imran[M'; break;
+                case 'J:10': case 'J:11': voice_name = 'Areeba[F'; break;
+                case 'K:10': case 'K:11': voice_name = 'Farhan[M'; break;
+                case 'L:10': case 'L:11': voice_name = 'Rabia[F'; break;
+                case 'M:10': case 'M:11': voice_name = 'Saad[M'; break;
+                case 'N:10': case 'N:11': voice_name = 'Mahnoor[F'; break;
+                case 'O:10': case 'O:11': voice_name = 'Rizwan[M'; break;
+                case 'P:10': case 'P:11': voice_name = 'Nadia[F'; break;
+                case 'Q:10': case 'Q:11': voice_name = 'Komal[F'; break;
+                case 'R:10': case 'R:11': voice_name = 'Sadia[F'; break;
+                case 'S:10': case 'S:11': voice_name = 'Tariq[M'; break;
+                case 'T:10': case 'T:11': voice_name = 'Junaid[M'; break;
+                case 'U:10': case 'U:11': voice_name = 'Hafsa[F'; break;
+                case 'V:10': case 'V:11': voice_name = 'Salman[M'; break;
+                case 'W:10': case 'W:11': voice_name = 'Adnan[M'; break;
+                case 'X:10': case 'X:11': voice_name = 'Danish[M'; break;
+                case 'Y:10': case 'Y:11': voice_name = 'Waqar[M'; break;
+                case 'Z:10': case 'Z:11': voice_name = 'Zainab[F'; break;
+                case 'AA:10': case 'AA:11': voice_name = 'Irfan[M'; break;
+                case 'AB:10': case 'AB:11': voice_name = 'Bushra[F'; break;
+                case 'AC:10': case 'AC:11': voice_name = 'Nimra[F'; break;
+                case 'AD:10': case 'AD:11': voice_name = 'Kamran[M'; break;
             }
         else if(lang_code == 'vi-VN')
             switch(voice_data) {
-                case 'A:0':
-                    voice_name = 'Kim[F';
-                    break;
-                case 'A:2':
-                    voice_name = 'Linh[F';
-                    break;
-                case 'B:2':
-                    voice_name = 'Hieu[M';
-                    break;
-                case 'C:2':
-                    voice_name = 'Hoa[F';
-                    break;
-                case 'D:2':
-                    voice_name = 'Tuan[M';
-                    break;
+                case 'A:0': voice_name = 'Kim[F'; break;
+                case 'A:2': voice_name = 'Linh[F'; break;
+                case 'B:2': voice_name = 'Hieu[M'; break;
+                case 'C:2': voice_name = 'Hoa[F'; break;
+                case 'D:2': voice_name = 'Tuan[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Ngoc[F'; break;
+                case 'B:20': voice_name = 'Minh[M'; break;
+                case 'C:20': voice_name = 'Anh[M'; break;
+                case 'D:20': voice_name = 'Trang[F'; break;
+                case 'E:20': voice_name = 'Thao[F'; break;
+                case 'F:20': voice_name = 'Huong[F'; break;
+                case 'G:20': voice_name = 'Quang[M'; break;
+                case 'H:20': voice_name = 'Mai[F'; break;
+                case 'I:20': voice_name = 'Lan[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Ngoc HD[F'; break;
+                case 'B:21': voice_name = 'Minh HD[M'; break;
+                case 'C:21': voice_name = 'Anh HD[M'; break;
+                case 'D:21': voice_name = 'Trang HD[F'; break;
+                case 'E:21': voice_name = 'Thao HD[F'; break;
+                case 'F:21': voice_name = 'Huong HD[F'; break;
+                case 'G:21': voice_name = 'Quang HD[M'; break;
+                case 'H:21': voice_name = 'Mai HD[F'; break;
+                case 'I:21': voice_name = 'Lan HD[F'; break;
+                case 'J:21': voice_name = 'Duc HD[M'; break;
+                case 'K:21': voice_name = 'Bao HD[M'; break;
+            
+                /* 8 / 9 / 10 / 11 */
+                case 'A:8': case 'A:10': case 'A:11': voice_name = 'Vy[F'; break;
+                case 'B:8': case 'B:10': case 'B:11': voice_name = 'Nam[M'; break;
+                case 'C:8': case 'C:10': case 'C:11': voice_name = 'Khoa[M'; break;
+                case 'D:8': case 'D:10': case 'D:11': voice_name = 'Phuc[M'; break;
+                case 'E:8': case 'E:10': case 'E:11': voice_name = 'Long[M'; break;
+                case 'F:8': case 'F:10': case 'F:11': voice_name = 'Nhi[F'; break;
+                case 'G:8': case 'G:10': case 'G:11': voice_name = 'Yen[F'; break;
+                case 'H:8': case 'H:10': case 'H:11': voice_name = 'My[F'; break;
+                case 'I:8': case 'I:10': case 'I:11': voice_name = 'Tuan[M'; break;
+                case 'J:8': case 'J:10': case 'J:11': voice_name = 'LinhChi[F'; break;
+                case 'K:8': case 'K:10': case 'K:11': voice_name = 'Huy[M'; break;
+                case 'L:8': case 'L:10': case 'L:11': voice_name = 'Dieu[F'; break;
+                case 'M:8': case 'M:10': case 'M:11': voice_name = 'Son[M'; break;
+                case 'N:8': case 'N:10': case 'N:11': voice_name = 'Thuy[F'; break;
+                case 'O:8': case 'O:10': case 'O:11': voice_name = 'Duy[M'; break;
+                case 'P:8': case 'P:10': case 'P:11': voice_name = 'Hanh[F'; break;
+                case 'Q:8': case 'Q:10': case 'Q:11': voice_name = 'Trinh[F'; break;
+                case 'R:8': case 'R:10': case 'R:11': voice_name = 'Nga[F'; break;
+                case 'S:8': case 'S:10': case 'S:11': voice_name = 'Viet[M'; break;
+                case 'T:8': case 'T:10': case 'T:11': voice_name = 'Phong[M'; break;
+                case 'U:8': case 'U:10': case 'U:11': voice_name = 'Tam[F'; break;
+                case 'V:8': case 'V:10': case 'V:11': voice_name = 'Tien[M'; break;
+                case 'W:8': case 'W:10': case 'W:11': voice_name = 'Kiet[M'; break;
+                case 'X:8': case 'X:10': case 'X:11': voice_name = 'Dat[M'; break;
+                case 'Y:8': case 'Y:10': case 'Y:11': voice_name = 'Binh[M'; break;
+                case 'Z:8': case 'Z:10': case 'Z:11': voice_name = 'Ha[F'; break;
+                case 'AA:8': case 'AA:10': case 'AA:11': voice_name = 'Bao[M'; break;
+                case 'AB:8': case 'AB:10': case 'AB:11': voice_name = 'Quyen[F'; break;
+                case 'AC:8': case 'AC:10': case 'AC:11': voice_name = 'Phuong[F'; break;
+                case 'AD:8': case 'AD:10': case 'AD:11': voice_name = 'Trung[M'; break;
             }
         else if(lang_code == 'yue-HK')
             switch(voice_data) {
-                case 'A:1':
-                    voice_name = 'Wing[F';
-                    break;
-                case 'B:1':
-                    voice_name = 'Chan[M';
-                    break;
-                case 'C:1':
-                    voice_name = 'Yee[F';
-                    break;
-                case 'D:1':
-                    voice_name = 'Lau[M';
-                    break;
-
-                case 'A:20':
-                    voice_name = 'Mei[F';
-                    break;
-                case 'B:20':
-                    voice_name = 'Chun[M';
-                    break;
-                case 'C:20':
-                    voice_name = 'Ming[M';
-                    break;
-                case 'D:20':
-                    voice_name = 'Yuet[F';
-                    break;
-                case 'E:20':
-                    voice_name = 'Ting[F';
-                    break;
-                case 'F:20':
-                    voice_name = 'Sze[F';
-                    break;
+                case 'A:1': voice_name = 'Wing[F'; break;
+                case 'B:1': voice_name = 'Chan[M'; break;
+                case 'C:1': voice_name = 'Yee[F'; break;
+                case 'D:1': voice_name = 'Lau[M'; break;
+            
+                /* 20 */
+                case 'A:20': voice_name = 'Mei[F'; break;
+                case 'B:20': voice_name = 'Chun[M'; break;
+                case 'C:20': voice_name = 'Ming[M'; break;
+                case 'D:20': voice_name = 'Yuet[F'; break;
+                case 'E:20': voice_name = 'Ting[F'; break;
+                case 'F:20': voice_name = 'Sze[F'; break;
+                case 'G:20': voice_name = 'KaHo[M'; break;
+                case 'H:20': voice_name = 'Ling[F'; break;
+                case 'I:20': voice_name = 'SiuYan[F'; break;
+            
+                /* 21 — HD */
+                case 'A:21': voice_name = 'Mei HD[F'; break;
+                case 'B:21': voice_name = 'Chun HD[M'; break;
+                case 'C:21': voice_name = 'Ming HD[M'; break;
+                case 'D:21': voice_name = 'Yuet HD[F'; break;
+                case 'E:21': voice_name = 'Ting HD[F'; break;
+                case 'F:21': voice_name = 'Sze HD[F'; break;
+                case 'G:21': voice_name = 'KaHo HD[M'; break;
+                case 'H:21': voice_name = 'Ling HD[F'; break;
+                case 'I:21': voice_name = 'SiuYan HD[F'; break;
+                case 'J:21': voice_name = 'WaiMan HD[M'; break;
+                case 'K:21': voice_name = 'ChiKeung HD[M'; break;
             }
+                
 
         voice_name = voice_name.replace('[M', ' (Male)');
         voice_name = voice_name.replace('[F', ' (Female)');
