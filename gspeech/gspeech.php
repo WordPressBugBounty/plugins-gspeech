@@ -6,14 +6,14 @@ defined('ABSPATH') or die("No direct access");
 /*
 Plugin Name: GSpeech
 Plugin URI: https://gspeech.io
-Description: GSpeech is a universal text to speech audio solution. See <a href="https://gspeech.io/demos">GSpeech Demo</a>. Please <a href="https://gspeech.io/contact-us">Contact Us</a> if you have any questions.
+Description: GSpeech is a universal text to speech audio solution. See <a href="https://gspeech.io/demos">GSpeech Demo</a>. Please <a href="https://gspeech.io/contact-us">Contact Us</a> or to info@gspeech.io if you have any questions.
 Author: Text-To-Speech AI Audio Solutions
 Author URI: https://gspeech.io
-Version: 3.20.0
+Version: 3.20.1
 */
 
-$gspeech_plugin_version = '3.20.0';
-$gspeech_new_db_version = 212;
+$gspeech_plugin_version = '3.20.1';
+$gspeech_new_db_version = 213;
 
 define('GSPEECH_PLG_VERSION', $gspeech_plugin_version);
 define('GSPEECH_NEW_DB_VER', $gspeech_new_db_version);

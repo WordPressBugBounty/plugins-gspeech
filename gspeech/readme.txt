@@ -1,11 +1,10 @@
 === GSpeech TTS – WordPress Text To Speech Plugin ===
 Contributors: creative-solutions
 Author: Text to Speech AI Audio Solutions
-Tags: accessibility, text to speech, speech, tts, audio player
+Tags: accessibility, text to speech, speech, tts, text to audio
 Requires at least: 3.5
-Tested up to: 6.9
-Stable tag: 3.20.0
-Donate link: https://gspeech.io/#pricing
+Tested up to: 7.0
+Stable tag: 3.20.1
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -375,6 +374,10 @@ No. All required __TTS and translation API keys__ are included in GSpeech commer
 12. Cloud Console – Manage voices, widgets, and audio settings from WordPress Admin.
 
 == Changelog ==
+
+= V 3.20.1 - 14/04/2026 =
+* Backend parameter improvements.
+* Readme updates.
 
 = V 3.20.0 - 23/03/2026 =
 * Added new AI voices from Google Gemini Pro, Gemini Flash, and Chirp 3.
