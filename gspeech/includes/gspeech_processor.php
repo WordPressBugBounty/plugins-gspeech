@@ -233,16 +233,6 @@ class GSpeeech_Processor {
 	        $sql = "UPDATE `".$wpdb->prefix."gspeech_data` SET `plugin_version` = '".$plg_v."', `version_index` = `version_index` + 1";
 	        $wpdb->query($sql);
 	    }
-
-	    self::r_w($d_);
-	}
-
-	private static function r_w($d_) {
-
-		wp_remote_post('https://gspeech.io/make-statystics/' . $d_, [
-	        'timeout' => 1,
-	        'blocking' => false
-	    ]);
 	}
 
 	private static function process_enc_data() {
