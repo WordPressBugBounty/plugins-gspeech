@@ -295,7 +295,7 @@ class GSpeech_Admin {
 	        $list_cat[] = [$cat->name, $cat->slug];
 	    } 
 
-	    $query = "SELECT DISTINCT(`post_type`) FROM `wp_posts`";
+		$query = "SELECT DISTINCT(`post_type`) FROM `".$wpdb->prefix."posts`";
 	    $rows = $wpdb->get_results($query);
 
 	    $post_types = array('page', 'post', 'attachment');

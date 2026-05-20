@@ -446,8 +446,8 @@ defined('ABSPATH') or die("No direct access");
 				</div>
 
 				<div class="ss_video_item_3">
-					<div class="ss_video_title ss_title_orange">Why GSpeech Lifetime Deal is a Must-Have for WordPress</div>
-					<div class="ss_video_item_holder ss_video_gb_5" data-video_id="FvGKIijSgrA"></div>
+					<div class="ss_video_title ss_title_orange">Reach Global Visitors With Multilingual Audio on Your Site | GSpeech</div>
+					<div class="ss_video_item_holder ss_video_gb_5" data-video_id="iPIt1uDVr-U"></div>
 				</div>
 
 				<div class="ss_video_item_3">
