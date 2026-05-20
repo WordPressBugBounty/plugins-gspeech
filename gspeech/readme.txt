@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, speech, tts, text to audio
 Requires at least: 3.5
 Tested up to: 7.0
-Stable tag: 3.20.3
+Stable tag: 3.20.4
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -375,7 +375,7 @@ No. All required __TTS and translation API keys__ are included in GSpeech commer
 
 == Changelog ==
 
-= V 3.20.2, 3.20.3 - 20/05/2026 =
+= V 3.20.2, 3.20.3, 3.20.4 - 20/05/2026 =
 * Post types filter issue fixed.
 * Readme updates.
 
