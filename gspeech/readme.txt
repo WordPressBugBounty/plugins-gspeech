@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, speech, tts, text to audio
 Requires at least: 3.5
 Tested up to: 7.0
-Stable tag: 3.20.6
+Stable tag: 3.20.7
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -17,7 +17,9 @@ Free WordPress Text to Speech plugin with AI voices. Add an audio player to Word
 
 [GSpeech](https://gspeech.io) is an advanced __WordPress Text to Speech plugin__ that converts WordPress posts, pages, and WooCommerce product descriptions into natural-sounding __text-to-audio narration__ in __70+ languages__. It automatically adds a modern __WordPress audio player__ to your website, allowing visitors to __listen to articles, blog posts, and product content__ instead of just reading them.
 
-__Quick Links:__ [Live Demo](https://gspeech.io/demos) | [Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin#activation-guide) | [GSpeech Cloud Console](https://gspeech.io/dashboard) | [Commercial Plans](https://gspeech.io/#pricing)
+### 🔗 WordPress Text to Speech Plugin Setup & Useful Links
+
+[Live Demo](https://gspeech.io/demos) | [Setup Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin#activation-guide) | [Support](https://gspeech.io/contact-us) | [GSpeech Cloud Console](https://gspeech.io/dashboard) | [Plans & Pricing](https://gspeech.io/#pricing) | [Videos](https://gspeech.io/videos)
 
 ### ⚡ Add Text to Speech to WordPress in Minutes
 
@@ -25,12 +27,12 @@ GSpeech combines simple setup with a powerful cloud audio platform built for pub
 
 * ✅ __One-Click Activation__ - Install the plugin, activate __GSpeech Cloud Console__, and start converting WordPress content into audio.
 * ✅ __No API Keys Required__ - Access cloud text-to-speech voices without setting up external API accounts, billing, or technical integrations.
-* ✅ __Generate Once, Play Unlimited__ - Audio is generated once, securely cached in the cloud, and delivered instantly on future visits.
+* ✅ __Generate Once, Play Unlimited Times__ - Audio is generated once, securely cached in the cloud, and delivered instantly on future visits.
 * ✅ __Premium AI Voices__ (commercial plans) - Unlock ultra-realistic AI voices for natural narration, storytelling, accessibility, and content listening.
 * ✅ __Custom Voice Prompts, Instructions and Emotions__ (commercial plans) - Use custom prompts, voice instructions, expressive styles, and emotional delivery to control tone, mood, narration style, and brand voice.
 * ✅ __GSpeech Cloud Console__ - Manage voices, players, translations, analytics, and generated audio from one dashboard.
 * ✅ __Multilingual Audio Experience__ (commercial plans) - Translate and listen to website content in 70+ languages, even on single-language websites.
-* ✅ __SEO and Engagement Ready__ - Turn articles into audio experiences that help visitors listen longer and engage with your content.
+* ✅ __Accessibility, SEO & Engagement Ready__ - Turn articles into audio experiences that help visitors listen longer and engage with your content.
 
 Trusted by thousands of websites and __rated ⭐4.8/5 on WordPress.org__, GSpeech has received __220+ five-star reviews across [WordPress.org](https://wordpress.org/plugins/gspeech/#reviews) (150+ reviews), [Joomla Extensions Directory](https://extensions.joomla.org/extension/style-a-design/accessibility/gspeech/), AppSumo, and [Trustpilot](https://www.trustpilot.com/review/gspeech.io)__. GSpeech is also featured in the __AppSumo Customer Favorites collection__, with a __4.98/5 rating from 40+ verified reviews__.
 
@@ -38,23 +40,11 @@ Since 2012, GSpeech has helped publishers improve __WordPress accessibility, eng
 
 Unlike many text-to-speech plugins that rely on limited browser voices or require users to configure and pay for external API keys, GSpeech provides a cloud-powered WordPress text-to-speech platform with simple setup, all-in-one pricing, and no API key management. Audio is generated using advanced cloud voices, optimized through the GSpeech cloud infrastructure, and cached for fast playback across browsers and devices. GSpeech can also generate audio for very long articles, supporting content with __up to 7 hours of playback per article__.
 
-Commercial plans include __ultra-realistic AI voices__ powered by __[OpenAI (ChatGPT) text-to-speech](https://openai.com)__ and __[Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech)__, including __Gemini Flash TTS__, __Gemini Pro TTS__, __Chirp3 HD__, __Neural2__, __Polyglot__, and __WaveNet__. Users can adjust speed and pitch, use __custom voice prompts__, add __voice instructions__, and control narration style with the unique __Voices Vibes system with 100+ expressive voice styles__, including emotional, warm, confident, calm, whisper, narrator, and branded voice directions.
+Commercial plans include __ultra-realistic AI voices__ powered by __[OpenAI (ChatGPT) text-to-speech](https://openai.com)__ and __[Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech)__, including __Gemini Flash TTS__, __Gemini Pro TTS__, __Chirp3 HD__, __Neural2__, __Polyglot__, and __WaveNet__. Users can adjust speed and pitch, use __custom voice prompts__, add __voice instructions__, and control narration style with the unique __Voice Vibes system with 100+ expressive voice styles__, including emotional, warm, confident, calm, whisper, narrator, and branded voice directions.
 
 The integrated __[GSpeech Cloud Console](https://gspeech.io/dashboard)__ lets users generate and manage __WordPress text-to-speech audio__ directly from the admin panel. Commercial plans also support __real-time audio translation__ in __70+ languages__, helping websites become multilingual audio experiences.
 
 The same GSpeech engine can also be integrated into __Shopify, Wix, Joomla, and custom HTML websites__, enabling publishers to add text-to-speech audio across multiple platforms.
-
-### 🌐 More GSpeech Text-to-Speech Resources
-
-Explore more about the GSpeech WordPress Text-to-Speech plugin through the resources below:
-
-* 🔗 [GSpeech Homepage](https://gspeech.io) – AI text-to-audio platform that converts website content into natural-sounding speech.
-* 🔗 [Live Demo](https://gspeech.io/demos) – Hear text-to-speech in action with real examples in multiple languages.
-* 🔗 [Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin#activation-guide) – Step-by-step installation and configuration guide.
-* 🔗 [Support](https://gspeech.io/contact-us) – Contact the GSpeech team for installation and configuration assistance.
-* 🔗 [GSpeech Cloud Console](https://gspeech.io/dashboard) – Manage voices, analytics, and settings from the GSpeech Cloud Console integrated with WordPress.
-* 🔗 [Commercial Plans](https://gspeech.io/#pricing) – Unlock AI voices, translation, analytics, and advanced features.
-* 🔗 [Video Tutorials](https://gspeech.io/videos) – Learn how to use GSpeech effectively.
 
 ### 🎬 WordPress Text-to-Speech Plugin – Step-by-Step Video Tutorial
 [youtube https://www.youtube.com/watch?v=AoxCtTbFtKk]
@@ -152,28 +142,15 @@ See the full list of supported languages in the [FAQ section](https://wordpress.
 
 ---
 
-### 📚 Usage – GSpeech Text-to-Speech Plugin
+### 📚 Usage and Shortcodes
 
 * ✅ Activate the __GSpeech Cloud Console__ directly from WP Admin with one click.
-* ✅ The audio player will automatically appear on posts and pages.
-* ✅ To edit player settings, go to __Cloud Console → Widgets → Multi-Page__.
-* ✅ The __Read Highlighted Text (RHT)__ player works automatically after activation.
-
-### 🔧 Available Shortcodes
-
-Use these shortcodes to insert players anywhere in your content:
-
-* __[gspeech]__ – Full Page Player  
-* __[gspeech-button]__ – Button Player  
-* __[gspeech-circle]__ – Circle Player  
-
-### ⚙️ Additional Options
-
-* ✅ View player examples on the [Demo Page](https://gspeech.io/demos).
+* ✅ The audio player can automatically appear on posts, pages, and WooCommerce products.
 * ✅ Manage player settings in __Cloud Console → Widgets__.
-* ✅ Enable __Welcome Messages__ by publishing the widget in Cloud Console.
+* ✅ Use shortcodes: __[gspeech]__, __[gspeech-button]__, and __[gspeech-circle]__.
+* ✅ The __Read Highlighted Text (RHT)__ player works automatically after activation.
 * ✅ Exclude elements from audio playback using the class __nospeech__.
-* ✅ For advanced configuration and examples, see the [FAQ](https://wordpress.org/plugins/gspeech/#faq).
+* ✅ View player examples on the [Demo Page](https://gspeech.io/demos).
 
 == 💬 WordPress Text to Speech Plugin – CUSTOMER TESTIMONIAL ==
 
@@ -222,15 +199,12 @@ Text-to-Speech by GSpeech helps WordPress websites improve accessibility and sup
 
 ---
 
-## 🌟 Expert Reviews: GSpeech WordPress Text to Speech Plugin
+## 🌟 Expert Review: GSpeech WordPress Text to Speech Plugin
 
-GSpeech is recommended by technology reviewers and WordPress experts for its **natural-sounding AI voices**, **easy WordPress integration**, and **large voice library**.
+GSpeech is recommended by technology reviewers for its __natural-sounding AI voices__, __easy WordPress integration__, and __large voice library__.
 
-> “**GSpeech sets a new benchmark** for modern text-to-speech platforms. It’s not just about converting text to speech anymore — it’s about creating engaging audio experiences.”  
+> “__GSpeech sets a new benchmark__ for modern text-to-speech platforms. It’s not just about converting text to speech anymore — it’s about creating engaging audio experiences.”  
 > — [Techozens](https://www.techozens.com/gspeech-review-the-best-text-to-speech-platform-for-your-needs/)
-
-> “With 230+ AI voices and support for 70+ languages, **GSpeech transforms static website content into immersive audio**.”  
-> — [Ashraf Blog](https://ashrafblog.com/audio-content/)
 
 ---
 
@@ -249,25 +223,18 @@ The __GSpeech 3.X__ version provides a Text-to-Speech service powered by [GSpeec
 
 By using the __GSpeech 3.X__ version, you agree to the [Terms of Service](https://gspeech.io/terms).
 
-👆 GSpeech also includes support for the legacy __GSpeech 2.X__ version within the same package.
+GSpeech also includes legacy __GSpeech 2.X__ mode.
 
-**👉 GSpeech 2.X Features (also available in the 3.X version)**
+__GSpeech 2.X legacy features:__
 
 * ✅ Unlimited text-to-speech conversions
-* ✅ Place speakers anywhere using the shortcode `{gspeech}text to speech{/gspeech}`
-
-**🌐 Useful Links – GSpeech 2.X**
-
+* ✅ Place speakers anywhere using `{gspeech}text to speech{/gspeech}`
 * 🔗 [Live Demo](http://creative-solutions.net/wordpress/gspeech/demo)
 * 🔗 [Documentation](http://creative-solutions.net/wordpress/gspeech/documentation)
 
-**📚 Usage – GSpeech 2.X: Creating Text-to-Speech Blocks**
+__Basic shortcode:__ `{gspeech}Text to speech{/gspeech}`
 
-* ***Basic structure*** – display the speaker after your text:
-`{gspeech}Text to speech{/gspeech}`
-
-* ***Full structure with parameters***:
-`{gspeech style=2 language=en autoplay=1 speechtimeout=0 registered=0 selector=anyselector event=anyevent hidespeaker=1}welcome{/gspeech}`
+__Full shortcode with parameters:__ `{gspeech style=2 language=en autoplay=1 speechtimeout=0 registered=0 selector=anyselector event=anyevent hidespeaker=1}welcome{/gspeech}`
 
 == Installation ==
 
@@ -391,6 +358,9 @@ No. All required __TTS and translation API keys__ are included in GSpeech commer
 12. Cloud Console – Manage voices, widgets, and audio settings from WordPress Admin.
 
 == Changelog ==
+
+= V 3.20.7 - 12/06/2026 =
+* Option corrections.
 
 = V 3.20.6 - 11/06/2026 =
 * Content updates.

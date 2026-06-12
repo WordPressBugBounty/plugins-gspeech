@@ -126,6 +126,7 @@ class GSpeech_Admin {
 		$type = isset($_POST['type']) ? (string) $_POST['type'] : '';
 	
 		// table name
+		// $table = $wpdb->prefix . 'gspeech_data'; keep it safe 2350
 		$table = $wpdb->prefix . 'gspeech_data';
 	
 		// Получаем реальные колонки таблицы — allow-list
