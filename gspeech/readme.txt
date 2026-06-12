@@ -4,7 +4,7 @@ Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, speech, tts, text to audio
 Requires at least: 3.5
 Tested up to: 7.0
-Stable tag: 3.20.7
+Stable tag: 3.20.8
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -54,7 +54,7 @@ The same GSpeech engine can also be integrated into __Shopify, Wix, Joomla, and 
 
 ### 👆 Why Use the GSpeech Text-to-Speech Plugin?
 
-* ✅ __Improve Website Accessibility__ – Provide audio versions of your content for visitors who prefer listening instead of reading.
+* ✅ __Improve Website Accessibility__ – Provide audio versions of your content for visitors, who prefer listening instead of reading.
 * ✅ __Increase Engagement__ – Let users listen to articles, blog posts, and product descriptions while browsing or multitasking.
 * ✅ __Boost SEO and Time on Page__ – Audio content can improve engagement signals and create a richer user experience.
 * ✅ __Repurpose Written Content__ – Turn posts, pages, tutorials, and WooCommerce descriptions into reusable audio experiences.
@@ -358,6 +358,9 @@ No. All required __TTS and translation API keys__ are included in GSpeech commer
 12. Cloud Console – Manage voices, widgets, and audio settings from WordPress Admin.
 
 == Changelog ==
+
+= V 3.20.8 - 13/06/2026 =
+* Content corrections.
 
 = V 3.20.7 - 12/06/2026 =
 * Option corrections.
