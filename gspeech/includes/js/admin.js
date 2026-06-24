@@ -358,7 +358,7 @@ window.gspeechDash = function(options) {
             {
                 "name": "Portuguese (Portugal)",
                 "value": "pt-PT",
-                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:8,B:8,C:8,D:8,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
+                "voice_data": "A:0,A:2,B:2,C:2,D:2,A:20,B:20,C:20,D:20,E:20,F:20,G:20,H:20,I:20,A:21,B:21,C:21,D:21,E:21,F:21,G:21,H:21,I:21,J:21,K:21,A:10,B:10,C:10,D:10,E:10,F:10,G:10,H:10,I:11,J:11,K:11,L:11"
             },
             {
                 "name": "Punjabi (Gurmukhi)",
