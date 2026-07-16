@@ -9,7 +9,7 @@ Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Free WordPress Text to Speech plugin with AI voices. Add accessible audio players to posts, pages and WooCommerce. Cloud generation, no server load.
+Free Text to Speech plugin for WordPress with AI voices. Add audio players to posts, pages and WooCommerce. Cloud generation, no server load.
 
 == Description ==
 
@@ -21,7 +21,7 @@ GSpeech works as a __lightweight WordPress text-to-speech bridge__ between your 
 
 ### 🔗 WordPress Text to Speech Plugin Setup & Useful Links
 
-[Live Demo](https://gspeech.io/demos) | [Setup Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin#activation-guide) | [Reviews](https://gspeech.io/testimonials) | [Support](https://gspeech.io/contact-us) | [Dashboard](https://gspeech.io/dashboard) | [Plans & Pricing](https://gspeech.io/#pricing) | [Videos](https://gspeech.io/videos)
+[Live Demo](https://gspeech.io/demos) | [Setup Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin#activation-guide) | [Reviews](https://gspeech.io/testimonials) | [Support](https://wordpress.org/support/plugin/gspeech/) | [Dashboard](https://gspeech.io/dashboard) | [Pricing](https://gspeech.io/#pricing) | [Videos](https://gspeech.io/videos)
 
 ### ⚡ Add Text to Speech to WordPress in Minutes
 
@@ -162,13 +162,17 @@ See the full list of supported languages in the [FAQ section](https://wordpress.
 * ✅ Exclude elements from audio playback using the class __nospeech__.
 * ✅ View player examples on the [Demo Page](https://gspeech.io/demos).
 
+### 🛟 Support
+
+For free plugin questions, please use the [WordPress.org support forum](https://wordpress.org/support/plugin/gspeech/).
+
+For GSpeech account, billing, Cloud Console, commercial features, or website-specific setup, please contact [GSpeech Support](https://gspeech.io/contact-us).
+
 == 💬 WordPress Text to Speech Plugin – CUSTOMER TESTIMONIAL ==
 
 __A Premium Text-to-Speech Service__ ⭐⭐⭐⭐⭐
 
-*"We’ve been using the GSpeech Text-to-Speech (TTS) service on our AI-focused website, and it has been an absolute game-changer for our platform. The quality of the voice output is outstanding, delivering natural-sounding speech that enhances the user experience for our audience. Our readers have praised the feature for its clarity and accessibility, particularly for consuming long-form content.*
-
-*We’ve noticed a significant uptick in user engagement since implementing GSpeech, especially among users who prefer audio content or are multitasking. It’s a perfect fit for our website’s commitment to innovation and accessibility in the AI space."*
+Unite.AI praised GSpeech for natural voice quality, accessibility, and stronger user engagement on long-form AI content.
 
 &mdash; __Antoine Tardif__ – *CEO [Unite.AI](https://unite.ai)*
 
@@ -222,9 +226,7 @@ GSpeech is recommended by technology reviewers and listed among the best WordPre
 
 ### ⚙️ GSpeech Text to Speech (3.X) Usage Terms
 
-The __GSpeech 3.X__ version provides a Text-to-Speech service powered by [GSpeech](https://gspeech.io). This service requires API requests to the GSpeech backend servers.
-
-By using the __GSpeech 3.X__ version, you agree to the [Terms of Service](https://gspeech.io/terms).
+GSpeech 3.X is powered by the [GSpeech](https://gspeech.io) cloud backend. By using it, you agree to the [Terms of Service](https://gspeech.io/terms).
 
 GSpeech also includes legacy __GSpeech 2.X__ mode.
 
@@ -234,10 +236,6 @@ __GSpeech 2.X legacy features:__
 * ✅ Place speakers anywhere using `{gspeech}text to speech{/gspeech}`
 * 🔗 [Live Demo](http://creative-solutions.net/wordpress/gspeech/demo)
 * 🔗 [Documentation](http://creative-solutions.net/wordpress/gspeech/documentation)
-
-__Basic shortcode:__ `{gspeech}Text to speech{/gspeech}`
-
-__Full shortcode with parameters:__ `{gspeech style=2 language=en autoplay=1 speechtimeout=0 registered=0 selector=anyselector event=anyevent hidespeaker=1}welcome{/gspeech}`
 
 == Installation ==
 
@@ -275,7 +273,7 @@ Audio content can also increase engagement, time on page, and content consumptio
 
 = 👉 How do I install the plugin? =
 You can find the full installation guide here:  
-[Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin).
+[Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin#activation-guide).
 
 = 👉 Is it FREE? =
 Yes. The GSpeech 2.X version (__included in the same package__) provides unlimited text-to-speech usage.  
@@ -286,7 +284,7 @@ For GSpeech 3.X you receive __50,000 characters per month__ for free. Characters
 Yes. Go to the plugin settings → Design tab and select a theme that matches your website design.
 
 = 👉 Does the plugin support pages and custom posts? =
-Yes. GSpeech has a flexible architecture and works with posts, pages, and custom post types. Players can be inserted using shortcodes or the multi-page widget. See the [Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin).
+Yes. GSpeech has a flexible architecture and works with posts, pages, and custom post types. Players can be inserted using shortcodes or the multi-page widget. See the [Implementation Guide](https://gspeech.io/text-to-speech-wordpress-tts-plugin#activation-guide).
 
 = 👉 How to insert a player in a post, page, or article? =
 After activating the __Cloud Console__, the required widgets are created automatically.
