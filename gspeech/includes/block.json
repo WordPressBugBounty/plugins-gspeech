@@ -1,0 +1,22 @@
+{
+	"apiVersion": 2,
+	"name": "gspeech/player",
+	"title": "GSpeech Player",
+	"category": "widgets",
+	"icon": "controls-volumeon",
+	"description": "Add a Full, Button, or Circle audio player.",
+	"keywords": [ "gspeech", "player", "audio", "tts", "speech" ],
+	"textdomain": "gspeech",
+	"attributes": {
+		"type": {
+			"type": "string",
+			"default": "full",
+			"enum": [ "full", "button", "circle" ]
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"editorScript": "gspeech-block",
+	"editorStyle": "gspeech-block-editor"
+}

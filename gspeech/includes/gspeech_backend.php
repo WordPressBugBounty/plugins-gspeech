@@ -19,7 +19,7 @@ class GSpeech_Admin {
 		// create submenus
 		$page1 = add_submenu_page('gspeech', 'GSpeech - Dashboard', 'Dashboard', 'manage_options', 'gspeech', array('GSpeech_Admin', 'render_admin'));
 		$page1 = add_submenu_page('gspeech', 'GSpeech - Cloud Console', 'Cloud Console', 'manage_options', 'gspeech_cloud_console', array('GSpeech_Admin', 'render_admin'));
-		$page2 = add_submenu_page('gspeech', 'GSpeech - 2.X', 'GSpeech 2.X', 'manage_options', 'gspeech_2x', array('GSpeech_Admin', 'render_admin'));
+		$page2 = add_submenu_page('gspeech', 'GSpeech - Legacy', 'Legacy', 'manage_options', 'gspeech_2x', array('GSpeech_Admin', 'render_admin'));
 		$page3 = add_submenu_page('gspeech', 'GSpeech - FAQ', 'FAQ', 'manage_options', 'gspeech_faq', array('GSpeech_Admin', 'render_admin'));
 		$page4 = add_submenu_page('gspeech', 'GSpeech - Contact Us', 'Contact Us', 'manage_options', 'gspeech_contact_us', array('GSpeech_Admin', 'render_admin'));
 		$page5 = add_submenu_page('gspeech', 'GSpeech - Upgrade', 'Upgrade  ➤', 'manage_options', 'gspeech_upgrade', array('GSpeech_Admin', 'render_admin'));
@@ -59,8 +59,9 @@ class GSpeech_Admin {
             'wpgs-admin-script-5',
             'wpgsp_ajax_obj_1',
             array(
-                'ajax_url' => admin_url( 'admin-ajax.php' ),
-                'nonce'    => $ajax_nonce,
+                'ajax_url'   => admin_url( 'admin-ajax.php' ),
+                'nonce'      => $ajax_nonce,
+                'bricks_url' => plugin_dir_url( __FILE__ ) . 'images/bricks.svg',
             )
         );
 	}
@@ -82,23 +83,31 @@ class GSpeech_Admin {
 
 		check_ajax_referer('wpgsp_ajax_nonce_value');
 
+		if ( ! current_user_can( 'activate_plugins' ) ) {
+			status_header( 403 );
+			echo '{}';
+			exit;
+		}
+
 		$plugin_version = GSPEECH_PLG_VERSION;
 
-		$sel_v = isset($_POST['sel_v']) ? $_POST['sel_v'] : '';
-		$sel_d = isset($_POST['sel_d']) ? $_POST['sel_d'] : '';
+		$sel_v = isset($_POST['sel_v']) ? sanitize_text_field( wp_unslash( $_POST['sel_v'] ) ) : '';
+		$sel_d = isset($_POST['sel_d']) ? sanitize_textarea_field( wp_unslash( $_POST['sel_d'] ) ) : '';
 
 		$domain = get_site_url();
 		$m_ = get_option('admin_email','');
 		$n_ = get_option('blogname','');
 
 		$str = 'domain=' . $domain . '&email=' . $m_  . '&name=' . $n_  . '&version=' . $plugin_version . '&sel_v=' . $sel_v . '&sel_d=' . $sel_d;
-		$d_ = base64_encode($str);
+		$d_ = rawurlencode( base64_encode( $str ) );
 
-		$context = stream_context_create(array('ssl'=>array('verify_peer' => false)));
-		
-		$fh = @fopen('https://gspeech.io/apply-feedback/'.$d_, 'r', false, $context);
-		if($fh !== false)
-			@fclose($fh);
+		wp_safe_remote_get(
+			'https://gspeech.io/apply-feedback/' . $d_,
+			array(
+				'timeout'   => 8,
+				'sslverify' => true,
+			)
+		);
 
 		echo '{}';
 
@@ -217,6 +226,7 @@ class GSpeech_Admin {
 			// очищаем кэши (как раньше)
 			delete_transient('gspeech_settings_cache');
 			delete_transient('gsp_crypto_cache');
+			delete_transient('gspeech_footer_settings_cache');
 	
 		} else if ($type == 'increase_index') {
 	
@@ -235,6 +245,7 @@ class GSpeech_Admin {
 	
 			delete_transient('gspeech_settings_cache');
 			delete_transient('gsp_crypto_cache');
+			delete_transient('gspeech_footer_settings_cache');
 		} else {
 			// неизвестный тип — просто возвращаем версию, как раньше (или можно вернуть ошибку)
 			// echo '{"v":"'.$plugin_version.'"}';
@@ -399,7 +410,7 @@ class GSpeech_Admin {
 					<div data-tab_ident="upgrade" data-menu_ident="gspeech_upgrade" class="gsp_tab gsp_tab_upgrade gsp_naviagte_item menu_ident_gspeech_upgrade"><div class="ss_top_menu_icon"></div><span>Upgrade</span></div>
 					<a data-tab_ident="contact_us" class="gsp_tab gsp_tab_link gsp_tab_contact_us" href="https://gspeech.io/contact-us" target="_blank"><div class="ss_top_menu_icon"></div><span>Contact Us</span></a>
 					<a data-tab_ident="rate_us" class="gsp_tab gsp_tab_link gsp_tab_rate_us" href="https://wordpress.org/plugins/gspeech/#reviews" target="_blank"><div class="ss_top_menu_icon"></div><span>Rate Us</span></a>
-					<div data-tab_ident="old_basic" data-menu_ident="gspeech_2x" class="gsp_tab gsp_tab_old_basic gsp_naviagte_item menu_ident_gspeech_2x"><div class="ss_top_menu_icon"></div><span>GSpeech 2.X</span></div>
+					<div data-tab_ident="old_basic" data-menu_ident="gspeech_2x" class="gsp_tab gsp_tab_old_basic gsp_naviagte_item menu_ident_gspeech_2x"><div class="ss_top_menu_icon"></div><span>Legacy</span></div>
 					<div data-tab_ident="old_styles" class="gsp_tab gsp_tab_old_styles gsp_hidden"><div class="ss_top_menu_icon"></div><span>Styles</span></div>
 
 					<div class="ss_upgrade_info_top">
@@ -590,20 +601,11 @@ class GSpeech_Admin {
 				</div>
 				
 				<div class="old_p" class="submit">
-					<input type="submit" class="gsp_login_button gsp_submit_button gsp_hidden" value="<?php _e('Save', 'GSpeech'); ?>" />
+					<input type="submit" class="gsp_login_button gsp_submit_button gsp_hidden" value="<?php _e('Save', 'gspeech'); ?>" />
 				</div>
 
 			</div>
 		</form>
-		<script>
-		  window.intercomSettings = {
-		    api_base: "https://api-iam.intercom.io",
-		    app_id: "anal0f8q",
-		  };
-		</script>
-		<script>
-		  (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/anal0f8q';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(document.readyState==='complete'){l();}else if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-		</script>
 		<?php
 		echo ob_get_clean();
 	}

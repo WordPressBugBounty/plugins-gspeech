@@ -7,6 +7,7 @@ window.gspeechDash = function(options) {
 
     var wp_ajax_url = wpgsp_ajax_obj_1.ajax_url;
     var wp_ajax_nonce = wpgsp_ajax_obj_1.nonce;
+    var wp_bricks_url = wpgsp_ajax_obj_1.bricks_url;
 
     this.initVars = function() {
 
@@ -16,6 +17,8 @@ window.gspeechDash = function(options) {
         this.options = options;
         this.is_touch_devise = 'ontouchstart' in window ? true : false;
         this.timeouts = {};
+        this.cloudXhrs = [];
+        this.websiteDataTimer = 0;
         this.options.root_request = false;
         this.preview_audios = {};
         this.options.tts_url = 'https://gspeech.io';
@@ -490,7 +493,53 @@ window.gspeechDash = function(options) {
 
         this.initVars();
 
+        $(document).ajaxSend(function(e, xhr, settings) {
+            var cloud_url = thisPage.options.tts_url + '/ajax';
+            if(settings.url && settings.url.indexOf(cloud_url) === 0) {
+                thisPage.trackCloudAjax(xhr);
+            }
+        });
+
+        $(window).on('pagehide', function() {
+            thisPage.abortCloudAjax();
+        });
+
         this.runFunctions();
+    };
+
+    this.trackCloudAjax = function(xhr) {
+
+        this.cloudXhrs.push(xhr);
+
+        xhr.always(function() {
+            var next = [];
+            for(var i = 0; i < thisPage.cloudXhrs.length; i++) {
+                if(thisPage.cloudXhrs[i] !== xhr) {
+                    next.push(thisPage.cloudXhrs[i]);
+                }
+            }
+            thisPage.cloudXhrs = next;
+        });
+    };
+
+    this.abortCloudAjax = function() {
+
+        if(this.websiteDataTimer) {
+            clearTimeout(this.websiteDataTimer);
+            this.websiteDataTimer = 0;
+        }
+
+        var list = this.cloudXhrs.slice();
+        this.cloudXhrs = [];
+
+        for(var i = 0; i < list.length; i++) {
+            if(list[i] && list[i].abort) {
+                list[i].abort();
+            }
+        }
+
+        this.hideOverlay();
+        this.hideLoading();
     };
 
     this.applyFunctions = function() {
@@ -869,6 +918,11 @@ window.gspeechDash = function(options) {
             if($(this).hasClass("gsp_tab_selected") || $(this).hasClass("gsp_tab_link"))
                 return;
 
+            var next_tab = $(this).data("tab_ident");
+            if(next_tab != "website_settings") {
+                thisPage.abortCloudAjax();
+            }
+
             $("#gsp_tabs_wrapper").find(".gsp_tab.gsp_tab_selected").removeClass("gsp_tab_selected");
             $(this).addClass("gsp_tab_selected");
 
@@ -921,6 +975,8 @@ window.gspeechDash = function(options) {
 
         // left menus
         $("body").on("click", ".gsp_left_menu", function() {
+
+            thisPage.abortCloudAjax();
 
             var widget_id = thisPage.options.widget_id;
 
@@ -4322,7 +4378,7 @@ window.gspeechDash = function(options) {
                 title_middle = 'Dashboard';
                 break;
             case 'gspeech_2x':
-                title_middle = '2.X';
+                title_middle = 'Legacy';
                 break;
             case 'gspeech_faq':
                 title_middle = 'FAQ';
@@ -4970,6 +5026,8 @@ window.gspeechDash = function(options) {
 
     this.makeLogout = function() {
 
+        this.abortCloudAjax();
+
         this.eraseCookie('gspeech_token');
 
         $(".gsp_tab_sign_in").removeClass("gsp_hidden").addClass("gsp_tab_selected");
@@ -5520,7 +5578,8 @@ window.gspeechDash = function(options) {
             thisPage.showOverlay();
             thisPage.showLoading();
 
-            setTimeout(function() {
+            thisPage.websiteDataTimer = setTimeout(function() {
+                thisPage.websiteDataTimer = 0;
 
                 $.ajax({
                     type: 'POST',
@@ -5629,6 +5688,10 @@ window.gspeechDash = function(options) {
 
                     },
                     error: function (responseData, textStatus, errorThrown) {
+
+                        if(textStatus == 'abort') {
+                            return;
+                        }
 
                         thisPage.hideOverlay();
                         thisPage.hideLoading();
@@ -8326,6 +8389,36 @@ window.gspeechDash = function(options) {
         });
     };
 
+    this.applyWebsiteCharsInfo = function(chars_info) {
+
+        if(!chars_info) {
+            return;
+        }
+
+        if(!$('.gsp_left_m_c_settings').hasClass('gsp_left_m_c_active')) {
+            return;
+        }
+
+        var chars_info_spl = chars_info.split(':');
+        var char_info_0 = chars_info_spl[0];
+        var char_info_1 = chars_info_spl[1] != undefined ? chars_info_spl[1] : '';
+        var char_info_3 = chars_info_spl[3] != undefined ? chars_info_spl[3] : '';
+        var char_info_4 = chars_info_spl[4] != undefined ? chars_info_spl[4] : '';
+        var char_info_5 = chars_info_spl[5] != undefined ? chars_info_spl[5] : '';
+        var char_info_6 = chars_info_spl[6] != undefined ? chars_info_spl[6] : '';
+        var char_info_7 = chars_info_spl[7] != undefined ? chars_info_spl[7] : '';
+        var char_info_8 = chars_info_spl[8] != undefined ? chars_info_spl[8] : '';
+
+        $('.gsp_chars_plan_title').html(char_info_0);
+        $('.gsp_chars_itm_1').html(char_info_1);
+        $('.gsp_chars_itm_2').html(char_info_8);
+        $('.gsp_chars_itm_3').html(char_info_3);
+        $('.gsp_chars_itm_4').html(char_info_5);
+        $('.gsp_chars_itm_5').html(char_info_6);
+        $('.gsp_chars_itm_6').html(char_info_7);
+        $('.gsp_chars_count_progress').width(char_info_4 + '%');
+    };
+
     this.setValsWebsiteSettings = function(website_data) {
 
         var website_title = decodeURIComponent(website_data.name);
@@ -8344,27 +8437,7 @@ window.gspeechDash = function(options) {
         var pitch = website_data.pitch;
         var widget_id = this.options.widget_id;
 
-        // chars info
-        var chars_info = website_data.chars_info;
-        var chars_info_spl = chars_info.split(':');
-        var char_info_0 = chars_info_spl[0];
-        var char_info_1 = chars_info_spl[1] != undefined ? chars_info_spl[1] : '';
-        var char_info_2 = chars_info_spl[2] != undefined ? chars_info_spl[2] : '';
-        var char_info_3 = chars_info_spl[3] != undefined ? chars_info_spl[3] : '';
-        var char_info_4 = chars_info_spl[4] != undefined ? chars_info_spl[4] : '';
-        var char_info_5 = chars_info_spl[5] != undefined ? chars_info_spl[5] : '';
-        var char_info_6 = chars_info_spl[6] != undefined ? chars_info_spl[6] : '';
-        var char_info_7 = chars_info_spl[7] != undefined ? chars_info_spl[7] : '';
-        var char_info_8 = chars_info_spl[8] != undefined ? chars_info_spl[8] : '';
-
-        $('.gsp_chars_plan_title').html(char_info_0);
-        $('.gsp_chars_itm_1').html(char_info_1);
-        $('.gsp_chars_itm_2').html(char_info_8);
-        $('.gsp_chars_itm_3').html(char_info_3);
-        $('.gsp_chars_itm_4').html(char_info_5);
-        $('.gsp_chars_itm_5').html(char_info_6);
-        $('.gsp_chars_itm_6').html(char_info_7);
-        $('.gsp_chars_count_progress').width(char_info_4 + '%');
+        this.applyWebsiteCharsInfo(website_data.chars_info);
 
         $("#dashboard_content").addClass('ss_user_plan_' + website_plan);
 
@@ -15489,7 +15562,7 @@ window.gspeechDash = function(options) {
             messages_html += '</div>';
 
             messages_html += '<div class="ss_body_overlay"></div>';
-            messages_html += '<div id="ss_page_loading" style="display: none;"><img src="https://storage.googleapis.com/gspeech-assets/bricks.svg" /></div>';
+            messages_html += '<div id="ss_page_loading" style="display: none;"><img src="' + wp_bricks_url + '" /></div>';
 
             $("body").append(messages_html);
         };

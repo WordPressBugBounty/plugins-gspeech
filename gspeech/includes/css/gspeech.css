@@ -80,6 +80,13 @@
 	filter: alpha(opacity = 100);
 	opacity:1;
 }
+@keyframes gspeech_rotate {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+.gspeech_rotate {
+	animation: gspeech_rotate 1.8s linear infinite;
+}
 #sound_audio {
 	width: 0;
 	height: 0;

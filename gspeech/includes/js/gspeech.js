@@ -24,13 +24,8 @@ $(document).ready(function() {
 						alert('To hide a backlink please purchase a GSpeech PRO version');
 						return false;
 					}
-					var isIE = document.all?true:false;
 					make_audio();
-					if(isIE)
-						blink_speaker();
-					else
-						rotate_speaker();
-					//user clicks on my speaker
+					rotate_speaker();
 					sound_container_clicked = true;
 				}
 				else {
@@ -53,13 +48,8 @@ $(document).ready(function() {
 						alert('To hide a backlink please purchase a GSpeech PRO version');
 						return false;
 					}
-					var isIE = document.all?true:false;
 					make_audio();
-					if(isIE)
-						blink_speaker();
-					else
-						rotate_speaker();
-					//user clicks on my speaker
+					rotate_speaker();
 					sound_container_clicked = true;
 				}
 				else {
@@ -84,13 +74,11 @@ $(document).ready(function() {
 
 	function hide_speaker() {
 		clearAllPlayers();
+		stop_rotate_speaker();
 		$('#sound_container').fadeTo(10,1);
 		$('#sound_container').fadeOut(300);
 		for(f in blink_timer) {
 			clearTimeout(blink_timer[f]);
-		}
-		for(ff in rotate_timer) {
-    		clearInterval(rotate_timer[ff]);
 		}
 		sound_container_clicked = false;
 		blinking_enable = true;
@@ -101,13 +89,10 @@ $(document).ready(function() {
 	
 	function stop_speaker() {
 		clearAllPlayers();
-		$("#sound_container").rotate({animateTo:360});
+		stop_rotate_speaker();
 		$('#sound_container').fadeTo(10,1);
 		for(f in blink_timer) {
 			clearTimeout(blink_timer[f]);
-		}
-		for(f in rotate_timer) {
-    		clearInterval(rotate_timer[f]);
 		}
 		sound_container_clicked = false;
 		blinking_enable = true;
@@ -146,15 +131,33 @@ $(document).ready(function() {
 	});
 
 	function rotate_speaker() {
-		var angle = 0;
-		rotate_timer_element = setInterval(function(){
-		      angle+=3;
-		     $("#sound_container").rotate(angle);
-		},15);
-		rotate_timer.push(rotate_timer_element);
-		
+		$("#sound_container").addClass("gspeech_rotate");
 	};
-	
+
+	function stop_rotate_speaker() {
+		$("#sound_container").removeClass("gspeech_rotate");
+	};
+
+	function play_audio(player) {
+		if(!player) return;
+		try {
+			var p = player.play();
+			if(p && p.catch) {
+				p.catch(function() {});
+			}
+		} catch(e) {}
+	};
+
+	function gspeech_stream_src(encoded_text, token) {
+		return gspeech_legacy_stream_url +
+			'?action=gspeech_legacy_stream' +
+			'&nonce=' + encodeURIComponent(gspeech_legacy_stream_nonce) +
+			'&q=' + encoded_text +
+			'&l=' + encodeURIComponent(lang_identifier) +
+			'&tr_tool=' + encodeURIComponent(translation_tool) +
+			'&token=' + encodeURIComponent(token);
+	};
+
 	function blink_speaker() {
 		if(sound_container_visible) {
 			$('#sound_container').fadeTo(200,0.2);
@@ -171,10 +174,7 @@ $(document).ready(function() {
 		if(!($("#sound_container").is(":visible")))
 			return;
 		if(blinking_enable) {
-			for(f in rotate_timer) {
-	    		clearInterval(rotate_timer[f]);
-			}
-        	$("#sound_container").rotate({animateTo:0});
+			stop_rotate_speaker();
         	blink_speaker();
 		}
 		blinking_enable = false;
@@ -280,7 +280,6 @@ $(document).ready(function() {
 		    left: sound_x,
 		    top: sound_y
 		});
-		$("#sound_container").rotate(0);
 		$('#sound_container').fadeIn(400);
 		$('#sound_text').html(txt);
 		
@@ -316,7 +315,7 @@ $(document).ready(function() {
 
 		var htm_cont = '';
 		for(var i = 0; i < players_count; i++) {
-			htm_cont += '<audio id="player' + i + '" src="' + streamerphp_folder + 'speech.mpeg" type="' + translation_audio_type + '" controls="controls"></audio>';
+			htm_cont += '<audio id="player' + i + '" src="' + gspeech_plugin_url + 'gspeech.mpeg" type="' + translation_audio_type + '" controls="controls"></audio>';
 		}
 		$("#sound_audio").html(htm_cont);
 
@@ -415,14 +414,11 @@ $(document).ready(function() {
 					var encoded_text = gs_replace_ch(sent_array[i]);
 					var token = gs_get_token(encoded_text);
 					encoded_text = encodeURIComponent(encoded_text);
-					var embed_url = streamerphp_folder + 'streamer.php?q=' + encoded_text + '&l=' + lang_identifier + '&tr_tool=' +translation_tool + '&token=' + token;
-		            mediaElement.setSrc(embed_url);
+					mediaElement.setSrc(gspeech_stream_src(encoded_text, token));
 
 		            //play next audio, when current ends
 		            mediaElement.addEventListener('pause', function(e) {
-    	        		try {
-    	        			players[i + 1].play()
-    	        		} catch(e){}
+    	        		play_audio(players[i + 1]);
 		        	}, false);
 
 		        	players[0].addEventListener('progress', function(e) {
@@ -438,7 +434,7 @@ $(document).ready(function() {
 		            mediaElement.load();
 		            
 		            if(i == 0) {
-		            	mediaElement.play();
+		            	play_audio(mediaElement);
 		            }
 		        }
 			});

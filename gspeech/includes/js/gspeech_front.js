@@ -48,16 +48,32 @@ window.gspeechFront = function(options) {
         var v_ind = $gsp_data_html.data("vv_index");
         var gt_w = $gsp_data_html.data("gt-w");
 
-        let storage;
+        let storage = {
+            getItem: function() { return null; },
+            setItem: function() {}
+        };
         try {
+            window.localStorage.setItem('test', 'test');
+            window.localStorage.removeItem('test');
             storage = window.localStorage;
-            storage.setItem('test', 'test');
-            storage.removeItem('test');
         } catch (e) {
-            storage = window.sessionStorage;
+            try {
+                window.sessionStorage.setItem('test', 'test');
+                window.sessionStorage.removeItem('test');
+                storage = window.sessionStorage;
+            } catch (e2) {
+            }
         }
 
-        let encData = storage.getItem('gsp_enc_data') ? JSON.parse(storage.getItem('gsp_enc_data')) : {};
+        let encData = {};
+        try {
+            var rawEnc = storage.getItem('gsp_enc_data');
+            if (rawEnc) {
+                encData = JSON.parse(rawEnc) || {};
+            }
+        } catch (e) {
+            encData = {};
+        }
 
         var canAjax = (typeof window.gsp_ajax_obj === 'object') &&
                       window.gsp_ajax_obj &&

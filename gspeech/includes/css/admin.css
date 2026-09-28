@@ -5349,3 +5349,16 @@ text-shadow: 1px 1px 1px #000;
     -webkit-animation-name: flipInY;
     animation-name: flipInY
 }
+
+.gsp_tab_c_old_basic .old_p_title {
+	display: flex;
+	align-items: center;
+	margin: -10px 0 4px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.gsp_tab_c_old_basic .old_p_title .questions_icon img {
+	width: 10px;
+	height: 10px;
+	display: block;
+}

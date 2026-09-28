@@ -7,13 +7,6 @@ $(document).ready(function() {
 		return false;
 	}
 	
-	$('.greeting_block').each(function(i){
-		if(i > 1) {
-			$(this).next('.sound_container_pro').remove();
-			$(this).prev('.gspeech_selection').remove();
-		}
-	});
-	
 	function navigate_tooltip($tooltip) {
 		
 		
@@ -143,8 +136,6 @@ $(document).ready(function() {
 	var speech_enable_count = 1;
 	$('.sound_container_pro').each(function(i) {
 		$this = $(this);
-		if($(this).hasClass("greeting_block"))
-			++speech_enable_count;
 		if(i < speech_enable_count) {
 			var h1 = $(this).parent('span').height();
 			var h2 = $(this).height();
@@ -265,8 +256,6 @@ $(document).ready(function() {
 			--roll;
 			var speaker_op = parseFloat(gspeech_spoa[roll] / 100);
 			$elem.stop().fadeTo(400,speaker_op);
-			
-			//rotate me
 			rotate_speaker_pro($elem);
 			
 			clearAllPlayers();
@@ -281,7 +270,7 @@ $(document).ready(function() {
 	function stop_speaker_pro($elem) {
 		basic_plg_enable = true;
 		clearAllPlayers();
-		$elem.rotate({animateTo:360});
+		stop_rotate_speaker_pro($elem);
 		
 		var roll = $elem.attr("roll");
 		roll = roll == '' ? 1 : roll;
@@ -292,14 +281,11 @@ $(document).ready(function() {
 		for(f in blink_timer) {
 			clearTimeout(blink_timer[f]);
 		}
-		for(f in rotate_timer) {
-			clearInterval(rotate_timer[f]);
-		}
 	};
 	
 	function stop_all_speakers_pro($elem) {
 		clearAllPlayers();
-		$('.sound_container_pro.active').rotate({animateTo:360});
+		stop_rotate_speaker_pro($('.sound_container_pro'));
 		
 		var roll = $elem.attr("roll");
 		roll = roll == '' ? 1 : roll;
@@ -311,20 +297,36 @@ $(document).ready(function() {
 		for(f in blink_timer) {
 			clearTimeout(blink_timer[f]);
 		}
-		for(f in rotate_timer) {
-    		clearInterval(rotate_timer[f]);
-		}
 	};
 
 	function rotate_speaker_pro($elem) {
-		var angle = 0;
-		rotate_timer_element = setInterval(function(){
-		      angle+=3;
-		      $elem.rotate(angle);
-		},15);
-		rotate_timer.push(rotate_timer_element);
+		$elem.addClass("gspeech_rotate");
 	};
-	
+
+	function stop_rotate_speaker_pro($elem) {
+		$elem.removeClass("gspeech_rotate");
+	};
+
+	function play_audio(player) {
+		if(!player) return;
+		try {
+			var p = player.play();
+			if(p && p.catch) {
+				p.catch(function() {});
+			}
+		} catch(e) {}
+	};
+
+	function gspeech_stream_src(encoded_text, token) {
+		return gspeech_legacy_stream_url +
+			'?action=gspeech_legacy_stream' +
+			'&nonce=' + encodeURIComponent(gspeech_legacy_stream_nonce) +
+			'&q=' + encoded_text +
+			'&l=' + encodeURIComponent(lang_identifier) +
+			'&tr_tool=' + encodeURIComponent(translation_tool) +
+			'&token=' + encodeURIComponent(token);
+	};
+
 	function blink_speaker_pro($elem) {
 		if(blink_start_enable_pro) {
 			$elem.fadeTo(200,0.2);
@@ -342,10 +344,7 @@ $(document).ready(function() {
 	
 	function change_speaker_animation_pro($elem) {
 		if(blinking_enable_pro) {
-			for(f in rotate_timer) {
-	    		clearInterval(rotate_timer[f]);
-			}
-			$elem.rotate({animateTo:0});
+			stop_rotate_speaker_pro($elem);
         	blink_speaker_pro($elem);
 		}
 		blinking_enable_pro = false;
@@ -380,7 +379,7 @@ $(document).ready(function() {
 
 		var htm_cont = '';
 		for(var i = 0; i < players_count; i++) {
-			htm_cont += '<audio id="player' + i + '" src="' + streamerphp_folder + 'gspeech.mpeg" type="' + translation_audio_type + '" controls="controls"></audio>';
+			htm_cont += '<audio id="player' + i + '" src="' + gspeech_plugin_url + 'gspeech.mpeg" type="' + translation_audio_type + '" controls="controls"></audio>';
 		};
 		$("#sound_audio").html(htm_cont);
 
@@ -479,14 +478,11 @@ $(document).ready(function() {
 					var encoded_text = gs_replace_ch(sent_array[i]);
 					var token = gs_get_token(encoded_text);
 					encoded_text = encodeURIComponent(encoded_text);
-					var embed_url = streamerphp_folder + 'streamer.php?q=' + encoded_text + '&l=' + lang_identifier + '&tr_tool=' +translation_tool + '&token=' + token;
-					mediaElement.setSrc(embed_url);
+					mediaElement.setSrc(gspeech_stream_src(encoded_text, token));
 
 		            //play next audio, when current ends
 		            mediaElement.addEventListener('pause', function(e) {
-    	        		try {
-    	        			players[i + 1].play()
-    	        		} catch(e){}
+    	        		play_audio(players[i + 1]);
 		        	}, false);
 
 		        	players[0].addEventListener('progress', function(e) {
@@ -502,7 +498,7 @@ $(document).ready(function() {
 		            mediaElement.load();
 		            
 		            if(i == 0) {
-		            	mediaElement.play();
+		            	play_audio(mediaElement);
 		            }
 		        }
 			});

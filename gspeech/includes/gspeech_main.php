@@ -7,7 +7,11 @@ class GSpeech extends WP_Widget {
 
     public static function init() {
 
-        // gspeech init
+        load_plugin_textdomain(
+            'gspeech',
+            false,
+            dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages'
+        );
     }
 
     public static function activate() {
@@ -40,7 +44,7 @@ class GSpeech extends WP_Widget {
             'use_old_plugin' => 0,
             'language' => 'en',
             'speak_any_text' => 1,
-            'greeting_text' => '{gspeech style=1 language=en autoplay=1 speechtimeout=0 registered=2 hidespeaker=1}Welcome to SITENAME{/gspeech}{gspeech style=2 language=en autoplay=1 speechtimeout=0 registered=1 hidespeaker=1}Welcome REALNAME{/gspeech}',
+            'greeting_text' => '',
             'bcp1' => '#ffffff',
             'cp1' =>  '#111111',
             'bca1' => '#545454',

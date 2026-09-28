@@ -25,7 +25,7 @@ function wpgsp_output_front_js() {
 
 // ===== Safe script tag flags for our handles =====
 add_filter('script_loader_tag', function ($tag, $handle) {
-    if ($handle === 'wpgs-script776' || $handle === 'wpgs-script777') {
+    if ($handle === 'wpgs-script776' || $handle === 'wpgs-script777' || $handle === 'wpgs-legacy-pro' || $handle === 'wpgs-legacy-basic') {
         $tag = str_replace([' defer', ' async'], '', $tag);
         $tag = str_replace('<script ', '<script data-no-defer="1" data-no-optimize="1" data-no-minify="1" data-cfasync="false" nowprocket ', $tag);
         if (strpos($tag, ' id=') === false) {
@@ -67,6 +67,10 @@ add_action('wp_print_footer_scripts', function () {
 
     if ($widget_id === '') return;
 
+    $wpgs_settings = get_option('wpgs_settings', array());
+    $use_old_plugin = $wpgs_settings['use_old_plugin'] ?? 0;
+    if ($use_old_plugin == 1) return;
+
     $plugin_main = realpath(dirname(__DIR__) . '/gspeech.php');
 	$front_src   = plugin_dir_url($plugin_main) . 'includes/js/gspeech_front.js';
     $jquery_url = includes_url('js/jquery/jquery.min.js');
@@ -89,5 +93,27 @@ add_action('wp_print_footer_scripts', function () {
 
     <?php
 }, 999);
+
+add_action('update_option_wpgs_settings', function () {
+    delete_transient('gspeech_settings_cache');
+    delete_transient('gspeech_footer_settings_cache');
+});
+
+add_action('update_option_gspeech_widget_id', function () {
+    delete_transient('gspeech_settings_cache');
+    delete_transient('gspeech_footer_settings_cache');
+});
+add_action('update_option_gspeech_lazy_load', function () {
+    delete_transient('gspeech_settings_cache');
+    delete_transient('gspeech_footer_settings_cache');
+});
+add_action('update_option_gspeech_reload_session', function () {
+    delete_transient('gspeech_settings_cache');
+    delete_transient('gspeech_footer_settings_cache');
+});
+add_action('update_option_gspeech_version_index', function () {
+    delete_transient('gspeech_settings_cache');
+    delete_transient('gspeech_footer_settings_cache');
+});
 
 ?>

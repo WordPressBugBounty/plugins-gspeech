@@ -1,0 +1,61 @@
+.gsp-block-preview {
+	padding: 18px 20px 14px;
+	border-radius: 14px;
+	border: 1px solid rgba(255, 255, 255, 0.16);
+	background:
+		linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+		#15202b;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+	color: #eef6f1;
+}
+
+.gsp-block-preview-title {
+	font-size: 11px;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	opacity: 0.72;
+	margin-bottom: 4px;
+}
+
+.gsp-block-preview-type {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+
+.gsp-block-preview .components-select-control {
+	max-width: 220px;
+}
+
+.gsp-block-preview-button {
+	max-width: 280px;
+}
+
+.gsp-block-preview-circle {
+	max-width: 240px;
+}
+
+.gsp-block-notice {
+	padding: 16px 18px;
+	margin-bottom: 12px;
+	border-radius: 14px;
+	border: 1px solid rgba(255, 220, 180, 0.22);
+	background:
+		linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+		#2a2118;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+	color: #f6efe4;
+}
+
+.gsp-block-notice-text {
+	font-size: 14px;
+	line-height: 1.45;
+	margin-bottom: 10px;
+}
+
+.gsp-block-notice-link {
+	display: inline-block;
+	color: #ffd89a;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255, 216, 154, 0.45);
+}

@@ -4,7 +4,7 @@ defined('ABSPATH') or die("No direct access");
 ?>
 <div id="wpgs_accordion">
 <!-- **********************************************************Accordion 1************************************************************************************************************************************************ -->
-	<h3 style="margin-bottom: -3px;"><?php _e('Style 1 (Default)', 'GSpeech'); ?></h3>
+	<h3 style="margin-bottom: -3px;"><?php _e('Style 1 (Default)', 'gspeech'); ?></h3>
 	<div>
 		<div class="speaker_preview">
 			<?php 
@@ -45,7 +45,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_1]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_1]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		
@@ -63,7 +63,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_1]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_1]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div class="old_p">
@@ -71,9 +71,9 @@ defined('ABSPATH') or die("No direct access");
 				<?php $checked1 = $wpgs_options['speaker_size_1'] == 1 ? 'checked="checked"' : ''; ?>
 				<?php $checked2 = $wpgs_options['speaker_size_1'] == 0 ? 'checked="checked"' : ''; ?>
 				<input roll="1" class="speaker_size_radio" id="wpgs_settings[speaker_size_11]" name="wpgs_settings[speaker_size_1]" type="radio" value="1" <?php echo $checked1;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_11]"><?php _e('Big', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_11]"><?php _e('Big', 'gspeech'); ?></label>
 				<input roll="1" class="speaker_size_radio" id="wpgs_settings[speaker_size_12]" name="wpgs_settings[speaker_size_1]" type="radio" value="0" <?php echo $checked2;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_12]"><?php _e('Small', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_12]"><?php _e('Small', 'gspeech'); ?></label>
 			</label>
 			<label class="description">Speaker Size</label>
 		</div>
@@ -82,7 +82,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bcp1']?>
 			 	<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="2" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bcp1]" name="wpgs_settings[bcp1]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bcp1]"><?php _e('Audio Block Background Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bcp1]"><?php _e('Audio Block Background Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -90,7 +90,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['cp1']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="3" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[cp1]" name="wpgs_settings[cp1]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[cp1]"><?php _e('Audio Block Text Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[cp1]"><?php _e('Audio Block Text Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -98,7 +98,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bca1']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="4" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bca1]" name="wpgs_settings[bca1]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bca1]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bca1]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -106,7 +106,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['ca1']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="5" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[ca1]" name="wpgs_settings[ca1]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[ca1]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[ca1]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -117,7 +117,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spop1]"><?php _e('Speaker Icon Opacity, Passive State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spop1]"><?php _e('Speaker Icon Opacity, Passive State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('10','20','30','40','50','60','70','80','90','100'); ?>
@@ -127,7 +127,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spoa1]"><?php _e('Speaker Icon Opacity, Active State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spoa1]"><?php _e('Speaker Icon Opacity, Active State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('0','100','200','300','400','500','600','700','800','900','1000','1100','1200'); ?>
@@ -137,11 +137,11 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?></option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[animation_time_1]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[animation_time_1]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'gspeech'); ?></label>
 		</div>
 	</div>
 <!-- **********************************************************Accordion 2************************************************************************************************************************************************ -->
-	<h3 style="margin-bottom: -3px;"><?php _e('Style 2 (Blue)', 'GSpeech'); ?></h3>
+	<h3 style="margin-bottom: -3px;"><?php _e('Style 2 (Blue)', 'gspeech'); ?></h3>
 	<div>
 		<div class="speaker_preview">
 			<?php 
@@ -178,7 +178,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_2]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_2]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div style="margin: 15px 0 0 0">
@@ -195,7 +195,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_2]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_2]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div class="old_p">
@@ -203,9 +203,9 @@ defined('ABSPATH') or die("No direct access");
 				<?php $checked1 = $wpgs_options['speaker_size_2'] == 1 ? 'checked="checked"' : ''; ?>
 				<?php $checked2 = $wpgs_options['speaker_size_2'] == 0 ? 'checked="checked"' : ''; ?>
 				<input roll="2" class="speaker_size_radio" id="wpgs_settings[speaker_size_21]" name="wpgs_settings[speaker_size_2]" type="radio" value="1" <?php echo $checked1;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_21]"><?php _e('Big', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_21]"><?php _e('Big', 'gspeech'); ?></label>
 				<input roll="2" class="speaker_size_radio" id="wpgs_settings[speaker_size_22]" name="wpgs_settings[speaker_size_2]" type="radio" value="0" <?php echo $checked2;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_22]"><?php _e('Small', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_22]"><?php _e('Small', 'gspeech'); ?></label>
 			</label>
 			<label class="description">Speaker Size</label>
 		</div>
@@ -214,7 +214,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bcp2']?>
 			 	<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="2" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bcp2]" name="wpgs_settings[bcp2]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bcp2]"><?php _e('Audio Block Background Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bcp2]"><?php _e('Audio Block Background Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -222,7 +222,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['cp2']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="3" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[cp2]" name="wpgs_settings[cp2]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[cp2]"><?php _e('Audio Block Text Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[cp2]"><?php _e('Audio Block Text Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -230,7 +230,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bca2']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="4" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bca2]" name="wpgs_settings[bca2]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bca2]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bca2]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -238,7 +238,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['ca2']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="5" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[ca2]" name="wpgs_settings[ca2]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[ca2]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[ca2]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -249,7 +249,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spop2]"><?php _e('Speaker Icon Opacity, Passive State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spop2]"><?php _e('Speaker Icon Opacity, Passive State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('10','20','30','40','50','60','70','80','90','100'); ?>
@@ -259,7 +259,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spoa2]"><?php _e('Speaker Icon Opacity, Active State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spoa2]"><?php _e('Speaker Icon Opacity, Active State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('0','100','200','300','400','500','600','700','800','900','1000','1100','1200'); ?>
@@ -269,11 +269,11 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?></option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[animation_time_2]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[animation_time_2]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'gspeech'); ?></label>
 		</div>
 	</div>
 <!-- **********************************************************Accordion 3************************************************************************************************************************************************ -->
-	<h3 style="margin-bottom: -3px;"><?php _e('Style 3 (Red)', 'GSpeech'); ?></h3>
+	<h3 style="margin-bottom: -3px;"><?php _e('Style 3 (Red)', 'gspeech'); ?></h3>
 	<div>
 		<div class="speaker_preview">
 			<?php 
@@ -310,7 +310,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_3]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_3]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div style="margin: 15px 0 0 0">
@@ -327,7 +327,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_3]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_3]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div class="old_p">
@@ -335,9 +335,9 @@ defined('ABSPATH') or die("No direct access");
 				<?php $checked1 = $wpgs_options['speaker_size_3'] == 1 ? 'checked="checked"' : ''; ?>
 				<?php $checked2 = $wpgs_options['speaker_size_3'] == 0 ? 'checked="checked"' : ''; ?>
 				<input roll="3" class="speaker_size_radio" id="wpgs_settings[speaker_size_31]" name="wpgs_settings[speaker_size_3]" type="radio" value="1" <?php echo $checked1;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_31]"><?php _e('Big', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_31]"><?php _e('Big', 'gspeech'); ?></label>
 				<input roll="3" class="speaker_size_radio" id="wpgs_settings[speaker_size_32]" name="wpgs_settings[speaker_size_3]" type="radio" value="0" <?php echo $checked2;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_32]"><?php _e('Small', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_32]"><?php _e('Small', 'gspeech'); ?></label>
 			</label>
 			<label class="description">Speaker Size</label>
 		</div>
@@ -346,7 +346,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bcp3']?>
 			 	<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="2" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bcp3]" name="wpgs_settings[bcp3]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bcp3]"><?php _e('Audio Block Background Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bcp3]"><?php _e('Audio Block Background Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -354,7 +354,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['cp3']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="3" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[cp3]" name="wpgs_settings[cp3]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[cp3]"><?php _e('Audio Block Text Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[cp3]"><?php _e('Audio Block Text Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -362,7 +362,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bca3']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="4" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bca3]" name="wpgs_settings[bca3]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bca3]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bca3]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -370,7 +370,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['ca3']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="5" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[ca3]" name="wpgs_settings[ca3]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[ca3]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[ca3]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -381,7 +381,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spop3]"><?php _e('Speaker Icon Opacity, Passive State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spop3]"><?php _e('Speaker Icon Opacity, Passive State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('10','20','30','40','50','60','70','80','90','100'); ?>
@@ -391,7 +391,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spoa3]"><?php _e('Speaker Icon Opacity, Active State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spoa3]"><?php _e('Speaker Icon Opacity, Active State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('0','100','200','300','400','500','600','700','800','900','1000','1100','1200'); ?>
@@ -401,11 +401,11 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?></option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[animation_time_3]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[animation_time_3]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'gspeech'); ?></label>
 		</div>
 	</div>
 <!-- **********************************************************Accordion 4************************************************************************************************************************************************ -->
-	<h3 style="margin-bottom: -3px;"><?php _e('Style 4 (Green)', 'GSpeech'); ?></h3>
+	<h3 style="margin-bottom: -3px;"><?php _e('Style 4 (Green)', 'gspeech'); ?></h3>
 	<div>
 		<div class="speaker_preview">
 			<?php 
@@ -442,7 +442,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_4]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_4]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div style="margin: 15px 0 0 0">
@@ -459,7 +459,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_4]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_4]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div class="old_p">
@@ -467,9 +467,9 @@ defined('ABSPATH') or die("No direct access");
 				<?php $checked1 = $wpgs_options['speaker_size_4'] == 1 ? 'checked="checked"' : ''; ?>
 				<?php $checked2 = $wpgs_options['speaker_size_4'] == 0 ? 'checked="checked"' : ''; ?>
 				<input roll="4" class="speaker_size_radio" id="wpgs_settings[speaker_size_41]" name="wpgs_settings[speaker_size_4]" type="radio" value="1" <?php echo $checked1;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_41]"><?php _e('Big', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_41]"><?php _e('Big', 'gspeech'); ?></label>
 				<input roll="4" class="speaker_size_radio" id="wpgs_settings[speaker_size_42]" name="wpgs_settings[speaker_size_4]" type="radio" value="0" <?php echo $checked2;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_42]"><?php _e('Small', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_42]"><?php _e('Small', 'gspeech'); ?></label>
 			</label>
 			<label class="description">Speaker Size</label>
 		</div>
@@ -478,7 +478,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bcp4']?>
 			 	<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="2" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bcp4]" name="wpgs_settings[bcp4]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bcp4]"><?php _e('Audio Block Background Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bcp4]"><?php _e('Audio Block Background Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -486,7 +486,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['cp4']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="3" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[cp4]" name="wpgs_settings[cp4]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[cp4]"><?php _e('Audio Block Text Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[cp4]"><?php _e('Audio Block Text Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -494,7 +494,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bca4']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="4" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bca4]" name="wpgs_settings[bca4]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bca4]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bca4]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -502,7 +502,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['ca4']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="5" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[ca4]" name="wpgs_settings[ca4]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[ca4]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[ca4]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -513,7 +513,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spop4]"><?php _e('Speaker Icon Opacity, Passive State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spop4]"><?php _e('Speaker Icon Opacity, Passive State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('10','20','30','40','50','60','70','80','90','100'); ?>
@@ -523,7 +523,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spoa4]"><?php _e('Speaker Icon Opacity, Active State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spoa4]"><?php _e('Speaker Icon Opacity, Active State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('0','100','200','300','400','500','600','700','800','900','1000','1100','1200'); ?>
@@ -533,11 +533,11 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?></option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[animation_time_4]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[animation_time_4]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'gspeech'); ?></label>
 		</div>
 	</div>
 <!-- **********************************************************Accordion 5************************************************************************************************************************************************ -->
-	<h3 style="margin-bottom: -3px;"><?php _e('Style 5 (Orange)', 'GSpeech'); ?></h3>
+	<h3 style="margin-bottom: -3px;"><?php _e('Style 5 (Orange)', 'gspeech'); ?></h3>
 	<div>
 		<div class="speaker_preview">
 			<?php 
@@ -574,7 +574,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_speaker" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_5]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[speaker_type_5]"><?php _e('Choose Speaker <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#speakers" target="_blank">See speakers demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div style="margin: 15px 0 0 0">
@@ -591,7 +591,7 @@ defined('ABSPATH') or die("No direct access");
 				<div class="next_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Next</div>
 				<div class="prev_tooltip" style='-moz-user-select: none;-webkit-user-select: none;' onselectstart='return false;'>Prev</div>
 			</div>
-			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_5]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'GSpeech'); ?></label>
+			<label style="float: left;display: block;margin-top: 7px;" class="description" for="wpgs_settings[tooltip_5]"><?php _e('Choose Tooltip <span style="font-size: 12px;"><a style="color: #21759b" href="http://creative-solutions.net/wordpress/gspeech/demo#tooltips" target="_blank">See tooltips demo</a></span>', 'gspeech'); ?></label>
 		</div>
 		<div style="clear: both;height: 1px;"></div>
 		<div class="old_p">
@@ -599,9 +599,9 @@ defined('ABSPATH') or die("No direct access");
 				<?php $checked1 = $wpgs_options['speaker_size_5'] == 1 ? 'checked="checked"' : ''; ?>
 				<?php $checked2 = $wpgs_options['speaker_size_5'] == 0 ? 'checked="checked"' : ''; ?>
 				<input roll="5" class="speaker_size_radio" id="wpgs_settings[speaker_size_51]" name="wpgs_settings[speaker_size_5]" type="radio" value="1" <?php echo $checked1;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_51]"><?php _e('Big', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_51]"><?php _e('Big', 'gspeech'); ?></label>
 				<input roll="5" class="speaker_size_radio" id="wpgs_settings[speaker_size_52]" name="wpgs_settings[speaker_size_5]" type="radio" value="0" <?php echo $checked2;?> /> 
-				<label class="description" for="wpgs_settings[speaker_size_52]"><?php _e('Small', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[speaker_size_52]"><?php _e('Small', 'gspeech'); ?></label>
 			</label>
 			<label class="description">Speaker Size</label>
 		</div>
@@ -610,7 +610,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bcp5']?>
 			 	<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="2" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bcp5]" name="wpgs_settings[bcp5]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bcp5]"><?php _e('Audio Block Background Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bcp5]"><?php _e('Audio Block Background Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -618,7 +618,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['cp5']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="3" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[cp5]" name="wpgs_settings[cp5]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[cp5]"><?php _e('Audio Block Text Color, Passive State', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[cp5]"><?php _e('Audio Block Text Color, Passive State', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -626,7 +626,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['bca5']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="4" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[bca5]" name="wpgs_settings[bca5]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[bca5]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[bca5]"><?php _e('Audio Block Background Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -634,7 +634,7 @@ defined('ABSPATH') or die("No direct access");
 				<?php $value = $wpgs_options['ca5']?>
 				<div id="colorSelector" class="colorSelector" style="float: left;"><div style="background-color: <?php echo $value;?>"></div></div>
 				<input roll="5" readonly="readonly" style="margin-top: 6px;width: 101px;background-color: #fff" id="wpgs_settings[ca5]" name="wpgs_settings[ca5]" type="text" value="<?php echo $value; ?>" class="colorSelector" />
-				<label class="description" for="wpgs_settings[ca5]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'GSpeech'); ?></label>
+				<label class="description" for="wpgs_settings[ca5]"><?php _e('Audio Block Text Color, Active State(User Hover The Speaker, or Click on it).', 'gspeech'); ?></label>
 			</div>
 		</div>
 		<div class="old_p">
@@ -645,7 +645,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spop5]"><?php _e('Speaker Icon Opacity, Passive State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spop5]"><?php _e('Speaker Icon Opacity, Passive State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('10','20','30','40','50','60','70','80','90','100'); ?>
@@ -655,7 +655,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?>%</option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[spoa5]"><?php _e('Speaker Icon Opacity, Active State', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[spoa5]"><?php _e('Speaker Icon Opacity, Active State', 'gspeech'); ?></label>
 		</div>
 		<div class="old_p">
 			<?php $opacities = array('0','100','200','300','400','500','600','700','800','900','1000','1100','1200'); ?>
@@ -665,7 +665,7 @@ defined('ABSPATH') or die("No direct access");
 					<option value="<?php echo $opacity; ?>" <?php echo $selected; ?>><?php echo $opacity; ?></option>
 				<?php } ?>
 			</select>
-			<label class="description" for="wpgs_settings[animation_time_5]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'GSpeech'); ?></label>
+			<label class="description" for="wpgs_settings[animation_time_5]"><?php _e('Time Between Switching Passive And Active States, In miliseconds.', 'gspeech'); ?></label>
 		</div>
 	</div>
 </div>

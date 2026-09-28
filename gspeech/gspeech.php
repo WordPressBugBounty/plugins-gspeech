@@ -9,11 +9,15 @@ Plugin URI: https://gspeech.io
 Description: GSpeech is a universal text to speech audio solution. See <a href="https://gspeech.io/demos">GSpeech Demo</a>. Please <a href="https://gspeech.io/contact-us">Contact Us</a> or to info@gspeech.io if you have any questions.
 Author: Text-To-Speech AI Audio Solutions
 Author URI: https://gspeech.io
-Version: 3.21.5
+Version: 3.22.1
+Requires at least: 3.5
+Requires PHP: 7.2
+Text Domain: gspeech
+Domain Path: /languages
 */
 
-$gspeech_plugin_version = '3.21.5';
-$gspeech_new_db_version = 226;
+$gspeech_plugin_version = '3.22.1';
+$gspeech_new_db_version = 228;
 
 define('GSPEECH_PLG_VERSION', $gspeech_plugin_version);
 define('GSPEECH_NEW_DB_VER', $gspeech_new_db_version);
@@ -27,6 +31,8 @@ include_once __DIR__ . '/includes/gspeech_main.php';
 include_once __DIR__ . '/includes/gspeech_widget.php';
 include_once __DIR__ . '/includes/gspeech_notices.php';
 include_once __DIR__ . '/includes/gspeech_frontend.php';
+include_once __DIR__ . '/includes/gspeech_block.php';
+include_once __DIR__ . '/streamer.php';
 include_once __DIR__ . '/includes/gspeech_backend.php';
 
 register_activation_hook(__FILE__, array('GSpeech', 'activate'));
@@ -39,6 +45,16 @@ add_action('admin_init', array('GSpeech_Admin', 'admin_init'));
 add_action('admin_init', array('GSpeech_Admin', 'admin_settings'));
 add_action('wp_enqueue_scripts', array('GSpeech_Front', 'load_scripts'), 1);
 
+add_action(
+	'wp_ajax_gspeech_legacy_stream',
+	array( 'GSpeech_Legacy_Streamer', 'stream' )
+);
+
+add_action(
+	'wp_ajax_nopriv_gspeech_legacy_stream',
+	array( 'GSpeech_Legacy_Streamer', 'stream' )
+);
+
 include_once __DIR__ . '/includes/gspeech_frontend_protection.php';
 
 add_filter('the_content', array('GSpeech_Front', 'process_post_data'));
@@ -50,5 +66,3 @@ add_action('wp_ajax_nopriv_wpgsp_apply_ajax_save', array('GSpeech_Admin', 'wpgsp
 add_action('wp_ajax_wpgsp_validate_enc_data', array('GSpeech_Admin', 'wpgsp_validate_enc_data'));
 add_action('wp_ajax_nopriv_wpgsp_validate_enc_data', array('GSpeech_Admin', 'wpgsp_validate_enc_data'));
 add_filter('plugin_action_links_' . plugin_basename(__FILE__), array('GSpeech_Admin', 'plugin_action_links'));
-
-register_shutdown_function(array('GSpeech_Front', 'make_ob_end_flush'));

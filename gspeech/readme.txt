@@ -3,8 +3,9 @@ Contributors: creative-solutions
 Author: Text to Speech AI Audio Solutions
 Tags: accessibility, text to speech, speech, tts, text to audio
 Requires at least: 3.5
+Requires PHP: 7.2
 Tested up to: 7.1
-Stable tag: 3.21.5
+Stable tag: 3.22.1
 Author URI: https://gspeech.io
 License: GPLv3 ONLY
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -87,6 +88,7 @@ GSpeech helps different types of websites turn written content into engaging aud
 * ✅ __Cloud Processing, Smart Caching & Sync__: Voice generation, storage, and delivery run in the GSpeech Cloud, keeping WordPress fast and lightweight. Audio is generated once, played unlimited times, and automatically regenerated when content changes.
 * ✅ __Multiple Audio Players__: Use Full Page, Button, Circle, Floating, Context, and Read Highlighted Text (RHT) players for different layouts and listening experiences.
 * ✅ __Read Highlighted Text (RHT)__: The modern evolution of GSpeech’s original __Listen to Selected Text__ feature, introduced in 2012. Visitors can select any passage and listen instantly - [Demo](https://gspeech.io/blog/gspeech-read-highlighted-text-player).
+* ✅ __Gutenberg Player Block__: Insert the __GSpeech Player__ block in the editor. Default type is Full. Switch to Button or Circle from the Type control.
 * ✅ __Shortcodes & Display Rules__: Insert players with *[gspeech]*, *[gspeech-button]*, or *[gspeech-circle]* and control where they appear across your website.
 * ✅ __Long-Article Support__: Generate audio for content with __up to 7 hours of playback per article__.
 * ✅ __Intelligent Content Isolation__: Exclude menus, ads, sidebars, footers, URLs, shortcodes, special characters, and other unwanted elements from audio output.
@@ -95,6 +97,10 @@ GSpeech helps different types of websites turn written content into engaging aud
 * ✅ __Welcome Messages__: Greet visitors with automatic audio and control where and how often messages play.
 * ✅ __Customizable Responsive Players__: Choose from 16+ themes with modern, mobile-friendly, and cross-browser-compatible designs.
 * ✅ __Professional Support__: Get fast and friendly help from the GSpeech team.
+
+### Gutenberg Block
+
+Add the **GSpeech Player** block from the block inserter in Cloud mode. The default type is Full. Use the Type dropdown for Button or Circle. The same players can still be added with shortcodes. The block is not offered in Legacy mode.
 
 ### ⚙️ WordPress Compatibility
 
@@ -372,6 +378,23 @@ No. All required __TTS and translation API keys__ are included in GSpeech commer
 12. Cloud Console – Manage voices, widgets, and audio settings from WordPress Admin.
 
 == Changelog ==
+
+= V 3.22.1 - 28/09/2026 =
+* Cloud shortcodes use the WordPress shortcode API.
+* Legacy and Cloud curly tags run on content, excerpt, widgets, and ACF fields.
+* Auto excerpts keep GSpeech players.
+* Legacy player scripts load after jQuery.
+* Legacy UI loads only when Legacy mode is on.
+* Gutenberg Cloud block for Full, Button, and Circle players.
+* Removed full-page output buffer processing.
+
+= V 3.22.0 - 28/09/2026 =
+* Security fix on the Legacy path.
+* Legacy streamer updates.
+* Faster Cloud Console load.
+* Style corrections on the Cloud Console dashboard.
+* Legacy player tooltip.
+* Removed the Legacy greeting.
 
 = V 3.21.5 - 02/09/2026 =
 * Content corrections.
