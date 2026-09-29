@@ -9,15 +9,15 @@ Plugin URI: https://gspeech.io
 Description: GSpeech is a universal text to speech audio solution. See <a href="https://gspeech.io/demos">GSpeech Demo</a>. Please <a href="https://gspeech.io/contact-us">Contact Us</a> or to info@gspeech.io if you have any questions.
 Author: Text-To-Speech AI Audio Solutions
 Author URI: https://gspeech.io
-Version: 3.22.1
+Version: 3.22.2
 Requires at least: 3.5
 Requires PHP: 7.2
 Text Domain: gspeech
 Domain Path: /languages
 */
 
-$gspeech_plugin_version = '3.22.1';
-$gspeech_new_db_version = 228;
+$gspeech_plugin_version = '3.22.2';
+$gspeech_new_db_version = 230;
 
 define('GSPEECH_PLG_VERSION', $gspeech_plugin_version);
 define('GSPEECH_NEW_DB_VER', $gspeech_new_db_version);

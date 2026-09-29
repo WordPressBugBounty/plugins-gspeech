@@ -67,10 +67,6 @@ add_action('wp_print_footer_scripts', function () {
 
     if ($widget_id === '') return;
 
-    $wpgs_settings = get_option('wpgs_settings', array());
-    $use_old_plugin = $wpgs_settings['use_old_plugin'] ?? 0;
-    if ($use_old_plugin == 1) return;
-
     $plugin_main = realpath(dirname(__DIR__) . '/gspeech.php');
 	$front_src   = plugin_dir_url($plugin_main) . 'includes/js/gspeech_front.js';
     $jquery_url = includes_url('js/jquery/jquery.min.js');

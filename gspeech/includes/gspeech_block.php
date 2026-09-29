@@ -33,12 +33,10 @@ function gspeech_register_player_block() {
 		$plugin_version
 	);
 
-	$wpgs_options = get_option('wpgs_settings', array());
-	$use_old_plugin = isset($wpgs_options['use_old_plugin']) ? intval($wpgs_options['use_old_plugin']) : 0;
 	$widget_id = (string) get_option('gspeech_widget_id', '');
 
 	wp_localize_script('gspeech-block', 'gspeechBlock', array(
-		'isLegacy' => ($use_old_plugin === 1) ? 1 : 0,
+		'isLegacy' => ($widget_id === '') ? 1 : 0,
 		'hasCloud' => ($widget_id !== '') ? 1 : 0,
 		'settingsUrl' => admin_url('admin.php?page=gspeech'),
 		'cloudUrl' => admin_url('admin.php?page=gspeech_cloud_console'),

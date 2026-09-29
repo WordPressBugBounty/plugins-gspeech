@@ -23,9 +23,9 @@ final class GSpeech_Legacy_Streamer {
 			self::send_error( 'Invalid request method.', 405 );
 		}
 
-		$options = get_option( 'wpgs_settings', array() );
+		$widget_id = (string) get_option( 'gspeech_widget_id', '' );
 
-		if ( empty( $options['use_old_plugin'] ) ) {
+		if ( $widget_id !== '' ) {
 			self::send_error( 'Legacy mode is disabled.', 403 );
 		}
 

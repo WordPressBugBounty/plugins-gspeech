@@ -246,34 +246,6 @@ class GSpeech_Notices {
 
     public function gs_admin_notices() {
 
-        if(!function_exists('is_plugin_active')) {
-            require_once ABSPATH . 'wp-admin/includes/plugin.php';
-        }
-
-        $compatible_plugins= array('GTranslate' => 'gtranslate/gtranslate.php');
-
-        foreach($compatible_plugins as $name => $plugin_file) {
-
-            if(is_plugin_active($plugin_file)) {
-
-                $not_name = 'compatible_plugin_'.strtolower(str_replace(' ', '', $name));
-
-                $compatible_plugin_ignore = esc_url(add_query_arg(array($this->prefix . '_admin_notice_ignore' => $not_name)));
-                $compatible_plugin_temp = esc_url(add_query_arg(array($this->prefix . '_admin_notice_temp_ignore' => $not_name)));
-
-                $notices[$not_name] = array(
-                    'title' => sprintf(__('%s and GSpeech', 'gspeech'), $name),
-                    'msg' => sprintf(__('<b>%s</b> plugin is fully compatible with <b>GSpeech Commercial</b>.<br />You can use all the beautiful views of GTranslate Language Switcher in combination with GSpeech power!', 'gspeech'), $name),
-                    'link' => '<li><span class="dashicons dashicons-external"></span><a href="https://gspeech.io/#pricing" target="_blank" rel="noreferrer">' . __('Upgrade', 'gspeech') . '</a></li>' .
-                              '<li><span class="dashicons dashicons-external"></span><a href="https://gspeech.io/demos" target="_blank" rel="noreferrer">' . __('Live Demo', 'gspeech') . '</a></li>' .
-                              '<li><span class="dashicons dashicons-calendar-alt"></span><a href="' . $compatible_plugin_temp . '">' . __('Maybe later', ' ') . '</a></li>' .
-                              '<li><span class="dashicons dashicons-dismiss"></span><a href="' . $compatible_plugin_ignore . '">' . __('Never show again', 'gspeech') . '</a></li>',
-                    'dismissible' => true,
-                    'int' => 0
-                );
-            }
-        }
-
         $two_week_review_ignore = esc_url(add_query_arg(array($this->prefix . '_admin_notice_ignore' => 'two_week_review')));
         $two_week_review_temp = esc_url(add_query_arg(array($this->prefix . '_admin_notice_temp_ignore' => 'two_week_review', 'gs_int' => 6)));
 

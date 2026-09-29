@@ -9,16 +9,9 @@ defined('ABSPATH') or die("No direct access");
 		<span class="questions_icon">
 			<img src="<?php echo plugin_dir_url( __FILE__ ); ?>images/svg/info.svg" />
 		</span>
-		<span class="gs_title_vertical"><span class="title_v_subtitle">Legacy player:</span> If you turn this on, Cloud Console players are turned off. They do not run together.</span>
+		<span class="gs_title_vertical"><span class="title_v_subtitle"><?php esc_html_e('Legacy player:', 'gspeech'); ?></span> <?php esc_html_e('Legacy players work automatically when GSpeech Cloud is not connected. Connecting Cloud switches your site to Cloud players.', 'gspeech'); ?></span>
 	</h4>
-	<div class="old_p">
-		<?php $checked1 = $wpgs_options['use_old_plugin'] == 0 ? 'checked="checked"' : ''; ?>
-		<?php $checked2 = $wpgs_options['use_old_plugin'] == 1 ? 'checked="checked"' : ''; ?>
-		<input id="wpgs_settings[use_old_plugin1]" name="wpgs_settings[use_old_plugin]" type="radio" value="0" <?php echo $checked1;?> /> 
-		<label class="description" for="wpgs_settings[use_old_plugin1]"><?php _e('No', 'gspeech'); ?></label>
-		<input id="wpgs_settings[use_old_plugin2]" name="wpgs_settings[use_old_plugin]" type="radio" value="1" <?php echo $checked2;?> /> 
-		<label class="description" for="wpgs_settings[use_old_plugin2]"><?php _e('Yes', 'gspeech'); ?></label>
-	</div>
+	<p class="description"><?php esc_html_e('Use up to five {gspeech}text{/gspeech} shortcode players per page.', 'gspeech'); ?></p>
 
 	<h4 style="margin-bottom: -3px;"><?php _e('Language', 'gspeech'); ?><span class="description" style="display:block;font-weight: normal"><?php echo _e('Your site native language', 'gspeech')?></span></h4>
 	<div class="old_p">
@@ -31,7 +24,7 @@ defined('ABSPATH') or die("No direct access");
 		</select>
 	</div>
 	
-	<h4 style="margin-bottom: -3px;"><?php _e('Speak Any Text', 'gspeech'); ?><span class="description" style="display:block;font-weight: normal"><?php echo _e('Show speaker when visitors highlighted text from the site', 'gspeech')?></span></h4>
+	<h4 style="margin-bottom: -3px;"><?php _e('Speak Any Text', 'gspeech'); ?><span class="description" style="display:block;font-weight: normal"><?php esc_html_e('Show a player when visitors select text. Turn this off to use shortcode players only.', 'gspeech'); ?></span></h4>
 	<div class="old_p">
 		<?php $checked1 = $wpgs_options['speak_any_text'] == 1 ? 'checked="checked"' : ''; ?>
 		<?php $checked2 = $wpgs_options['speak_any_text'] == 0 ? 'checked="checked"' : ''; ?>

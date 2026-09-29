@@ -84,9 +84,9 @@
 
 			if (isLegacy) {
 				controls.push(noticeBox(
-					__('This player works in Cloud mode. Turn off Legacy in GSpeech settings.', 'gspeech'),
-					__('Open settings', 'gspeech'),
-					settingsUrl
+					__('Connect GSpeech Cloud to use this block. Legacy shortcode players work without a Cloud connection.', 'gspeech'),
+					__('Open Cloud Console', 'gspeech'),
+					cloudUrl
 				));
 				return el('div', editorProps(), controls);
 			}

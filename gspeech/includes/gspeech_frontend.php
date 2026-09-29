@@ -115,9 +115,8 @@ class GSpeech_Front {
 	    $wpgs_load_sh = $misc_settings['sh_w_loaded'];
 	    $sh_ = $misc_settings['sh_'];
 
-	    $use_old_plugin = intval($wpgs_options['use_old_plugin'] ?? 0);
 	    $player_title = $wpgs_options['gspeech_v2x_title'] ?? __('Click to listen highlighted text!', 'gspeech');
-	    self::$is_legacy = ($use_old_plugin === 1);
+	    self::$is_legacy = ($gsp_widget_id === '');
 	    if (self::$is_legacy) {
 	    	$gsp_widget_id = '';
 	    }
@@ -265,29 +264,17 @@ class GSpeech_Front {
 			return $content;
 		}
 
-		$indexes = array();
-		if ($limit === 1) {
-			for ($i = 0; $i < count($all); $i++) {
-				$indexes[] = $i;
-			}
-		}
-		else {
-			for ($i = count($all) - 1; $i >= 0; $i--) {
-				$indexes[] = $i;
-			}
-		}
-
-		$replaced = 0;
-		foreach ($indexes as $i) {
-			$full = $all[$i][0][0];
-			$pos = $all[$i][0][1];
+		$replacements = array();
+		foreach ($all as $match) {
+			$full = $match[0][0];
+			$pos = $match[0][1];
 
 			if (self::is_inside_html_tag($content, $pos)) {
 				continue;
 			}
 
 			$plain = array();
-			foreach ($all[$i] as $part) {
+			foreach ($match as $part) {
 				$plain[] = $part[0];
 			}
 
@@ -296,12 +283,16 @@ class GSpeech_Front {
 				continue;
 			}
 
-			$content = substr($content, 0, $pos) . $new . substr($content, $pos + strlen($full));
-			$replaced++;
-
-			if ($limit > 0 && $replaced >= $limit) {
+			$replacements[] = array('position' => $pos, 'length' => strlen($full), 'html' => $new);
+			if ($limit > 0 && count($replacements) >= $limit) {
 				break;
 			}
+		}
+
+		// Apply the first eligible pairs backwards so their original offsets stay valid.
+		foreach (array_reverse($replacements) as $replacement) {
+			$pos = $replacement['position'];
+			$content = substr($content, 0, $pos) . $replacement['html'] . substr($content, $pos + $replacement['length']);
 		}
 
 		return $content;
@@ -467,14 +458,20 @@ class GSpeech_Front {
 			return $content;
 		}
 
-		if (strpos($content, 'gspeech_pro_main_wrapper') !== false) {
+		$processed_marker = '<!-- gspeech-legacy-processed -->';
+		if (strpos($content, $processed_marker) !== false || strpos($content, 'class="gspeech_pro_main_wrapper"') !== false) {
 			return $content;
 		}
 
 		$pattern = '/\{gspeech( style=([\d]*?))?( language=([\S]*?))?( autoplay=([\d]*?))?( speechtimeout=([\d]*?))?( registered=([\d]*?))?( selector=(.*?))?( event=(.*?))?( hidespeaker=([\d]*?))?[\s]?\}(.*?)\{\/gspeech\}/si';
 
-		$content = self::replace_complete_pairs($content, $pattern, array('GSpeech_Front', 'legacy_pair_html'), 1);
-		$content = self::apply_legacy_speaker_classes($content);
+		$original_content = $content;
+		$content = self::replace_complete_pairs($content, $pattern, array('GSpeech_Front', 'legacy_pair_html'), 5);
+		if ($content !== $original_content) {
+			$content = self::apply_legacy_speaker_classes($content);
+			// Keep later filters from consuming more pairs, including when all players are hidden.
+			$content = $processed_marker . $content;
+		}
 
 		return $content;
 	}
